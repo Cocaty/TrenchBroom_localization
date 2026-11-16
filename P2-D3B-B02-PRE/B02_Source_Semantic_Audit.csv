@@ -1,0 +1,2 @@
+﻿message_id,context,source,locations,function,call_chain,ui_location,category,confidence,evidence
+3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,../../../lib/TbUiLib/src/WelcomeWindow.cpp:140,WelcomeWindow::openOtherDocument() (L134-150),"m_openOtherDocumentButton（Welcome 面板 ""Browse...""，L88-97）→ openOtherDocument() → QFileDialog::getOpenFileName(tr(""Open Map""), filter ""Map files (*.map)"") → openDocument(path) → AppController::openDocument(path)",QFileDialog 标题（选择 .map 文件）,文件与文档操作 / 对话框,高,tr() 仅为文件对话框标题；不是菜单项，不是 ActionManager 动作

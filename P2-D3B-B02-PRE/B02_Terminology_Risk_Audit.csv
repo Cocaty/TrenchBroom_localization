@@ -1,0 +1,2 @@
+﻿term,message_id,context,actual_meaning,suggested_translation,alternative,needs_user_confirmation,notes
+Open Map,3e1b6ba4c40e,tb::ui::WelcomeWindow,文件选择对话框标题；过滤器 Map files (*.map),打开地图文件,打开地图,是,"与 B01 ""Open Document...""→打开文档... 及 ""Map...""→地图文件... 需区分；无省略号；.map 语义来自过滤器"

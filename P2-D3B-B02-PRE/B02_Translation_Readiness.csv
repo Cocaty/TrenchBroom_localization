@@ -1,0 +1,2 @@
+﻿message_id,context,source,status,risk_level,blocking_reason,recommended_next_step,batch_decision
+3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,NEEDS_TERMINOLOGY_CONFIRMATION,中,源码语义清楚，术语需确认（打开地图文件 vs 打开地图）,先由用户确认术语，再进入 B02 翻译决策；不得直接写入 TS,B02 可进入翻译决策阶段（1 条待确认）

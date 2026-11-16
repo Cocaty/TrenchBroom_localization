@@ -1,0 +1,4 @@
+﻿batch,message_id,context,source,comment,translation_status,translation_content,ts_location,authority,current_assignment,match_result
+RA-B02,3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,,unfinished,,../../../lib/TbUiLib/src/WelcomeWindow.cpp:140,P2-D3A-R1-A/Evidence/Revised_Batches.csv（最新生效）,当前批次,1/1 匹配
+R1-B02(历史),fa31bab9325d,QObject,TrenchBroom Manual,,unfinished,,见 R1 索引,P2-D3A-R1/Evidence/P2D3A_R1_Batches.csv,最新已移出至 RA-B08,历史证据保留
+R1-B02(历史),b52021e3d78f,QObject,About TrenchBroom,,unfinished,,见 R1 索引,P2-D3A-R1/Evidence/P2D3A_R1_Batches.csv,最新已移出至 RA-B24（隔离）,历史证据保留
