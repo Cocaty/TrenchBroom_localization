@@ -1,0 +1,23 @@
+﻿Message_ID,Context,Source,Translation,Batch,Roundtrip_Result
+aa1646cea36e,QObject,Close Document,关闭文档,B01,PASS
+d82719c1af53,QObject,Discards any unsaved changes and reloads the map file.,放弃所有未保存的更改，并重新加载地图文件。,B01,PASS
+8626a59ed64f,QObject,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,B01,PASS
+c87e891f3904,QObject,Load Point File...,加载点轨迹文件...,B01,PASS
+c18158cfc475,QObject,Load Portal File...,加载 BSP 门户文件...,B01,PASS
+88c5a8202a53,QObject,Map...,地图文件...,B01,PASS
+bcf80284ebf3,QObject,New Document,新建文档,B01,PASS
+0843baa95d90,QObject,Open Document...,打开文档...,B01,PASS
+1e1111c64470,QObject,Reload Entity Definitions,重新加载实体定义,B01,PASS
+3dab7bfca406,QObject,Reload Material Collections,重新加载材质集合,B01,PASS
+fe79d727b01f,QObject,Reload Point File,重新加载点轨迹文件,B01,PASS
+8c049a323d0f,QObject,Reload Portal File,重新加载 BSP 门户文件,B01,PASS
+e6acb688ec6e,QObject,Revert Document,还原文档,B01,PASS
+08c86abe1b99,QObject,Save Document,保存文档,B01,PASS
+c13f05ee9b4e,QObject,Save Document as...,文档另存为...,B01,PASS
+d4365ad643a4,QObject,Unload Point File,卸载点轨迹文件,B01,PASS
+92939021173f,QObject,Unload Portal File,卸载 BSP 门户文件,B01,PASS
+e7c5ab696447,QObject,Wavefront OBJ...,Wavefront OBJ...,B01,PASS
+186e9a86f2f8,tb::ui::ViewPreferencePane,Language,语言,B01,PASS
+a13d8bd0a6ab,tb::ui::ViewPreferencePane,Language changes take effect after restarting TrenchBroom.,语言更改将在重启 TrenchBroom 后生效。,B01,PASS
+d7870e4b6ced,tb::ui::ViewPreferencePane,Requires restart after changing,更改后需要重启,B01,PASS
+3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,打开地图,B02,PASS

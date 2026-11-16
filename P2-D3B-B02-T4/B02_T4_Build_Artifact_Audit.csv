@@ -1,0 +1,6 @@
+﻿artifact,path,size,sha256,note
+构建QM,app/TrenchBroom/TrenchBroom_zh_CN.qm,1871,f480ae44bb495cb84d516d4b1008abc07c71f15587d02e64870797c4bf1745b5,与T3 QM一致
+构建EXE,app/TrenchBroom/Release/TrenchBroom.exe,29761536,38d021951ddd59cbef266b4c3c6dce925854c7cdcaceac3d3613d601be89ac0f,PE x64；前 9a1a8499…
+RCC cpp,.qt/rcc/qrc_TrenchBroom_translations.cpp,12323,1723cac79e88c8bb…,重新生成
+RCC OBJ,TrenchBroom.dir/Release/qrc_TrenchBroom_translations.obj,15191,443ad4324929cadc…,重新编译
+构建日志,Evidence/build_log.txt,11427,b70c9bdfa99a5e8353321a9804b9dacbc732a98c3a536ab8234d490413dfa418,exit=0；Generated 22；Ignored 540

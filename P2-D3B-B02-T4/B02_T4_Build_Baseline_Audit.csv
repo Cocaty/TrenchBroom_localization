@@ -1,0 +1,9 @@
+﻿item,evidence,result
+Git 分支/HEAD/dirty,feature/zh-CN-v2026.2 / 4c756be1… / 7,同,PASS
+正式TS,901554891… / 131100B,未变,PASS
+T3 QM,f480ae44… / 1871B,未变,PASS
+生成器/平台,Visual Studio 18 2026 / x64,沿用,PASS
+Qt/CMake,Qt 6.10.3 / CMake 4.2.8,沿用,PASS
+LinguistTools,CMakeLists.txt:119,存在,PASS
+qt_add_translations,TrenchBroom/TbUiLib/UpdateLib + 正式TS + prefix /translations,符合,PASS
+qrc 资源名,:/translations/TrenchBroom_zh_CN.qm,正确,PASS

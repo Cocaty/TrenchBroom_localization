@@ -1,0 +1,7 @@
+﻿check,evidence,result
+QRC输入,prefix=/translations alias=TrenchBroom_zh_CN.qm,PASS
+RCC cpp 载荷,十六进制数组还原 1809B=4B长度+1871B载荷；与QM逐字节一致,PASS
+RCC OBJ,含完整QM字节与魔数,PASS
+EXE资源路径,:/translations/TrenchBroom_zh_CN.qm (UTF-8),PASS
+EXE译文,打开地图/语言/将当前地图导出为 .map 文件/加载点轨迹文件/还原文档 (UTF-16BE) 命中,PASS
+字节级提取,未从PE节提取资源二进制；以 RCC cpp 载荷+OBJ+EXE 字符串构成证据链，不宣称EXE内提取字节与QM完全一致的直接证明,LIMITATION

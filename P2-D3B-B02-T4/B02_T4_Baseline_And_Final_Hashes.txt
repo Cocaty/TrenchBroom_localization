@@ -1,0 +1,13 @@
+# B02-T4 开始与结束快照摘要
+
+| 项 | 开始 | 结束 |
+|---|---|---|
+| Git 分支/HEAD/dirty | feature/zh-CN-v2026.2 / 4c756be1… / 7 | 同 |
+| 正式 TS | 131100 B / 901554891… / mtime 23:36:59 | 同 |
+| T3 QM | 1871 B / f480ae44… | 同（未修改） |
+| 构建目录 QM | 1805 B / a2f5cc1f… | 1871 B / f480ae44…（预期更新；与 T3 QM 一致） |
+| 构建目录 EXE | 29761536 B / 9a1a8499… | 29761536 B / 38d021951ddd59cbef266b4c3c6dce925854c7cdcaceac3d3613d601be89ac0f（预期更新） |
+| 原版 Release EXE | f5a02f40… | 同 |
+| 日常 INI / Preferences.json | 5062ef85… / 50705006… | 同 |
+
+19 项快照：15 项保护对象全部 match_start=YES；4 项构建目录产物标注 EXPECTED_CHANGE（EXE、QM、RCC cpp、RCC OBJ）。构建日志 SHA 见 B02_T4_Build_Artifact_Audit.csv；所有报告与证据纳入 SHA256SUMS。
