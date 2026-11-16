@@ -1,0 +1,47 @@
+﻿English,Chinese_candidate,Alternative,Context,Evidence,Confidence,Review_status
+Brush,笔刷,刷子,可编辑的几何体，由面构成,LayerEditor/Brush-related tr() sources；TS 精确匹配 6 条,中,待 ChatGPT 校阅
+Face,面,面片,Brush 的一个平面,FaceAttribsEditor / 'Face' sources；TS 精确匹配 4 条,中,待 ChatGPT 校阅
+Vertex,顶点,—,几何顶点,Brush/geometry sources；TS 精确匹配 1 条,高,待 ChatGPT 校阅
+Edge,边,边缘,几何边,geometry sources；TS 精确匹配 6 条,高,待 ChatGPT 校阅
+Plane,平面,—,几何平面/参考平面,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Polygon,多边形,—,多边形几何,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Geometry,几何体,几何,几何数据总称,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Primitive,图元,基本体,创建基本形状,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Entity,实体,图元实体,地图中的游戏对象,EntityInspector/EntityBrowser sources；TS 精确匹配 27 条,高,待 ChatGPT 校阅
+Point Entity,点实体,—,无几何体、由属性定义的实体,entity sources；TS 精确匹配 5 条,中,待 ChatGPT 校阅
+Brush Entity,笔刷实体,固体实体,由 brush 构成的实体,entity sources；TS 精确匹配 3 条,中,待 ChatGPT 校阅
+World,世界,世界场景,地图的世界级实体,entity/world sources；TS 精确匹配 2 条,中,待 ChatGPT 校阅
+Property,属性,特性,Entity 的 key-value 属性,EntityPropertyEditor sources；TS 精确匹配 5 条,中,待 ChatGPT 校阅
+Class,类,类别,Entity classname 等,entity sources；TS 精确匹配 1 条,中,待 ChatGPT 校阅
+Model,模型,—,Entity 显示的 3D 模型,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Spawn,生成,出生,实体在游戏中的初始化,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Texture,纹理,贴图,旧术语；与 Material 对应,MaterialBrowser sources；TS 精确匹配 14 条,中,待 ChatGPT 校阅
+Material,材质,贴图,当前使用的贴图资源,MaterialBrowser/FaceAttribs sources；TS 精确匹配 12 条,高,待 ChatGPT 校阅
+UV,UV,纹理坐标,UV 贴图坐标,UV editor sources；TS 精确匹配 5 条,高,待 ChatGPT 校阅
+Surface,表面,曲面,实体/笔刷表面,face/material sources；TS 精确匹配 2 条,中,待 ChatGPT 校阅
+Mapping,映射,贴图映射,UV 映射方式,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Alignment,对齐,贴图对齐,UV 对齐,UV sources；TS 精确匹配 4 条,中,待 ChatGPT 校阅
+Projection,投影,贴图投影,UV 投影模式,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Select,选择,选中,选择操作,ActionManager 'Select…'；TS 精确匹配 18 条,高,待 ChatGPT 校阅
+Move,移动,—,平移操作,ActionManager 'Move…'；TS 精确匹配 37 条,高,待 ChatGPT 校阅
+Rotate,旋转,—,旋转操作,RotateToolPage sources；TS 精确匹配 11 条,高,待 ChatGPT 校阅
+Scale,缩放,—,缩放操作,ScaleToolPage sources；TS 精确匹配 4 条,高,待 ChatGPT 校阅
+Snap,吸附,对齐网格,网格吸附,grid/snap sources；TS 精确匹配 4 条,中,待 ChatGPT 校阅
+Grid,网格,栅格,编辑器网格,grid sources；TS 精确匹配 19 条,高,待 ChatGPT 校阅
+Duplicate,复制,副本,复制对象,ActionManager 'Duplicate'；TS 精确匹配 10 条,高,待 ChatGPT 校阅
+Group,编组,组,对象编组（与 layer 区分）,QObject 'Group' / layer context；TS 精确匹配 10 条,中,待 ChatGPT 校阅
+Ungroup,取消编组,解组,解除编组,ActionManager sources；TS 精确匹配 1 条,中,待 ChatGPT 校阅
+Clip,剪裁,剪切,Clip 工具,ActionManager 'Perform Clip'；TS 精确匹配 3 条,中,待 ChatGPT 校阅
+Carve,雕刻,切割,Carve 工具,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Map,地图,关卡,TrenchBroom 编辑的地图文件,file/map sources；TS 精确匹配 15 条,高,待 ChatGPT 校阅
+Prefab,预制件,预设,可复用地图片段,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Package,包,资源包,资源/package 文件,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Export,导出,—,导出地图或资源,export sources；TS 精确匹配 9 条,高,待 ChatGPT 校阅
+Import,导入,—,导入地图或资源,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Save,保存,—,保存地图,file sources；TS 精确匹配 5 条,高,待 ChatGPT 校阅
+Load,加载,载入,加载地图/资源,file sources；TS 精确匹配 6 条,中,待 ChatGPT 校阅
+Game Configuration,游戏配置,游戏设置,Game PreferencePane 配置,当前 TS 无精确匹配（预备术语，非本批翻译对象）,低,待 ChatGPT 校阅
+Layer,图层,层,地图图层（与 Group 不同）,LayerEditor sources；TS 精确匹配 17 条,中,待 ChatGPT 校阅
+Apply,应用,套用,对话框应用按钮,dialog buttons；TS 精确匹配 3 条,高,待 ChatGPT 校阅
+Fix,修复,修正,IssueBrowser 修复操作,IssueBrowserView 'Fix'；TS 精确匹配 2 条,中,待 ChatGPT 校阅
+Launch Engine,启动引擎,运行游戏,编译后启动游戏,Compilation sources；TS 精确匹配 2 条,中,待 ChatGPT 校阅

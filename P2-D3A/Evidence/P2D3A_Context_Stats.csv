@@ -1,0 +1,86 @@
+﻿context,message_count,finished,unfinished,categories
+QObject,198,0,198,主菜单和主窗口:184; 2D 视图与地图编辑操作:5; 错误信息和警告:3; UNKNOWN:3; 对话框和确认提示:1; Entity 与属性编辑:1; 文件操作与项目管理:1
+tb::ui::LayerEditor,17,0,17,2D 视图与地图编辑操作:17
+tb::ui::MapViewBase,16,0,16,2D 视图与地图编辑操作:16
+tb::ui::MapWindow,14,0,14,2D 视图与地图编辑操作:14
+tb::ui::ViewEditor,14,0,14,UNKNOWN:13; 对话框和确认提示:1
+tb::ui::SweepToolPage,13,0,13,Brush、Face 和几何编辑:13
+tb::ui::FaceAttribsEditor,12,0,12,Texture 与材质管理:12
+tb::ui::CompilationDialog,10,0,10,对话框和确认提示:10
+tb::ui::QPreferenceStoreDelegate,10,0,10,Preferences 和设置页面:10
+tb::ui::ReplaceMaterialDialog,10,0,10,Texture 与材质管理:10
+upd::UpdateIndicator,9,0,9,游戏配置与资源管理:9
+tb::ui::ChoosePathTypeDialog,8,0,8,对话框和确认提示:8
+tb::ui::EntityDefinitionFileChooser,8,0,8,Entity 与属性编辑:8
+tb::ui::EntityPropertyGrid,8,0,8,Entity 与属性编辑:8
+tb::ui::ObjExportDialog,8,0,8,文件操作与项目管理:8
+tb::ui::RotateToolPage,8,0,8,Brush、Face 和几何编辑:8
+tb::ui::AppInfoPanel,7,0,7,工具提示与状态信息:7
+tb::ui::EntityBrowser,7,0,7,Entity 与属性编辑:7
+tb::ui::GamePreferencePane,7,0,7,Preferences 和设置页面:7
+tb::ui::MaterialBrowser,7,0,7,Texture 与材质管理:7
+upd::UpdateController,7,0,7,游戏配置与资源管理:7
+tb::ui::DrawShapeToolStairsExtensionPage,6,0,6,Brush、Face 和几何编辑:6
+tb::ui::UVEditor,6,0,6,Texture 与材质管理:6
+upd::UpdateAvailableWidget,6,0,6,游戏配置与资源管理:6
+upd::UpdatePendingWidget,6,0,6,游戏配置与资源管理:6
+tb::ui::EntityPropertyModel,5,0,5,游戏配置与资源管理:5
+tb::ui::LayerListBoxWidget,5,0,5,2D 视图与地图编辑操作:5
+tb::ui::MapPropertiesEditor,5,0,5,文件操作与项目管理:5
+tb::ui::ModEditor,5,0,5,UNKNOWN:5
+tb::ui::CompilationProfileEditor,4,0,4,Preferences 和设置页面:4
+tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,4,0,4,Brush、Face 和几何编辑:4
+tb::ui::DrawShapeToolCircularShapeExtensionPage,4,0,4,Brush、Face 和几何编辑:4
+tb::ui::FaceInspector,4,0,4,Brush、Face 和几何编辑:4
+tb::ui::ScaleToolPage,4,0,4,Brush、Face 和几何编辑:4
+tb::ui::ColorModel,3,0,3,游戏配置与资源管理:3
+tb::ui::CompilationExportMapTaskEditor,3,0,3,文件操作与项目管理:3
+tb::ui::CrashDialog,3,0,3,对话框和确认提示:3
+tb::ui::EntityInspector,3,0,3,Entity 与属性编辑:3
+tb::ui::EntityPropertyEditor,3,0,3,Entity 与属性编辑:3
+tb::ui::GameEngineProfileEditor,3,0,3,游戏配置与资源管理:3
+tb::ui::IssueBrowserView,3,0,3,工具提示与状态信息:3
+tb::ui::MapInspector,3,0,3,文件操作与项目管理:3
+tb::ui::MaterialBrowserView,3,0,3,Texture 与材质管理:3
+tb::ui::MaterialCollectionEditor,3,0,3,Texture 与材质管理:3
+tb::ui::SmartColorEditor,3,0,3,UNKNOWN:3
+tb::ui::ViewPreferencePane,3,3,0,Preferences 和设置页面:3
+upd::CheckingForUpdatesWidget,3,0,3,游戏配置与资源管理:3
+upd::DownloadingUpdateWidget,3,0,3,游戏配置与资源管理:3
+upd::UpToDateWidget,3,0,3,游戏配置与资源管理:3
+upd::UpdateErrorWidget,3,0,3,游戏配置与资源管理:3
+tb::ui::AppController,2,0,2,对话框和确认提示:1; 文件操作与项目管理:1
+tb::ui::CollapsibleTitledPanel,2,0,2,工具提示与状态信息:2
+tb::ui::CompilationLaunchEngineTaskEditor,2,0,2,文件操作与项目管理:1; 错误信息和警告:1
+tb::ui::CompilationProfileManager,2,0,2,Preferences 和设置页面:2
+tb::ui::CompilationRunToolTaskEditor,2,0,2,2D 视图与地图编辑操作:2
+tb::ui::ControlPointToolPage,2,0,2,2D 视图与地图编辑操作:2
+tb::ui::DrawShapeToolCylinderShapeExtensionPage,2,0,2,Brush、Face 和几何编辑:2
+tb::ui::DrawShapeToolPage,2,0,2,Brush、Face 和几何编辑:2
+tb::ui::EntityDefinitionCheckBoxList,2,0,2,Entity 与属性编辑:2
+tb::ui::FlagsEditor,2,0,2,Entity 与属性编辑:2
+tb::ui::GamesPreferencePane,2,0,2,Preferences 和设置页面:2
+tb::ui::InfoPanel,2,0,2,工具提示与状态信息:2
+tb::ui::IssueBrowserModel,2,0,2,游戏配置与资源管理:2
+tb::ui::SmartWadEditor,2,0,2,UNKNOWN:2
+tb::ui::UpdatePreferencePane,2,0,2,Preferences 和设置页面:2
+tb::ui::ViewPopupEditor,2,0,2,UNKNOWN:2
+upd::PreparingUpdateWidget,2,0,2,游戏配置与资源管理:2
+QLineEdit,1,0,1,对话框和确认提示:1
+tb::ui::AboutDialog,1,0,1,对话框和确认提示:1
+tb::ui::ColorsPreferencePane,1,0,1,Preferences 和设置页面:1
+tb::ui::CompilationTaskEditorBase,1,0,1,文件操作与项目管理:1
+tb::ui::Console,1,0,1,工具提示与状态信息:1
+tb::ui::DebugPaletteWindow,1,0,1,2D 视图与地图编辑操作:1
+tb::ui::DrawShapeToolArchShapeExtensionPage,1,0,1,Brush、Face 和几何编辑:1
+tb::ui::DrawShapeToolExtensionPage,1,0,1,Brush、Face 和几何编辑:1
+tb::ui::DrawShapeToolIcoSphereShapeExtensionPage,1,0,1,Brush、Face 和几何编辑:1
+tb::ui::DrawShapeToolUVSphereShapeExtensionPage,1,0,1,Texture 与材质管理:1
+tb::ui::GameDialog,1,0,1,游戏配置与资源管理:1
+tb::ui::KeyboardPreferencePane,1,0,1,Preferences 和设置页面:1
+tb::ui::MousePreferencePane,1,0,1,Preferences 和设置页面:1
+tb::ui::SmartChoiceEditor,1,0,1,UNKNOWN:1
+tb::ui::SpinControl,1,0,1,UNKNOWN:1
+tb::ui::WelcomeWindow,1,0,1,主菜单和主窗口:1
+upd::QtHttpDownload,1,0,1,游戏配置与资源管理:1
+upd::UpdateDialog,1,0,1,游戏配置与资源管理:1
