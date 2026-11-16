@@ -1,0 +1,13 @@
+# T3_Baseline_And_Final_Hashes — 输入/输出哈希记录
+
+| 对象 | SHA-256 | 大小 |
+|---|---|---|
+| 正式 TS（输入） | 6582a38280e7ac1c45bc5dcf12575bd4235e0502f5543e27b3daed2c5d2c72d8 | 131,106 B |
+| T2 证据 TS（实际编译输入） | 6582a38280e7ac1c45bc5dcf12575bd4235e0502f5543e27b3daed2c5d2c72d8 | 131,106 B |
+| lrelease.exe（Qt 6.10.3） | c59d5a5f9cf51cef2fbee80bcd22cf53b7453943bcf520b39d2e768fd639d8ee | 341,816 B；mtime 2026-03-30 19:54:41 |
+| 输出 QM | a2f5cc1f892cfd8a52e6accc619b5ba79fcaf8a9524331013bd615a33d3d2f66 | 1,805 B |
+| lconvert.exe（离线验证用） | 707af8e9963027ef…（完整值见 SHA256SUMS.txt） | 325,432 B |
+
+Git：HEAD 4c756be1…，分支 feature/zh-CN-v2026.2，tag v2026.2；dirty=7 与本轮开始前相同（6 tracked 修改 + translations/ 未跟踪目录）。未执行 git commit/push。
+
+正式 Release 安装目录与用户配置：本轮只读，无写入；与 T2-E1 状态一致。
