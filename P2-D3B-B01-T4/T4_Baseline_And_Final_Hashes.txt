@@ -1,0 +1,14 @@
+# T4_Baseline_And_Final_Hashes — 构建关键哈希记录
+
+| 对象 | SHA-256 | 大小/备注 |
+|---|---|---|
+| 正式 TS（构建前后） | 6582a38280e7ac1c45bc5dcf12575bd4235e0502f5543e27b3daed2c5d2c72d8 | 131,106 B，未变 |
+| T3 QM（参照） | a2f5cc1f892cfd8a52e6accc619b5ba79fcaf8a9524331013bd615a33d3d2f66 | 1,805 B |
+| 构建树 QM（本轮） | a2f5cc1f892cfd8a52e6accc619b5ba79fcaf8a9524331013bd615a33d3d2f66 | 1,805 B，与 T3 一致 |
+| Release EXE（构建前） | 8ccfbb9937f7c119da4a3c9fe5a9a2e8f5ce06d5571eb9e99ecbac0b6389b37b | 29,761,536 B |
+| Release EXE（本轮） | 9a1a84991c61d1d108477ab7f193c72d6336e1ed6c197d510339043d8b2c46d5 | 29,761,536 B，PE x64 |
+| qrc（RCC 输入） | 90eeb6a8aba819c0… | 225 B（Evidence 副本） |
+| qrc_TrenchBroom_translations.cpp | de221e8a26f524f5… | 12,323 B（Evidence 副本） |
+| qrc_TrenchBroom_translations.obj | e8846d5797198f34… | 15,191 B（Evidence 副本） |
+
+CMake：4.2.8；Qt：6.10.3（msvc2022_64）；生成器 Visual Studio 18 2026；未更换工具链。完整值另见本目录 SHA256SUMS.txt。
