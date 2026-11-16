@@ -1,0 +1,19 @@
+﻿ID,Source,Expected_Translation,Actual_UI_Text,UI_Location,Tooltip_Status,Result,Screenshot,Notes
+B01-01,New Document,新建文档,新建文档,File 菜单第1项,未测试（无需）,PASS,R1_19_file_menu.png,菜单文字实测
+B01-02,Open Document...,打开文档...,打开文档...,File 菜单第2项,未测试（无需）,PASS,R1_19_file_menu.png,未执行打开命令；仅核对文字
+B01-03,Save Document,保存文档,保存文档,File 菜单第4项,未测试（无需）,PASS,R1_19_file_menu.png,未执行保存命令
+B01-04,Save Document as...,文档另存为...,文档另存为...,File 菜单第5项,未测试（无需）,PASS,R1_19_file_menu.png,误触发过保存对话框（位于测试目录内）后取消；文字一致
+B01-05,Wavefront OBJ...,Wavefront OBJ...,Wavefront OBJ...,File > Export 子菜单第1项,未测试（无需）,PASS,R1_22_export_submenu2.png,按冻结决策保留英文，非翻译遗漏
+B01-06,Map...,地图文件...,地图文件...,File > Export 子菜单第2项,未测试（无需）,PASS,R1_22_export_submenu2.png,菜单文字实测
+B01-07,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,悬停 Export > 地图文件... 后的状态栏,状态栏显示完整描述（tooltip 弹窗未出现）,PASS,R1_26_statusbar_export_map.png,.map 与“不参与导出”均保留
+B01-08,Load Point File...,加载点轨迹文件...,加载点轨迹文件...,File 菜单关联资源段,未测试（无需）,PASS,R1_19_file_menu.png,未执行加载命令
+B01-09,Reload Point File,重新加载点轨迹文件,重新加载点轨迹文件,File 菜单（禁用态）,未测试（无需）,PASS,R1_19_file_menu.png,禁用项文字仍清晰显示；未尝试启用
+B01-10,Unload Point File,卸载点轨迹文件,卸载点轨迹文件,File 菜单（禁用态）,未测试（无需）,PASS,R1_19_file_menu.png,同上
+B01-11,Load Portal File...,加载 BSP 门户文件...,加载 BSP 门户文件...,File 菜单关联资源段,未测试（无需）,PASS,R1_19_file_menu.png,BSP 大写保留
+B01-12,Reload Portal File,重新加载 BSP 门户文件,重新加载 BSP 门户文件,File 菜单（禁用态）,未测试（无需）,PASS,R1_19_file_menu.png,禁用项文字显示
+B01-13,Unload Portal File,卸载 BSP 门户文件,卸载 BSP 门户文件,File 菜单（禁用态）,未测试（无需）,PASS,R1_19_file_menu.png,禁用项文字显示
+B01-14,Reload Material Collections,重新加载材质集合,重新加载材质集合,File 菜单（F5）,未测试（无需）,PASS,R1_19_file_menu.png,未执行重载命令
+B01-15,Reload Entity Definitions,重新加载实体定义,重新加载实体定义,File 菜单（F6）,未测试（无需）,PASS,R1_19_file_menu.png,未执行重载命令
+B01-16,Revert Document,还原文档,还原文档,File 菜单,未测试（无需）,PASS,R1_19_file_menu.png,仅检查文字，未点击执行
+B01-17,Discards any unsaved changes and reloads the map file.,放弃所有未保存的更改，并重新加载地图文件。,放弃所有未保存的更改，并重新加载地图文件。,悬停 Revert Document 后的状态栏,状态栏显示完整描述（tooltip 弹窗未出现）,PASS,R1_25_statusbar_revert.png,两层含义均保留；未执行 Revert
+B01-18,Close Document,关闭文档,关闭文档,File 菜单末项,未测试（无需）,PASS,R1_19_file_menu.png,仅检查文字，未通过该命令关闭地图

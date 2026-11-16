@@ -1,0 +1,13 @@
+﻿object,path,size,sha256
+T5测试EXE,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B01-T5/app/TrenchBroom.exe,29761536,9a1a84991c61d1d108477ab7f193c72d6336e1ed6c197d510339043d8b2c46d5
+T5测试配置,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B01-T5/app/config/Preferences.json,85,5e350e453ba006a339a2196cd9ce6556b14c9940c10fdce268dbd779776a409b
+T5 QM(translations),C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B01-T5/app/translations/TrenchBroom_zh_CN.qm,MISSING,MISSING
+构建EXE,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/TrenchBroom.exe,29761536,9a1a84991c61d1d108477ab7f193c72d6336e1ed6c197d510339043d8b2c46d5
+构建QM,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/TrenchBroom_zh_CN.qm,1805,a2f5cc1f892cfd8a52e6accc619b5ba79fcaf8a9524331013bd615a33d3d2f66
+正式TS,C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/translations/TrenchBroom_zh_CN.ts,131106,6582a38280e7ac1c45bc5dcf12575bd4235e0502f5543e27b3daed2c5d2c72d8
+原版Release EXE,C:/Users/yoshi/Downloads/TrenchBroom-Win64-AMD64-v2026.2-Release/TrenchBroom.exe,22322688,f5a02f40dde7108f0d1f33af81a81c7c85c838e0c0a3407025e1d0827d6b4273
+原版Release Qt6Core,C:/Users/yoshi/Downloads/TrenchBroom-Win64-AMD64-v2026.2-Release/Qt6Core.dll,10250040,b712b4754588e89f855dc0aa087d6304b2fd21b0e0639d1cdeb9cb969bd5fb72
+日常INI,C:/Users/yoshi/AppData/Roaming/io.github.trenchbroom/TrenchBroom.ini,1399,5062ef854b994caf7175b88c68a2c2e618abd679b4f062d84113d4e29cbbdc17
+日常Preferences,C:/Users/yoshi/AppData/Roaming/TrenchBroom/Preferences.json,99,50705006dd1d58e144b895739722ba7e5466a432b8d58d7c0edcc716decfb3df
+Generic GameConfig,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/games/Generic/GameConfig.cfg,848,a23c4851d75addb66cbc500e2c47ed1d258e29a046010c68ec414dcad423205e
+Generic.fgd,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/games/Generic/Generic.fgd,195,a7c37e3c862aafecc1ed78099c2cc6c49e19e9d59dadfe9d5621acc4269a433e

@@ -1,0 +1,15 @@
+# R1_Baseline_And_Final_Hashes — T5-R1 关键哈希记录
+
+| 对象 | SHA-256 | 大小/说明 |
+|---|---|---|
+| T5-R1 测试副本 EXE | 9a1a84991c61d1d108477ab7f193c72d6336e1ed6c197d510339043d8b2c46d5 | 29,761,536 B，与 T5/T4 一致 |
+| T5 原测试副本 EXE | 9a1a84991c61d1d108477ab7f193c72d6336e1ed6c197d510339043d8b2c46d5 | 未变 |
+| 构建树 EXE / QM | 9a1a8499… / a2f5cc1f… | 未变 |
+| 正式 TS | 6582a38280e7ac1c45bc5dcf12575bd4235e0502f5543e27b3daed2c5d2c72d8 | 131,106 B，未变 |
+| T5 原配置 | 5e350e453ba006a3… | 未变 |
+| T5-R1 测试配置（结束时） | 见 `Evidence/R1_test_config_final.json` | zh_CN + 隔离 game path |
+| Generic GameConfig.cfg / Generic.fgd | a23c4851… / a7c37e3c… | 原始配置未修改 |
+| 原版 Release EXE / Qt6Core.dll | f5a02f40… / b712b475… | 未变 |
+| 日常 INI / Preferences.json | 5062ef85… / 50705006… | 未变 |
+
+T5-R1 独立副本共 396 个文件（生成时清单 `R1_Test_Copy_Manifest.csv`；之后测试配置按授权写入 zh_CN 与 game path）。空白地图以内存文档 `unnamed.map` 创建并打开；`workspace/test.map` 保存因文件对话框路径处理失败未生成，无地图文件 SHA。TrenchBroom 进程数 0，stderr 0 B。

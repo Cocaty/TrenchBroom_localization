@@ -1,0 +1,4 @@
+8cb196a4deae2becd5428e6e50d0a838802e786843426a0f942d0bbab991adb8 *./Evidence/R1_Protected_Baseline.txt
+62479231d5663e71465882ff6da4a1c209373c2cffbc42263cbaa85b020fddc1 *./R1_Generic_Config_Audit.md
+c451f583b765745b7e97226e64a05645949b2456f7759a18fdcbdf03c1fe0cd2 *./R1_Preflight_Report.md
+30379d1a2c27ea5f0914a70a1b354990137867319692f30dee20dbf372ffdd7f *./R1_Protected_Baseline.csv
