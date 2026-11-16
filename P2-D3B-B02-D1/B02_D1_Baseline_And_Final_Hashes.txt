@@ -1,0 +1,16 @@
+# B02-D1 开始与结束快照
+
+| 项 | 开始 | 结束 |
+|---|---|---|
+| Git 分支 | feature/zh-CN-v2026.2 | 同 |
+| HEAD | 4c756be1a54a28d921d18c77716a5f170bdc31d0 | 同 |
+| 工作区 dirty | 7 | 同 |
+| TS SHA-256 | 6582a38280e7ac1c45bc5dcf12575bd4235e0502f5543e27b3daed2c5d2c72d8 | 同 |
+| TS 字节数 | 131106 | 同 |
+| TS mtime | 2026-11-16 21:58:12 +0800 | 同 |
+| TS 统计 | 85 context / 562 message / 21 finished / 541 unfinished / 0 obsolete | 同 |
+| 目标消息 | 3e1b6ba4c40e / tb::ui::WelcomeWindow / Open Map / unfinished / WelcomeWindow.cpp:140 | 同（唯一命中，仍未写入译文） |
+
+保护对象（TS + 权威批次文件 + P2-D3B-B02-PRE 8 份证据，共 10 项）逐项哈希与大小对比：10/10 一致（见 Evidence_Start_Hashes.csv 与 Evidence_Final_Hashes.csv，match_start=YES）。
+
+本轮新增文件仅限本决策报告目录；未修改 TS/源码/CMake/QM；未运行 lupdate/lrelease/lconvert；未构建、未启动、未部署、未提交 Git。
