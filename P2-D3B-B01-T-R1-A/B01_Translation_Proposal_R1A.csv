@@ -1,0 +1,19 @@
+﻿id,context,English,Recommended Chinese,Formal Alternative,Rationale,Technical Preservation,Decision
+bcf80284ebf3,QObject,New Document,新建文档,新建地图文档,菜单动作 newDocument()，Windows 软件通用“新建文档”,无,推荐
+0843baa95d90,QObject,Open Document...,打开文档...,打开地图文档...,openDocument()；保留三个英文点，与原菜单风格一致,... 省略号风格,推荐
+08c86abe1b99,QObject,Save Document,保存文档,保存地图文档,saveDocument()；与 New/Open Document 统一译“文档”,无,推荐
+c13f05ee9b4e,QObject,Save Document as...,文档另存为...,另存文档为...,saveDocumentAs()；是另存不是导出，避免混淆 Export,... 省略号风格,推荐
+e7c5ab696447,QObject,Wavefront OBJ...,Wavefront OBJ...,Wavefront OBJ 文件...,格式为技术名称；默认不补“文件”；不得译为对象/实体,Wavefront OBJ 名称、...,推荐，待用户确认
+88c5a8202a53,QObject,Map...,地图文件...,Map 文件...,Menu/File/Export/Map... + exportDocumentAsMap()；导出格式项，非普通地图概念,... 省略号风格,推荐
+8626a59ed64f,QObject,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,将当前地图导出为 .map 文件。标记为“不导出”的图层将被忽略。,D4 术语选择；D5 决定是否同步图层 UI；.map 原样,`.map` 扩展名；“Omit From Export”属性名（当前 UI 英文）,待用户确认（D4/D5 联动）
+c87e891f3904,QObject,Load Point File...,加载点轨迹文件...,加载点位文件...,PointTrace 点序列 + 视图沿点定位；“点轨迹”为推荐，“点位”为正式备选；泄漏点仅背景,... 风格；如用备选需确认“泄漏”语义,待用户确认
+fe79d727b01f,QObject,Reload Point File,重新加载点轨迹文件,重新加载点位文件,与 Load/Unload 同一名词,无,待用户确认
+d4365ad643a4,QObject,Unload Point File,卸载点轨迹文件,卸载点位文件,与 Load/Reload 同一名词,无,待用户确认
+c18158cfc475,QObject,Load Portal File...,加载 BSP 门户文件...,加载门户文件...,PRT1/*.prt 门户多边形与 BSP 可见性；非网页门户；菜单长度未实测,... 风格；术语 Portal 待确认,待用户确认
+8c049a323d0f,QObject,Reload Portal File,重新加载 BSP 门户文件,重新加载门户文件,与 Portal 术语一致,无,待用户确认
+92939021173f,QObject,Unload Portal File,卸载 BSP 门户文件,卸载门户文件,与 Portal 术语一致,无,待用户确认
+3dab7bfca406,QObject,Reload Material Collections,重新加载材质集合,重载材质集,File 菜单资源重载动作；Material Collections 指材质资源集合，不是文件本身,无,推荐
+1e1111c64470,QObject,Reload Entity Definitions,重新加载实体定义,重载实体定义,File 菜单资源重载动作；与 Entity Definitions 术语一致,无,推荐
+e6acb688ec6e,QObject,Revert Document,还原文档,恢复文档,revertDocument()；与同语句 tooltip（放弃未保存更改并重新加载地图）一致,无,推荐
+d82719c1af53,QObject,Discards any unsaved changes and reloads the map file.,放弃所有未保存的更改，并重新加载地图文件。,丢弃所有未保存更改并重新载入地图文件。,与 Revert Document 同一 addAction 语句的 description；必须保留“全部未保存更改”和“重新加载磁盘地图”两层含义,无占位符；语义不得弱化,待用户确认
+aa1646cea36e,QObject,Close Document,关闭文档,关闭地图文档,closeDocument()；与 Document 系列一致,无,推荐
