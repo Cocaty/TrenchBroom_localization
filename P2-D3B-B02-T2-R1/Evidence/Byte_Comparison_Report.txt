@@ -1,0 +1,5 @@
+# 原始字节比较（R1-2）
+正式 TS: 131100 B, SHA-256 901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773
+TS_after_T2.ts: 131100 B, SHA-256 901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773
+cmp -s 结果: identical（无字节差异，差异位置不适用）
+编码: UTF-8 无 BOM；CRLF=0；XML 声明与 DOCTYPE 正常

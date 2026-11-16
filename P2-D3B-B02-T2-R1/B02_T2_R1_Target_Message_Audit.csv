@@ -1,0 +1,3 @@
+﻿file,batch,message_id,context,source,location,translation,status,match_count,result
+正式TS,RA-B02,3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,WelcomeWindow.cpp:140,打开地图,finished,1,PASS
+TS_after_T2.ts,RA-B02,3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,WelcomeWindow.cpp:140,打开地图,finished,1,PASS
