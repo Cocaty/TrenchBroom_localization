@@ -1,0 +1,25 @@
+﻿order,id,source,am_function,action_path,new_category,confidence,verdict,note
+1,bcf80284ebf3,New Document,createFileMenu,Menu/File/New,文件操作与项目管理,高,允许翻译,
+2,0843baa95d90,Open Document...,createFileMenu,Menu/File/Open...,文件操作与项目管理,高,允许翻译,
+3,08c86abe1b99,Save Document,createFileMenu,Menu/File/Save,文件操作与项目管理,高,允许翻译,
+4,c13f05ee9b4e,Save Document as...,createFileMenu,Menu/File/Save as...,文件操作与项目管理,高,允许翻译,
+5,e7c5ab696447,Wavefront OBJ...,createFileMenu,Menu/File/Export/Wavefront OBJ...,文件操作与项目管理,高,需额外术语确认,保留文件格式/扩展名/技术标识
+6,88c5a8202a53,Map...,createFileMenu,Menu/File/Export/Map...,文件操作与项目管理,高,允许翻译,
+7,8626a59ed64f,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,createFileMenu,Menu/File/Export/Map...,文件操作与项目管理,高,需额外术语确认,保留文件格式/扩展名/技术标识
+8,c87e891f3904,Load Point File...,createFileMenu,Menu/File/Load Point File...,文件操作与项目管理,高,需额外术语确认,保留文件格式/扩展名/技术标识
+9,fe79d727b01f,Reload Point File,createFileMenu,Menu/File/Reload Point File,文件操作与项目管理,高,需额外术语确认,保留文件格式/扩展名/技术标识
+10,d4365ad643a4,Unload Point File,createFileMenu,Menu/File/Unload Point File,文件操作与项目管理,高,需额外术语确认,保留文件格式/扩展名/技术标识
+11,c18158cfc475,Load Portal File...,createFileMenu,Menu/File/Load Portal File...,文件操作与项目管理,高,需额外术语确认,保留文件格式/扩展名/技术标识
+12,8c049a323d0f,Reload Portal File,createFileMenu,Menu/File/Reload Portal File,文件操作与项目管理,高,需额外术语确认,保留文件格式/扩展名/技术标识
+13,92939021173f,Unload Portal File,createFileMenu,Menu/File/Unload Portal File,文件操作与项目管理,高,需额外术语确认,保留文件格式/扩展名/技术标识
+14,3dab7bfca406,Reload Material Collections,createFileMenu,Menu/File/Reload Material Collections,文件操作与项目管理,高,允许翻译,
+15,1e1111c64470,Reload Entity Definitions,createFileMenu,Menu/File/Reload Entity Definitions,文件操作与项目管理,高,允许翻译,
+16,e6acb688ec6e,Revert Document,createFileMenu,Menu/File/Revert,文件操作与项目管理,高,允许翻译,
+17,d82719c1af53,Discards any unsaved changes and reloads the map file.,createFileMenu,Menu/File/Revert,文件操作与项目管理,高,需额外术语确认,保留文件格式/扩展名/技术标识
+18,aa1646cea36e,Close Document,createFileMenu,Menu/File/Close,文件操作与项目管理,高,允许翻译,
+19,4e51812565de,Open Map,,,文件操作与项目管理,中,不应进入本批次,非 createFileMenu/Menu/File 动作：tb::ui::AppController
+20,5b111135cfe7,Set a GLOB pattern to strip any entities with a matching classname. Example: 'info_player_*' to stri,,,游戏配置与资源管理,中,不应进入本批次,非 createFileMenu/Menu/File 动作：tb::ui::CompilationExportMapTaskEditor
+21,82fad02a71ea,Set the classname of an entity that will be added to the map. The entities' origin and angles will b,,,游戏配置与资源管理,中,不应进入本批次,非 createFileMenu/Menu/File 动作：tb::ui::CompilationExportMapTaskEditor
+22,2a294870bcbd,Choose a name,,,游戏配置与资源管理,中,不应进入本批次,非 createFileMenu/Menu/File 动作：tb::ui::GameEngineProfileEditor
+23,f45f39eb562e,Click on the button to choose...,,,游戏配置与资源管理,中,不应进入本批次,非 createFileMenu/Menu/File 动作：tb::ui::GameEngineProfileEditor
+24,5b8a5ea2d9b0,Choose Engine,,,游戏配置与资源管理,中,不应进入本批次,非 createFileMenu/Menu/File 动作：tb::ui::GameEngineProfileEditor
