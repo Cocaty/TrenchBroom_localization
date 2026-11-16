@@ -1,0 +1,44 @@
+﻿id,context,source,reason,category
+97618ed340e8,QObject,Move Left,方向/按键词（普通文字还是按键？）,2D 视图与地图编辑操作
+546ea45992cc,QObject,Move Right,方向/按键词（普通文字还是按键？）,2D 视图与地图编辑操作
+428916bd8b96,QObject,Move Up,方向/按键词（普通文字还是按键？）,2D 视图与地图编辑操作
+5e7e6ec35fef,QObject,Move Down,方向/按键词（普通文字还是按键？）,2D 视图与地图编辑操作
+025dcb72776a,QObject,Duplicate and Move Left,方向/按键词（普通文字还是按键？）,2D 视图与地图编辑操作
+ccbc0b7b1da7,QObject,Duplicate and Move Right,方向/按键词（普通文字还是按键？）,2D 视图与地图编辑操作
+a0e6441f975c,QObject,Duplicate and Move Up,方向/按键词（普通文字还是按键？）,2D 视图与地图编辑操作
+1a64aa6c536e,QObject,Duplicate and Move Down,方向/按键词（普通文字还是按键？）,2D 视图与地图编辑操作
+49a63041a34d,QObject,Move Textures Up,方向/按键词（普通文字还是按键？）,Texture 与材质管理
+624796bffdc5,QObject,Move Textures Up (Coarse),方向/按键词（普通文字还是按键？）,Texture 与材质管理
+40082cc82304,QObject,Move Textures Up (Fine),方向/按键词（普通文字还是按键？）,Texture 与材质管理
+db45aeb1b727,QObject,Move Textures Down,方向/按键词（普通文字还是按键？）,Texture 与材质管理
+8597197e1d4d,QObject,Move Textures Down (Coarse),方向/按键词（普通文字还是按键？）,Texture 与材质管理
+4f417a709a16,QObject,Move Textures Down (Fine),方向/按键词（普通文字还是按键？）,Texture 与材质管理
+4a4eeae83ae0,QObject,Move Textures Left,方向/按键词（普通文字还是按键？）,Texture 与材质管理
+79b5a1c98328,QObject,Move Textures Left (Coarse),方向/按键词（普通文字还是按键？）,Texture 与材质管理
+4a4dab4a6f1f,QObject,Move Textures Left (Fine),方向/按键词（普通文字还是按键？）,Texture 与材质管理
+30cfa2076cb6,QObject,Move Textures Right,方向/按键词（普通文字还是按键？）,Texture 与材质管理
+521da6c0c224,QObject,Move Textures Right (Coarse),方向/按键词（普通文字还是按键？）,Texture 与材质管理
+24ed2c70b491,QObject,Move Textures Right (Fine),方向/按键词（普通文字还是按键？）,Texture 与材质管理
+4f77c3d7dd9e,QObject,Delete,方向/按键词（普通文字还是按键？）,2D 视图与地图编辑操作
+cfde892c46df,tb::ui::AboutDialog,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br ",& 符号,对话框和确认提示
+760d5bd8145f,tb::ui::CompilationProfileEditor,Move Up,方向/按键词（普通文字还是按键？）,Preferences 和设置页面
+b3be9f1ff5f8,tb::ui::CompilationProfileEditor,Move Down,方向/按键词（普通文字还是按键？）,Preferences 和设置页面
+811db271b2f7,tb::ui::FaceAttribsEditor,"Justify texture to left edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",方向/按键词（普通文字还是按键？）,Texture 与材质管理
+447c60c44593,tb::ui::FaceAttribsEditor,"Justify texture to right edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",方向/按键词（普通文字还是按键？）,Texture 与材质管理
+007b6c11f393,tb::ui::KeyboardPreferencePane,Double-click an item to begin editing it. Click anywhere else to end editing.,方向/按键词（普通文字还是按键？）,Preferences 和设置页面
+9d87ad496868,tb::ui::ModEditor,Move the selected mod up,方向/按键词（普通文字还是按键？）,UNKNOWN
+4eacadbbc432,tb::ui::ModEditor,Move the selected mod down,方向/按键词（普通文字还是按键？）,UNKNOWN
+2915922a2166,tb::ui::ObjExportDialog,Enter a path or click to browse,方向/按键词（普通文字还是按键？）,对话框和确认提示
+94f3eda29bb4,tb::ui::QPreferenceStoreDelegate,"fix the JSON, or backup and delete the file",方向/按键词（普通文字还是按键？）,Preferences 和设置页面
+aecd2f912b05,tb::ui::SweepToolPage,"Arc revolves around an axis, Straight is a linear loft, S-bend follows an S-curve; the destination cap ends up in the sa",方向/按键词（普通文字还是按键？）,Brush、Face 和几何编辑
+efba76631088,upd::UpdateIndicator,Up to date,方向/按键词（普通文字还是按键？）,游戏配置与资源管理

@@ -1,0 +1,636 @@
+﻿id,context,source,translation,type,numerus,location_count,locations,finished,placeholders,has_mnemonic,has_escaped_amp,has_key_hint,has_technical,ambiguous_terms,source_len,category,category_reason,am_function,action_path
+84547211a873,QLineEdit,Search...,,unfinished,,1,../../../lib/TbUiLib/src/SearchBox.cpp:33,False,,False,False,False,False,,9,对话框和确认提示,通用按钮词,,
+aa399258e3fc,QObject, (%1),,unfinished,,1,../../../lib/TbUiLib/src/ActionBuilder.cpp:47,False,%1,False,False,False,False,,5,工具快捷操作,ActionBuilder 生成快捷键显示文本,,
+86f85720c232,QObject,Toggle %1 visible,,unfinished,,2,../../../lib/TbUiLib/src/ActionManager.cpp:67; ../../../lib/TbUiLib/src/ActionManager.cpp:103,False,%1,False,False,False,False,,17,Entity 与属性编辑,ActionManager::createTagActions（动态 tag/entity 动作）,createTagActions,
+505f8d41c07c,QObject,Turn Selection into %1,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:75,False,%1,False,False,False,False,,22,Entity 与属性编辑,ActionManager::createTagActions（动态 tag/entity 动作）,createTagActions,
+82918df51cc7,QObject,Turn Selection into non-%1,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:84,False,%1,False,False,False,False,,26,Entity 与属性编辑,ActionManager::createTagActions（动态 tag/entity 动作）,createTagActions,
+4e61c6d1cd3c,QObject,Create %1,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:111,False,%1,False,False,False,False,,9,Entity 与属性编辑,ActionManager::createEntityDefinitionActions（动态 tag/entity 动作）,createEntityDefinitionActions,
+eb52d352879b,QObject,Create Brush,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:155,False,,False,False,False,False,brush,12,Brush、Face 和几何编辑,路径:路径=Controls/Map view/Create brush; ActionContext=无,createViewActions,Controls/Map view/Create brush
+f180856ecd65,QObject,Toggle Clip Side,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:167,False,,False,False,False,False,clip,16,Brush、Face 和几何编辑,路径:路径=Controls/Map view/Toggle clip side; ActionContext=无,createViewActions,Controls/Map view/Toggle clip side
+310e8dca8298,QObject,Perform Clip,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:177,False,,False,False,False,False,clip,12,Brush、Face 和几何编辑,路径:路径=Controls/Map view/Perform clip; ActionContext=无,createViewActions,Controls/Map view/Perform clip
+f8399baa3517,QObject,Perform Sweep,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:187,False,,False,False,False,False,,13,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Perform sweep; ActionContext=无,createViewActions,Controls/Map view/Perform sweep
+ebccac005377,QObject,Decrease Sweep Scale,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:197,False,,False,False,False,False,scale,20,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Decrease sweep scale; ActionContext=无,createViewActions,Controls/Map view/Decrease sweep scale
+98b32e17d44f,QObject,Increase Sweep Scale,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:206,False,,False,False,False,False,scale,20,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Increase sweep scale; ActionContext=无,createViewActions,Controls/Map view/Increase sweep scale
+9e41860d7285,QObject,Move Forward,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:219,False,,False,False,False,False,,12,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Move objects up; Move objects forward; ActionContext=无,createViewActions,Controls/Map view/Move objects up; Move objects forward
+62b1fc894f86,QObject,Move Backward,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:229,False,,False,False,False,False,,13,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Move objects down; Move objects backward; ActionContext=无,createViewActions,Controls/Map view/Move objects down; Move objects backward
+97618ed340e8,QObject,Move Left,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:239,False,,False,False,False,False,,9,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Move objects left; ActionContext=无,createViewActions,Controls/Map view/Move objects left
+546ea45992cc,QObject,Move Right,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:249,False,,False,False,False,False,,10,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Move objects right; ActionContext=无,createViewActions,Controls/Map view/Move objects right
+428916bd8b96,QObject,Move Up,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:259,False,,False,False,False,False,,7,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Move objects backward; Move objects up; ActionContext=无,createViewActions,Controls/Map view/Move objects backward; Move objects up
+5e7e6ec35fef,QObject,Move Down,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:269,False,,False,False,False,False,,9,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Move objects forward; Move objects down; ActionContext=无,createViewActions,Controls/Map view/Move objects forward; Move objects down
+0d78218b37e1,QObject,Duplicate and Move Forward,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:284,False,,False,False,False,False,duplicate,26,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Move objects forward; Move objects down; ActionContext=无,createViewActions,Controls/Map view/Move objects forward; Move objects down
+c6d2e891641e,QObject,Duplicate and Move Backward,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:296,False,,False,False,False,False,duplicate,27,2D 视图与地图编辑操作,source 编辑动作:路径=无; ActionContext=无,createViewActions,
+025dcb72776a,QObject,Duplicate and Move Left,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:306,False,,False,False,False,False,duplicate,23,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Duplicate and move objects left; ActionContext=无,createViewActions,Controls/Map view/Duplicate and move objects left
+ccbc0b7b1da7,QObject,Duplicate and Move Right,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:314,False,,False,False,False,False,duplicate,24,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Duplicate and move objects right; ActionContext=无,createViewActions,Controls/Map view/Duplicate and move objects right
+a0e6441f975c,QObject,Duplicate and Move Up,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:326,False,,False,False,False,False,duplicate,21,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Duplicate and move objects right; ActionContext=无,createViewActions,Controls/Map view/Duplicate and move objects right
+1a64aa6c536e,QObject,Duplicate and Move Down,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:336,False,,False,False,False,False,duplicate,23,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Duplicate and move objects right; ActionContext=无,createViewActions,Controls/Map view/Duplicate and move objects right
+3892bd824775,QObject,Roll Clockwise,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:347,False,,False,False,False,False,,14,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Roll objects clockwise; ActionContext=无,createViewActions,Controls/Map view/Roll objects clockwise
+91d66dc38187,QObject,Roll Counter-clockwise,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:357,False,,False,False,False,False,,22,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Roll objects counter-clockwise; ActionContext=无,createViewActions,Controls/Map view/Roll objects counter-clockwise
+5305563c20ce,QObject,Yaw Clockwise,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:367,False,,False,False,False,False,,13,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Yaw objects clockwise; ActionContext=无,createViewActions,Controls/Map view/Yaw objects clockwise
+7064a2e5967d,QObject,Yaw Counter-clockwise,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:377,False,,False,False,False,False,,21,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Yaw objects counter-clockwise; ActionContext=无,createViewActions,Controls/Map view/Yaw objects counter-clockwise
+50b1a09c46d4,QObject,Pitch Clockwise,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:387,False,,False,False,False,False,,15,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Pitch objects clockwise; ActionContext=无,createViewActions,Controls/Map view/Pitch objects clockwise
+9a1654b27b32,QObject,Pitch Counter-clockwise,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:397,False,,False,False,False,False,,23,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Pitch objects counter-clockwise; ActionContext=无,createViewActions,Controls/Map view/Pitch objects counter-clockwise
+49a63041a34d,QObject,Move Textures Up,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:409,False,,False,False,False,False,,16,Texture 与材质管理,路径:路径=Controls/Map view/Move textures up; ActionContext=无,createViewActions,Controls/Map view/Move textures up
+624796bffdc5,QObject,Move Textures Up (Coarse),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:419,False,,False,False,False,False,,25,Texture 与材质管理,路径:路径=Controls/Map view/Move textures up (coarse); ActionContext=无,createViewActions,Controls/Map view/Move textures up (coarse)
+40082cc82304,QObject,Move Textures Up (Fine),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:429,False,,False,False,False,False,,23,Texture 与材质管理,路径:路径=Controls/Map view/Move textures up (fine); ActionContext=无,createViewActions,Controls/Map view/Move textures up (fine)
+db45aeb1b727,QObject,Move Textures Down,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:439,False,,False,False,False,False,,18,Texture 与材质管理,路径:路径=Controls/Map view/Move textures down; ActionContext=无,createViewActions,Controls/Map view/Move textures down
+8597197e1d4d,QObject,Move Textures Down (Coarse),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:449,False,,False,False,False,False,,27,Texture 与材质管理,路径:路径=Controls/Map view/Move textures down (coarse); ActionContext=无,createViewActions,Controls/Map view/Move textures down (coarse)
+4f417a709a16,QObject,Move Textures Down (Fine),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:459,False,,False,False,False,False,,25,Texture 与材质管理,路径:路径=Controls/Map view/Move textures down (fine); ActionContext=无,createViewActions,Controls/Map view/Move textures down (fine)
+4a4eeae83ae0,QObject,Move Textures Left,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:469,False,,False,False,False,False,,18,Texture 与材质管理,路径:路径=Controls/Map view/Move textures left; ActionContext=无,createViewActions,Controls/Map view/Move textures left
+79b5a1c98328,QObject,Move Textures Left (Coarse),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:479,False,,False,False,False,False,,27,Texture 与材质管理,路径:路径=Controls/Map view/Move textures left (coarse); ActionContext=无,createViewActions,Controls/Map view/Move textures left (coarse)
+4a4dab4a6f1f,QObject,Move Textures Left (Fine),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:489,False,,False,False,False,False,,25,Texture 与材质管理,路径:路径=Controls/Map view/Move textures left (fine); ActionContext=无,createViewActions,Controls/Map view/Move textures left (fine)
+30cfa2076cb6,QObject,Move Textures Right,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:499,False,,False,False,False,False,,19,Texture 与材质管理,路径:路径=Controls/Map view/Move textures right; ActionContext=无,createViewActions,Controls/Map view/Move textures right
+521da6c0c224,QObject,Move Textures Right (Coarse),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:509,False,,False,False,False,False,,28,Texture 与材质管理,路径:路径=Controls/Map view/Move textures right (coarse); ActionContext=无,createViewActions,Controls/Map view/Move textures right (coarse)
+24ed2c70b491,QObject,Move Textures Right (Fine),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:519,False,,False,False,False,False,,26,Texture 与材质管理,路径:路径=Controls/Map view/Move textures right (fine); ActionContext=无,createViewActions,Controls/Map view/Move textures right (fine)
+30b532df8410,QObject,Rotate Textures Clockwise,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:529,False,,False,False,False,False,,25,Texture 与材质管理,路径:路径=Controls/Map view/Rotate textures clockwise; ActionContext=无,createViewActions,Controls/Map view/Rotate textures clockwise
+e0b0d3e76fb8,QObject,Rotate Textures Clockwise (Coarse),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:539,False,,False,False,False,False,,34,Texture 与材质管理,路径:路径=Controls/Map view/Rotate textures clockwise (coarse); ActionContext=无,createViewActions,Controls/Map view/Rotate textures clockwise (coarse)
+f4b33b30789b,QObject,Rotate Textures Clockwise (Fine),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:549,False,,False,False,False,False,,32,Texture 与材质管理,路径:路径=Controls/Map view/Rotate textures clockwise (fine); ActionContext=无,createViewActions,Controls/Map view/Rotate textures clockwise (fine)
+00dae48c3a54,QObject,Rotate Textures Counter-clockwise,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:559,False,,False,False,False,False,,33,Texture 与材质管理,路径:路径=Controls/Map view/Rotate textures counter-clockwise; ActionContext=无,createViewActions,Controls/Map view/Rotate textures counter-clockwise
+756b43b51226,QObject,Rotate Textures Counter-clockwise (Coarse),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:569,False,,False,False,False,False,,42,Texture 与材质管理,路径:路径=Controls/Map view/Rotate textures counter-clockwise (coarse); ActionContext=无,createViewActions,Controls/Map view/Rotate textures counter-clockwise (coarse)
+bb4ce4ccd91a,QObject,Rotate Textures Counter-clockwise (Fine),,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:579,False,,False,False,False,False,,40,Texture 与材质管理,路径:路径=Controls/Map view/Rotate textures counter-clockwise (fine); ActionContext=无,createViewActions,Controls/Map view/Rotate textures counter-clockwise (fine)
+4bf04390b580,QObject,Reveal in texture browser,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:589,False,,False,False,False,False,texture,25,Texture 与材质管理,路径:路径=Controls/Map view/Reveal in texture browser; ActionContext=无,createViewActions,Controls/Map view/Reveal in texture browser
+7ca6f9901715,QObject,Flip textures horizontally,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:597,False,,False,False,False,False,,26,Texture 与材质管理,路径:路径=Controls/Map view/Flip textures horizontally; ActionContext=无,createViewActions,Controls/Map view/Flip textures horizontally
+d708a7dc4256,QObject,Flip textures vertically,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:605,False,,False,False,False,False,,24,Texture 与材质管理,路径:路径=Controls/Map view/Flip textures vertically; ActionContext=无,createViewActions,Controls/Map view/Flip textures vertically
+96607f7a2ca3,QObject,Reset texture alignment,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:613,False,,False,False,False,False,"alignment,texture",23,Texture 与材质管理,路径:路径=Controls/Map view/Reset texture alignment; ActionContext=无,createViewActions,Controls/Map view/Reset texture alignment
+994d2fe5cf89,QObject,Reset texture alignment to world aligned,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:621,False,,False,False,False,False,"alignment,texture,world",40,Texture 与材质管理,路径:路径=Controls/Map view/Reset texture alignment to world aligned; ActionContext=无,createViewActions,Controls/Map view/Reset texture alignment to world aligned
+be8a5e5bd3f6,QObject,Make Structural,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:631,False,,False,False,False,False,,15,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Make structural; ActionContext=无,createViewActions,Controls/Map view/Make structural
+82123b9507bc,QObject,Toggle Show Entity Classnames,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:642,False,,False,False,False,False,entity,29,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Make structural; ActionContext=无,createViewActions,Controls/Map view/Make structural
+60d12a464afe,QObject,Toggle Show Group Bounds,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:650,False,,False,False,False,False,group,24,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/View Filter > Toggle show group bounds; ActionContext=无,createViewActions,Controls/Map view/View Filter > Toggle show group bounds
+340d5aab973d,QObject,Toggle Show Brush Entity Bounds,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:659,False,,False,False,False,False,"brush,entity",31,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/View Filter > Toggle show group bounds; ActionContext=无,createViewActions,Controls/Map view/View Filter > Toggle show group bounds
+664e0e246225,QObject,Toggle Show Point Entity Bounds,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:668,False,,False,False,False,False,entity,31,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/View Filter > Toggle show group bounds; ActionContext=无,createViewActions,Controls/Map view/View Filter > Toggle show group bounds
+6ad93a88deb1,QObject,Toggle Show Point Entities,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:676,False,,False,False,False,False,,26,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/View Filter > Toggle show point entities; ActionContext=无,createViewActions,Controls/Map view/View Filter > Toggle show point entities
+cb0f40eb352b,QObject,Toggle Show Point Entity Models,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:685,False,,False,False,False,False,entity,31,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/View Filter > Toggle show point entities; ActionContext=无,createViewActions,Controls/Map view/View Filter > Toggle show point entities
+b92a938e70a1,QObject,Toggle Show Brushes,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:693,False,,False,False,False,False,,19,Brush、Face 和几何编辑,路径:路径=Controls/Map view/View Filter > Toggle show brushes; ActionContext=无,createViewActions,Controls/Map view/View Filter > Toggle show brushes
+1082527061b9,QObject,Show Textures,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:701,False,,False,False,False,False,,13,Texture 与材质管理,路径:路径=Controls/Map view/View Filter > Show textures; ActionContext=无,createViewActions,Controls/Map view/View Filter > Show textures
+9c85ab699f5b,QObject,Hide Textures,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:709,False,,False,False,False,False,,13,Texture 与材质管理,路径:路径=Controls/Map view/View Filter > Hide textures; ActionContext=无,createViewActions,Controls/Map view/View Filter > Hide textures
+982bbdf989ea,QObject,Hide Faces,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:717,False,,False,False,False,False,,10,Brush、Face 和几何编辑,路径:路径=Controls/Map view/View Filter > Hide faces; ActionContext=无,createViewActions,Controls/Map view/View Filter > Hide faces
+873a4df41bde,QObject,Toggle Shade Faces,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:725,False,,False,False,False,False,,18,Brush、Face 和几何编辑,路径:路径=Controls/Map view/View Filter > Shade faces; ActionContext=无,createViewActions,Controls/Map view/View Filter > Shade faces
+f3f53e93c604,QObject,Toggle Show Fog,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:733,False,,False,False,False,False,,15,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/View Filter > Use fog; ActionContext=无,createViewActions,Controls/Map view/View Filter > Use fog
+9bb3346e5329,QObject,Toggle Show Edges,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:741,False,,False,False,False,False,,17,Brush、Face 和几何编辑,路径:路径=Controls/Map view/View Filter > Show edges; ActionContext=无,createViewActions,Controls/Map view/View Filter > Show edges
+7f655f8d2881,QObject,Show All Entity Links,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:749,False,,False,False,False,False,entity,21,Entity 与属性编辑,路径:路径=Controls/Map view/View Filter > Show all entity links; ActionContext=无,createViewActions,Controls/Map view/View Filter > Show all entity links
+044d29bddca2,QObject,Show Transitively Selected Entity Links,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:758,False,,False,False,False,False,entity,39,Entity 与属性编辑,路径:路径=Controls/Map view/View Filter > Show all entity links; ActionContext=无,createViewActions,Controls/Map view/View Filter > Show all entity links
+74676bf55c7d,QObject,Show Directly Selected Entity Links,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:767,False,,False,False,False,False,entity,35,Entity 与属性编辑,路径:路径=Controls/Map view/View Filter > Show all entity links; ActionContext=无,createViewActions,Controls/Map view/View Filter > Show all entity links
+05be9b4f70dc,QObject,Hide All Entity Links,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:775,False,,False,False,False,False,entity,21,Entity 与属性编辑,路径:路径=Controls/Map view/View Filter > Hide entity links; ActionContext=无,createViewActions,Controls/Map view/View Filter > Hide entity links
+042879b00a65,QObject,Cycle View,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:785,False,,False,False,False,False,view,10,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Cycle map view; ActionContext=无,createViewActions,Controls/Map view/Cycle map view
+d8b266e95d3e,QObject,Reset Camera Zoom,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:793,False,,False,False,False,False,,17,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Reset camera zoom; ActionContext=无,createViewActions,Controls/Map view/Reset camera zoom
+18a6f61d0192,QObject,Cancel,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:801,False,,False,False,False,False,,6,2D 视图与地图编辑操作,路径/上下文:路径=Controls/Map view/Cancel; ActionContext=无,createViewActions,Controls/Map view/Cancel
+bcf80284ebf3,QObject,New Document,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:827,False,,False,False,False,False,,12,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+0843baa95d90,QObject,Open Document...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:836,False,,False,False,False,False,,16,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+08c86abe1b99,QObject,Save Document,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:846,False,,False,False,False,False,,13,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+c13f05ee9b4e,QObject,Save Document as...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:854,False,,False,False,False,False,,19,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+e7c5ab696447,QObject,Wavefront OBJ...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:864,False,,False,False,False,False,,16,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+88c5a8202a53,QObject,Map...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:872,False,,False,False,False,False,map,6,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+8626a59ed64f,QObject,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:878,False,,False,False,False,True,map,87,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+c87e891f3904,QObject,Load Point File...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:886,False,,False,False,False,False,,18,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+fe79d727b01f,QObject,Reload Point File,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:894,False,,False,False,False,False,,17,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+d4365ad643a4,QObject,Unload Point File,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:904,False,,False,False,False,False,,17,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+c18158cfc475,QObject,Load Portal File...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:915,False,,False,False,False,False,,19,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+8c049a323d0f,QObject,Reload Portal File,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:923,False,,False,False,False,False,,18,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+92939021173f,QObject,Unload Portal File,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:933,False,,False,False,False,False,,18,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+3dab7bfca406,QObject,Reload Material Collections,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:944,False,,False,False,False,False,material,27,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+1e1111c64470,QObject,Reload Entity Definitions,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:954,False,,False,False,False,False,entity,25,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+e6acb688ec6e,QObject,Revert Document,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:965,False,,False,False,False,False,,15,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+d82719c1af53,QObject,Discards any unsaved changes and reloads the map file.,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:971,False,,False,False,False,False,map,54,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+aa1646cea36e,QObject,Close Document,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:975,False,,False,False,False,False,,14,文件操作与项目管理,ActionManager::createFileMenu 菜单路径,createFileMenu,
+01f4fcfdf1d0,QObject,Undo,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:989,False,,False,False,False,False,,4,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Undo
+e02bea32ce43,QObject,Redo,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1001,False,,False,False,False,False,,4,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Redo
+55898abf0b8f,QObject,Repeat Last Commands,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1013,False,,False,False,False,False,,20,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Redo
+5c8d7d239b14,QObject,Clear Repeatable Commands,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1021,False,,False,False,False,False,,25,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Redo
+ad9f3ef99455,QObject,Cut,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1033,False,,False,False,False,False,,3,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Cut
+996154743298,QObject,Copy,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1045,False,,False,False,False,False,,4,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Copy
+bc9afefd1674,QObject,Paste,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1057,False,,False,False,False,False,,5,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Paste
+419f65bb6522,QObject,Paste at Original Position,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1069,False,,False,False,False,False,,26,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Paste at Original Position
+9a2ba4cf961f,QObject,Duplicate,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1080,False,,False,False,False,False,duplicate,9,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Paste at Original Position
+4f77c3d7dd9e,QObject,Delete,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1091,False,,False,False,False,False,,6,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Delete
+b8cddbe21e2b,QObject,Flip Horizontally,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1110,False,,False,False,False,False,,17,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Controls/Map view/Flip objects horizontally
+2bbf09117f4a,QObject,Flip Vertically,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1121,False,,False,False,False,False,,15,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Controls/Map view/Flip objects vertically
+34a12058155b,QObject,Move...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1132,False,,False,False,False,False,,7,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Move objects
+9954cf392bfa,QObject,Convex Merge,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1144,False,,False,False,False,False,,12,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Move objects
+fdcc5d281423,QObject,Subtract,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1154,False,,False,False,False,False,,8,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,Menu/Edit/Move objects
+bb9edf05afea,QObject,Hollow,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1164,False,,False,False,False,False,,6,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,
+af4fbe155c08,QObject,Intersect,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1174,False,,False,False,False,False,,9,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,
+e5e980d259c6,QObject,Snap Vertices to Integer,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1186,False,,False,False,False,False,snap,24,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,
+053c046aa197,QObject,Snap Vertices to Grid,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1196,False,,False,False,False,False,"grid,snap",21,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,
+def10ad39e3b,QObject,Convert Selection to Patches,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1208,False,,False,False,False,False,,28,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,
+591cdbe42906,QObject,Texture Lock,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1220,False,,False,False,False,False,texture,12,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,
+91631dca850a,QObject,UV Lock,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1230,False,,False,False,False,False,,7,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,AlignmentLock.svg
+873bbf9b1c53,QObject,Replace Material...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1241,False,,False,False,False,False,material,19,2D 视图与地图编辑操作,ActionManager::createEditMenu（撤销/复制/粘贴等编辑操作）,createEditMenu,UVLock.svg
+713df505ad99,QObject,Select All,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1254,False,,False,False,False,False,select,10,2D 视图与地图编辑操作,ActionManager::createSelectionMenu,createSelectionMenu,UVLock.svg
+4a9fa4efae82,QObject,Invert Selection,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1264,False,,False,False,False,False,,16,2D 视图与地图编辑操作,ActionManager::createSelectionMenu,createSelectionMenu,Menu/Edit/Invert Selection
+66cd8260fd3e,QObject,Deselect All,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1274,False,,False,False,False,False,,12,2D 视图与地图编辑操作,ActionManager::createSelectionMenu,createSelectionMenu,Menu/Edit/Deselect All
+ebc1177ca6d4,QObject,Select Siblings,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1285,False,,False,False,False,False,select,15,2D 视图与地图编辑操作,ActionManager::createSelectionMenu,createSelectionMenu,Menu/Edit/Deselect All
+c9e7f92c840a,QObject,Select Touching,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1295,False,,False,False,False,False,select,15,2D 视图与地图编辑操作,ActionManager::createSelectionMenu,createSelectionMenu,Menu/Edit/Deselect All
+f18234f09531,QObject,Select Inside,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1305,False,,False,False,False,False,select,13,2D 视图与地图编辑操作,ActionManager::createSelectionMenu,createSelectionMenu,
+b74d86042960,QObject,Select Tall,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1315,False,,False,False,False,False,select,11,2D 视图与地图编辑操作,ActionManager::createSelectionMenu,createSelectionMenu,Menu/Edit/Select Tall
+cb49e43e2906,QObject,Select by Line Number...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1325,False,,False,False,False,False,select,24,2D 视图与地图编辑操作,ActionManager::createSelectionMenu,createSelectionMenu,Menu/Edit/Select Tall
+c46d216c0356,QObject,Group Selected Objects,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1340,False,,False,False,False,False,group,22,2D 视图与地图编辑操作,ActionManager::createGroupsMenu（编组/图层）,createGroupsMenu,Menu/Edit/Group
+ea72dfb36b21,QObject,Ungroup Selected Objects,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1350,False,,False,False,False,False,,24,2D 视图与地图编辑操作,ActionManager::createGroupsMenu（编组/图层）,createGroupsMenu,Menu/Edit/Group
+ce4552c19029,QObject,Rename Selected Groups,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1360,False,,False,False,False,False,,22,2D 视图与地图编辑操作,ActionManager::createGroupsMenu（编组/图层）,createGroupsMenu,Menu/Edit/Group
+59a5407adf40,QObject,Create Linked Duplicate,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1372,False,,False,False,False,False,duplicate,23,2D 视图与地图编辑操作,ActionManager::createGroupsMenu（编组/图层）,createGroupsMenu,Menu/Edit/Create Linked Duplicate
+3a06ea01f0e5,QObject,Select Linked Groups,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1382,False,,False,False,False,False,select,20,2D 视图与地图编辑操作,ActionManager::createGroupsMenu（编组/图层）,createGroupsMenu,Menu/Edit/Select Linked Groups
+d48dd2b9baa3,QObject,Separate Selected Groups,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1392,False,,False,False,False,False,,24,2D 视图与地图编辑操作,ActionManager::createGroupsMenu（编组/图层）,createGroupsMenu,Menu/Edit/Separate Linked Groups
+cd9484706821,QObject,Extract Selected Objects,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1402,False,,False,False,False,False,,24,2D 视图与地图编辑操作,ActionManager::createGroupsMenu（编组/图层）,createGroupsMenu,Menu/Edit/Extract Linked Groups
+bc881860e57e,QObject,Clear Protected Properties,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1412,False,,False,False,False,False,,26,2D 视图与地图编辑操作,ActionManager::createGroupsMenu（编组/图层）,createGroupsMenu,Menu/Edit/Clear Protected Properties
+89379c09782f,QObject,Brush Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1427,False,,False,False,False,False,"brush,tool",10,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,Menu/Edit/Clear Protected Properties
+d04a37dbfe7c,QObject,Clip Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1443,False,,False,False,False,False,"clip,tool",9,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,BrushTool.svg
+e329c8cb6e18,QObject,Rotate Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1457,False,,False,False,False,False,tool,11,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,ClipTool.svg
+7961522a99c3,QObject,Sweep Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1471,False,,False,False,False,False,tool,10,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,RotateTool.svg
+9cfcfe99e446,QObject,Scale Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1485,False,,False,False,False,False,"scale,tool",10,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,SweepTool.svg
+ba21af0b4694,QObject,Shear Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1499,False,,False,False,False,False,tool,10,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,ScaleTool.svg
+89abbccc9f68,QObject,Vertex Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1513,False,,False,False,False,False,"tool,vertex",11,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,ShearTool.svg
+d31f3e2a1474,QObject,Edge Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1528,False,,False,False,False,False,"edge,tool",9,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,VertexTool.svg
+6e624ded7380,QObject,Face Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1543,False,,False,False,False,False,"face,tool",9,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,EdgeTool.svg
+ea05a19fa2b8,QObject,Control Point Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1558,False,,False,False,False,False,tool,18,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,FaceTool.svg
+9a47a5697446,QObject,Deactivate Current Tool,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1574,False,,False,False,False,False,tool,23,工具快捷操作,ActionManager::createToolsMenu,createToolsMenu,ControlPointTool.svg
+485a568417bf,QObject,Show Grid,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1592,False,,False,False,False,False,grid,9,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,NoTool.svg
+794d859841e9,QObject,Snap to Grid,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1603,False,,False,False,False,False,"grid,snap",12,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,NoTool.svg
+fbc136eb81cf,QObject,Increase Grid Size,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1614,False,,False,False,False,False,grid,18,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+a6f6037ede49,QObject,Decrease Grid Size,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1624,False,,False,False,False,False,grid,18,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+adc2b6a7c647,QObject,Set Grid Size 0.125,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1635,False,,False,False,False,True,grid,19,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+b59fb68a90c0,QObject,Set Grid Size 0.25,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1646,False,,False,False,False,True,grid,18,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+5a82a4f16d9f,QObject,Set Grid Size 0.5,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1657,False,,False,False,False,False,grid,17,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+28b95daa4f53,QObject,Set Grid Size 1,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1668,False,,False,False,False,False,grid,15,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+f0c61f5b6adb,QObject,Set Grid Size 2,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1679,False,,False,False,False,False,grid,15,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+94c1f6b31ec6,QObject,Set Grid Size 4,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1690,False,,False,False,False,False,grid,15,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+782d1c81d9fd,QObject,Set Grid Size 8,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1701,False,,False,False,False,False,grid,15,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+6e83fae2ee39,QObject,Set Grid Size 16,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1712,False,,False,False,False,False,grid,16,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+ea3bb58dd51f,QObject,Set Grid Size 32,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1723,False,,False,False,False,False,grid,16,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+e9005d8f344f,QObject,Set Grid Size 64,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1734,False,,False,False,False,False,grid,16,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+67bb3b11b185,QObject,Set Grid Size 128,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1745,False,,False,False,False,False,grid,17,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+bcc45722b505,QObject,Set Grid Size 256,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1756,False,,False,False,False,False,grid,17,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+42335efae859,QObject,Move Camera to Next Point,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1769,False,,False,False,False,False,,25,3D 视图与摄像机操作,createViewMenu + 3D/摄像机线索,createViewMenu,
+5851035c0cde,QObject,Move Camera to Previous Point,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1779,False,,False,False,False,False,,29,3D 视图与摄像机操作,createViewMenu + 3D/摄像机线索,createViewMenu,
+582704c76cbb,QObject,Reset 2D Cameras,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1789,False,,False,False,False,False,,16,3D 视图与摄像机操作,createViewMenu + 3D/摄像机线索,createViewMenu,
+bf42e8603946,QObject,Focus Camera on Selection,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1799,False,,False,False,False,False,,25,3D 视图与摄像机操作,createViewMenu + 3D/摄像机线索,createViewMenu,
+7cad99ed21db,QObject,Move Camera to...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1809,False,,False,False,False,False,,17,3D 视图与摄像机操作,createViewMenu + 3D/摄像机线索,createViewMenu,
+6daaa3aa4c94,QObject,Isolate Selection,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1819,False,,False,False,False,False,,17,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+bea8c83da357,QObject,Hide Selection,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1829,False,,False,False,False,False,,14,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+f3602a392439,QObject,Show All,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1839,False,,False,False,False,False,,8,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+0cdf8e280583,QObject,Show Map Inspector,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1848,False,,False,False,False,False,map,18,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+101f9bde64ae,QObject,Show Entity Inspector,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1856,False,,False,False,False,False,entity,21,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+00da764357a0,QObject,Show Face Inspector,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1866,False,,False,False,False,False,face,19,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+55e09d3d38e8,QObject,Toggle Toolbar,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1875,False,,False,False,False,False,,14,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+ad353df5056e,QObject,Toggle Info Panel,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1886,False,,False,False,False,False,,17,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+a753c5c5a8ed,QObject,Toggle Inspector,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1897,False,,False,False,False,False,,16,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+9e85e8c33e71,QObject,Maximize Current View,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1908,False,,False,False,False,False,view,21,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+1eb612307a66,QObject,Preferences...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1925,False,,False,False,False,False,,14,2D 视图与地图编辑操作,ActionManager::createViewMenu,createViewMenu,
+9ad6776b7e12,QObject,Compile Map...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1938,False,,False,False,False,False,map,14,游戏配置与资源管理,ActionManager::createRunMenu（编译/运行）,createRunMenu,
+918e6e37689a,QObject,Launch Engine...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1946,False,,False,False,False,False,,16,游戏配置与资源管理,ActionManager::createRunMenu（编译/运行）,createRunMenu,
+6f50353fc0d1,QObject,Re-run compilation...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1956,False,,False,False,False,False,,21,游戏配置与资源管理,ActionManager::createRunMenu（编译/运行）,createRunMenu,
+351a3c3ea37e,QObject,Print Vertices to Console,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1973,False,,False,False,False,False,,25,其他或待确认,ActionManager::createDebugMenu（开发者调试动作，非普通用户翻译批次）,createDebugMenu,
+ed37454727f6,QObject,Create Brush...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1981,False,,False,False,False,False,brush,15,其他或待确认,ActionManager::createDebugMenu（开发者调试动作，非普通用户翻译批次）,createDebugMenu,
+5060e555a84d,QObject,Create Cube...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1989,False,,False,False,False,False,,14,其他或待确认,ActionManager::createDebugMenu（开发者调试动作，非普通用户翻译批次）,createDebugMenu,
+304f2085307f,QObject,Crash...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:1997,False,,False,False,False,False,,8,其他或待确认,ActionManager::createDebugMenu（开发者调试动作，非普通用户翻译批次）,createDebugMenu,
+a2ad5adc5f99,QObject,Throw Exception During Command,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:2005,False,,False,False,False,False,,30,其他或待确认,ActionManager::createDebugMenu（开发者调试动作，非普通用户翻译批次）,createDebugMenu,
+f15941e96d0f,QObject,Show Crash Report Dialog...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:2013,False,,False,False,False,False,,27,其他或待确认,ActionManager::createDebugMenu（开发者调试动作，非普通用户翻译批次）,createDebugMenu,
+c597b6221a17,QObject,Set Window Size...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:2021,False,,False,False,False,False,,18,其他或待确认,ActionManager::createDebugMenu（开发者调试动作，非普通用户翻译批次）,createDebugMenu,
+5f0cb3cb8fa3,QObject,Show Palette...,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:2029,False,,False,False,False,False,,15,其他或待确认,ActionManager::createDebugMenu（开发者调试动作，非普通用户翻译批次）,createDebugMenu,
+fa31bab9325d,QObject,TrenchBroom Manual,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:2043,False,,False,False,False,False,,18,主菜单和主窗口,ActionManager::createHelpMenu,createHelpMenu,Menu/Help/TrenchBroom Manual
+b52021e3d78f,QObject,About TrenchBroom,,unfinished,,1,../../../lib/TbUiLib/src/ActionManager.cpp:2051,False,,False,False,False,False,,17,主菜单和主窗口,ActionManager::createHelpMenu,createHelpMenu,Menu/Help/TrenchBroom Manual
+7b493c18471b,QObject,%1 or %2,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyTable.cpp:57,False,"%1,%2",False,False,False,False,,8,Entity 与属性编辑,context/文件关键词:entity,,
+feac4b48dc40,QObject,None,,unfinished,,1,../../../lib/TbUiLib/src/MapInspector.cpp:80,False,,False,False,False,False,,4,对话框和确认提示,通用按钮词,,
+568ffccca0bd,QObject,Open groups: %1,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:601,False,%1,False,False,False,False,,15,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+65d3b89d4202,QObject," in layer ""%1""",,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:666,False,%1,False,False,False,False,layer,14,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+b615d5359769,QObject, in %1 layers,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:670,False,%1,False,False,False,False,,13,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+2bab1e594859,QObject,%1%2 selected,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:676,False,"%1,%2",False,False,False,False,,13,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+d575cf1fdcdf,QObject,%1 hidden,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:744,False,%1,False,False,False,False,,9,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+2edfeb0adb3d,QObject,%1 Name,,unfinished,,1,../../../lib/TbUiLib/src/ViewUtils.cpp:106,False,%1,False,False,False,False,,7,UNKNOWN,context/source/路径无可靠线索,,
+884a6694c19a,QObject,%1 names cannot be blank.,,unfinished,,1,../../../lib/TbUiLib/src/ViewUtils.cpp:123,False,%1,False,False,False,False,,25,错误信息和警告,context/文件关键词:cannot,,
+38148b94ea4c,QObject,%1 names cannot contain double quotes.,,unfinished,,1,../../../lib/TbUiLib/src/ViewUtils.cpp:137,False,%1,False,False,False,False,,38,错误信息和警告,context/文件关键词:cannot,,
+fc66af90185a,QObject,Group,,unfinished,,1,../../../lib/TbUiLib/src/ViewUtils.cpp:154,False,,False,False,False,False,group,5,UNKNOWN,context/source/路径无可靠线索,,
+56faba2f9a64,QObject,Layer,,unfinished,,1,../../../lib/TbUiLib/src/ViewUtils.cpp:159,False,,False,False,False,False,layer,5,UNKNOWN,context/source/路径无可靠线索,,
+cfde892c46df,tb::ui::AboutDialog,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />",,unfinished,,1,../../../lib/TbUiLib/src/AboutDialog.cpp:41,False,,False,False,False,True,,985,对话框和确认提示,context/文件关键词:dialog,,
+e850d094a00e,tb::ui::AppController,TrenchBroom can check for updates automatically. Would you like to enable this now?,,unfinished,,1,../../../lib/TbUiLib/src/AppController.cpp:275,False,,False,False,False,False,,83,对话框和确认提示,通用按钮词,,
+4e51812565de,tb::ui::AppController,Open Map,,unfinished,,1,../../../lib/TbUiLib/src/AppController.cpp:324,False,,False,False,False,False,map,8,文件操作与项目管理,source 动词,,
+3e27e0817a09,tb::ui::AppInfoPanel,TrenchBroom,,unfinished,,1,../../../lib/TbUiLib/src/AppInfoPanel.cpp:48,False,,False,False,False,False,,11,UNKNOWN,context/source/路径无可靠线索,,
+3e362c947661,tb::ui::AppInfoPanel,Level Editor,,unfinished,,1,../../../lib/TbUiLib/src/AppInfoPanel.cpp:52,False,,False,False,False,False,,12,UNKNOWN,context/source/路径无可靠线索,,
+9bf4c1803f08,tb::ui::AppInfoPanel,Version %1,,unfinished,,1,../../../lib/TbUiLib/src/AppInfoPanel.cpp:54,False,%1,False,False,False,False,,10,UNKNOWN,context/source/路径无可靠线索,,
+be5a619e1f49,tb::ui::AppInfoPanel,Build %1,,unfinished,,1,../../../lib/TbUiLib/src/AppInfoPanel.cpp:55,False,%1,False,False,False,False,,8,UNKNOWN,context/source/路径无可靠线索,,
+4894697a59ee,tb::ui::AppInfoPanel,Qt %1,,unfinished,,1,../../../lib/TbUiLib/src/AppInfoPanel.cpp:57,False,%1,False,False,False,False,,5,UNKNOWN,context/source/路径无可靠线索,,
+51d575a35208,tb::ui::AppInfoPanel,Click to copy to clipboard,,unfinished,,1,../../../lib/TbUiLib/src/AppInfoPanel.cpp:64,False,,False,False,False,False,,26,UNKNOWN,context/source/路径无可靠线索,,
+215564708be0,tb::ui::AppInfoPanel,TrenchBroom %1 Build %2,,unfinished,,1,../../../lib/TbUiLib/src/AppInfoPanel.cpp:104,False,"%1,%2",False,False,False,False,,23,UNKNOWN,context/source/路径无可靠线索,,
+f9081511b752,tb::ui::ChoosePathTypeDialog,Path Type,,unfinished,,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:81,False,,False,False,False,False,,9,对话框和确认提示,context/文件关键词:dialog,,
+df4ef91af93a,tb::ui::ChoosePathTypeDialog,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",,unfinished,,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:85,False,,False,False,False,False,map,155,对话框和确认提示,context/文件关键词:dialog,,
+8c9ed2e8de12,tb::ui::ChoosePathTypeDialog,Absolute,,unfinished,,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:93,False,,False,False,False,False,,8,对话框和确认提示,context/文件关键词:dialog,,
+6a5208c30cca,tb::ui::ChoosePathTypeDialog,Relative to map file,,unfinished,,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:99,False,,False,False,False,False,map,20,对话框和确认提示,context/文件关键词:dialog,,
+2b985fbae7f9,tb::ui::ChoosePathTypeDialog,Could not build a path.,,unfinished,,3,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:104; ../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:112; ../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:120,False,,False,False,False,False,,23,错误信息和警告,context/文件关键词:could not,,
+dbbba8b54bd0,tb::ui::ChoosePathTypeDialog,Relative to application executable,,unfinished,,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:107,False,,False,False,False,False,,34,对话框和确认提示,context/文件关键词:dialog,,
+3a29ad146ceb,tb::ui::ChoosePathTypeDialog,Relative to game directory,,unfinished,,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:115,False,,False,False,False,False,,26,对话框和确认提示,context/文件关键词:dialog,,
+2c01921052f7,tb::ui::ChoosePathTypeDialog,Choose Path Type,,unfinished,,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:156,False,,False,False,False,False,,16,对话框和确认提示,context/文件关键词:dialog,,
+464677b6c7b2,tb::ui::CollapsibleTitledPanel,hide,,unfinished,,1,../../../lib/TbUiLib/src/CollapsibleTitledPanel.cpp:116,False,,False,False,False,False,,4,2D 视图与地图编辑操作,context/文件关键词:collapsible,,
+c5ad99a13f46,tb::ui::CollapsibleTitledPanel,show,,unfinished,,1,../../../lib/TbUiLib/src/CollapsibleTitledPanel.cpp:122,False,,False,False,False,False,,4,2D 视图与地图编辑操作,context/文件关键词:collapsible,,
+1ea8b81a44e7,tb::ui::ColorModel,Color,,unfinished,,1,../../../lib/TbUiLib/src/ColorModel.cpp:85,False,,False,False,False,False,,5,UNKNOWN,context/source/路径无可靠线索,,
+a7f42422296a,tb::ui::ColorModel,Context,,unfinished,,1,../../../lib/TbUiLib/src/ColorModel.cpp:87,False,,False,False,False,False,,7,UNKNOWN,context/source/路径无可靠线索,,
+edb8f76556b8,tb::ui::ColorModel,Description,,unfinished,,1,../../../lib/TbUiLib/src/ColorModel.cpp:89,False,,False,False,False,False,,11,UNKNOWN,context/source/路径无可靠线索,,
+7e2f3f777af8,tb::ui::ColorsPreferencePane,Double-click a color to begin editing it.,,unfinished,,1,../../../lib/TbUiLib/src/ColorsPreferencePane.cpp:66,False,,False,False,False,False,,41,Preferences 和设置页面,context/文件关键词:preference,,
+33e2b44970a6,tb::ui::CompilationDialog,Output,,unfinished,,1,../../../lib/TbUiLib/src/CompilationDialog.cpp:99,False,,False,False,False,False,,6,对话框和确认提示,context/文件关键词:dialog,,
+331604b43b52,tb::ui::CompilationDialog,Launch...,,unfinished,,1,../../../lib/TbUiLib/src/CompilationDialog.cpp:122,False,,False,False,False,False,,9,对话框和确认提示,context/文件关键词:dialog,,
+7ee965f0f2b4,tb::ui::CompilationDialog,Stop,,unfinished,,1,../../../lib/TbUiLib/src/CompilationDialog.cpp:123,False,,False,False,False,False,,4,对话框和确认提示,context/文件关键词:dialog,,
+369fab3505a9,tb::ui::CompilationDialog,Test,,unfinished,,1,../../../lib/TbUiLib/src/CompilationDialog.cpp:124,False,,False,False,False,False,,4,对话框和确认提示,context/文件关键词:dialog,,
+ff39652ec351,tb::ui::CompilationDialog,Compile,,unfinished,,1,../../../lib/TbUiLib/src/CompilationDialog.cpp:125,False,,False,False,False,False,,7,对话框和确认提示,context/文件关键词:dialog,,
+2d740b071687,tb::ui::CompilationDialog,Close,,unfinished,,1,../../../lib/TbUiLib/src/CompilationDialog.cpp:126,False,,False,False,False,False,,5,对话框和确认提示,context/文件关键词:dialog,,
+86fd625b69bc,tb::ui::CompilationDialog,Compilation failed: %1,,unfinished,,1,../../../lib/TbUiLib/src/CompilationDialog.cpp:220,False,%1,False,False,False,False,,22,错误信息和警告,context/文件关键词:fail,,
+1622711a5916,tb::ui::CompilationDialog,Warning,,unfinished,,1,../../../lib/TbUiLib/src/CompilationDialog.cpp:247,False,,False,False,False,False,,7,错误信息和警告,context/文件关键词:warning,,
+1c99031a89bc,tb::ui::CompilationDialog,Closing this dialog will stop the running compilation. Are you sure?,,unfinished,,1,../../../lib/TbUiLib/src/CompilationDialog.cpp:248,False,,False,False,False,False,,68,对话框和确认提示,context/文件关键词:dialog,,
+86e870ba804d,tb::ui::CompilationDialog,Clear,,unfinished,,1,../../../lib/TbUiLib/src/CompilationDialog.cpp:298,False,,False,False,False,False,,5,对话框和确认提示,context/文件关键词:dialog,,
+5b111135cfe7,tb::ui::CompilationExportMapTaskEditor,Set a GLOB pattern to strip any entities with a matching classname. Example: 'info_player_*' to strip all info_player_start and all info_player_deatchmatch entities.,,unfinished,,1,../../../lib/TbUiLib/src/CompilationTaskListBox.cpp:158,False,,False,False,False,False,,165,文件操作与项目管理,context/文件关键词:export,,
+82fad02a71ea,tb::ui::CompilationExportMapTaskEditor,"Set the classname of an entity that will be added to the map. The entities' origin and angles will be set to the camera position and view direction, respectively.",,unfinished,,1,../../../lib/TbUiLib/src/CompilationTaskListBox.cpp:165,False,,False,False,False,False,"entity,map,view",162,文件操作与项目管理,context/文件关键词:export,,
+1759580eee0d,tb::ui::CompilationExportMapTaskEditor,Set this checkbox to strip any entity properties starting with _tb_ from the exported map file. Some compilers cannot handle these properties.,,unfinished,,1,../../../lib/TbUiLib/src/CompilationTaskListBox.cpp:173,False,,False,False,False,False,"entity,map",142,错误信息和警告,context/文件关键词:cannot,,
+3274f039a28e,tb::ui::CompilationLaunchEngineTaskEditor,The Launch Engine profile to start when this task runs,,unfinished,,1,../../../lib/TbUiLib/src/CompilationTaskListBox.cpp:662,False,,False,False,False,False,,54,UNKNOWN,context/source/路径无可靠线索,,
+8dc0035af7a2,tb::ui::CompilationLaunchEngineTaskEditor,Stop compilation if the engine cannot be launched,,unfinished,,1,../../../lib/TbUiLib/src/CompilationTaskListBox.cpp:667,False,,False,False,False,False,,49,错误信息和警告,context/文件关键词:cannot,,
+760d5bd8145f,tb::ui::CompilationProfileEditor,Move Up,,unfinished,,1,../../../lib/TbUiLib/src/CompilationProfileEditor.cpp:146,False,,False,False,False,False,,7,Preferences 和设置页面,context/文件关键词:compilationprofile,,
+b3be9f1ff5f8,tb::ui::CompilationProfileEditor,Move Down,,unfinished,,1,../../../lib/TbUiLib/src/CompilationProfileEditor.cpp:148,False,,False,False,False,False,,9,Preferences 和设置页面,context/文件关键词:compilationprofile,,
+54dcb860b089,tb::ui::CompilationProfileEditor,Duplicate,,unfinished,,1,../../../lib/TbUiLib/src/CompilationProfileEditor.cpp:150,False,,False,False,False,False,duplicate,9,Preferences 和设置页面,context/文件关键词:compilationprofile,,
+adccf374a817,tb::ui::CompilationProfileEditor,Remove,,unfinished,,1,../../../lib/TbUiLib/src/CompilationProfileEditor.cpp:151,False,,False,False,False,False,,6,Preferences 和设置页面,context/文件关键词:compilationprofile,,
+64461bd68d69,tb::ui::CompilationProfileManager,Duplicate,,unfinished,,1,../../../lib/TbUiLib/src/CompilationProfileManager.cpp:206,False,,False,False,False,False,duplicate,9,Preferences 和设置页面,context/文件关键词:compilationprofile,,
+7461ab67e1a7,tb::ui::CompilationProfileManager,Remove,,unfinished,,1,../../../lib/TbUiLib/src/CompilationProfileManager.cpp:207,False,,False,False,False,False,,6,Preferences 和设置页面,context/文件关键词:compilationprofile,,
+d8258b8bcf6d,tb::ui::CompilationRunToolTaskEditor,Stop compilation if the tool returns a nonzero error code,,unfinished,,1,../../../lib/TbUiLib/src/CompilationTaskListBox.cpp:553,False,,False,False,False,False,tool,57,错误信息和警告,context/文件关键词:error,,
+dd6a7d4e1b72,tb::ui::CompilationRunToolTaskEditor,Select Tool,,unfinished,,1,../../../lib/TbUiLib/src/CompilationTaskListBox.cpp:613,False,,False,False,False,False,"select,tool",11,UNKNOWN,context/source/路径无可靠线索,,
+ef32432c813f,tb::ui::CompilationTaskEditorBase,Whether to include this task when running the compile profile,,unfinished,,1,../../../lib/TbUiLib/src/CompilationTaskListBox.cpp:81,False,,False,False,False,False,,61,UNKNOWN,context/source/路径无可靠线索,,
+5067c8332ead,tb::ui::Console,Clear,,unfinished,,1,../../../lib/TbUiLib/src/Console.cpp:134,False,,False,False,False,False,,5,工具提示与状态信息,context/文件关键词:console,,
+2c1e8183536f,tb::ui::ControlPointToolPage,Rows:,,unfinished,,1,../../../lib/TbUiLib/src/ControlPointToolPage.cpp:80,False,,False,False,False,False,,5,工具快捷操作,context/文件关键词:toolpage,,
+475aeb393b04,tb::ui::ControlPointToolPage,Columns:,,unfinished,,1,../../../lib/TbUiLib/src/ControlPointToolPage.cpp:82,False,,False,False,False,False,,8,工具快捷操作,context/文件关键词:toolpage,,
+8e40860a52a1,tb::ui::CrashDialog,Crash,,unfinished,,1,../../../lib/TbUiLib/src/CrashDialog.cpp:53,False,,False,False,False,False,,5,对话框和确认提示,context/文件关键词:dialog,,
+f0f928f057b7,tb::ui::CrashDialog,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.",,unfinished,,1,../../../lib/TbUiLib/src/CrashDialog.cpp:58,False,,False,False,False,False,map,191,对话框和确认提示,context/文件关键词:dialog,,
+444a30e5e793,tb::ui::CrashDialog,Report,,unfinished,,1,../../../lib/TbUiLib/src/CrashDialog.cpp:89,False,,False,False,False,False,,6,对话框和确认提示,context/文件关键词:dialog,,
+65cdb139c984,tb::ui::DebugPaletteWindow,Palette,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:2556,False,,False,False,False,False,,7,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+27c3bde9ecc1,tb::ui::DrawShapeToolArchShapeExtensionPage,Thickness: ,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:642,False,,False,False,False,False,,11,UNKNOWN,context/source/路径无可靠线索,,
+5b2248f39b63,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,Axis: ,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:139,False,,False,False,False,False,,6,UNKNOWN,context/source/路径无可靠线索,,
+b42ec7b535c3,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,X,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:141,False,,False,False,False,False,,1,UNKNOWN,context/source/路径无可靠线索,,
+4c002871f915,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,Y,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:141,False,,False,False,False,False,,1,UNKNOWN,context/source/路径无可靠线索,,
+fff85319f775,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,Z,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:141,False,,False,False,False,False,,1,UNKNOWN,context/source/路径无可靠线索,,
+e34447a417b6,tb::ui::DrawShapeToolCircularShapeExtensionPage,Number of Sides: ,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:161,False,,False,False,False,False,,17,UNKNOWN,context/source/路径无可靠线索,,
+81bbd44685d3,tb::ui::DrawShapeToolCircularShapeExtensionPage,Align edge to bounding box,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:173,False,,False,False,False,False,edge,26,UNKNOWN,context/source/路径无可靠线索,,
+b8daae9db992,tb::ui::DrawShapeToolCircularShapeExtensionPage,Align vertices to bounding box,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:178,False,,False,False,False,False,,30,UNKNOWN,context/source/路径无可靠线索,,
+048800e82bda,tb::ui::DrawShapeToolCircularShapeExtensionPage,Scalable circle shape,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:183,False,,False,False,False,False,,21,UNKNOWN,context/source/路径无可靠线索,,
+db2a2b0e350e,tb::ui::DrawShapeToolCylinderShapeExtensionPage,Hollow,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:273,False,,False,False,False,False,,6,UNKNOWN,context/source/路径无可靠线索,,
+f357f3fc6744,tb::ui::DrawShapeToolCylinderShapeExtensionPage,Thickness: ,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:275,False,,False,False,False,False,,11,UNKNOWN,context/source/路径无可靠线索,,
+991c29c3c70f,tb::ui::DrawShapeToolExtensionPage,Apply,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtension.cpp:58,False,,False,False,False,False,apply,5,对话框和确认提示,通用按钮词,,
+a85df1399067,tb::ui::DrawShapeToolIcoSphereShapeExtensionPage,Accuracy: ,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:400,False,,False,False,False,False,,10,UNKNOWN,context/source/路径无可靠线索,,
+f67fca54606d,tb::ui::DrawShapeToolPage,Shape,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolPage.cpp:50,False,,False,False,False,False,,5,工具快捷操作,context/文件关键词:toolpage,,
+37f2e4132ca1,tb::ui::DrawShapeToolPage,Click to select a shape,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolPage.cpp:52,False,,False,False,False,False,select,23,工具快捷操作,context/文件关键词:toolpage,,
+87b9af9aecb5,tb::ui::DrawShapeToolStairsExtensionPage,Step Height: ,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:536,False,,False,False,False,False,,13,UNKNOWN,context/source/路径无可靠线索,,
+ef5832df3df5,tb::ui::DrawShapeToolStairsExtensionPage,Direction: ,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:541,False,,False,False,False,False,,11,UNKNOWN,context/source/路径无可靠线索,,
+8c885237c9a5,tb::ui::DrawShapeToolStairsExtensionPage,+X,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:543,False,,False,False,False,False,,2,UNKNOWN,context/source/路径无可靠线索,,
+6a31f7c41328,tb::ui::DrawShapeToolStairsExtensionPage,-X,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:543,False,,False,False,False,False,,2,UNKNOWN,context/source/路径无可靠线索,,
+c9a1463ced29,tb::ui::DrawShapeToolStairsExtensionPage,+Y,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:543,False,,False,False,False,False,,2,UNKNOWN,context/source/路径无可靠线索,,
+454bb82e1bb0,tb::ui::DrawShapeToolStairsExtensionPage,-Y,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:543,False,,False,False,False,False,,2,UNKNOWN,context/source/路径无可靠线索,,
+7450c031369f,tb::ui::DrawShapeToolUVSphereShapeExtensionPage,Number of Rings: ,,unfinished,,1,../../../lib/TbUiLib/src/DrawShapeToolExtensions.cpp:460,False,,False,False,False,False,,17,Texture 与材质管理,context/文件关键词:uv,,
+056ea50ac7b0,tb::ui::EntityBrowser,Name,,unfinished,,1,../../../lib/TbUiLib/src/EntityBrowser.cpp:82,False,,False,False,False,False,,4,Entity 与属性编辑,context/文件关键词:entity,,
+114499a4c233,tb::ui::EntityBrowser,Usage,,unfinished,,1,../../../lib/TbUiLib/src/EntityBrowser.cpp:84,False,,False,False,False,False,,5,Entity 与属性编辑,context/文件关键词:entity,,
+8190086a4478,tb::ui::EntityBrowser,Select ordering criterion,,unfinished,,1,../../../lib/TbUiLib/src/EntityBrowser.cpp:86,False,,False,False,False,False,select,25,Entity 与属性编辑,context/文件关键词:entity,,
+d40916dbab34,tb::ui::EntityBrowser,Group,,unfinished,,1,../../../lib/TbUiLib/src/EntityBrowser.cpp:94,False,,False,False,False,False,group,5,Entity 与属性编辑,context/文件关键词:entity,,
+cb6035056dbe,tb::ui::EntityBrowser,Group entity definitions by category,,unfinished,,1,../../../lib/TbUiLib/src/EntityBrowser.cpp:95,False,,False,False,False,False,"entity,group",36,Entity 与属性编辑,context/文件关键词:entity,,
+392ffc5a52e3,tb::ui::EntityBrowser,Used,,unfinished,,1,../../../lib/TbUiLib/src/EntityBrowser.cpp:101,False,,False,False,False,False,,4,Entity 与属性编辑,context/文件关键词:entity,,
+f14c7a646eb8,tb::ui::EntityBrowser,Only show entity definitions currently in use,,unfinished,,1,../../../lib/TbUiLib/src/EntityBrowser.cpp:102,False,,False,False,False,False,entity,45,Entity 与属性编辑,context/文件关键词:entity,,
+5d4bbd239095,tb::ui::EntityDefinitionCheckBoxList,Show all,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:212,False,,False,False,False,False,,8,Entity 与属性编辑,context/文件关键词:entity,,
+4d82a5386e21,tb::ui::EntityDefinitionCheckBoxList,Hide all,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:214,False,,False,False,False,False,,8,Entity 与属性编辑,context/文件关键词:entity,,
+648e0cab9fe0,tb::ui::EntityDefinitionFileChooser,Builtin,,unfinished,,1,../../../lib/TbUiLib/src/EntityDefinitionFileChooser.cpp:108,False,,False,False,False,False,,7,Entity 与属性编辑,context/文件关键词:entity,,
+f6e79dbd9003,tb::ui::EntityDefinitionFileChooser,External,,unfinished,,1,../../../lib/TbUiLib/src/EntityDefinitionFileChooser.cpp:121,False,,False,False,False,False,,8,Entity 与属性编辑,context/文件关键词:entity,,
+eed50cd9cf9b,tb::ui::EntityDefinitionFileChooser,use builtin,,unfinished,,2,../../../lib/TbUiLib/src/EntityDefinitionFileChooser.cpp:125; ../../../lib/TbUiLib/src/EntityDefinitionFileChooser.cpp:211,False,,False,False,False,False,,11,Entity 与属性编辑,context/文件关键词:entity,,
+ba41af0d5d27,tb::ui::EntityDefinitionFileChooser,Browse...,,unfinished,,1,../../../lib/TbUiLib/src/EntityDefinitionFileChooser.cpp:126,False,,False,False,False,False,,9,Entity 与属性编辑,context/文件关键词:entity,,
+3fc54b71d05a,tb::ui::EntityDefinitionFileChooser,Click to browse for an entity definition file,,unfinished,,1,../../../lib/TbUiLib/src/EntityDefinitionFileChooser.cpp:127,False,,False,False,False,False,entity,45,Entity 与属性编辑,context/文件关键词:entity,,
+b5b622567bfc,tb::ui::EntityDefinitionFileChooser,Reload,,unfinished,,1,../../../lib/TbUiLib/src/EntityDefinitionFileChooser.cpp:128,False,,False,False,False,False,,6,Entity 与属性编辑,context/文件关键词:entity,,
+b513233a5a26,tb::ui::EntityDefinitionFileChooser,Reload the currently loaded entity definition file,,unfinished,,1,../../../lib/TbUiLib/src/EntityDefinitionFileChooser.cpp:129,False,,False,False,False,False,entity,50,Entity 与属性编辑,context/文件关键词:entity,,
+4226d5a021ec,tb::ui::EntityDefinitionFileChooser,Load Entity Definition File,,unfinished,,1,../../../lib/TbUiLib/src/EntityDefinitionFileChooser.cpp:264,False,,False,False,False,False,entity,27,Entity 与属性编辑,context/文件关键词:entity,,
+d87b7257ee5e,tb::ui::EntityInspector,Entity Browser,,unfinished,,1,../../../lib/TbUiLib/src/EntityInspector.cpp:78,False,,False,False,False,False,entity,14,Entity 与属性编辑,context/文件关键词:entity,,
+8d1999c3f7d7,tb::ui::EntityInspector,Browser,,unfinished,,1,../../../lib/TbUiLib/src/EntityInspector.cpp:78,False,,False,False,False,False,,7,Entity 与属性编辑,context/文件关键词:entity,,
+ba8f7d3dde9d,tb::ui::EntityInspector,Settings,,unfinished,,1,../../../lib/TbUiLib/src/EntityInspector.cpp:78,False,,False,False,False,False,,8,Entity 与属性编辑,context/文件关键词:entity,,
+8c295b153d87,tb::ui::EntityPropertyEditor,"Property ""%1""",,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyEditor.cpp:176,False,%1,False,False,False,False,property,13,Entity 与属性编辑,context/文件关键词:entity,,
+daa1d8b70a3b,tb::ui::EntityPropertyEditor, (%1),,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyEditor.cpp:179,False,%1,False,False,False,False,,5,Entity 与属性编辑,context/文件关键词:entity,,
+083b96e8c5db,tb::ui::EntityPropertyEditor,"Class ""%1""",,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyEditor.cpp:216,False,%1,False,False,False,False,class,10,Entity 与属性编辑,context/文件关键词:entity,,
+724431ca0b33,tb::ui::EntityPropertyGrid,Add a new property (%1),,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyGrid.cpp:268,False,%1,False,False,False,False,property,23,Entity 与属性编辑,context/文件关键词:entity,,
+2e2f2de6ce00,tb::ui::EntityPropertyGrid,Add a new protected property,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyGrid.cpp:276,False,,False,False,False,False,property,28,Entity 与属性编辑,context/文件关键词:entity,,
+cd6d6e35d3a6,tb::ui::EntityPropertyGrid,Remove the selected properties (%1),,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyGrid.cpp:285,False,%1,False,False,False,False,,35,Entity 与属性编辑,context/文件关键词:entity,,
+20e0fc62c10f,tb::ui::EntityPropertyGrid,Set existing default properties,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyGrid.cpp:295,False,,False,False,False,False,,31,Entity 与属性编辑,context/文件关键词:entity,,
+3130ac1f40f2,tb::ui::EntityPropertyGrid,Set missing default properties,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyGrid.cpp:299,False,,False,False,False,False,,30,Entity 与属性编辑,context/文件关键词:entity,,
+4980043d4c56,tb::ui::EntityPropertyGrid,Set all default properties,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyGrid.cpp:302,False,,False,False,False,False,,26,Entity 与属性编辑,context/文件关键词:entity,,
+2738ff36463f,tb::ui::EntityPropertyGrid,Set default properties,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyGrid.cpp:307,False,,False,False,False,False,,22,Entity 与属性编辑,context/文件关键词:entity,,
+d2e517b7c025,tb::ui::EntityPropertyGrid,Show default properties,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyGrid.cpp:311,False,,False,False,False,False,,23,Entity 与属性编辑,context/文件关键词:entity,,
+91b13ee308b2,tb::ui::EntityPropertyModel,Key,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyModel.cpp:937,False,,False,False,False,False,,3,Entity 与属性编辑,context/文件关键词:entity,,
+9f2aa8deb984,tb::ui::EntityPropertyModel,Value,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyModel.cpp:941,False,,False,False,False,False,,5,Entity 与属性编辑,context/文件关键词:entity,,
+19fd3d964940,tb::ui::EntityPropertyModel,Protect properties from changes in linked groups,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyModel.cpp:956,False,,False,False,False,False,,48,Entity 与属性编辑,context/文件关键词:entity,,
+33beabc16ce0,tb::ui::EntityPropertyModel,Error,,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyModel.cpp:1131,False,,False,False,False,False,,5,Entity 与属性编辑,context/文件关键词:entity,,
+a4fafb4a3ccb,tb::ui::EntityPropertyModel,"A property with key '%1' already exists.
+
+ Do you wish to overwrite it?",,unfinished,,1,../../../lib/TbUiLib/src/EntityPropertyModel.cpp:1133,False,%1,False,False,False,False,property,71,Entity 与属性编辑,context/文件关键词:entity,,
+fccf3f4fa6ed,tb::ui::FaceAttribsEditor,"Align texture to face edges.
+Click again to cycle through edges.
+Hold %1 to cycle backwards.",,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:390,False,%1,False,False,False,False,"face,texture",92,Texture 与材质管理,context/文件关键词:faceattribs,,
+7bdd4fc95df0,tb::ui::FaceAttribsEditor,"Justify texture to top edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:397,False,%1,False,False,False,False,"edge,texture",94,Texture 与材质管理,context/文件关键词:faceattribs,,
+a572cb61cb77,tb::ui::FaceAttribsEditor,"Justify texture to bottom edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:404,False,%1,False,False,False,False,"edge,texture",97,Texture 与材质管理,context/文件关键词:faceattribs,,
+811db271b2f7,tb::ui::FaceAttribsEditor,"Justify texture to left edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:411,False,%1,False,False,False,False,"edge,texture",95,Texture 与材质管理,context/文件关键词:faceattribs,,
+447c60c44593,tb::ui::FaceAttribsEditor,"Justify texture to right edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:418,False,%1,False,False,False,False,"edge,texture",96,Texture 与材质管理,context/文件关键词:faceattribs,,
+71c817f3bb8d,tb::ui::FaceAttribsEditor,"Fit texture horizontally.
+Click again to cycle through options.
+Hold %1 to cycle backwards.
+Hold %2 to keep trim sheet subdivisions.",,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:426,False,"%1,%2",False,False,False,False,texture,132,Texture 与材质管理,context/文件关键词:faceattribs,,
+6895f8a6b855,tb::ui::FaceAttribsEditor,"Fit texture vertically.
+Click again to cycle through options.
+Hold %1 to cycle backwards.
+Hold %2 to keep trim sheet subdivisions.",,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:436,False,"%1,%2",False,False,False,False,texture,130,Texture 与材质管理,context/文件关键词:faceattribs,,
+2a0fe3ee1f50,tb::ui::FaceAttribsEditor,Fit texture to face.,,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:444,False,,False,False,False,False,"face,texture",20,Texture 与材质管理,context/文件关键词:faceattribs,,
+f5e69c20a4da,tb::ui::FaceAttribsEditor,Unset surface value,,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:524,False,,False,False,False,False,surface,19,Texture 与材质管理,context/文件关键词:faceattribs,,
+13d5d1a7c2b6,tb::ui::FaceAttribsEditor,Unset surface flags,,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:532,False,,False,False,False,False,surface,19,Texture 与材质管理,context/文件关键词:faceattribs,,
+7b81f624daca,tb::ui::FaceAttribsEditor,Unset content flags,,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:540,False,,False,False,False,False,,19,Texture 与材质管理,context/文件关键词:faceattribs,,
+0f84fed3e1fd,tb::ui::FaceAttribsEditor,Unset color,,unfinished,,1,../../../lib/TbUiLib/src/FaceAttribsEditor.cpp:548,False,,False,False,False,False,,11,Texture 与材质管理,context/文件关键词:faceattribs,,
+5bcdd005ee8d,tb::ui::FaceInspector,Material Browser,,unfinished,,1,../../../lib/TbUiLib/src/FaceInspector.cpp:121,False,,False,False,False,False,material,16,Brush、Face 和几何编辑,context/文件关键词:face,,
+5f746cd5bcd8,tb::ui::FaceInspector,Browser,,unfinished,,1,../../../lib/TbUiLib/src/FaceInspector.cpp:121,False,,False,False,False,False,,7,Brush、Face 和几何编辑,context/文件关键词:face,,
+905e8bd56a25,tb::ui::FaceInspector,Settings,,unfinished,,1,../../../lib/TbUiLib/src/FaceInspector.cpp:121,False,,False,False,False,False,,8,Brush、Face 和几何编辑,context/文件关键词:face,,
+1658ea2c5a07,tb::ui::FaceInspector,"To manage wad files, select the ""wad"" property of the worldspawn entity to reveal a wad file manager below the entity property table.",,unfinished,,1,../../../lib/TbUiLib/src/FaceInspector.cpp:146,False,,False,False,False,False,"entity,property,select",133,Brush、Face 和几何编辑,context/文件关键词:face,,
+0f49b45da2bc,tb::ui::FlagsEditor,All,,unfinished,,1,../../../lib/TbUiLib/src/FlagsEditor.cpp:44,False,,False,False,False,False,,3,Entity 与属性编辑,context/文件关键词:flagseditor,,
+e006595f9c04,tb::ui::FlagsEditor,None,,unfinished,,1,../../../lib/TbUiLib/src/FlagsEditor.cpp:46,False,,False,False,False,False,,4,Entity 与属性编辑,context/文件关键词:flagseditor,,
+5a27052291cb,tb::ui::GameDialog,Autodetect,,unfinished,,1,../../../lib/TbUiLib/src/GameDialog.cpp:273,False,,False,False,False,False,,10,对话框和确认提示,context/文件关键词:dialog,,
+2a294870bcbd,tb::ui::GameEngineProfileEditor,Choose a name,,unfinished,,1,../../../lib/TbUiLib/src/GameEngineProfileEditor.cpp:64,False,,False,False,False,False,,13,文件操作与项目管理,context/文件关键词:file,,
+f45f39eb562e,tb::ui::GameEngineProfileEditor,Click on the button to choose...,,unfinished,,1,../../../lib/TbUiLib/src/GameEngineProfileEditor.cpp:67,False,,False,False,False,False,,32,文件操作与项目管理,context/文件关键词:file,,
+5b8a5ea2d9b0,tb::ui::GameEngineProfileEditor,Choose Engine,,unfinished,,1,../../../lib/TbUiLib/src/GameEngineProfileEditor.cpp:171,False,,False,False,False,False,,13,文件操作与项目管理,context/文件关键词:file,,
+bcef31c9f327,tb::ui::GamePreferencePane,Click on the button to change...,,unfinished,,1,../../../lib/TbUiLib/src/GamesPreferencePane.cpp:199,False,,False,False,False,False,,32,Preferences 和设置页面,context/文件关键词:preference,,
+b0439025e63c,tb::ui::GamePreferencePane,Directory not found,,unfinished,,1,../../../lib/TbUiLib/src/GamesPreferencePane.cpp:218,False,,False,False,False,False,,19,Preferences 和设置页面,context/文件关键词:preference,,
+2e704dc3f151,tb::ui::GamePreferencePane,...,,unfinished,,1,../../../lib/TbUiLib/src/GamesPreferencePane.cpp:223,False,,False,False,False,False,,3,Preferences 和设置页面,context/文件关键词:preference,,
+f209bdd23758,tb::ui::GamePreferencePane,Configure engines...,,unfinished,,1,../../../lib/TbUiLib/src/GamesPreferencePane.cpp:230,False,,False,False,False,False,,20,Preferences 和设置页面,context/文件关键词:preference,,
+d6d2cf87d12d,tb::ui::GamePreferencePane,Game Path,,unfinished,,2,../../../lib/TbUiLib/src/GamesPreferencePane.cpp:249; ../../../lib/TbUiLib/src/GamesPreferencePane.cpp:305,False,,False,False,False,False,,9,Preferences 和设置页面,context/文件关键词:preference,,
+10870dd8f346,tb::ui::GamePreferencePane,Compilation Tools,,unfinished,,1,../../../lib/TbUiLib/src/GamesPreferencePane.cpp:252,False,,False,False,False,False,,17,Preferences 和设置页面,context/文件关键词:preference,,
+d659040d0fea,tb::ui::GamePreferencePane,%1 Path,,unfinished,,1,../../../lib/TbUiLib/src/GamesPreferencePane.cpp:280,False,%1,False,False,False,False,,7,Preferences 和设置页面,context/文件关键词:preference,,
+ecedd8be01d7,tb::ui::GamesPreferencePane,Select a game.,,unfinished,,1,../../../lib/TbUiLib/src/GamesPreferencePane.cpp:75,False,,False,False,False,False,select,14,Preferences 和设置页面,context/文件关键词:preference,,
+2f516986b846,tb::ui::GamesPreferencePane,Open custom game configurations folder,,unfinished,,1,../../../lib/TbUiLib/src/GamesPreferencePane.cpp:81,False,,False,False,False,False,,38,Preferences 和设置页面,context/文件关键词:preference,,
+3284b73f2af5,tb::ui::InfoPanel,Console,,unfinished,,1,../../../lib/TbUiLib/src/InfoPanel.cpp:44,False,,False,False,False,False,,7,UNKNOWN,context/source/路径无可靠线索,,
+59f001b0f202,tb::ui::InfoPanel,Issues,,unfinished,,1,../../../lib/TbUiLib/src/InfoPanel.cpp:45,False,,False,False,False,False,,6,UNKNOWN,context/source/路径无可靠线索,,
+5dd1606761e2,tb::ui::IssueBrowserModel,Line,,unfinished,,1,../../../lib/TbUiLib/src/IssueBrowserView.cpp:433,False,,False,False,False,False,,4,工具提示与状态信息,context/文件关键词:issuebrowser,,
+de9b0e37d2fc,tb::ui::IssueBrowserModel,Description,,unfinished,,1,../../../lib/TbUiLib/src/IssueBrowserView.cpp:437,False,,False,False,False,False,,11,工具提示与状态信息,context/文件关键词:issuebrowser,,
+e154b8834f0f,tb::ui::IssueBrowserView,Show,,unfinished,,1,../../../lib/TbUiLib/src/IssueBrowserView.cpp:291,False,,False,False,False,False,,4,工具提示与状态信息,context/文件关键词:issuebrowser,,
+79acdf1d2b24,tb::ui::IssueBrowserView,Hide,,unfinished,,1,../../../lib/TbUiLib/src/IssueBrowserView.cpp:292,False,,False,False,False,False,,4,工具提示与状态信息,context/文件关键词:issuebrowser,,
+9bb348095acf,tb::ui::IssueBrowserView,Fix,,unfinished,,1,../../../lib/TbUiLib/src/IssueBrowserView.cpp:298,False,,False,False,False,False,,3,工具提示与状态信息,context/文件关键词:issuebrowser,,
+007b6c11f393,tb::ui::KeyboardPreferencePane,Double-click an item to begin editing it. Click anywhere else to end editing.,,unfinished,,1,../../../lib/TbUiLib/src/KeyboardPreferencePane.cpp:85,False,,False,False,False,False,,77,Preferences 和设置页面,context/文件关键词:preference,,
+201b956bfa14,tb::ui::LayerEditor,Make active layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:82,False,,False,False,False,False,layer,17,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+56a451c92266,tb::ui::LayerEditor,Move selection to layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:84,False,,False,False,False,False,layer,23,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+7d5f8f2010a3,tb::ui::LayerEditor,Select all in layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:86,False,,False,False,False,False,"layer,select",19,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+925443d0d16c,tb::ui::LayerEditor,Show layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:89,False,,False,False,False,False,layer,10,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+32251fea67b0,tb::ui::LayerEditor,Hide layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:89,False,,False,False,False,False,layer,10,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+4202dab3ec26,tb::ui::LayerEditor,Isolate layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:93,False,,False,False,False,False,layer,13,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+488b63a6f676,tb::ui::LayerEditor,Unlock layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:95,False,,False,False,False,False,layer,12,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+f9ce64a4edd9,tb::ui::LayerEditor,Lock layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:95,False,,False,False,False,False,layer,10,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+ec9f0e1a579b,tb::ui::LayerEditor,Omit From Export,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:99,False,,False,False,False,False,,16,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+507f6d0a5604,tb::ui::LayerEditor,Show All Layers,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:104,False,,False,False,False,False,,15,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+b4947d3ffda4,tb::ui::LayerEditor,Hide All Layers,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:106,False,,False,False,False,False,,15,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+8367fb08c234,tb::ui::LayerEditor,Unlock All Layers,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:109,False,,False,False,False,False,,17,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+4e59faaa7534,tb::ui::LayerEditor,Lock All Layers,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:111,False,,False,False,False,False,,15,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+cd49f1872e8a,tb::ui::LayerEditor,Rename Layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:114,False,,False,False,False,False,layer,12,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+260abdba43dd,tb::ui::LayerEditor,Remove Layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:116,False,,False,False,False,False,layer,12,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+9dae6c4c2d2a,tb::ui::LayerEditor,Add a new layer from the current selection,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:442,False,,False,False,False,False,layer,42,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+f093b28686d1,tb::ui::LayerEditor,Remove the selected layer and move its objects to the default layer,,unfinished,,1,../../../lib/TbUiLib/src/LayerEditor.cpp:445,False,,False,False,False,False,layer,67,2D 视图与地图编辑操作,context/文件关键词:layereditor,,
+a123abc59b7d,tb::ui::LayerListBoxWidget,Toggle omit from export,,unfinished,,1,../../../lib/TbUiLib/src/LayerListBox.cpp:54,False,,False,False,False,False,,23,UNKNOWN,context/source/路径无可靠线索,,
+15167c275a60,tb::ui::LayerListBoxWidget,Toggle hidden state,,unfinished,,1,../../../lib/TbUiLib/src/LayerListBox.cpp:55,False,,False,False,False,False,,19,UNKNOWN,context/source/路径无可靠线索,,
+6f1d3d314a79,tb::ui::LayerListBoxWidget,Toggle locked state,,unfinished,,1,../../../lib/TbUiLib/src/LayerListBox.cpp:56,False,,False,False,False,False,,19,UNKNOWN,context/source/路径无可靠线索,,
+3d729335d8db,tb::ui::LayerListBoxWidget,%1,,unfinished,,1,../../../lib/TbUiLib/src/LayerListBox.cpp:118,False,%1,False,False,False,False,,2,UNKNOWN,context/source/路径无可靠线索,,
+ba2a642c4385,tb::ui::LayerListBoxWidget,%1 %2,,unfinished,,1,../../../lib/TbUiLib/src/LayerListBox.cpp:128,False,"%1,%2",False,False,False,False,,5,UNKNOWN,context/source/路径无可靠线索,,
+885d8cfa8775,tb::ui::MapInspector,Layers,,unfinished,,1,../../../lib/TbUiLib/src/MapInspector.cpp:118,False,,False,False,False,False,,6,UNKNOWN,context/source/路径无可靠线索,,
+b84646b49ee1,tb::ui::MapInspector,Map Properties,,unfinished,,1,../../../lib/TbUiLib/src/MapInspector.cpp:131,False,,False,False,False,False,map,14,UNKNOWN,context/source/路径无可靠线索,,
+d444d962eabc,tb::ui::MapInspector,Mods,,unfinished,,1,../../../lib/TbUiLib/src/MapInspector.cpp:148,False,,False,False,False,False,,4,UNKNOWN,context/source/路径无可靠线索,,
+dc0c78ff3bf3,tb::ui::MapPropertiesEditor,Soft bounds disabled,,unfinished,,1,../../../lib/TbUiLib/src/MapInspector.cpp:184,False,,False,False,False,False,,20,UNKNOWN,context/source/路径无可靠线索,,
+193a76d6ed60,tb::ui::MapPropertiesEditor,Use game default,,unfinished,,1,../../../lib/TbUiLib/src/MapInspector.cpp:189,False,,False,False,False,False,,16,UNKNOWN,context/source/路径无可靠线索,,
+1f2f3d97f9f1,tb::ui::MapPropertiesEditor,Min:,,unfinished,,1,../../../lib/TbUiLib/src/MapInspector.cpp:191,False,,False,False,False,False,,4,UNKNOWN,context/source/路径无可靠线索,,
+2bf685a24ded,tb::ui::MapPropertiesEditor,Max:,,unfinished,,1,../../../lib/TbUiLib/src/MapInspector.cpp:192,False,,False,False,False,False,,4,UNKNOWN,context/source/路径无可靠线索,,
+b5509a2fc2b0,tb::ui::MapPropertiesEditor,Use custom bounds,,unfinished,,1,../../../lib/TbUiLib/src/MapInspector.cpp:215,False,,False,False,False,False,,17,UNKNOWN,context/source/路径无可靠线索,,
+f2d3b8fa5bac,tb::ui::MapViewBase,Merge Groups into %1,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1243,False,%1,False,False,False,False,,20,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+f3f489b1e24e,tb::ui::MapViewBase,Merge Groups,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1244,False,,False,False,False,False,,12,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+c56758c3fbbe,tb::ui::MapViewBase,Add Objects to Group %1,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1254,False,%1,False,False,False,False,group,23,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+e8dd009a7a20,tb::ui::MapViewBase,Remove Objects from Group %1,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1261,False,%1,False,False,False,False,group,28,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+d12684310f6b,tb::ui::MapViewBase,Move to Layer,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1280,False,,False,False,False,False,layer,13,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+59c51910af66,tb::ui::MapViewBase,Make Layer %1 Active,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1298,False,%1,False,False,False,False,layer,20,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+9fe82117f7e4,tb::ui::MapViewBase,Make Layer Active,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1305,False,,False,False,False,False,layer,17,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+3e36e2fa4a2d,tb::ui::MapViewBase,Hide Layers,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1321,False,,False,False,False,False,,11,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+18ee9294a49f,tb::ui::MapViewBase,Isolate Layers,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1326,False,,False,False,False,False,,14,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+bf199919241c,tb::ui::MapViewBase,Select All in Layers,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1331,False,,False,False,False,False,select,20,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+8875b906f63f,tb::ui::MapViewBase,Make Structural,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1341,False,,False,False,False,False,,15,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+529ac73171b9,tb::ui::MapViewBase,Move Brushes to Entity %1,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1355,False,%1,False,False,False,False,entity,25,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+7d76987048b8,tb::ui::MapViewBase,Reveal %1 in Material Browser,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1371,False,%1,False,False,False,False,material,29,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+484bbe49d10c,tb::ui::MapViewBase,Copy Material Name,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1376,False,,False,False,False,False,material,18,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+1e9fa050833f,tb::ui::MapViewBase,Create Point Entity,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1453,False,,False,False,False,False,entity,19,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+87b74609d4b3,tb::ui::MapViewBase,Create Brush Entity,,unfinished,,1,../../../lib/TbUiLib/src/MapViewBase.cpp:1456,False,,False,False,False,False,"brush,entity",19,2D 视图与地图编辑操作,context/文件关键词:mapview,,
+a2cccbe5693c,tb::ui::MapWindow,%1[*] - TrenchBroom,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:310,False,%1,False,False,False,False,,19,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+bc7d52d641ed,tb::ui::MapWindow,Grid %1,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:511,False,%1,False,False,False,False,grid,7,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+1f10e1637f0e,tb::ui::MapWindow,Save map file,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:1031,False,,False,False,False,False,map,13,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+310842942b24,tb::ui::MapWindow,Export Map file,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:1089,False,,False,False,False,False,map,15,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+da3f43a1b117,tb::ui::MapWindow,"You can't overwrite the current document.
+Please choose a different file name to export to.",,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:1114,False,,False,False,False,False,,91,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+4ce43a7fcbf7,tb::ui::MapWindow,%1 has been modified. Do you want to save the changes?,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:1146,False,%1,False,False,False,False,,54,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+ab1631caefe9,tb::ui::MapWindow,Revert %1 to %2?,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:1171,False,"%1,%2",False,False,False,False,,16,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+12da40ec19de,tb::ui::MapWindow,This will discard all unsaved changes and reload the document from disk.,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:1175,False,,False,False,False,False,,72,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+6057af93dd91,tb::ui::MapWindow,Revert,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:1177,False,,False,False,False,False,,6,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+4bc45d0525e6,tb::ui::MapWindow,Load Point File,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:1194,False,,False,False,False,False,,15,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+11ba563b9312,tb::ui::MapWindow,Load Portal File,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:1237,False,,False,False,False,False,,16,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+e0c768738e77,tb::ui::MapWindow,Invalid coordinates: '%1',,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:1739,False,%1,False,False,False,False,,25,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+8961271a1feb,tb::ui::MapWindow,"Re-run ""%1""...",,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:2186,False,%1,False,False,False,False,,14,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+fad9ba607d16,tb::ui::MapWindow,Re-run compilation...,,unfinished,,1,../../../lib/TbUiLib/src/MapWindow.cpp:2188,False,,False,False,False,False,,21,2D 视图与地图编辑操作,context/文件关键词:mapwindow,,
+559b57c0f45f,tb::ui::MaterialBrowser,Name,,unfinished,,1,../../../lib/TbUiLib/src/MaterialBrowser.cpp:124,False,,False,False,False,False,,4,Texture 与材质管理,context/文件关键词:material,,
+5205d3b027da,tb::ui::MaterialBrowser,Usage,,unfinished,,1,../../../lib/TbUiLib/src/MaterialBrowser.cpp:125,False,,False,False,False,False,,5,Texture 与材质管理,context/文件关键词:material,,
+dfbc2faa1c3f,tb::ui::MaterialBrowser,Select ordering criterion,,unfinished,,1,../../../lib/TbUiLib/src/MaterialBrowser.cpp:127,False,,False,False,False,False,select,25,Texture 与材质管理,context/文件关键词:material,,
+12f336c02f21,tb::ui::MaterialBrowser,Group,,unfinished,,1,../../../lib/TbUiLib/src/MaterialBrowser.cpp:135,False,,False,False,False,False,group,5,Texture 与材质管理,context/文件关键词:material,,
+b07b0e99f547,tb::ui::MaterialBrowser,Group materials by material collection,,unfinished,,1,../../../lib/TbUiLib/src/MaterialBrowser.cpp:136,False,,False,False,False,False,"group,material",38,Texture 与材质管理,context/文件关键词:material,,
+97458de01ba1,tb::ui::MaterialBrowser,Used,,unfinished,,1,../../../lib/TbUiLib/src/MaterialBrowser.cpp:142,False,,False,False,False,False,,4,Texture 与材质管理,context/文件关键词:material,,
+45e2d0ab2ee7,tb::ui::MaterialBrowser,Only show materials currently in use,,unfinished,,1,../../../lib/TbUiLib/src/MaterialBrowser.cpp:143,False,,False,False,False,False,,36,Texture 与材质管理,context/文件关键词:material,,
+0e443a2e8605,tb::ui::MaterialBrowserView,Select Faces,,unfinished,,1,../../../lib/TbUiLib/src/MaterialBrowserView.cpp:476,False,,False,False,False,False,select,12,Texture 与材质管理,context/文件关键词:material,,
+1a9e515edb7c,tb::ui::MaterialBrowserView,Select Brushes,,unfinished,,1,../../../lib/TbUiLib/src/MaterialBrowserView.cpp:480,False,,False,False,False,False,select,14,Texture 与材质管理,context/文件关键词:material,,
+946ae7d9c0fd,tb::ui::MaterialBrowserView,Copy Name,,unfinished,,1,../../../lib/TbUiLib/src/MaterialBrowserView.cpp:486,False,,False,False,False,False,,9,Texture 与材质管理,context/文件关键词:material,,
+67535e1227ac,tb::ui::MaterialCollectionEditor,Enable the selected material collections,,unfinished,,1,../../../lib/TbUiLib/src/MaterialCollectionEditor.cpp:156,False,,False,False,False,False,material,40,Texture 与材质管理,context/文件关键词:material,,
+72d3c5da820b,tb::ui::MaterialCollectionEditor,Disable the selected material collections,,unfinished,,1,../../../lib/TbUiLib/src/MaterialCollectionEditor.cpp:158,False,,False,False,False,False,material,41,Texture 与材质管理,context/文件关键词:material,,
+c21dbc989450,tb::ui::MaterialCollectionEditor,Reload all enabled material collections,,unfinished,,1,../../../lib/TbUiLib/src/MaterialCollectionEditor.cpp:160,False,,False,False,False,False,material,39,Texture 与材质管理,context/文件关键词:material,,
+e376dbaad73e,tb::ui::ModEditor,Filter the list of available mods,,unfinished,,1,../../../lib/TbUiLib/src/ModEditor.cpp:111,False,,False,False,False,False,,33,UNKNOWN,context/source/路径无可靠线索,,
+72e6f68c2847,tb::ui::ModEditor,Enable the selected mods,,unfinished,,1,../../../lib/TbUiLib/src/ModEditor.cpp:131,False,,False,False,False,False,,24,UNKNOWN,context/source/路径无可靠线索,,
+27575040e9b1,tb::ui::ModEditor,Disable the selected mods,,unfinished,,1,../../../lib/TbUiLib/src/ModEditor.cpp:132,False,,False,False,False,False,,25,UNKNOWN,context/source/路径无可靠线索,,
+9d87ad496868,tb::ui::ModEditor,Move the selected mod up,,unfinished,,1,../../../lib/TbUiLib/src/ModEditor.cpp:133,False,,False,False,False,False,,24,UNKNOWN,context/source/路径无可靠线索,,
+4eacadbbc432,tb::ui::ModEditor,Move the selected mod down,,unfinished,,1,../../../lib/TbUiLib/src/ModEditor.cpp:134,False,,False,False,False,False,,26,UNKNOWN,context/source/路径无可靠线索,,
+7d5714d96855,tb::ui::MousePreferencePane,Speed,,unfinished,,1,../../../lib/TbUiLib/src/MousePreferencePane.cpp:98,False,,False,False,False,False,,5,Preferences 和设置页面,context/文件关键词:preference,,
+ee439e50a835,tb::ui::ObjExportDialog,Export Wavefront OBJ,,unfinished,,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:66,False,,False,False,False,False,,20,对话框和确认提示,context/文件关键词:dialog,,
+0011be948dd6,tb::ui::ObjExportDialog,Export Path,,unfinished,,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:74,False,,False,False,False,False,,11,对话框和确认提示,context/文件关键词:dialog,,
+2915922a2166,tb::ui::ObjExportDialog,Enter a path or click to browse,,unfinished,,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:81,False,,False,False,False,False,,31,对话框和确认提示,context/文件关键词:dialog,,
+0ee72f3c8645,tb::ui::ObjExportDialog,Texture Paths,,unfinished,,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:91,False,,False,False,False,False,texture,13,对话框和确认提示,context/文件关键词:dialog,,
+10b21b3fc756,tb::ui::ObjExportDialog,Controls how the texture paths in the generated material file are computed.,,unfinished,,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:92,False,,False,False,False,False,"material,texture",75,对话框和确认提示,context/文件关键词:dialog,,
+013b4028d792,tb::ui::ObjExportDialog,Relative to game path,,unfinished,,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:95,False,,False,False,False,False,,21,对话框和确认提示,context/文件关键词:dialog,,
+26fd3ad9ed81,tb::ui::ObjExportDialog,Relative to export path,,unfinished,,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:99,False,,False,False,False,False,,23,对话框和确认提示,context/文件关键词:dialog,,
+eed1f27c4948,tb::ui::ObjExportDialog,Export Wavefront OBJ file,,unfinished,,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:137,False,,False,False,False,False,,25,对话框和确认提示,context/文件关键词:dialog,,
+5844bf19784b,tb::ui::QPreferenceStoreDelegate,A file IO error occurred while attempting to read the preference file:,,unfinished,,1,../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:321,False,,False,False,False,False,,70,Preferences 和设置页面,context/文件关键词:preference,,
+43967fcac889,tb::ui::QPreferenceStoreDelegate,ensure the file is readable,,unfinished,,1,../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:322,False,,False,False,False,False,,27,Preferences 和设置页面,context/文件关键词:preference,,
+c4fc40ff34a0,tb::ui::QPreferenceStoreDelegate,Could not acquire lock file for reading the preference file:,,unfinished,,2,../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:327; ../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:368,False,,False,False,False,False,,60,Preferences 和设置页面,context/文件关键词:preference,,
+59d49a2c040b,tb::ui::QPreferenceStoreDelegate,check for stale lock files,,unfinished,,2,../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:328; ../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:369,False,,False,False,False,False,,26,Preferences 和设置页面,context/文件关键词:preference,,
+175ea026f76b,tb::ui::QPreferenceStoreDelegate,A JSON parsing error occurred while reading the preference file:,,unfinished,,1,../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:332,False,,False,False,False,False,,64,Preferences 和设置页面,context/文件关键词:preference,,
+94f3eda29bb4,tb::ui::QPreferenceStoreDelegate,"fix the JSON, or backup and delete the file",,unfinished,,1,../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:333,False,,False,False,False,False,,43,Preferences 和设置页面,context/文件关键词:preference,,
+5470c2b5fefb,tb::ui::QPreferenceStoreDelegate,A file IO error occurred while attempting to write the preference file:,,unfinished,,1,../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:362,False,,False,False,False,False,,71,Preferences 和设置页面,context/文件关键词:preference,,
+9a7a4a1ad38c,tb::ui::QPreferenceStoreDelegate,ensure the file is writable,,unfinished,,1,../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:363,False,,False,False,False,False,,27,Preferences 和设置页面,context/文件关键词:preference,,
+f32f2c044e66,tb::ui::QPreferenceStoreDelegate,"%1
+
+%2
+
+Please correct the problem (%3) and restart TrenchBroom.
+Further settings changes will not be saved this session.",,unfinished,,1,../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:379,False,"%1,%2,%3",False,False,False,False,,121,Preferences 和设置页面,context/文件关键词:preference,,
+cb90335cc9bd,tb::ui::QPreferenceStoreDelegate,TrenchBroom,,unfinished,,1,../../../lib/TbUiLib/src/QPreferenceStoreDelegate.cpp:389,False,,False,False,False,False,,11,Preferences 和设置页面,context/文件关键词:preference,,
+3f963f28a9c1,tb::ui::ReplaceMaterialDialog,Replace Succeeded,,unfinished,,1,../../../lib/TbUiLib/src/ReplaceMaterialDialog.cpp:103,False,,False,False,False,False,,17,Texture 与材质管理,context/文件关键词:material,,
+c2833e67f6aa,tb::ui::ReplaceMaterialDialog,Replace Failed,,unfinished,,1,../../../lib/TbUiLib/src/ReplaceMaterialDialog.cpp:109,False,,False,False,False,False,,14,Texture 与材质管理,context/文件关键词:material,,
+cd40bae9c637,tb::ui::ReplaceMaterialDialog,None of the selected faces has the selected material,,unfinished,,1,../../../lib/TbUiLib/src/ReplaceMaterialDialog.cpp:110,False,,False,False,False,False,material,52,Texture 与材质管理,context/文件关键词:material,,
+9cde42f3ffcc,tb::ui::ReplaceMaterialDialog,Replace Material,,unfinished,,1,../../../lib/TbUiLib/src/ReplaceMaterialDialog.cpp:135,False,,False,False,False,False,material,16,Texture 与材质管理,context/文件关键词:material,,
+a61cb4919cdf,tb::ui::ReplaceMaterialDialog,Find,,unfinished,,1,../../../lib/TbUiLib/src/ReplaceMaterialDialog.cpp:137,False,,False,False,False,False,,4,Texture 与材质管理,context/文件关键词:material,,
+0306ecc3299e,tb::ui::ReplaceMaterialDialog,Replace with,,unfinished,,1,../../../lib/TbUiLib/src/ReplaceMaterialDialog.cpp:152,False,,False,False,False,False,,12,Texture 与材质管理,context/文件关键词:material,,
+248b513961de,tb::ui::ReplaceMaterialDialog,Replace,,unfinished,,1,../../../lib/TbUiLib/src/ReplaceMaterialDialog.cpp:175,False,,False,False,False,False,,7,Texture 与材质管理,context/文件关键词:material,,
+a2aa33dd949e,tb::ui::ReplaceMaterialDialog,Perform replacement on all selected faces,,unfinished,,1,../../../lib/TbUiLib/src/ReplaceMaterialDialog.cpp:176,False,,False,False,False,False,,41,Texture 与材质管理,context/文件关键词:material,,
+e3ceb78ab228,tb::ui::ReplaceMaterialDialog,Close,,unfinished,,1,../../../lib/TbUiLib/src/ReplaceMaterialDialog.cpp:178,False,,False,False,False,False,,5,Texture 与材质管理,context/文件关键词:material,,
+4e1b84fad2cd,tb::ui::ReplaceMaterialDialog,Close this window,,unfinished,,1,../../../lib/TbUiLib/src/ReplaceMaterialDialog.cpp:179,False,,False,False,False,False,,17,Texture 与材质管理,context/文件关键词:material,,
+040e81d147fc,tb::ui::RotateToolPage,Center,,unfinished,,1,../../../lib/TbUiLib/src/RotateToolPage.cpp:112,False,,False,False,False,False,,6,工具快捷操作,context/文件关键词:toolpage,,
+f88442965a72,tb::ui::RotateToolPage,Reset,,unfinished,,1,../../../lib/TbUiLib/src/RotateToolPage.cpp:117,False,,False,False,False,False,,5,工具快捷操作,context/文件关键词:toolpage,,
+40837ec2f488,tb::ui::RotateToolPage,Reset the position of the rotate handle to the center of the current selection.,,unfinished,,1,../../../lib/TbUiLib/src/RotateToolPage.cpp:118,False,,False,False,False,False,,79,工具快捷操作,context/文件关键词:toolpage,,
+11c735423f48,tb::ui::RotateToolPage,Rotate objects,,unfinished,,1,../../../lib/TbUiLib/src/RotateToolPage.cpp:121,False,,False,False,False,False,,14,工具快捷操作,context/文件关键词:toolpage,,
+c1cad90b6cce,tb::ui::RotateToolPage,degs about,,unfinished,,1,../../../lib/TbUiLib/src/RotateToolPage.cpp:122,False,,False,False,False,False,,10,工具快捷操作,context/文件关键词:toolpage,,
+b8e587b2e7fd,tb::ui::RotateToolPage,axis,,unfinished,,1,../../../lib/TbUiLib/src/RotateToolPage.cpp:123,False,,False,False,False,False,,4,工具快捷操作,context/文件关键词:toolpage,,
+1b2df12b689f,tb::ui::RotateToolPage,Apply,,unfinished,,1,../../../lib/TbUiLib/src/RotateToolPage.cpp:134,False,,False,False,False,False,apply,5,工具快捷操作,context/文件关键词:toolpage,,
+cb788ecf9bb8,tb::ui::RotateToolPage,Update entity properties,,unfinished,,1,../../../lib/TbUiLib/src/RotateToolPage.cpp:137,False,,False,False,False,False,"entity,update",24,工具快捷操作,context/文件关键词:toolpage,,
+7d5ba0a87bd8,tb::ui::ScaleToolPage,Scale objects,,unfinished,,1,../../../lib/TbUiLib/src/ScaleToolPage.cpp:75,False,,False,False,False,False,scale,13,工具快捷操作,context/文件关键词:toolpage,,
+233adeacc59e,tb::ui::ScaleToolPage,to size,,unfinished,,1,../../../lib/TbUiLib/src/ScaleToolPage.cpp:87,False,,False,False,False,False,,7,工具快捷操作,context/文件关键词:toolpage,,
+3fb4c19197ae,tb::ui::ScaleToolPage,by factors,,unfinished,,1,../../../lib/TbUiLib/src/ScaleToolPage.cpp:88,False,,False,False,False,False,,10,工具快捷操作,context/文件关键词:toolpage,,
+446e5b654e6c,tb::ui::ScaleToolPage,Apply,,unfinished,,1,../../../lib/TbUiLib/src/ScaleToolPage.cpp:97,False,,False,False,False,False,apply,5,工具快捷操作,context/文件关键词:toolpage,,
+02d17cbb2125,tb::ui::SmartChoiceEditor,Select a choice option:,,unfinished,,1,../../../lib/TbUiLib/src/SmartChoiceEditor.cpp:72,False,,False,False,False,False,select,23,UNKNOWN,context/source/路径无可靠线索,,
+a1035843c539,tb::ui::SmartColorEditor,Color range,,unfinished,,1,../../../lib/TbUiLib/src/SmartColorEditor.cpp:147,False,,False,False,False,False,,11,UNKNOWN,context/source/路径无可靠线索,,
+f913b0be4ab3,tb::ui::SmartColorEditor,"Float [0,1]",,unfinished,,1,../../../lib/TbUiLib/src/SmartColorEditor.cpp:150,False,,False,False,False,False,,11,UNKNOWN,context/source/路径无可靠线索,,
+bc67d3f89f60,tb::ui::SmartColorEditor,"Byte [0,255]",,unfinished,,1,../../../lib/TbUiLib/src/SmartColorEditor.cpp:151,False,,False,False,False,False,,12,UNKNOWN,context/source/路径无可靠线索,,
+2f5a9b853d84,tb::ui::SmartWadEditor,Load Wad Files,,unfinished,,1,../../../lib/TbUiLib/src/SmartWadEditor.cpp:133,False,,False,False,False,False,,14,UNKNOWN,context/source/路径无可靠线索,,
+ba074aa4b76f,tb::ui::SmartWadEditor,Wad files (*.wad);;All files (*.*),,unfinished,,1,../../../lib/TbUiLib/src/SmartWadEditor.cpp:135,False,,False,False,False,True,,34,UNKNOWN,context/source/路径无可靠线索,,
+85a588d156ba,tb::ui::SpinControl,"Increment: %1 (%2: %3, %4: %5)",,unfinished,,1,../../../lib/TbUiLib/src/SpinControl.cpp:96,False,"%1,%2,%3,%4,%5",False,False,False,False,,30,UNKNOWN,context/source/路径无可靠线索,,
+40cb754b710d,tb::ui::SweepToolPage,Segments,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:52,False,,False,False,False,False,,8,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+f3175d2c4268,tb::ui::SweepToolPage,Number of brushes between the source faces and the destination cap,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:56,False,,False,False,False,False,,66,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+e0af5b496ad3,tb::ui::SweepToolPage,Path,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:58,False,,False,False,False,False,,4,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+8d4cdec96809,tb::ui::SweepToolPage,Arc,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:60,False,,False,False,False,False,,3,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+772dff95af23,tb::ui::SweepToolPage,Straight,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:61,False,,False,False,False,False,,8,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+12f90040695a,tb::ui::SweepToolPage,S-bend,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:62,False,,False,False,False,False,,6,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+aecd2f912b05,tb::ui::SweepToolPage,"Arc revolves around an axis, Straight is a linear loft, S-bend follows an S-curve; the destination cap ends up in the same place in each mode",,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:64,False,,False,False,False,False,,141,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+d033f947c3b5,tb::ui::SweepToolPage,Iterations,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:67,False,,False,False,False,False,,10,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+385278931e99,tb::ui::SweepToolPage,"Repeats the sweep, continuing from the previous destination cap",,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:71,False,,False,False,False,False,,63,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+99030e5ac7d5,tb::ui::SweepToolPage,Snap to integer grid,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:73,False,,False,False,False,False,"grid,snap",20,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+111d73f83d66,tb::ui::SweepToolPage,Round generated vertices to integer coordinates,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:74,False,,False,False,False,False,,47,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+aaf535ac55a9,tb::ui::SweepToolPage,Reset,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:76,False,,False,False,False,False,,5,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+ad3347056197,tb::ui::SweepToolPage,Move the destination cap back onto the selected faces,,unfinished,,1,../../../lib/TbUiLib/src/SweepToolPage.cpp:77,False,,False,False,False,False,,53,Brush、Face 和几何编辑,context/文件关键词:sweep,,
+b39d9d11fa10,tb::ui::UVEditor,Reset UV alignment,,unfinished,,1,../../../lib/TbUiLib/src/UVEditor.cpp:71,False,,False,False,False,False,alignment,18,Texture 与材质管理,context/文件关键词:uv,,
+d427f93b9f3c,tb::ui::UVEditor,Reset UV alignment to world aligned,,unfinished,,1,../../../lib/TbUiLib/src/UVEditor.cpp:73,False,,False,False,False,False,"alignment,world",35,Texture 与材质管理,context/文件关键词:uv,,
+95e9d10e2960,tb::ui::UVEditor,Flip U axis,,unfinished,,1,../../../lib/TbUiLib/src/UVEditor.cpp:74,False,,False,False,False,False,,11,Texture 与材质管理,context/文件关键词:uv,,
+0c444f770a37,tb::ui::UVEditor,Flip V axis,,unfinished,,1,../../../lib/TbUiLib/src/UVEditor.cpp:75,False,,False,False,False,False,,11,Texture 与材质管理,context/文件关键词:uv,,
+3369cb7e4f62,tb::ui::UVEditor,Rotate UV 90° counter-clockwise,,unfinished,,1,../../../lib/TbUiLib/src/UVEditor.cpp:77,False,,False,False,False,False,,31,Texture 与材质管理,context/文件关键词:uv,,
+48edfe725649,tb::ui::UVEditor,Rotate UV 90° clockwise,,unfinished,,1,../../../lib/TbUiLib/src/UVEditor.cpp:79,False,,False,False,False,False,,23,Texture 与材质管理,context/文件关键词:uv,,
+d5cfad3579b0,tb::ui::UpdatePreferencePane,"TrenchBroom can check for updates. If an update is available, you will be notified in the status bar and other places.
+To download and install an available update, click on the link labeled ""Update available"".",,unfinished,,1,../../../lib/TbUiLib/src/UpdatePreferencePane.cpp:62,False,,False,False,False,False,update,209,Preferences 和设置页面,context/文件关键词:preference,,
+4604c5a9e9cd,tb::ui::UpdatePreferencePane,"Pre-releases are versions of TrenchBroom that are not yet considered stable. 
+They may contain new features or bug fixes that are not yet part of a stable release.",,unfinished,,1,../../../lib/TbUiLib/src/UpdatePreferencePane.cpp:93,False,,False,False,False,False,,163,Preferences 和设置页面,context/文件关键词:preference,,
+47f3635df9cd,tb::ui::ViewEditor,Show entity classnames,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:346,False,,False,False,False,False,entity,22,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+903cd525ad1b,tb::ui::ViewEditor,Show group bounds and names,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:347,False,,False,False,False,False,group,27,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+77f7504bf6c8,tb::ui::ViewEditor,Show brush entity bounds,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:348,False,,False,False,False,False,"brush,entity",24,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+7a10beadf93b,tb::ui::ViewEditor,Show point entity bounds,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:349,False,,False,False,False,False,entity,24,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+152772094487,tb::ui::ViewEditor,Show point entities,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:351,False,,False,False,False,False,,19,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+17f808c64ddc,tb::ui::ViewEditor,Show point entity models,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:352,False,,False,False,False,False,entity,24,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+f42e2ff08440,tb::ui::ViewEditor,Show brushes,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:405,False,,False,False,False,False,,12,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+a8bb1a5e4619,tb::ui::ViewEditor,Show Patches,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:432,False,,False,False,False,False,,12,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+666ff717a547,tb::ui::ViewEditor,No tags found,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:465,False,,False,False,False,False,,13,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+108f3513690f,tb::ui::ViewEditor,Shade faces,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:525,False,,False,False,False,False,,11,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+a205d9434413,tb::ui::ViewEditor,Use fog,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:526,False,,False,False,False,False,,7,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+07fbbbdfed74,tb::ui::ViewEditor,Show edges,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:527,False,,False,False,False,False,,10,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+dd35b608a923,tb::ui::ViewEditor,Show soft bounds,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:549,False,,False,False,False,False,,16,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+111a3cf56883,tb::ui::ViewEditor,Restore Defaults,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:551,False,,False,False,False,False,,16,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+5f6fcfd0455d,tb::ui::ViewPopupEditor,View Options,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:812,False,,False,False,False,False,view,12,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+286abca50a02,tb::ui::ViewPopupEditor,Click to edit view settings,,unfinished,,1,../../../lib/TbUiLib/src/ViewEditor.cpp:813,False,,False,False,False,False,view,27,2D 视图与地图编辑操作,context/文件关键词:vieweditor,,
+d7870e4b6ced,tb::ui::ViewPreferencePane,Requires restart after changing,更改后需要重启,finished,,2,../../../lib/TbUiLib/src/ViewPreferencePane.cpp:121; ../../../lib/TbUiLib/src/ViewPreferencePane.cpp:135,True,,False,False,False,False,,31,Preferences 和设置页面,context/文件关键词:preference,,
+186e9a86f2f8,tb::ui::ViewPreferencePane,Language,语言,finished,,2,../../../lib/TbUiLib/src/ViewPreferencePane.cpp:217; ../../../lib/TbUiLib/src/ViewPreferencePane.cpp:491,True,,False,False,False,False,,8,Preferences 和设置页面,context/文件关键词:preference,,
+a13d8bd0a6ab,tb::ui::ViewPreferencePane,Language changes take effect after restarting TrenchBroom.,语言更改将在重启 TrenchBroom 后生效。,finished,,1,../../../lib/TbUiLib/src/ViewPreferencePane.cpp:492,True,,False,False,False,False,,58,Preferences 和设置页面,context/文件关键词:preference,,
+3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,,unfinished,,1,../../../lib/TbUiLib/src/WelcomeWindow.cpp:140,False,,False,False,False,False,map,8,主菜单和主窗口,context/文件关键词:welcome,,
+4ee40ff5d3cf,upd::CheckingForUpdatesWidget,Checking for updates...,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:43,False,,False,False,False,False,,23,游戏配置与资源管理,context/文件关键词:upd::,,
+97027a1acc44,upd::CheckingForUpdatesWidget,Checking for updates. Please wait...,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:49,False,,False,False,False,False,,36,游戏配置与资源管理,context/文件关键词:upd::,,
+8f26f0cef5ae,upd::CheckingForUpdatesWidget,Cancel,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:60,False,,False,False,False,False,,6,游戏配置与资源管理,context/文件关键词:upd::,,
+2bd8cecb5e90,upd::DownloadingUpdateWidget,Downloading update...,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:166,False,,False,False,False,False,update,21,游戏配置与资源管理,context/文件关键词:upd::,,
+1254ff36cc10,upd::DownloadingUpdateWidget,The update is being downloaded. Please wait...,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:172,False,,False,False,False,False,update,46,游戏配置与资源管理,context/文件关键词:upd::,,
+6c43d7f044a4,upd::DownloadingUpdateWidget,Cancel,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:196,False,,False,False,False,False,,6,游戏配置与资源管理,context/文件关键词:upd::,,
+ea9e3d27714b,upd::PreparingUpdateWidget,Preparing update...,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:223,False,,False,False,False,False,update,19,游戏配置与资源管理,context/文件关键词:upd::,,
+0dffede0185f,upd::PreparingUpdateWidget,The update is being prepared. Please wait...,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:229,False,,False,False,False,False,update,44,游戏配置与资源管理,context/文件关键词:upd::,,
+88d42e409692,upd::QtHttpDownload,Could not open file %1,,unfinished,,1,../../../lib/UpdateLib/src/QtHttpClient.cpp:116,False,%1,False,False,False,False,,22,游戏配置与资源管理,context/文件关键词:upd::,,
+c4604939ca8b,upd::UpToDateWidget,No update available.,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:132,False,,False,False,False,False,update,20,游戏配置与资源管理,context/文件关键词:upd::,,
+eff40eecb7fc,upd::UpToDateWidget,You are using the latest version %1. There is no update available.,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:139,False,%1,False,False,False,False,update,66,游戏配置与资源管理,context/文件关键词:upd::,,
+52e56d659dc4,upd::UpToDateWidget,Close,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:144,False,,False,False,False,False,,5,游戏配置与资源管理,context/文件关键词:upd::,,
+3e2c1efdee67,upd::UpdateAvailableWidget,An update is available!,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:84,False,,False,False,False,False,update,23,游戏配置与资源管理,context/文件关键词:upd::,,
+01dd1762d214,upd::UpdateAvailableWidget,Version %1 is available to download. You are currently using version %2.,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:91,False,"%1,%2",False,False,False,False,,72,游戏配置与资源管理,context/文件关键词:upd::,,
+400984d3e69b,upd::UpdateAvailableWidget,"Start the update by clicking the button below. The update file will be downloaded and prepared. After that, you will have the option to install the update immediately or later when the application quits",,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:96,False,,False,False,False,False,update,202,游戏配置与资源管理,context/文件关键词:upd::,,
+fbc7d6f0ec66,upd::UpdateAvailableWidget,"<a href=""%3"">Click here for the release notes.</a>",,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:100,False,%3,False,False,False,False,,50,游戏配置与资源管理,context/文件关键词:upd::,,
+a363344dda5e,upd::UpdateAvailableWidget,Download and install,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:106,False,,False,False,False,False,,20,游戏配置与资源管理,context/文件关键词:upd::,,
+f867c19adb04,upd::UpdateAvailableWidget,Close,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:107,False,,False,False,False,False,,5,游戏配置与资源管理,context/文件关键词:upd::,,
+d64669b9c00b,upd::UpdateController,Installing update,,unfinished,,1,../../../lib/UpdateLib/src/UpdateController.cpp:234,False,,False,False,False,False,update,17,游戏配置与资源管理,context/文件关键词:upd::,,
+8376f481d463,upd::UpdateController,Cleaning work directory %1,,unfinished,,1,../../../lib/UpdateLib/src/UpdateController.cpp:255,False,%1,False,False,False,False,,26,游戏配置与资源管理,context/文件关键词:upd::,,
+fc5c12890ec4,upd::UpdateController,Failed to clean work directory,,unfinished,,1,../../../lib/UpdateLib/src/UpdateController.cpp:258,False,,False,False,False,False,,30,游戏配置与资源管理,context/文件关键词:upd::,,
+77b0d97202c6,upd::UpdateController,Downloading update from %1,,unfinished,,1,../../../lib/UpdateLib/src/UpdateController.cpp:263,False,%1,False,False,False,False,update,26,游戏配置与资源管理,context/文件关键词:upd::,,
+9aed1a80471e,upd::UpdateController,Removing downloaded update file %1,,unfinished,,1,../../../lib/UpdateLib/src/UpdateController.cpp:279,False,%1,False,False,False,False,update,34,游戏配置与资源管理,context/文件关键词:upd::,,
+427cd7cd1c5d,upd::UpdateController,Preparing update file %1,,unfinished,,1,../../../lib/UpdateLib/src/UpdateController.cpp:285,False,%1,False,False,False,False,update,24,游戏配置与资源管理,context/文件关键词:upd::,,
+a73396be7674,upd::UpdateController,State changed: %1,,unfinished,,1,../../../lib/UpdateLib/src/UpdateController.cpp:349,False,%1,False,False,False,False,,17,游戏配置与资源管理,context/文件关键词:upd::,,
+61f03c5aa703,upd::UpdateDialog,Update,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:374,False,,False,False,False,False,update,6,游戏配置与资源管理,context/文件关键词:upd::,,
+19989acadc8c,upd::UpdateErrorWidget,An error occurred!,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:337,False,,False,False,False,False,,18,游戏配置与资源管理,context/文件关键词:upd::,,
+33d32bb2e656,upd::UpdateErrorWidget,Retry,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:347,False,,False,False,False,False,,5,游戏配置与资源管理,context/文件关键词:upd::,,
+b0deb3d45c5f,upd::UpdateErrorWidget,Close,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:348,False,,False,False,False,False,,5,游戏配置与资源管理,context/文件关键词:upd::,,
+8b4dac4efaf2,upd::UpdateIndicator,"<a href=""upd://checkForUpdates"">Check for updates</a>",,unfinished,,1,../../../lib/UpdateLib/src/UpdateIndicator.cpp:72,False,,False,False,False,False,,53,游戏配置与资源管理,context/文件关键词:upd::,,
+fd58dbae7204,upd::UpdateIndicator,Checking for updates...,,unfinished,,1,../../../lib/UpdateLib/src/UpdateIndicator.cpp:76,False,,False,False,False,False,,23,游戏配置与资源管理,context/文件关键词:upd::,,
+1f62b4738ac2,upd::UpdateIndicator,"<a href=""upd://showDialog"">Update available</a>",,unfinished,,1,../../../lib/UpdateLib/src/UpdateIndicator.cpp:80,False,,False,False,False,False,update,47,游戏配置与资源管理,context/文件关键词:upd::,,
+efba76631088,upd::UpdateIndicator,Up to date,,unfinished,,1,../../../lib/UpdateLib/src/UpdateIndicator.cpp:84,False,,False,False,False,False,,10,游戏配置与资源管理,context/文件关键词:upd::,,
+58c65242e82d,upd::UpdateIndicator,Downloading update...,,unfinished,,1,../../../lib/UpdateLib/src/UpdateIndicator.cpp:88,False,,False,False,False,False,update,21,游戏配置与资源管理,context/文件关键词:upd::,,
+813b13844785,upd::UpdateIndicator,Preparing update...,,unfinished,,1,../../../lib/UpdateLib/src/UpdateIndicator.cpp:92,False,,False,False,False,False,update,19,游戏配置与资源管理,context/文件关键词:upd::,,
+2cb5d69016a9,upd::UpdateIndicator,Update pending,,unfinished,,1,../../../lib/UpdateLib/src/UpdateIndicator.cpp:96,False,,False,False,False,False,update,14,游戏配置与资源管理,context/文件关键词:upd::,,
+6ee798891346,upd::UpdateIndicator,"<a href=""upd://showDialog"">Update error</a>",,unfinished,,1,../../../lib/UpdateLib/src/UpdateIndicator.cpp:100,False,,False,False,False,False,update,43,游戏配置与资源管理,context/文件关键词:upd::,,
+1c7a1cff29d2,upd::UpdateIndicator,Updates disabled,,unfinished,,1,../../../lib/UpdateLib/src/UpdateIndicator.cpp:104,False,,False,False,False,False,,16,游戏配置与资源管理,context/文件关键词:upd::,,
+74c4b6189f3e,upd::UpdatePendingWidget,Update ready to install!,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:254,False,,False,False,False,False,update,24,游戏配置与资源管理,context/文件关键词:upd::,,
+80ed2dffb262,upd::UpdatePendingWidget,"The update is now ready to be installed. Alternatively, you can install it later when the application quits.",,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:260,False,,False,False,False,False,update,108,游戏配置与资源管理,context/文件关键词:upd::,,
+75f4e69bbc1b,upd::UpdatePendingWidget,Install now,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:267,False,,False,False,False,False,,11,游戏配置与资源管理,context/文件关键词:upd::,,
+73b77974ef73,upd::UpdatePendingWidget,Install later,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:268,False,,False,False,False,False,,13,游戏配置与资源管理,context/文件关键词:upd::,,
+3ebd9ca57bdd,upd::UpdatePendingWidget,Attention!,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:310,False,,False,False,False,False,,10,游戏配置与资源管理,context/文件关键词:upd::,,
+8cc247a63016,upd::UpdatePendingWidget,The updater requires additional privileges to install the update. Please grant these privileges when prompted as the update is installed.,,unfinished,,1,../../../lib/UpdateLib/src/UpdateDialog.cpp:315,False,,False,False,False,False,update,137,游戏配置与资源管理,context/文件关键词:upd::,,
