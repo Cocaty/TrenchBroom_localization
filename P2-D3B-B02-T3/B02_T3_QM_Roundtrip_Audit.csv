@@ -1,0 +1,4 @@
+﻿item,context,source,expected,actual,result
+B02新增,tb::ui::WelcomeWindow,Open Map,打开地图,打开地图,PASS
+B01历史21条,-,-,21条全保留,回转中全部匹配,PASS
+合计,-,-,22,22,PASS

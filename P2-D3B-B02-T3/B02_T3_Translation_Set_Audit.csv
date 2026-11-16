@@ -1,0 +1,23 @@
+﻿Context,Source,Translation,Message_ID,Batch,Is_B01,Is_B02,Verification,Roundtrip_Translation
+QObject,Close Document,关闭文档,aa1646cea36e,B01,YES,NO,PASS,关闭文档
+QObject,Discards any unsaved changes and reloads the map file.,放弃所有未保存的更改，并重新加载地图文件。,d82719c1af53,B01,YES,NO,PASS,放弃所有未保存的更改，并重新加载地图文件。
+QObject,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,8626a59ed64f,B01,YES,NO,PASS,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。
+QObject,Load Point File...,加载点轨迹文件...,c87e891f3904,B01,YES,NO,PASS,加载点轨迹文件...
+QObject,Load Portal File...,加载 BSP 门户文件...,c18158cfc475,B01,YES,NO,PASS,加载 BSP 门户文件...
+QObject,Map...,地图文件...,88c5a8202a53,B01,YES,NO,PASS,地图文件...
+QObject,New Document,新建文档,bcf80284ebf3,B01,YES,NO,PASS,新建文档
+QObject,Open Document...,打开文档...,0843baa95d90,B01,YES,NO,PASS,打开文档...
+QObject,Reload Entity Definitions,重新加载实体定义,1e1111c64470,B01,YES,NO,PASS,重新加载实体定义
+QObject,Reload Material Collections,重新加载材质集合,3dab7bfca406,B01,YES,NO,PASS,重新加载材质集合
+QObject,Reload Point File,重新加载点轨迹文件,fe79d727b01f,B01,YES,NO,PASS,重新加载点轨迹文件
+QObject,Reload Portal File,重新加载 BSP 门户文件,8c049a323d0f,B01,YES,NO,PASS,重新加载 BSP 门户文件
+QObject,Revert Document,还原文档,e6acb688ec6e,B01,YES,NO,PASS,还原文档
+QObject,Save Document,保存文档,08c86abe1b99,B01,YES,NO,PASS,保存文档
+QObject,Save Document as...,文档另存为...,c13f05ee9b4e,B01,YES,NO,PASS,文档另存为...
+QObject,Unload Point File,卸载点轨迹文件,d4365ad643a4,B01,YES,NO,PASS,卸载点轨迹文件
+QObject,Unload Portal File,卸载 BSP 门户文件,92939021173f,B01,YES,NO,PASS,卸载 BSP 门户文件
+QObject,Wavefront OBJ...,Wavefront OBJ...,e7c5ab696447,B01,YES,NO,PASS,Wavefront OBJ...
+tb::ui::ViewPreferencePane,Language,语言,186e9a86f2f8,B01,YES,NO,PASS,语言
+tb::ui::ViewPreferencePane,Language changes take effect after restarting TrenchBroom.,语言更改将在重启 TrenchBroom 后生效。,a13d8bd0a6ab,B01,YES,NO,PASS,语言更改将在重启 TrenchBroom 后生效。
+tb::ui::ViewPreferencePane,Requires restart after changing,更改后需要重启,d7870e4b6ced,B01,YES,NO,PASS,更改后需要重启
+tb::ui::WelcomeWindow,Open Map,打开地图,3e1b6ba4c40e,B02,NO,YES,PASS,打开地图

@@ -1,0 +1,12 @@
+== C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B02-T3/Work/TrenchBroom_zh_CN.qm
+文件大小: 1871
+前 20 字节: 3c b8 64 18 ca ef 9c 95 cd 21 1c bf 60 a1 bd dd a7 00 00 00
+标准魔数(16B): 3c b8 64 18 ca ef 9c 95 cd 21 1c bf 60 a1 bd dd
+前 16 字节 == 标准魔数: True
+第 17 字节: 0xa7（块标签；魔数仅前 16 字节，不计入）
+  块 @偏移=16: tag=0xa7 (Language) len=5 header=5B payload=[21,26)
+  块 @偏移=26: tag=0x42 (Hashes) len=176 header=5B payload=[31,207)
+  块 @偏移=207: tag=0x69 (Messages) len=1659 header=5B payload=[212,1871)
+块遍历: ✅ 完整消耗至 EOF（结束偏移 1871/1871）
+提示信息（非语义验证）: Language='zh_CN'; Messages 中译文 UTF-16 字节命中=是
+块结构检查: 通过 | 完整 QM 语义验证: 未执行（本脚本不提供）

@@ -1,0 +1,10 @@
+﻿item,result,verdict
+文件大小,1871 B,PASS
+16字节魔数,3cb86418caef9c95cd211cbf60a1bddd,PASS
+第17字节,0xA7 = Language 块标签（非魔数）,PASS
+块1,"0xA7 Language len=5 payload=[21,26)",PASS
+块2,"0x42 Hashes len=176 payload=[31,207)",PASS
+块3,"0x69 Messages len=1659 payload=[212,1871)",PASS
+EOF 边界,1871/1871 完整消耗,PASS
+截断/越界/额外字节,无,PASS
+检查能力边界,仅顶层块结构；未做完整 QM 语义验证,LIMITATION

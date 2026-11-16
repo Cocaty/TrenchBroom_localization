@@ -1,0 +1,10 @@
+﻿item,expected,actual,result
+正式TS SHA-256,901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773,901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773,PASS
+正式TS大小,131100,131100,PASS
+contexts,85,85,PASS
+messages,562,562,PASS
+finished,22,22,PASS
+unfinished,540,540,PASS
+obsolete,0,0,PASS
+numerusform,0,0,PASS
+language,zh_CN,zh_CN,PASS

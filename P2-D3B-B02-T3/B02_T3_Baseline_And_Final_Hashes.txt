@@ -1,0 +1,14 @@
+# B02-T3 开始与结束快照
+
+| 项 | 开始 | 结束 |
+|---|---|---|
+| Git 分支 / HEAD / dirty | feature/zh-CN-v2026.2 / 4c756be1… / 7 | 同 |
+| 正式 TS 大小 / SHA / mtime | 131100 / 901554891… / 23:36:59 | 同 |
+| lrelease.exe SHA | c59d5a5f9cf51cef2fbee80bcd22cf53b7453943bcf520b39d2e768fd639d8ee | 同 |
+| lconvert.exe SHA | 707af8e9963027ef2cff9ac03ab538d46c22cb78d9486c8bf1d66fb814d2aae8 | 同 |
+| 构建目录 QM SHA | a2f5cc1f892cfd8a52e6accc619b5ba79fcaf8a9524331013bd615a33d3d2f66 | 同 |
+| 构建目录 EXE SHA | 9a1a84991c61d1d108477ab7f193c72d6336e1ed6c197d510339043d8b2c46d5 | 同 |
+| 本轮 QM（Work） | — | 1871 B / f480ae44bb495cb84d516d4b1008abc07c71f15587d02e64870797c4bf1745b5 |
+| 回转 TS（Work） | — | 3338 B / 5f0c2bb2efd694800c1f480ebeba74651db6e5708e9dca7bbc8110c4c97447bd |
+
+保护对象 16 项开始/结束哈希与大小全部一致（match_start=YES 16/16）。
