@@ -1,7 +1,0 @@
- M CMakeLists.txt
- M app/TrenchBroom/CMakeLists.txt
- M app/TrenchBroom/src/Main.cpp
- M lib/TbPreferencesLib/include/Preferences.h
- M lib/TbUiLib/include/ui/ViewPreferencePane.h
- M lib/TbUiLib/src/ViewPreferencePane.cpp
-?? app/TrenchBroom/translations/
