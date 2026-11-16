@@ -1,0 +1,18 @@
+﻿English,Recommended Chinese,Alternative Chinese,Context,Source Evidence,Decision,Reason
+Document,文档,地图文档,File 菜单文档生命周期动作（New/Open/Save/Save as/Revert/Close）,ActionManager.cpp createFileMenu Menu/File/*；handler newDocument/openDocument/saveDocument/revertDocument/closeDocument,推荐,同一术语在 6 条菜单项中统一
+Map...（导出格式）,地图文件...,Map 文件...,Menu/File/Export/Map... 导出选项,ActionManager.cpp:871-872 exportDocumentAsMap(); tooltip 指向 .map,待用户确认,位于 Export 子菜单，若译“地图”过泛，可选保留 Map 字样
+Wavefront OBJ,Wavefront OBJ,Wavefront OBJ 文件,Menu/File/Export/Wavefront OBJ... 导出格式,"ActionManager.cpp:863-864；ObjExportDialog.cpp:66 tr(""Export Wavefront OBJ"")",保留原文,技术格式/品牌名，不得译作对象或实体
+.map,.map,不适用,地图文件格式扩展名,ActionManager.cpp:878 tooltip：Exports ... to a .map file,保留原文,文件扩展名必须逐字保留
+Omit From Export,Omit From Export,不导出（需与图层 UI 译法同步）,Layer 属性/图层上下文菜单,"LayerEditor.cpp:99 tr(""Omit From Export""); LayerListBox.cpp:54 tr(""Toggle omit from export""); Layer.h:39 m_omitFromExport",待用户确认,当前 UI 仍为英文；若翻译 UI 标签需与本 tooltip 同步
+Point File,点位文件,泄漏点文件 / 点轨迹文件,*.pts *.lin 加载的点序列，用于 2D/3D 视图定位,MapWindow.cpp:1196 过滤器；PointTrace.h:16-40；MapView2D.cpp:282/MapView3D.cpp:460 定位 currentPoint/direction,待用户确认,“点位”中性；“泄漏点”更贴近调试用途但源码未出现 leak 文案
+Reload Point File,重新加载点位文件,重载点位文件,File 菜单关联资源动作,ActionManager.cpp:894-899 reloadPointFile/canReloadPointFile,待用户确认,动词组与 Load/Unload 一致
+Unload Point File,卸载点位文件,取消加载点位文件,File 菜单关联资源动作,ActionManager.cpp:904-907 unloadPointFile,待用户确认,“卸载”对应“加载”，需用户确认习惯
+Portal File,门户文件,BSP 门户文件 / 可见性门户文件,*.prt（PRT1）门户多边形数据，用于 BSP 可见性,PortalFile.cpp:43-55 PRT1；MapWindow.cpp:1237 过滤器 *.prt；MapDocument.cpp:326 canLoadPortalFile,待用户确认,不得理解为网页门户；备选更明确但菜单更长
+Reload Portal File,重新加载门户文件,重载门户文件,File 菜单关联资源动作,ActionManager.cpp:923-928 reloadPortalFile/canReloadPortalFile,待用户确认,与 Portal File 术语联动
+Unload Portal File,卸载门户文件,取消加载门户文件,File 菜单关联资源动作,ActionManager.cpp:933-938 unloadPortalFile,待用户确认,与 Portal File 术语联动
+Material Collections,材质集合,材质集,File 菜单资源重载动作,ActionManager.cpp:944 reloadMaterialCollections()（动作语句）,推荐,集合对应 collections，非单个材质
+Entity Definitions,实体定义,不适用,File 菜单资源重载动作,ActionManager.cpp:954 reloadEntityDefinitions()（动作语句）,推荐,与 Entity 术语表一致
+Revert Document,还原文档,恢复文档,Menu/File/Revert,ActionManager.cpp:965-971 revertDocument()；同语句 tooltip 说明丢弃更改并重载地图,推荐,不得弱化为仅刷新
+map file（tooltip）,地图文件,不适用,Revert 说明中的磁盘地图文件,"ActionManager.cpp:971 ""reloads the map file""",推荐,与 Document 译法分工：文档为 UI 对象，地图文件为磁盘文件
+Export,导出,不适用,File/Export 子菜单,ActionManager.cpp exportMenu.addItem(...),推荐,不得与“另存为”混用
+Load / Reload / Unload,加载 / 重新加载 / 卸载,载入 / 重载 / 取消加载,关联资源三类动作,ActionManager.cpp:886-938 load/reload/unload Point/Portal File,待用户确认,动词组须成对一致
