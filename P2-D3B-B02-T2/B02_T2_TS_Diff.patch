@@ -1,0 +1,9 @@
+--- TS_before_T2.ts
++++ TrenchBroom_zh_CN.ts
+@@ -2893,5 +2893,5 @@
+         <location filename="../../../lib/TbUiLib/src/WelcomeWindow.cpp" line="140"/>
+         <source>Open Map</source>
+-        <translation type="unfinished"></translation>
++        <translation>打开地图</translation>
+     </message>
+ </context>

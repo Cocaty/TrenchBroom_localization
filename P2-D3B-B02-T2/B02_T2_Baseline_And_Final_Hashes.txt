@@ -1,0 +1,13 @@
+# B02-T2 前后哈希记录
+
+| 对象 | 开始 | 结束 |
+|---|---|---|
+| Git HEAD | 4c756be1a54a28d921d18c77716a5f170bdc31d0 | 同 |
+| 分支 / dirty | feature/zh-CN-v2026.2 / 7 | 同 |
+| TS SHA-256 | 6582a38280e7ac1c45bc5dcf12575bd4235e0502f5543e27b3daed2c5d2c72d8 | 901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773 |
+| TS 大小 | 131,106 B | 131,108 B |
+| TS 统计 | 85 context / 562 message / 21 finished / 541 unfinished | 85 / 562 / 22 / 540 |
+| 目标消息 | unfinished，无译文 | finished，译文「打开地图」 |
+| 其他消息 | — | 561/561 逐字段未变 |
+
+备份 Evidence/TS_before_T2.ts SHA = 6582a382…；修改后副本 Evidence/TS_after_T2.ts SHA = 901554891…（与当前 TS 一致）。patch 9 行；逐消息差异 CSV 562 行，仅目标行 changed=YES。

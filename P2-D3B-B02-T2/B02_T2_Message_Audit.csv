@@ -1,0 +1,2 @@
+﻿batch,message_id,context,source,locations_before,locations_after,before_translation,before_status,after_translation,after_status,result
+RA-B02,3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,../../../lib/TbUiLib/src/WelcomeWindow.cpp:140,../../../lib/TbUiLib/src/WelcomeWindow.cpp:140,,unfinished,打开地图,finished,PASS

@@ -1,0 +1,636 @@
+﻿message_id,context,source,before_translation,before_status,after_translation,after_status,changed,expected_change
+84547211a873,QLineEdit,Search...,,unfinished,,unfinished,NO,NO
+aa399258e3fc,QObject, (%1),,unfinished,,unfinished,NO,NO
+86f85720c232,QObject,Toggle %1 visible,,unfinished,,unfinished,NO,NO
+505f8d41c07c,QObject,Turn Selection into %1,,unfinished,,unfinished,NO,NO
+82918df51cc7,QObject,Turn Selection into non-%1,,unfinished,,unfinished,NO,NO
+4e61c6d1cd3c,QObject,Create %1,,unfinished,,unfinished,NO,NO
+eb52d352879b,QObject,Create Brush,,unfinished,,unfinished,NO,NO
+f180856ecd65,QObject,Toggle Clip Side,,unfinished,,unfinished,NO,NO
+310e8dca8298,QObject,Perform Clip,,unfinished,,unfinished,NO,NO
+f8399baa3517,QObject,Perform Sweep,,unfinished,,unfinished,NO,NO
+ebccac005377,QObject,Decrease Sweep Scale,,unfinished,,unfinished,NO,NO
+98b32e17d44f,QObject,Increase Sweep Scale,,unfinished,,unfinished,NO,NO
+9e41860d7285,QObject,Move Forward,,unfinished,,unfinished,NO,NO
+62b1fc894f86,QObject,Move Backward,,unfinished,,unfinished,NO,NO
+97618ed340e8,QObject,Move Left,,unfinished,,unfinished,NO,NO
+546ea45992cc,QObject,Move Right,,unfinished,,unfinished,NO,NO
+428916bd8b96,QObject,Move Up,,unfinished,,unfinished,NO,NO
+5e7e6ec35fef,QObject,Move Down,,unfinished,,unfinished,NO,NO
+0d78218b37e1,QObject,Duplicate and Move Forward,,unfinished,,unfinished,NO,NO
+c6d2e891641e,QObject,Duplicate and Move Backward,,unfinished,,unfinished,NO,NO
+025dcb72776a,QObject,Duplicate and Move Left,,unfinished,,unfinished,NO,NO
+ccbc0b7b1da7,QObject,Duplicate and Move Right,,unfinished,,unfinished,NO,NO
+a0e6441f975c,QObject,Duplicate and Move Up,,unfinished,,unfinished,NO,NO
+1a64aa6c536e,QObject,Duplicate and Move Down,,unfinished,,unfinished,NO,NO
+3892bd824775,QObject,Roll Clockwise,,unfinished,,unfinished,NO,NO
+91d66dc38187,QObject,Roll Counter-clockwise,,unfinished,,unfinished,NO,NO
+5305563c20ce,QObject,Yaw Clockwise,,unfinished,,unfinished,NO,NO
+7064a2e5967d,QObject,Yaw Counter-clockwise,,unfinished,,unfinished,NO,NO
+50b1a09c46d4,QObject,Pitch Clockwise,,unfinished,,unfinished,NO,NO
+9a1654b27b32,QObject,Pitch Counter-clockwise,,unfinished,,unfinished,NO,NO
+49a63041a34d,QObject,Move Textures Up,,unfinished,,unfinished,NO,NO
+624796bffdc5,QObject,Move Textures Up (Coarse),,unfinished,,unfinished,NO,NO
+40082cc82304,QObject,Move Textures Up (Fine),,unfinished,,unfinished,NO,NO
+db45aeb1b727,QObject,Move Textures Down,,unfinished,,unfinished,NO,NO
+8597197e1d4d,QObject,Move Textures Down (Coarse),,unfinished,,unfinished,NO,NO
+4f417a709a16,QObject,Move Textures Down (Fine),,unfinished,,unfinished,NO,NO
+4a4eeae83ae0,QObject,Move Textures Left,,unfinished,,unfinished,NO,NO
+79b5a1c98328,QObject,Move Textures Left (Coarse),,unfinished,,unfinished,NO,NO
+4a4dab4a6f1f,QObject,Move Textures Left (Fine),,unfinished,,unfinished,NO,NO
+30cfa2076cb6,QObject,Move Textures Right,,unfinished,,unfinished,NO,NO
+521da6c0c224,QObject,Move Textures Right (Coarse),,unfinished,,unfinished,NO,NO
+24ed2c70b491,QObject,Move Textures Right (Fine),,unfinished,,unfinished,NO,NO
+30b532df8410,QObject,Rotate Textures Clockwise,,unfinished,,unfinished,NO,NO
+e0b0d3e76fb8,QObject,Rotate Textures Clockwise (Coarse),,unfinished,,unfinished,NO,NO
+f4b33b30789b,QObject,Rotate Textures Clockwise (Fine),,unfinished,,unfinished,NO,NO
+00dae48c3a54,QObject,Rotate Textures Counter-clockwise,,unfinished,,unfinished,NO,NO
+756b43b51226,QObject,Rotate Textures Counter-clockwise (Coarse),,unfinished,,unfinished,NO,NO
+bb4ce4ccd91a,QObject,Rotate Textures Counter-clockwise (Fine),,unfinished,,unfinished,NO,NO
+4bf04390b580,QObject,Reveal in texture browser,,unfinished,,unfinished,NO,NO
+7ca6f9901715,QObject,Flip textures horizontally,,unfinished,,unfinished,NO,NO
+d708a7dc4256,QObject,Flip textures vertically,,unfinished,,unfinished,NO,NO
+96607f7a2ca3,QObject,Reset texture alignment,,unfinished,,unfinished,NO,NO
+994d2fe5cf89,QObject,Reset texture alignment to world aligned,,unfinished,,unfinished,NO,NO
+be8a5e5bd3f6,QObject,Make Structural,,unfinished,,unfinished,NO,NO
+82123b9507bc,QObject,Toggle Show Entity Classnames,,unfinished,,unfinished,NO,NO
+60d12a464afe,QObject,Toggle Show Group Bounds,,unfinished,,unfinished,NO,NO
+340d5aab973d,QObject,Toggle Show Brush Entity Bounds,,unfinished,,unfinished,NO,NO
+664e0e246225,QObject,Toggle Show Point Entity Bounds,,unfinished,,unfinished,NO,NO
+6ad93a88deb1,QObject,Toggle Show Point Entities,,unfinished,,unfinished,NO,NO
+cb0f40eb352b,QObject,Toggle Show Point Entity Models,,unfinished,,unfinished,NO,NO
+b92a938e70a1,QObject,Toggle Show Brushes,,unfinished,,unfinished,NO,NO
+1082527061b9,QObject,Show Textures,,unfinished,,unfinished,NO,NO
+9c85ab699f5b,QObject,Hide Textures,,unfinished,,unfinished,NO,NO
+982bbdf989ea,QObject,Hide Faces,,unfinished,,unfinished,NO,NO
+873a4df41bde,QObject,Toggle Shade Faces,,unfinished,,unfinished,NO,NO
+f3f53e93c604,QObject,Toggle Show Fog,,unfinished,,unfinished,NO,NO
+9bb3346e5329,QObject,Toggle Show Edges,,unfinished,,unfinished,NO,NO
+7f655f8d2881,QObject,Show All Entity Links,,unfinished,,unfinished,NO,NO
+044d29bddca2,QObject,Show Transitively Selected Entity Links,,unfinished,,unfinished,NO,NO
+74676bf55c7d,QObject,Show Directly Selected Entity Links,,unfinished,,unfinished,NO,NO
+05be9b4f70dc,QObject,Hide All Entity Links,,unfinished,,unfinished,NO,NO
+042879b00a65,QObject,Cycle View,,unfinished,,unfinished,NO,NO
+d8b266e95d3e,QObject,Reset Camera Zoom,,unfinished,,unfinished,NO,NO
+18a6f61d0192,QObject,Cancel,,unfinished,,unfinished,NO,NO
+bcf80284ebf3,QObject,New Document,新建文档,finished,新建文档,finished,NO,NO
+0843baa95d90,QObject,Open Document...,打开文档...,finished,打开文档...,finished,NO,NO
+08c86abe1b99,QObject,Save Document,保存文档,finished,保存文档,finished,NO,NO
+c13f05ee9b4e,QObject,Save Document as...,文档另存为...,finished,文档另存为...,finished,NO,NO
+e7c5ab696447,QObject,Wavefront OBJ...,Wavefront OBJ...,finished,Wavefront OBJ...,finished,NO,NO
+88c5a8202a53,QObject,Map...,地图文件...,finished,地图文件...,finished,NO,NO
+8626a59ed64f,QObject,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,finished,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,finished,NO,NO
+c87e891f3904,QObject,Load Point File...,加载点轨迹文件...,finished,加载点轨迹文件...,finished,NO,NO
+fe79d727b01f,QObject,Reload Point File,重新加载点轨迹文件,finished,重新加载点轨迹文件,finished,NO,NO
+d4365ad643a4,QObject,Unload Point File,卸载点轨迹文件,finished,卸载点轨迹文件,finished,NO,NO
+c18158cfc475,QObject,Load Portal File...,加载 BSP 门户文件...,finished,加载 BSP 门户文件...,finished,NO,NO
+8c049a323d0f,QObject,Reload Portal File,重新加载 BSP 门户文件,finished,重新加载 BSP 门户文件,finished,NO,NO
+92939021173f,QObject,Unload Portal File,卸载 BSP 门户文件,finished,卸载 BSP 门户文件,finished,NO,NO
+3dab7bfca406,QObject,Reload Material Collections,重新加载材质集合,finished,重新加载材质集合,finished,NO,NO
+1e1111c64470,QObject,Reload Entity Definitions,重新加载实体定义,finished,重新加载实体定义,finished,NO,NO
+e6acb688ec6e,QObject,Revert Document,还原文档,finished,还原文档,finished,NO,NO
+d82719c1af53,QObject,Discards any unsaved changes and reloads the map file.,放弃所有未保存的更改，并重新加载地图文件。,finished,放弃所有未保存的更改，并重新加载地图文件。,finished,NO,NO
+aa1646cea36e,QObject,Close Document,关闭文档,finished,关闭文档,finished,NO,NO
+01f4fcfdf1d0,QObject,Undo,,unfinished,,unfinished,NO,NO
+e02bea32ce43,QObject,Redo,,unfinished,,unfinished,NO,NO
+55898abf0b8f,QObject,Repeat Last Commands,,unfinished,,unfinished,NO,NO
+5c8d7d239b14,QObject,Clear Repeatable Commands,,unfinished,,unfinished,NO,NO
+ad9f3ef99455,QObject,Cut,,unfinished,,unfinished,NO,NO
+996154743298,QObject,Copy,,unfinished,,unfinished,NO,NO
+bc9afefd1674,QObject,Paste,,unfinished,,unfinished,NO,NO
+419f65bb6522,QObject,Paste at Original Position,,unfinished,,unfinished,NO,NO
+9a2ba4cf961f,QObject,Duplicate,,unfinished,,unfinished,NO,NO
+4f77c3d7dd9e,QObject,Delete,,unfinished,,unfinished,NO,NO
+b8cddbe21e2b,QObject,Flip Horizontally,,unfinished,,unfinished,NO,NO
+2bbf09117f4a,QObject,Flip Vertically,,unfinished,,unfinished,NO,NO
+34a12058155b,QObject,Move...,,unfinished,,unfinished,NO,NO
+9954cf392bfa,QObject,Convex Merge,,unfinished,,unfinished,NO,NO
+fdcc5d281423,QObject,Subtract,,unfinished,,unfinished,NO,NO
+bb9edf05afea,QObject,Hollow,,unfinished,,unfinished,NO,NO
+af4fbe155c08,QObject,Intersect,,unfinished,,unfinished,NO,NO
+e5e980d259c6,QObject,Snap Vertices to Integer,,unfinished,,unfinished,NO,NO
+053c046aa197,QObject,Snap Vertices to Grid,,unfinished,,unfinished,NO,NO
+def10ad39e3b,QObject,Convert Selection to Patches,,unfinished,,unfinished,NO,NO
+591cdbe42906,QObject,Texture Lock,,unfinished,,unfinished,NO,NO
+91631dca850a,QObject,UV Lock,,unfinished,,unfinished,NO,NO
+873bbf9b1c53,QObject,Replace Material...,,unfinished,,unfinished,NO,NO
+713df505ad99,QObject,Select All,,unfinished,,unfinished,NO,NO
+4a9fa4efae82,QObject,Invert Selection,,unfinished,,unfinished,NO,NO
+66cd8260fd3e,QObject,Deselect All,,unfinished,,unfinished,NO,NO
+ebc1177ca6d4,QObject,Select Siblings,,unfinished,,unfinished,NO,NO
+c9e7f92c840a,QObject,Select Touching,,unfinished,,unfinished,NO,NO
+f18234f09531,QObject,Select Inside,,unfinished,,unfinished,NO,NO
+b74d86042960,QObject,Select Tall,,unfinished,,unfinished,NO,NO
+cb49e43e2906,QObject,Select by Line Number...,,unfinished,,unfinished,NO,NO
+c46d216c0356,QObject,Group Selected Objects,,unfinished,,unfinished,NO,NO
+ea72dfb36b21,QObject,Ungroup Selected Objects,,unfinished,,unfinished,NO,NO
+ce4552c19029,QObject,Rename Selected Groups,,unfinished,,unfinished,NO,NO
+59a5407adf40,QObject,Create Linked Duplicate,,unfinished,,unfinished,NO,NO
+3a06ea01f0e5,QObject,Select Linked Groups,,unfinished,,unfinished,NO,NO
+d48dd2b9baa3,QObject,Separate Selected Groups,,unfinished,,unfinished,NO,NO
+cd9484706821,QObject,Extract Selected Objects,,unfinished,,unfinished,NO,NO
+bc881860e57e,QObject,Clear Protected Properties,,unfinished,,unfinished,NO,NO
+89379c09782f,QObject,Brush Tool,,unfinished,,unfinished,NO,NO
+d04a37dbfe7c,QObject,Clip Tool,,unfinished,,unfinished,NO,NO
+e329c8cb6e18,QObject,Rotate Tool,,unfinished,,unfinished,NO,NO
+7961522a99c3,QObject,Sweep Tool,,unfinished,,unfinished,NO,NO
+9cfcfe99e446,QObject,Scale Tool,,unfinished,,unfinished,NO,NO
+ba21af0b4694,QObject,Shear Tool,,unfinished,,unfinished,NO,NO
+89abbccc9f68,QObject,Vertex Tool,,unfinished,,unfinished,NO,NO
+d31f3e2a1474,QObject,Edge Tool,,unfinished,,unfinished,NO,NO
+6e624ded7380,QObject,Face Tool,,unfinished,,unfinished,NO,NO
+ea05a19fa2b8,QObject,Control Point Tool,,unfinished,,unfinished,NO,NO
+9a47a5697446,QObject,Deactivate Current Tool,,unfinished,,unfinished,NO,NO
+485a568417bf,QObject,Show Grid,,unfinished,,unfinished,NO,NO
+794d859841e9,QObject,Snap to Grid,,unfinished,,unfinished,NO,NO
+fbc136eb81cf,QObject,Increase Grid Size,,unfinished,,unfinished,NO,NO
+a6f6037ede49,QObject,Decrease Grid Size,,unfinished,,unfinished,NO,NO
+adc2b6a7c647,QObject,Set Grid Size 0.125,,unfinished,,unfinished,NO,NO
+b59fb68a90c0,QObject,Set Grid Size 0.25,,unfinished,,unfinished,NO,NO
+5a82a4f16d9f,QObject,Set Grid Size 0.5,,unfinished,,unfinished,NO,NO
+28b95daa4f53,QObject,Set Grid Size 1,,unfinished,,unfinished,NO,NO
+f0c61f5b6adb,QObject,Set Grid Size 2,,unfinished,,unfinished,NO,NO
+94c1f6b31ec6,QObject,Set Grid Size 4,,unfinished,,unfinished,NO,NO
+782d1c81d9fd,QObject,Set Grid Size 8,,unfinished,,unfinished,NO,NO
+6e83fae2ee39,QObject,Set Grid Size 16,,unfinished,,unfinished,NO,NO
+ea3bb58dd51f,QObject,Set Grid Size 32,,unfinished,,unfinished,NO,NO
+e9005d8f344f,QObject,Set Grid Size 64,,unfinished,,unfinished,NO,NO
+67bb3b11b185,QObject,Set Grid Size 128,,unfinished,,unfinished,NO,NO
+bcc45722b505,QObject,Set Grid Size 256,,unfinished,,unfinished,NO,NO
+42335efae859,QObject,Move Camera to Next Point,,unfinished,,unfinished,NO,NO
+5851035c0cde,QObject,Move Camera to Previous Point,,unfinished,,unfinished,NO,NO
+582704c76cbb,QObject,Reset 2D Cameras,,unfinished,,unfinished,NO,NO
+bf42e8603946,QObject,Focus Camera on Selection,,unfinished,,unfinished,NO,NO
+7cad99ed21db,QObject,Move Camera to...,,unfinished,,unfinished,NO,NO
+6daaa3aa4c94,QObject,Isolate Selection,,unfinished,,unfinished,NO,NO
+bea8c83da357,QObject,Hide Selection,,unfinished,,unfinished,NO,NO
+f3602a392439,QObject,Show All,,unfinished,,unfinished,NO,NO
+0cdf8e280583,QObject,Show Map Inspector,,unfinished,,unfinished,NO,NO
+101f9bde64ae,QObject,Show Entity Inspector,,unfinished,,unfinished,NO,NO
+00da764357a0,QObject,Show Face Inspector,,unfinished,,unfinished,NO,NO
+55e09d3d38e8,QObject,Toggle Toolbar,,unfinished,,unfinished,NO,NO
+ad353df5056e,QObject,Toggle Info Panel,,unfinished,,unfinished,NO,NO
+a753c5c5a8ed,QObject,Toggle Inspector,,unfinished,,unfinished,NO,NO
+9e85e8c33e71,QObject,Maximize Current View,,unfinished,,unfinished,NO,NO
+1eb612307a66,QObject,Preferences...,,unfinished,,unfinished,NO,NO
+9ad6776b7e12,QObject,Compile Map...,,unfinished,,unfinished,NO,NO
+918e6e37689a,QObject,Launch Engine...,,unfinished,,unfinished,NO,NO
+6f50353fc0d1,QObject,Re-run compilation...,,unfinished,,unfinished,NO,NO
+351a3c3ea37e,QObject,Print Vertices to Console,,unfinished,,unfinished,NO,NO
+ed37454727f6,QObject,Create Brush...,,unfinished,,unfinished,NO,NO
+5060e555a84d,QObject,Create Cube...,,unfinished,,unfinished,NO,NO
+304f2085307f,QObject,Crash...,,unfinished,,unfinished,NO,NO
+a2ad5adc5f99,QObject,Throw Exception During Command,,unfinished,,unfinished,NO,NO
+f15941e96d0f,QObject,Show Crash Report Dialog...,,unfinished,,unfinished,NO,NO
+c597b6221a17,QObject,Set Window Size...,,unfinished,,unfinished,NO,NO
+5f0cb3cb8fa3,QObject,Show Palette...,,unfinished,,unfinished,NO,NO
+fa31bab9325d,QObject,TrenchBroom Manual,,unfinished,,unfinished,NO,NO
+b52021e3d78f,QObject,About TrenchBroom,,unfinished,,unfinished,NO,NO
+7b493c18471b,QObject,%1 or %2,,unfinished,,unfinished,NO,NO
+feac4b48dc40,QObject,None,,unfinished,,unfinished,NO,NO
+568ffccca0bd,QObject,Open groups: %1,,unfinished,,unfinished,NO,NO
+65d3b89d4202,QObject," in layer ""%1""",,unfinished,,unfinished,NO,NO
+b615d5359769,QObject, in %1 layers,,unfinished,,unfinished,NO,NO
+2bab1e594859,QObject,%1%2 selected,,unfinished,,unfinished,NO,NO
+d575cf1fdcdf,QObject,%1 hidden,,unfinished,,unfinished,NO,NO
+2edfeb0adb3d,QObject,%1 Name,,unfinished,,unfinished,NO,NO
+884a6694c19a,QObject,%1 names cannot be blank.,,unfinished,,unfinished,NO,NO
+38148b94ea4c,QObject,%1 names cannot contain double quotes.,,unfinished,,unfinished,NO,NO
+fc66af90185a,QObject,Group,,unfinished,,unfinished,NO,NO
+56faba2f9a64,QObject,Layer,,unfinished,,unfinished,NO,NO
+cfde892c46df,tb::ui::AboutDialog,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />",,unfinished,,unfinished,NO,NO
+e850d094a00e,tb::ui::AppController,TrenchBroom can check for updates automatically. Would you like to enable this now?,,unfinished,,unfinished,NO,NO
+4e51812565de,tb::ui::AppController,Open Map,,unfinished,,unfinished,NO,NO
+3e27e0817a09,tb::ui::AppInfoPanel,TrenchBroom,,unfinished,,unfinished,NO,NO
+3e362c947661,tb::ui::AppInfoPanel,Level Editor,,unfinished,,unfinished,NO,NO
+9bf4c1803f08,tb::ui::AppInfoPanel,Version %1,,unfinished,,unfinished,NO,NO
+be5a619e1f49,tb::ui::AppInfoPanel,Build %1,,unfinished,,unfinished,NO,NO
+4894697a59ee,tb::ui::AppInfoPanel,Qt %1,,unfinished,,unfinished,NO,NO
+51d575a35208,tb::ui::AppInfoPanel,Click to copy to clipboard,,unfinished,,unfinished,NO,NO
+215564708be0,tb::ui::AppInfoPanel,TrenchBroom %1 Build %2,,unfinished,,unfinished,NO,NO
+f9081511b752,tb::ui::ChoosePathTypeDialog,Path Type,,unfinished,,unfinished,NO,NO
+df4ef91af93a,tb::ui::ChoosePathTypeDialog,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",,unfinished,,unfinished,NO,NO
+8c9ed2e8de12,tb::ui::ChoosePathTypeDialog,Absolute,,unfinished,,unfinished,NO,NO
+6a5208c30cca,tb::ui::ChoosePathTypeDialog,Relative to map file,,unfinished,,unfinished,NO,NO
+2b985fbae7f9,tb::ui::ChoosePathTypeDialog,Could not build a path.,,unfinished,,unfinished,NO,NO
+dbbba8b54bd0,tb::ui::ChoosePathTypeDialog,Relative to application executable,,unfinished,,unfinished,NO,NO
+3a29ad146ceb,tb::ui::ChoosePathTypeDialog,Relative to game directory,,unfinished,,unfinished,NO,NO
+2c01921052f7,tb::ui::ChoosePathTypeDialog,Choose Path Type,,unfinished,,unfinished,NO,NO
+464677b6c7b2,tb::ui::CollapsibleTitledPanel,hide,,unfinished,,unfinished,NO,NO
+c5ad99a13f46,tb::ui::CollapsibleTitledPanel,show,,unfinished,,unfinished,NO,NO
+1ea8b81a44e7,tb::ui::ColorModel,Color,,unfinished,,unfinished,NO,NO
+a7f42422296a,tb::ui::ColorModel,Context,,unfinished,,unfinished,NO,NO
+edb8f76556b8,tb::ui::ColorModel,Description,,unfinished,,unfinished,NO,NO
+7e2f3f777af8,tb::ui::ColorsPreferencePane,Double-click a color to begin editing it.,,unfinished,,unfinished,NO,NO
+33e2b44970a6,tb::ui::CompilationDialog,Output,,unfinished,,unfinished,NO,NO
+331604b43b52,tb::ui::CompilationDialog,Launch...,,unfinished,,unfinished,NO,NO
+7ee965f0f2b4,tb::ui::CompilationDialog,Stop,,unfinished,,unfinished,NO,NO
+369fab3505a9,tb::ui::CompilationDialog,Test,,unfinished,,unfinished,NO,NO
+ff39652ec351,tb::ui::CompilationDialog,Compile,,unfinished,,unfinished,NO,NO
+2d740b071687,tb::ui::CompilationDialog,Close,,unfinished,,unfinished,NO,NO
+86fd625b69bc,tb::ui::CompilationDialog,Compilation failed: %1,,unfinished,,unfinished,NO,NO
+1622711a5916,tb::ui::CompilationDialog,Warning,,unfinished,,unfinished,NO,NO
+1c99031a89bc,tb::ui::CompilationDialog,Closing this dialog will stop the running compilation. Are you sure?,,unfinished,,unfinished,NO,NO
+86e870ba804d,tb::ui::CompilationDialog,Clear,,unfinished,,unfinished,NO,NO
+5b111135cfe7,tb::ui::CompilationExportMapTaskEditor,Set a GLOB pattern to strip any entities with a matching classname. Example: 'info_player_*' to strip all info_player_start and all info_player_deatchmatch entities.,,unfinished,,unfinished,NO,NO
+82fad02a71ea,tb::ui::CompilationExportMapTaskEditor,"Set the classname of an entity that will be added to the map. The entities' origin and angles will be set to the camera position and view direction, respectively.",,unfinished,,unfinished,NO,NO
+1759580eee0d,tb::ui::CompilationExportMapTaskEditor,Set this checkbox to strip any entity properties starting with _tb_ from the exported map file. Some compilers cannot handle these properties.,,unfinished,,unfinished,NO,NO
+3274f039a28e,tb::ui::CompilationLaunchEngineTaskEditor,The Launch Engine profile to start when this task runs,,unfinished,,unfinished,NO,NO
+8dc0035af7a2,tb::ui::CompilationLaunchEngineTaskEditor,Stop compilation if the engine cannot be launched,,unfinished,,unfinished,NO,NO
+760d5bd8145f,tb::ui::CompilationProfileEditor,Move Up,,unfinished,,unfinished,NO,NO
+b3be9f1ff5f8,tb::ui::CompilationProfileEditor,Move Down,,unfinished,,unfinished,NO,NO
+54dcb860b089,tb::ui::CompilationProfileEditor,Duplicate,,unfinished,,unfinished,NO,NO
+adccf374a817,tb::ui::CompilationProfileEditor,Remove,,unfinished,,unfinished,NO,NO
+64461bd68d69,tb::ui::CompilationProfileManager,Duplicate,,unfinished,,unfinished,NO,NO
+7461ab67e1a7,tb::ui::CompilationProfileManager,Remove,,unfinished,,unfinished,NO,NO
+d8258b8bcf6d,tb::ui::CompilationRunToolTaskEditor,Stop compilation if the tool returns a nonzero error code,,unfinished,,unfinished,NO,NO
+dd6a7d4e1b72,tb::ui::CompilationRunToolTaskEditor,Select Tool,,unfinished,,unfinished,NO,NO
+ef32432c813f,tb::ui::CompilationTaskEditorBase,Whether to include this task when running the compile profile,,unfinished,,unfinished,NO,NO
+5067c8332ead,tb::ui::Console,Clear,,unfinished,,unfinished,NO,NO
+2c1e8183536f,tb::ui::ControlPointToolPage,Rows:,,unfinished,,unfinished,NO,NO
+475aeb393b04,tb::ui::ControlPointToolPage,Columns:,,unfinished,,unfinished,NO,NO
+8e40860a52a1,tb::ui::CrashDialog,Crash,,unfinished,,unfinished,NO,NO
+f0f928f057b7,tb::ui::CrashDialog,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.",,unfinished,,unfinished,NO,NO
+444a30e5e793,tb::ui::CrashDialog,Report,,unfinished,,unfinished,NO,NO
+65cdb139c984,tb::ui::DebugPaletteWindow,Palette,,unfinished,,unfinished,NO,NO
+27c3bde9ecc1,tb::ui::DrawShapeToolArchShapeExtensionPage,Thickness: ,,unfinished,,unfinished,NO,NO
+5b2248f39b63,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,Axis: ,,unfinished,,unfinished,NO,NO
+b42ec7b535c3,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,X,,unfinished,,unfinished,NO,NO
+4c002871f915,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,Y,,unfinished,,unfinished,NO,NO
+fff85319f775,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,Z,,unfinished,,unfinished,NO,NO
+e34447a417b6,tb::ui::DrawShapeToolCircularShapeExtensionPage,Number of Sides: ,,unfinished,,unfinished,NO,NO
+81bbd44685d3,tb::ui::DrawShapeToolCircularShapeExtensionPage,Align edge to bounding box,,unfinished,,unfinished,NO,NO
+b8daae9db992,tb::ui::DrawShapeToolCircularShapeExtensionPage,Align vertices to bounding box,,unfinished,,unfinished,NO,NO
+048800e82bda,tb::ui::DrawShapeToolCircularShapeExtensionPage,Scalable circle shape,,unfinished,,unfinished,NO,NO
+db2a2b0e350e,tb::ui::DrawShapeToolCylinderShapeExtensionPage,Hollow,,unfinished,,unfinished,NO,NO
+f357f3fc6744,tb::ui::DrawShapeToolCylinderShapeExtensionPage,Thickness: ,,unfinished,,unfinished,NO,NO
+991c29c3c70f,tb::ui::DrawShapeToolExtensionPage,Apply,,unfinished,,unfinished,NO,NO
+a85df1399067,tb::ui::DrawShapeToolIcoSphereShapeExtensionPage,Accuracy: ,,unfinished,,unfinished,NO,NO
+f67fca54606d,tb::ui::DrawShapeToolPage,Shape,,unfinished,,unfinished,NO,NO
+37f2e4132ca1,tb::ui::DrawShapeToolPage,Click to select a shape,,unfinished,,unfinished,NO,NO
+87b9af9aecb5,tb::ui::DrawShapeToolStairsExtensionPage,Step Height: ,,unfinished,,unfinished,NO,NO
+ef5832df3df5,tb::ui::DrawShapeToolStairsExtensionPage,Direction: ,,unfinished,,unfinished,NO,NO
+8c885237c9a5,tb::ui::DrawShapeToolStairsExtensionPage,+X,,unfinished,,unfinished,NO,NO
+6a31f7c41328,tb::ui::DrawShapeToolStairsExtensionPage,-X,,unfinished,,unfinished,NO,NO
+c9a1463ced29,tb::ui::DrawShapeToolStairsExtensionPage,+Y,,unfinished,,unfinished,NO,NO
+454bb82e1bb0,tb::ui::DrawShapeToolStairsExtensionPage,-Y,,unfinished,,unfinished,NO,NO
+7450c031369f,tb::ui::DrawShapeToolUVSphereShapeExtensionPage,Number of Rings: ,,unfinished,,unfinished,NO,NO
+056ea50ac7b0,tb::ui::EntityBrowser,Name,,unfinished,,unfinished,NO,NO
+114499a4c233,tb::ui::EntityBrowser,Usage,,unfinished,,unfinished,NO,NO
+8190086a4478,tb::ui::EntityBrowser,Select ordering criterion,,unfinished,,unfinished,NO,NO
+d40916dbab34,tb::ui::EntityBrowser,Group,,unfinished,,unfinished,NO,NO
+cb6035056dbe,tb::ui::EntityBrowser,Group entity definitions by category,,unfinished,,unfinished,NO,NO
+392ffc5a52e3,tb::ui::EntityBrowser,Used,,unfinished,,unfinished,NO,NO
+f14c7a646eb8,tb::ui::EntityBrowser,Only show entity definitions currently in use,,unfinished,,unfinished,NO,NO
+5d4bbd239095,tb::ui::EntityDefinitionCheckBoxList,Show all,,unfinished,,unfinished,NO,NO
+4d82a5386e21,tb::ui::EntityDefinitionCheckBoxList,Hide all,,unfinished,,unfinished,NO,NO
+648e0cab9fe0,tb::ui::EntityDefinitionFileChooser,Builtin,,unfinished,,unfinished,NO,NO
+f6e79dbd9003,tb::ui::EntityDefinitionFileChooser,External,,unfinished,,unfinished,NO,NO
+eed50cd9cf9b,tb::ui::EntityDefinitionFileChooser,use builtin,,unfinished,,unfinished,NO,NO
+ba41af0d5d27,tb::ui::EntityDefinitionFileChooser,Browse...,,unfinished,,unfinished,NO,NO
+3fc54b71d05a,tb::ui::EntityDefinitionFileChooser,Click to browse for an entity definition file,,unfinished,,unfinished,NO,NO
+b5b622567bfc,tb::ui::EntityDefinitionFileChooser,Reload,,unfinished,,unfinished,NO,NO
+b513233a5a26,tb::ui::EntityDefinitionFileChooser,Reload the currently loaded entity definition file,,unfinished,,unfinished,NO,NO
+4226d5a021ec,tb::ui::EntityDefinitionFileChooser,Load Entity Definition File,,unfinished,,unfinished,NO,NO
+d87b7257ee5e,tb::ui::EntityInspector,Entity Browser,,unfinished,,unfinished,NO,NO
+8d1999c3f7d7,tb::ui::EntityInspector,Browser,,unfinished,,unfinished,NO,NO
+ba8f7d3dde9d,tb::ui::EntityInspector,Settings,,unfinished,,unfinished,NO,NO
+8c295b153d87,tb::ui::EntityPropertyEditor,"Property ""%1""",,unfinished,,unfinished,NO,NO
+daa1d8b70a3b,tb::ui::EntityPropertyEditor, (%1),,unfinished,,unfinished,NO,NO
+083b96e8c5db,tb::ui::EntityPropertyEditor,"Class ""%1""",,unfinished,,unfinished,NO,NO
+724431ca0b33,tb::ui::EntityPropertyGrid,Add a new property (%1),,unfinished,,unfinished,NO,NO
+2e2f2de6ce00,tb::ui::EntityPropertyGrid,Add a new protected property,,unfinished,,unfinished,NO,NO
+cd6d6e35d3a6,tb::ui::EntityPropertyGrid,Remove the selected properties (%1),,unfinished,,unfinished,NO,NO
+20e0fc62c10f,tb::ui::EntityPropertyGrid,Set existing default properties,,unfinished,,unfinished,NO,NO
+3130ac1f40f2,tb::ui::EntityPropertyGrid,Set missing default properties,,unfinished,,unfinished,NO,NO
+4980043d4c56,tb::ui::EntityPropertyGrid,Set all default properties,,unfinished,,unfinished,NO,NO
+2738ff36463f,tb::ui::EntityPropertyGrid,Set default properties,,unfinished,,unfinished,NO,NO
+d2e517b7c025,tb::ui::EntityPropertyGrid,Show default properties,,unfinished,,unfinished,NO,NO
+91b13ee308b2,tb::ui::EntityPropertyModel,Key,,unfinished,,unfinished,NO,NO
+9f2aa8deb984,tb::ui::EntityPropertyModel,Value,,unfinished,,unfinished,NO,NO
+19fd3d964940,tb::ui::EntityPropertyModel,Protect properties from changes in linked groups,,unfinished,,unfinished,NO,NO
+33beabc16ce0,tb::ui::EntityPropertyModel,Error,,unfinished,,unfinished,NO,NO
+a4fafb4a3ccb,tb::ui::EntityPropertyModel,"A property with key '%1' already exists.
+
+ Do you wish to overwrite it?",,unfinished,,unfinished,NO,NO
+fccf3f4fa6ed,tb::ui::FaceAttribsEditor,"Align texture to face edges.
+Click again to cycle through edges.
+Hold %1 to cycle backwards.",,unfinished,,unfinished,NO,NO
+7bdd4fc95df0,tb::ui::FaceAttribsEditor,"Justify texture to top edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,unfinished,,unfinished,NO,NO
+a572cb61cb77,tb::ui::FaceAttribsEditor,"Justify texture to bottom edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,unfinished,,unfinished,NO,NO
+811db271b2f7,tb::ui::FaceAttribsEditor,"Justify texture to left edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,unfinished,,unfinished,NO,NO
+447c60c44593,tb::ui::FaceAttribsEditor,"Justify texture to right edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,unfinished,,unfinished,NO,NO
+71c817f3bb8d,tb::ui::FaceAttribsEditor,"Fit texture horizontally.
+Click again to cycle through options.
+Hold %1 to cycle backwards.
+Hold %2 to keep trim sheet subdivisions.",,unfinished,,unfinished,NO,NO
+6895f8a6b855,tb::ui::FaceAttribsEditor,"Fit texture vertically.
+Click again to cycle through options.
+Hold %1 to cycle backwards.
+Hold %2 to keep trim sheet subdivisions.",,unfinished,,unfinished,NO,NO
+2a0fe3ee1f50,tb::ui::FaceAttribsEditor,Fit texture to face.,,unfinished,,unfinished,NO,NO
+f5e69c20a4da,tb::ui::FaceAttribsEditor,Unset surface value,,unfinished,,unfinished,NO,NO
+13d5d1a7c2b6,tb::ui::FaceAttribsEditor,Unset surface flags,,unfinished,,unfinished,NO,NO
+7b81f624daca,tb::ui::FaceAttribsEditor,Unset content flags,,unfinished,,unfinished,NO,NO
+0f84fed3e1fd,tb::ui::FaceAttribsEditor,Unset color,,unfinished,,unfinished,NO,NO
+5bcdd005ee8d,tb::ui::FaceInspector,Material Browser,,unfinished,,unfinished,NO,NO
+5f746cd5bcd8,tb::ui::FaceInspector,Browser,,unfinished,,unfinished,NO,NO
+905e8bd56a25,tb::ui::FaceInspector,Settings,,unfinished,,unfinished,NO,NO
+1658ea2c5a07,tb::ui::FaceInspector,"To manage wad files, select the ""wad"" property of the worldspawn entity to reveal a wad file manager below the entity property table.",,unfinished,,unfinished,NO,NO
+0f49b45da2bc,tb::ui::FlagsEditor,All,,unfinished,,unfinished,NO,NO
+e006595f9c04,tb::ui::FlagsEditor,None,,unfinished,,unfinished,NO,NO
+5a27052291cb,tb::ui::GameDialog,Autodetect,,unfinished,,unfinished,NO,NO
+2a294870bcbd,tb::ui::GameEngineProfileEditor,Choose a name,,unfinished,,unfinished,NO,NO
+f45f39eb562e,tb::ui::GameEngineProfileEditor,Click on the button to choose...,,unfinished,,unfinished,NO,NO
+5b8a5ea2d9b0,tb::ui::GameEngineProfileEditor,Choose Engine,,unfinished,,unfinished,NO,NO
+bcef31c9f327,tb::ui::GamePreferencePane,Click on the button to change...,,unfinished,,unfinished,NO,NO
+b0439025e63c,tb::ui::GamePreferencePane,Directory not found,,unfinished,,unfinished,NO,NO
+2e704dc3f151,tb::ui::GamePreferencePane,...,,unfinished,,unfinished,NO,NO
+f209bdd23758,tb::ui::GamePreferencePane,Configure engines...,,unfinished,,unfinished,NO,NO
+d6d2cf87d12d,tb::ui::GamePreferencePane,Game Path,,unfinished,,unfinished,NO,NO
+10870dd8f346,tb::ui::GamePreferencePane,Compilation Tools,,unfinished,,unfinished,NO,NO
+d659040d0fea,tb::ui::GamePreferencePane,%1 Path,,unfinished,,unfinished,NO,NO
+ecedd8be01d7,tb::ui::GamesPreferencePane,Select a game.,,unfinished,,unfinished,NO,NO
+2f516986b846,tb::ui::GamesPreferencePane,Open custom game configurations folder,,unfinished,,unfinished,NO,NO
+3284b73f2af5,tb::ui::InfoPanel,Console,,unfinished,,unfinished,NO,NO
+59f001b0f202,tb::ui::InfoPanel,Issues,,unfinished,,unfinished,NO,NO
+5dd1606761e2,tb::ui::IssueBrowserModel,Line,,unfinished,,unfinished,NO,NO
+de9b0e37d2fc,tb::ui::IssueBrowserModel,Description,,unfinished,,unfinished,NO,NO
+e154b8834f0f,tb::ui::IssueBrowserView,Show,,unfinished,,unfinished,NO,NO
+79acdf1d2b24,tb::ui::IssueBrowserView,Hide,,unfinished,,unfinished,NO,NO
+9bb348095acf,tb::ui::IssueBrowserView,Fix,,unfinished,,unfinished,NO,NO
+007b6c11f393,tb::ui::KeyboardPreferencePane,Double-click an item to begin editing it. Click anywhere else to end editing.,,unfinished,,unfinished,NO,NO
+201b956bfa14,tb::ui::LayerEditor,Make active layer,,unfinished,,unfinished,NO,NO
+56a451c92266,tb::ui::LayerEditor,Move selection to layer,,unfinished,,unfinished,NO,NO
+7d5f8f2010a3,tb::ui::LayerEditor,Select all in layer,,unfinished,,unfinished,NO,NO
+925443d0d16c,tb::ui::LayerEditor,Show layer,,unfinished,,unfinished,NO,NO
+32251fea67b0,tb::ui::LayerEditor,Hide layer,,unfinished,,unfinished,NO,NO
+4202dab3ec26,tb::ui::LayerEditor,Isolate layer,,unfinished,,unfinished,NO,NO
+488b63a6f676,tb::ui::LayerEditor,Unlock layer,,unfinished,,unfinished,NO,NO
+f9ce64a4edd9,tb::ui::LayerEditor,Lock layer,,unfinished,,unfinished,NO,NO
+ec9f0e1a579b,tb::ui::LayerEditor,Omit From Export,,unfinished,,unfinished,NO,NO
+507f6d0a5604,tb::ui::LayerEditor,Show All Layers,,unfinished,,unfinished,NO,NO
+b4947d3ffda4,tb::ui::LayerEditor,Hide All Layers,,unfinished,,unfinished,NO,NO
+8367fb08c234,tb::ui::LayerEditor,Unlock All Layers,,unfinished,,unfinished,NO,NO
+4e59faaa7534,tb::ui::LayerEditor,Lock All Layers,,unfinished,,unfinished,NO,NO
+cd49f1872e8a,tb::ui::LayerEditor,Rename Layer,,unfinished,,unfinished,NO,NO
+260abdba43dd,tb::ui::LayerEditor,Remove Layer,,unfinished,,unfinished,NO,NO
+9dae6c4c2d2a,tb::ui::LayerEditor,Add a new layer from the current selection,,unfinished,,unfinished,NO,NO
+f093b28686d1,tb::ui::LayerEditor,Remove the selected layer and move its objects to the default layer,,unfinished,,unfinished,NO,NO
+a123abc59b7d,tb::ui::LayerListBoxWidget,Toggle omit from export,,unfinished,,unfinished,NO,NO
+15167c275a60,tb::ui::LayerListBoxWidget,Toggle hidden state,,unfinished,,unfinished,NO,NO
+6f1d3d314a79,tb::ui::LayerListBoxWidget,Toggle locked state,,unfinished,,unfinished,NO,NO
+3d729335d8db,tb::ui::LayerListBoxWidget,%1,,unfinished,,unfinished,NO,NO
+ba2a642c4385,tb::ui::LayerListBoxWidget,%1 %2,,unfinished,,unfinished,NO,NO
+885d8cfa8775,tb::ui::MapInspector,Layers,,unfinished,,unfinished,NO,NO
+b84646b49ee1,tb::ui::MapInspector,Map Properties,,unfinished,,unfinished,NO,NO
+d444d962eabc,tb::ui::MapInspector,Mods,,unfinished,,unfinished,NO,NO
+dc0c78ff3bf3,tb::ui::MapPropertiesEditor,Soft bounds disabled,,unfinished,,unfinished,NO,NO
+193a76d6ed60,tb::ui::MapPropertiesEditor,Use game default,,unfinished,,unfinished,NO,NO
+1f2f3d97f9f1,tb::ui::MapPropertiesEditor,Min:,,unfinished,,unfinished,NO,NO
+2bf685a24ded,tb::ui::MapPropertiesEditor,Max:,,unfinished,,unfinished,NO,NO
+b5509a2fc2b0,tb::ui::MapPropertiesEditor,Use custom bounds,,unfinished,,unfinished,NO,NO
+f2d3b8fa5bac,tb::ui::MapViewBase,Merge Groups into %1,,unfinished,,unfinished,NO,NO
+f3f489b1e24e,tb::ui::MapViewBase,Merge Groups,,unfinished,,unfinished,NO,NO
+c56758c3fbbe,tb::ui::MapViewBase,Add Objects to Group %1,,unfinished,,unfinished,NO,NO
+e8dd009a7a20,tb::ui::MapViewBase,Remove Objects from Group %1,,unfinished,,unfinished,NO,NO
+d12684310f6b,tb::ui::MapViewBase,Move to Layer,,unfinished,,unfinished,NO,NO
+59c51910af66,tb::ui::MapViewBase,Make Layer %1 Active,,unfinished,,unfinished,NO,NO
+9fe82117f7e4,tb::ui::MapViewBase,Make Layer Active,,unfinished,,unfinished,NO,NO
+3e36e2fa4a2d,tb::ui::MapViewBase,Hide Layers,,unfinished,,unfinished,NO,NO
+18ee9294a49f,tb::ui::MapViewBase,Isolate Layers,,unfinished,,unfinished,NO,NO
+bf199919241c,tb::ui::MapViewBase,Select All in Layers,,unfinished,,unfinished,NO,NO
+8875b906f63f,tb::ui::MapViewBase,Make Structural,,unfinished,,unfinished,NO,NO
+529ac73171b9,tb::ui::MapViewBase,Move Brushes to Entity %1,,unfinished,,unfinished,NO,NO
+7d76987048b8,tb::ui::MapViewBase,Reveal %1 in Material Browser,,unfinished,,unfinished,NO,NO
+484bbe49d10c,tb::ui::MapViewBase,Copy Material Name,,unfinished,,unfinished,NO,NO
+1e9fa050833f,tb::ui::MapViewBase,Create Point Entity,,unfinished,,unfinished,NO,NO
+87b74609d4b3,tb::ui::MapViewBase,Create Brush Entity,,unfinished,,unfinished,NO,NO
+a2cccbe5693c,tb::ui::MapWindow,%1[*] - TrenchBroom,,unfinished,,unfinished,NO,NO
+bc7d52d641ed,tb::ui::MapWindow,Grid %1,,unfinished,,unfinished,NO,NO
+1f10e1637f0e,tb::ui::MapWindow,Save map file,,unfinished,,unfinished,NO,NO
+310842942b24,tb::ui::MapWindow,Export Map file,,unfinished,,unfinished,NO,NO
+da3f43a1b117,tb::ui::MapWindow,"You can't overwrite the current document.
+Please choose a different file name to export to.",,unfinished,,unfinished,NO,NO
+4ce43a7fcbf7,tb::ui::MapWindow,%1 has been modified. Do you want to save the changes?,,unfinished,,unfinished,NO,NO
+ab1631caefe9,tb::ui::MapWindow,Revert %1 to %2?,,unfinished,,unfinished,NO,NO
+12da40ec19de,tb::ui::MapWindow,This will discard all unsaved changes and reload the document from disk.,,unfinished,,unfinished,NO,NO
+6057af93dd91,tb::ui::MapWindow,Revert,,unfinished,,unfinished,NO,NO
+4bc45d0525e6,tb::ui::MapWindow,Load Point File,,unfinished,,unfinished,NO,NO
+11ba563b9312,tb::ui::MapWindow,Load Portal File,,unfinished,,unfinished,NO,NO
+e0c768738e77,tb::ui::MapWindow,Invalid coordinates: '%1',,unfinished,,unfinished,NO,NO
+8961271a1feb,tb::ui::MapWindow,"Re-run ""%1""...",,unfinished,,unfinished,NO,NO
+fad9ba607d16,tb::ui::MapWindow,Re-run compilation...,,unfinished,,unfinished,NO,NO
+559b57c0f45f,tb::ui::MaterialBrowser,Name,,unfinished,,unfinished,NO,NO
+5205d3b027da,tb::ui::MaterialBrowser,Usage,,unfinished,,unfinished,NO,NO
+dfbc2faa1c3f,tb::ui::MaterialBrowser,Select ordering criterion,,unfinished,,unfinished,NO,NO
+12f336c02f21,tb::ui::MaterialBrowser,Group,,unfinished,,unfinished,NO,NO
+b07b0e99f547,tb::ui::MaterialBrowser,Group materials by material collection,,unfinished,,unfinished,NO,NO
+97458de01ba1,tb::ui::MaterialBrowser,Used,,unfinished,,unfinished,NO,NO
+45e2d0ab2ee7,tb::ui::MaterialBrowser,Only show materials currently in use,,unfinished,,unfinished,NO,NO
+0e443a2e8605,tb::ui::MaterialBrowserView,Select Faces,,unfinished,,unfinished,NO,NO
+1a9e515edb7c,tb::ui::MaterialBrowserView,Select Brushes,,unfinished,,unfinished,NO,NO
+946ae7d9c0fd,tb::ui::MaterialBrowserView,Copy Name,,unfinished,,unfinished,NO,NO
+67535e1227ac,tb::ui::MaterialCollectionEditor,Enable the selected material collections,,unfinished,,unfinished,NO,NO
+72d3c5da820b,tb::ui::MaterialCollectionEditor,Disable the selected material collections,,unfinished,,unfinished,NO,NO
+c21dbc989450,tb::ui::MaterialCollectionEditor,Reload all enabled material collections,,unfinished,,unfinished,NO,NO
+e376dbaad73e,tb::ui::ModEditor,Filter the list of available mods,,unfinished,,unfinished,NO,NO
+72e6f68c2847,tb::ui::ModEditor,Enable the selected mods,,unfinished,,unfinished,NO,NO
+27575040e9b1,tb::ui::ModEditor,Disable the selected mods,,unfinished,,unfinished,NO,NO
+9d87ad496868,tb::ui::ModEditor,Move the selected mod up,,unfinished,,unfinished,NO,NO
+4eacadbbc432,tb::ui::ModEditor,Move the selected mod down,,unfinished,,unfinished,NO,NO
+7d5714d96855,tb::ui::MousePreferencePane,Speed,,unfinished,,unfinished,NO,NO
+ee439e50a835,tb::ui::ObjExportDialog,Export Wavefront OBJ,,unfinished,,unfinished,NO,NO
+0011be948dd6,tb::ui::ObjExportDialog,Export Path,,unfinished,,unfinished,NO,NO
+2915922a2166,tb::ui::ObjExportDialog,Enter a path or click to browse,,unfinished,,unfinished,NO,NO
+0ee72f3c8645,tb::ui::ObjExportDialog,Texture Paths,,unfinished,,unfinished,NO,NO
+10b21b3fc756,tb::ui::ObjExportDialog,Controls how the texture paths in the generated material file are computed.,,unfinished,,unfinished,NO,NO
+013b4028d792,tb::ui::ObjExportDialog,Relative to game path,,unfinished,,unfinished,NO,NO
+26fd3ad9ed81,tb::ui::ObjExportDialog,Relative to export path,,unfinished,,unfinished,NO,NO
+eed1f27c4948,tb::ui::ObjExportDialog,Export Wavefront OBJ file,,unfinished,,unfinished,NO,NO
+5844bf19784b,tb::ui::QPreferenceStoreDelegate,A file IO error occurred while attempting to read the preference file:,,unfinished,,unfinished,NO,NO
+43967fcac889,tb::ui::QPreferenceStoreDelegate,ensure the file is readable,,unfinished,,unfinished,NO,NO
+c4fc40ff34a0,tb::ui::QPreferenceStoreDelegate,Could not acquire lock file for reading the preference file:,,unfinished,,unfinished,NO,NO
+59d49a2c040b,tb::ui::QPreferenceStoreDelegate,check for stale lock files,,unfinished,,unfinished,NO,NO
+175ea026f76b,tb::ui::QPreferenceStoreDelegate,A JSON parsing error occurred while reading the preference file:,,unfinished,,unfinished,NO,NO
+94f3eda29bb4,tb::ui::QPreferenceStoreDelegate,"fix the JSON, or backup and delete the file",,unfinished,,unfinished,NO,NO
+5470c2b5fefb,tb::ui::QPreferenceStoreDelegate,A file IO error occurred while attempting to write the preference file:,,unfinished,,unfinished,NO,NO
+9a7a4a1ad38c,tb::ui::QPreferenceStoreDelegate,ensure the file is writable,,unfinished,,unfinished,NO,NO
+f32f2c044e66,tb::ui::QPreferenceStoreDelegate,"%1
+
+%2
+
+Please correct the problem (%3) and restart TrenchBroom.
+Further settings changes will not be saved this session.",,unfinished,,unfinished,NO,NO
+cb90335cc9bd,tb::ui::QPreferenceStoreDelegate,TrenchBroom,,unfinished,,unfinished,NO,NO
+3f963f28a9c1,tb::ui::ReplaceMaterialDialog,Replace Succeeded,,unfinished,,unfinished,NO,NO
+c2833e67f6aa,tb::ui::ReplaceMaterialDialog,Replace Failed,,unfinished,,unfinished,NO,NO
+cd40bae9c637,tb::ui::ReplaceMaterialDialog,None of the selected faces has the selected material,,unfinished,,unfinished,NO,NO
+9cde42f3ffcc,tb::ui::ReplaceMaterialDialog,Replace Material,,unfinished,,unfinished,NO,NO
+a61cb4919cdf,tb::ui::ReplaceMaterialDialog,Find,,unfinished,,unfinished,NO,NO
+0306ecc3299e,tb::ui::ReplaceMaterialDialog,Replace with,,unfinished,,unfinished,NO,NO
+248b513961de,tb::ui::ReplaceMaterialDialog,Replace,,unfinished,,unfinished,NO,NO
+a2aa33dd949e,tb::ui::ReplaceMaterialDialog,Perform replacement on all selected faces,,unfinished,,unfinished,NO,NO
+e3ceb78ab228,tb::ui::ReplaceMaterialDialog,Close,,unfinished,,unfinished,NO,NO
+4e1b84fad2cd,tb::ui::ReplaceMaterialDialog,Close this window,,unfinished,,unfinished,NO,NO
+040e81d147fc,tb::ui::RotateToolPage,Center,,unfinished,,unfinished,NO,NO
+f88442965a72,tb::ui::RotateToolPage,Reset,,unfinished,,unfinished,NO,NO
+40837ec2f488,tb::ui::RotateToolPage,Reset the position of the rotate handle to the center of the current selection.,,unfinished,,unfinished,NO,NO
+11c735423f48,tb::ui::RotateToolPage,Rotate objects,,unfinished,,unfinished,NO,NO
+c1cad90b6cce,tb::ui::RotateToolPage,degs about,,unfinished,,unfinished,NO,NO
+b8e587b2e7fd,tb::ui::RotateToolPage,axis,,unfinished,,unfinished,NO,NO
+1b2df12b689f,tb::ui::RotateToolPage,Apply,,unfinished,,unfinished,NO,NO
+cb788ecf9bb8,tb::ui::RotateToolPage,Update entity properties,,unfinished,,unfinished,NO,NO
+7d5ba0a87bd8,tb::ui::ScaleToolPage,Scale objects,,unfinished,,unfinished,NO,NO
+233adeacc59e,tb::ui::ScaleToolPage,to size,,unfinished,,unfinished,NO,NO
+3fb4c19197ae,tb::ui::ScaleToolPage,by factors,,unfinished,,unfinished,NO,NO
+446e5b654e6c,tb::ui::ScaleToolPage,Apply,,unfinished,,unfinished,NO,NO
+02d17cbb2125,tb::ui::SmartChoiceEditor,Select a choice option:,,unfinished,,unfinished,NO,NO
+a1035843c539,tb::ui::SmartColorEditor,Color range,,unfinished,,unfinished,NO,NO
+f913b0be4ab3,tb::ui::SmartColorEditor,"Float [0,1]",,unfinished,,unfinished,NO,NO
+bc67d3f89f60,tb::ui::SmartColorEditor,"Byte [0,255]",,unfinished,,unfinished,NO,NO
+2f5a9b853d84,tb::ui::SmartWadEditor,Load Wad Files,,unfinished,,unfinished,NO,NO
+ba074aa4b76f,tb::ui::SmartWadEditor,Wad files (*.wad);;All files (*.*),,unfinished,,unfinished,NO,NO
+85a588d156ba,tb::ui::SpinControl,"Increment: %1 (%2: %3, %4: %5)",,unfinished,,unfinished,NO,NO
+40cb754b710d,tb::ui::SweepToolPage,Segments,,unfinished,,unfinished,NO,NO
+f3175d2c4268,tb::ui::SweepToolPage,Number of brushes between the source faces and the destination cap,,unfinished,,unfinished,NO,NO
+e0af5b496ad3,tb::ui::SweepToolPage,Path,,unfinished,,unfinished,NO,NO
+8d4cdec96809,tb::ui::SweepToolPage,Arc,,unfinished,,unfinished,NO,NO
+772dff95af23,tb::ui::SweepToolPage,Straight,,unfinished,,unfinished,NO,NO
+12f90040695a,tb::ui::SweepToolPage,S-bend,,unfinished,,unfinished,NO,NO
+aecd2f912b05,tb::ui::SweepToolPage,"Arc revolves around an axis, Straight is a linear loft, S-bend follows an S-curve; the destination cap ends up in the same place in each mode",,unfinished,,unfinished,NO,NO
+d033f947c3b5,tb::ui::SweepToolPage,Iterations,,unfinished,,unfinished,NO,NO
+385278931e99,tb::ui::SweepToolPage,"Repeats the sweep, continuing from the previous destination cap",,unfinished,,unfinished,NO,NO
+99030e5ac7d5,tb::ui::SweepToolPage,Snap to integer grid,,unfinished,,unfinished,NO,NO
+111d73f83d66,tb::ui::SweepToolPage,Round generated vertices to integer coordinates,,unfinished,,unfinished,NO,NO
+aaf535ac55a9,tb::ui::SweepToolPage,Reset,,unfinished,,unfinished,NO,NO
+ad3347056197,tb::ui::SweepToolPage,Move the destination cap back onto the selected faces,,unfinished,,unfinished,NO,NO
+b39d9d11fa10,tb::ui::UVEditor,Reset UV alignment,,unfinished,,unfinished,NO,NO
+d427f93b9f3c,tb::ui::UVEditor,Reset UV alignment to world aligned,,unfinished,,unfinished,NO,NO
+95e9d10e2960,tb::ui::UVEditor,Flip U axis,,unfinished,,unfinished,NO,NO
+0c444f770a37,tb::ui::UVEditor,Flip V axis,,unfinished,,unfinished,NO,NO
+3369cb7e4f62,tb::ui::UVEditor,Rotate UV 90° counter-clockwise,,unfinished,,unfinished,NO,NO
+48edfe725649,tb::ui::UVEditor,Rotate UV 90° clockwise,,unfinished,,unfinished,NO,NO
+d5cfad3579b0,tb::ui::UpdatePreferencePane,"TrenchBroom can check for updates. If an update is available, you will be notified in the status bar and other places.
+To download and install an available update, click on the link labeled ""Update available"".",,unfinished,,unfinished,NO,NO
+4604c5a9e9cd,tb::ui::UpdatePreferencePane,"Pre-releases are versions of TrenchBroom that are not yet considered stable. 
+They may contain new features or bug fixes that are not yet part of a stable release.",,unfinished,,unfinished,NO,NO
+47f3635df9cd,tb::ui::ViewEditor,Show entity classnames,,unfinished,,unfinished,NO,NO
+903cd525ad1b,tb::ui::ViewEditor,Show group bounds and names,,unfinished,,unfinished,NO,NO
+77f7504bf6c8,tb::ui::ViewEditor,Show brush entity bounds,,unfinished,,unfinished,NO,NO
+7a10beadf93b,tb::ui::ViewEditor,Show point entity bounds,,unfinished,,unfinished,NO,NO
+152772094487,tb::ui::ViewEditor,Show point entities,,unfinished,,unfinished,NO,NO
+17f808c64ddc,tb::ui::ViewEditor,Show point entity models,,unfinished,,unfinished,NO,NO
+f42e2ff08440,tb::ui::ViewEditor,Show brushes,,unfinished,,unfinished,NO,NO
+a8bb1a5e4619,tb::ui::ViewEditor,Show Patches,,unfinished,,unfinished,NO,NO
+666ff717a547,tb::ui::ViewEditor,No tags found,,unfinished,,unfinished,NO,NO
+108f3513690f,tb::ui::ViewEditor,Shade faces,,unfinished,,unfinished,NO,NO
+a205d9434413,tb::ui::ViewEditor,Use fog,,unfinished,,unfinished,NO,NO
+07fbbbdfed74,tb::ui::ViewEditor,Show edges,,unfinished,,unfinished,NO,NO
+dd35b608a923,tb::ui::ViewEditor,Show soft bounds,,unfinished,,unfinished,NO,NO
+111a3cf56883,tb::ui::ViewEditor,Restore Defaults,,unfinished,,unfinished,NO,NO
+5f6fcfd0455d,tb::ui::ViewPopupEditor,View Options,,unfinished,,unfinished,NO,NO
+286abca50a02,tb::ui::ViewPopupEditor,Click to edit view settings,,unfinished,,unfinished,NO,NO
+d7870e4b6ced,tb::ui::ViewPreferencePane,Requires restart after changing,更改后需要重启,finished,更改后需要重启,finished,NO,NO
+186e9a86f2f8,tb::ui::ViewPreferencePane,Language,语言,finished,语言,finished,NO,NO
+a13d8bd0a6ab,tb::ui::ViewPreferencePane,Language changes take effect after restarting TrenchBroom.,语言更改将在重启 TrenchBroom 后生效。,finished,语言更改将在重启 TrenchBroom 后生效。,finished,NO,NO
+3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,,unfinished,打开地图,finished,YES,YES
+4ee40ff5d3cf,upd::CheckingForUpdatesWidget,Checking for updates...,,unfinished,,unfinished,NO,NO
+97027a1acc44,upd::CheckingForUpdatesWidget,Checking for updates. Please wait...,,unfinished,,unfinished,NO,NO
+8f26f0cef5ae,upd::CheckingForUpdatesWidget,Cancel,,unfinished,,unfinished,NO,NO
+2bd8cecb5e90,upd::DownloadingUpdateWidget,Downloading update...,,unfinished,,unfinished,NO,NO
+1254ff36cc10,upd::DownloadingUpdateWidget,The update is being downloaded. Please wait...,,unfinished,,unfinished,NO,NO
+6c43d7f044a4,upd::DownloadingUpdateWidget,Cancel,,unfinished,,unfinished,NO,NO
+ea9e3d27714b,upd::PreparingUpdateWidget,Preparing update...,,unfinished,,unfinished,NO,NO
+0dffede0185f,upd::PreparingUpdateWidget,The update is being prepared. Please wait...,,unfinished,,unfinished,NO,NO
+88d42e409692,upd::QtHttpDownload,Could not open file %1,,unfinished,,unfinished,NO,NO
+c4604939ca8b,upd::UpToDateWidget,No update available.,,unfinished,,unfinished,NO,NO
+eff40eecb7fc,upd::UpToDateWidget,You are using the latest version %1. There is no update available.,,unfinished,,unfinished,NO,NO
+52e56d659dc4,upd::UpToDateWidget,Close,,unfinished,,unfinished,NO,NO
+3e2c1efdee67,upd::UpdateAvailableWidget,An update is available!,,unfinished,,unfinished,NO,NO
+01dd1762d214,upd::UpdateAvailableWidget,Version %1 is available to download. You are currently using version %2.,,unfinished,,unfinished,NO,NO
+400984d3e69b,upd::UpdateAvailableWidget,"Start the update by clicking the button below. The update file will be downloaded and prepared. After that, you will have the option to install the update immediately or later when the application quits",,unfinished,,unfinished,NO,NO
+fbc7d6f0ec66,upd::UpdateAvailableWidget,"<a href=""%3"">Click here for the release notes.</a>",,unfinished,,unfinished,NO,NO
+a363344dda5e,upd::UpdateAvailableWidget,Download and install,,unfinished,,unfinished,NO,NO
+f867c19adb04,upd::UpdateAvailableWidget,Close,,unfinished,,unfinished,NO,NO
+d64669b9c00b,upd::UpdateController,Installing update,,unfinished,,unfinished,NO,NO
+8376f481d463,upd::UpdateController,Cleaning work directory %1,,unfinished,,unfinished,NO,NO
+fc5c12890ec4,upd::UpdateController,Failed to clean work directory,,unfinished,,unfinished,NO,NO
+77b0d97202c6,upd::UpdateController,Downloading update from %1,,unfinished,,unfinished,NO,NO
+9aed1a80471e,upd::UpdateController,Removing downloaded update file %1,,unfinished,,unfinished,NO,NO
+427cd7cd1c5d,upd::UpdateController,Preparing update file %1,,unfinished,,unfinished,NO,NO
+a73396be7674,upd::UpdateController,State changed: %1,,unfinished,,unfinished,NO,NO
+61f03c5aa703,upd::UpdateDialog,Update,,unfinished,,unfinished,NO,NO
+19989acadc8c,upd::UpdateErrorWidget,An error occurred!,,unfinished,,unfinished,NO,NO
+33d32bb2e656,upd::UpdateErrorWidget,Retry,,unfinished,,unfinished,NO,NO
+b0deb3d45c5f,upd::UpdateErrorWidget,Close,,unfinished,,unfinished,NO,NO
+8b4dac4efaf2,upd::UpdateIndicator,"<a href=""upd://checkForUpdates"">Check for updates</a>",,unfinished,,unfinished,NO,NO
+fd58dbae7204,upd::UpdateIndicator,Checking for updates...,,unfinished,,unfinished,NO,NO
+1f62b4738ac2,upd::UpdateIndicator,"<a href=""upd://showDialog"">Update available</a>",,unfinished,,unfinished,NO,NO
+efba76631088,upd::UpdateIndicator,Up to date,,unfinished,,unfinished,NO,NO
+58c65242e82d,upd::UpdateIndicator,Downloading update...,,unfinished,,unfinished,NO,NO
+813b13844785,upd::UpdateIndicator,Preparing update...,,unfinished,,unfinished,NO,NO
+2cb5d69016a9,upd::UpdateIndicator,Update pending,,unfinished,,unfinished,NO,NO
+6ee798891346,upd::UpdateIndicator,"<a href=""upd://showDialog"">Update error</a>",,unfinished,,unfinished,NO,NO
+1c7a1cff29d2,upd::UpdateIndicator,Updates disabled,,unfinished,,unfinished,NO,NO
+74c4b6189f3e,upd::UpdatePendingWidget,Update ready to install!,,unfinished,,unfinished,NO,NO
+80ed2dffb262,upd::UpdatePendingWidget,"The update is now ready to be installed. Alternatively, you can install it later when the application quits.",,unfinished,,unfinished,NO,NO
+75f4e69bbc1b,upd::UpdatePendingWidget,Install now,,unfinished,,unfinished,NO,NO
+73b77974ef73,upd::UpdatePendingWidget,Install later,,unfinished,,unfinished,NO,NO
+3ebd9ca57bdd,upd::UpdatePendingWidget,Attention!,,unfinished,,unfinished,NO,NO
+8cc247a63016,upd::UpdatePendingWidget,The updater requires additional privileges to install the update. Please grant these privileges when prompted as the update is installed.,,unfinished,,unfinished,NO,NO
