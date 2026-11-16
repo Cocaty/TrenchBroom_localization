@@ -1,0 +1,19 @@
+﻿english_source,expected_chinese,result,ui_location,screenshot,reason
+New Document,新建文档,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Open Document...,打开文档...,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Save Document,保存文档,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Save Document as...,文档另存为...,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Wavefront OBJ...,Wavefront OBJ...,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Map...,地图文件...,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Load Point File...,加载点轨迹文件...,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Reload Point File,重新加载点轨迹文件,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Unload Point File,卸载点轨迹文件,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Load Portal File...,加载 BSP 门户文件...,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Reload Portal File,重新加载 BSP 门户文件,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Unload Portal File,卸载 BSP 门户文件,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Reload Material Collections,重新加载材质集合,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Reload Entity Definitions,重新加载实体定义,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Revert Document,还原文档,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Discards any unsaved changes and reloads the map file.,放弃所有未保存的更改，并重新加载地图文件。,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果
+Close Document,关闭文档,NOT TESTED,File 菜单/相关 tooltip（未打开）,无, Welcome 窗口无 File 菜单；创建或打开地图需游戏配置/真实地图文件，本轮授权不允许修改配置或打开真实地图；不伪造 UI 结果

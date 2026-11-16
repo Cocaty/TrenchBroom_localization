@@ -1,0 +1,12 @@
+# T5_Baseline_And_Final_Hashes — 关键哈希与运行记录
+
+| 对象 | SHA-256 | 大小 |
+|---|---|---|
+| 测试副本 EXE（复制前后一致） | 9a1a84991c61d1d108477ab7f193c72d6336e1ed6c197d510339043d8b2c46d5 | 29,761,536 B |
+| 构建树 EXE（前后未变） | 9a1a84991c61d1d108477ab7f193c72d6336e1ed6c197d510339043d8b2c46d5 | 29,761,536 B |
+| 构建树/测试副本 QM | a2f5cc1f892cfd8a52e6accc619b5ba79fcaf8a9524331013bd615a33d3d2f66 | 1,805 B |
+| 正式 TS（前后未变） | 6582a38280e7ac1c45bc5dcf12575bd4235e0502f5543e27b3daed2c5d2c72d8 | 131,106 B |
+| 原版 Release EXE | f5a02f40dde7108f0d1f33af81a81c7c85c838e0c0a3407025e1d0827d6b4273 | 22,322,688 B |
+| 日常 INI | 5062ef854b994caf7175b88c68a2c2e618abd679b4f062d84113d4e29cbbdc17 | 1,399 B |
+
+启动次数 **3**（PID 2260 / 23996 / 29880），均通过 CloseMainWindow 正常退出，最终进程数 0；启动参数 `--portable`，工作目录 `test-runs\P2-D3B-B01-T5\app`；三条 stderr 日志均 0 B。测试副本文件清单 395 项见 `T5_Test_Copy_Manifest.csv`。
