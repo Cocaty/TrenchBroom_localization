@@ -1,0 +1,10 @@
+﻿Expected_Context,Source,Frozen_Translation,Hit_Count,Message_ID,Temp_Translation,Temp_Status,Result
+QObject,File,文件,1,,None,unfinished,PASS
+QObject,Edit,编辑,1,,None,unfinished,PASS
+QObject,Selection,选择,1,,None,unfinished,PASS
+QObject,Groups,分组,1,,None,unfinished,PASS
+QObject,Tools,工具,1,,None,unfinished,PASS
+QObject,View,视图,1,,None,unfinished,PASS
+QObject,Run,运行,1,,None,unfinished,PASS
+QObject,Debug,调试,1,,None,unfinished,PASS
+QObject,Help,帮助,1,,None,unfinished,PASS

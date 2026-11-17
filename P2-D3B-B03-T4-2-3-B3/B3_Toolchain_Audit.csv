@@ -1,0 +1,4 @@
+﻿Tool,Path,Size,SHA256,Version_Evidence,Result
+lupdate.exe,C:/Users/yoshi/tools/Qt/6.10.3/6.10.3/msvc2022_64/bin/lupdate.exe,661304,0090a7415a8116f458d35904154e265ac1706699d64d99f3b7a764081ddc46e8,lupdate version 6.10.3,PASS
+lupdate project,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/.lupdate/TrenchBroom_lupdate_project.json,44758,cf13d339c4ae4296d13cac08ed8865fd87e048a1da0b470db299846e336b6e26,project JSON from existing build; source scope as generated,PASS_WITH_WARNINGS
+Formal TS,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\app\TrenchBroom\translations\TrenchBroom_zh_CN.ts,132589,f021e509cf9a8679eeda64624df0f5474335c0872f73940e1d48ef77447a261a,read-only input,PASS

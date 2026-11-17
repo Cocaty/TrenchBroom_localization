@@ -1,0 +1,645 @@
+﻿Category,Context,Source,Base_Count,Temp_Count,Note
+LOCATION_CHANGED,QLineEdit,Search...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject, (%1),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject, in %1 layers,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject," in layer ""%1""",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,%1 Name,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,%1 hidden,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,%1 names cannot be blank.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,%1 names cannot contain double quotes.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,%1 or %2,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,%1%2 selected,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,About TrenchBroom,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Brush Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Cancel,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Clear Protected Properties,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Clear Repeatable Commands,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Clip Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Close Document,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Compile Map...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Control Point Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Convert Selection to Patches,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Convex Merge,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Copy,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Crash...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Create %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Create Brush,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Create Brush...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Create Cube...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Create Linked Duplicate,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Cut,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Cycle View,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Deactivate Current Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+ADDED,QObject,Debug,0,1,"9 expected top-level menu messages, QObject, unfinished"
+LOCATION_CHANGED,QObject,Decrease Grid Size,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Decrease Sweep Scale,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Delete,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Deselect All,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Discards any unsaved changes and reloads the map file.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Duplicate,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Duplicate and Move Backward,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Duplicate and Move Down,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Duplicate and Move Forward,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Duplicate and Move Left,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Duplicate and Move Right,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Duplicate and Move Up,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Edge Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+ADDED,QObject,Edit,0,1,"9 expected top-level menu messages, QObject, unfinished"
+LOCATION_CHANGED,QObject,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Extract Selected Objects,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Face Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+ADDED,QObject,File,0,1,"9 expected top-level menu messages, QObject, unfinished"
+LOCATION_CHANGED,QObject,Flip Horizontally,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Flip Vertically,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Flip textures horizontally,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Flip textures vertically,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Focus Camera on Selection,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Group,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Group Selected Objects,1,1,lupdate normalized source-relative location paths; content unchanged
+ADDED,QObject,Groups,0,1,"9 expected top-level menu messages, QObject, unfinished"
+ADDED,QObject,Help,0,1,"9 expected top-level menu messages, QObject, unfinished"
+LOCATION_CHANGED,QObject,Hide All Entity Links,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Hide Faces,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Hide Selection,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Hide Textures,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Hollow,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Increase Grid Size,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Increase Sweep Scale,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Intersect,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Invert Selection,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Isolate Selection,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Launch Engine...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Load Point File...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Load Portal File...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Make Structural,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Map...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Maximize Current View,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Backward,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Camera to Next Point,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Camera to Previous Point,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Camera to...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Down,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Forward,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Left,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Right,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Down,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Down (Coarse),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Down (Fine),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Left,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Left (Coarse),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Left (Fine),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Right,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Right (Coarse),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Right (Fine),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Up,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Up (Coarse),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Textures Up (Fine),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move Up,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Move...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,New Document,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,None,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Open Document...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Open groups: %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Paste,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Paste at Original Position,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Perform Clip,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Perform Sweep,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Pitch Clockwise,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Pitch Counter-clockwise,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Preferences...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Print Vertices to Console,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Re-run compilation...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Redo,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Reload Entity Definitions,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Reload Material Collections,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Reload Point File,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Reload Portal File,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Rename Selected Groups,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Repeat Last Commands,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Replace Material...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Reset 2D Cameras,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Reset Camera Zoom,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Reset texture alignment,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Reset texture alignment to world aligned,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Reveal in texture browser,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Revert Document,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Roll Clockwise,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Roll Counter-clockwise,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Rotate Textures Clockwise,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Rotate Textures Clockwise (Coarse),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Rotate Textures Clockwise (Fine),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Rotate Textures Counter-clockwise,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Rotate Textures Counter-clockwise (Coarse),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Rotate Textures Counter-clockwise (Fine),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Rotate Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+ADDED,QObject,Run,0,1,"9 expected top-level menu messages, QObject, unfinished"
+LOCATION_CHANGED,QObject,Save Document,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Save Document as...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Scale Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Select All,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Select Inside,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Select Linked Groups,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Select Siblings,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Select Tall,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Select Touching,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Select by Line Number...,1,1,lupdate normalized source-relative location paths; content unchanged
+ADDED,QObject,Selection,0,1,"9 expected top-level menu messages, QObject, unfinished"
+LOCATION_CHANGED,QObject,Separate Selected Groups,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 0.125,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 0.25,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 0.5,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 128,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 16,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 2,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 256,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 32,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 4,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 64,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Grid Size 8,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Set Window Size...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Shear Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show All,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show All Entity Links,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show Crash Report Dialog...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show Directly Selected Entity Links,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show Entity Inspector,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show Face Inspector,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show Grid,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show Map Inspector,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show Palette...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show Textures,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Show Transitively Selected Entity Links,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Snap Vertices to Grid,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Snap Vertices to Integer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Snap to Grid,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Subtract,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Sweep Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Texture Lock,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Throw Exception During Command,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle %1 visible,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Clip Side,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Info Panel,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Inspector,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Shade Faces,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Show Brush Entity Bounds,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Show Brushes,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Show Edges,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Show Entity Classnames,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Show Fog,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Show Group Bounds,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Show Point Entities,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Show Point Entity Bounds,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Show Point Entity Models,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Toggle Toolbar,1,1,lupdate normalized source-relative location paths; content unchanged
+ADDED,QObject,Tools,0,1,"9 expected top-level menu messages, QObject, unfinished"
+LOCATION_CHANGED,QObject,TrenchBroom Manual,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Turn Selection into %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Turn Selection into non-%1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,UV Lock,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Undo,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Ungroup Selected Objects,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Unload Point File,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Unload Portal File,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Vertex Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+ADDED,QObject,View,0,1,"9 expected top-level menu messages, QObject, unfinished"
+LOCATION_CHANGED,QObject,Wavefront OBJ...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Yaw Clockwise,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,QObject,Yaw Counter-clockwise,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::AboutDialog,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />",1,1,lupdate normalized source-relative location paths; content unchanged
+TRANSLATION_CHANGED,tb::ui::AppController,Open Map,1,1,lupdate same-text heuristic copied 打开地图 into unfinished duplicate tb::ui::AppController/Open Map; not a frozen message
+LOCATION_CHANGED,tb::ui::AppController,TrenchBroom can check for updates automatically. Would you like to enable this now?,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::AppInfoPanel,Build %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::AppInfoPanel,Click to copy to clipboard,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::AppInfoPanel,Level Editor,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::AppInfoPanel,Qt %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::AppInfoPanel,TrenchBroom,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::AppInfoPanel,TrenchBroom %1 Build %2,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::AppInfoPanel,Version %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ChoosePathTypeDialog,Absolute,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ChoosePathTypeDialog,Choose Path Type,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ChoosePathTypeDialog,Could not build a path.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ChoosePathTypeDialog,Path Type,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ChoosePathTypeDialog,Relative to application executable,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ChoosePathTypeDialog,Relative to game directory,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ChoosePathTypeDialog,Relative to map file,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ChoosePathTypeDialog,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CollapsibleTitledPanel,hide,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CollapsibleTitledPanel,show,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ColorModel,Color,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ColorModel,Context,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ColorModel,Description,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ColorsPreferencePane,Double-click a color to begin editing it.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationDialog,Clear,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationDialog,Close,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationDialog,Closing this dialog will stop the running compilation. Are you sure?,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationDialog,Compilation failed: %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationDialog,Compile,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationDialog,Launch...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationDialog,Output,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationDialog,Stop,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationDialog,Test,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationDialog,Warning,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationExportMapTaskEditor,Set a GLOB pattern to strip any entities with a matching classname. Example: 'info_player_*' to strip all info_player_start and all info_player_deatchmatch entities.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationExportMapTaskEditor,"Set the classname of an entity that will be added to the map. The entities' origin and angles will be set to the camera position and view direction, respectively.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationExportMapTaskEditor,Set this checkbox to strip any entity properties starting with _tb_ from the exported map file. Some compilers cannot handle these properties.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationLaunchEngineTaskEditor,Stop compilation if the engine cannot be launched,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationLaunchEngineTaskEditor,The Launch Engine profile to start when this task runs,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationProfileEditor,Duplicate,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationProfileEditor,Move Down,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationProfileEditor,Move Up,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationProfileEditor,Remove,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationProfileManager,Duplicate,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationProfileManager,Remove,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationRunToolTaskEditor,Select Tool,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationRunToolTaskEditor,Stop compilation if the tool returns a nonzero error code,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CompilationTaskEditorBase,Whether to include this task when running the compile profile,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::Console,Clear,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ControlPointToolPage,Columns:,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ControlPointToolPage,Rows:,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CrashDialog,Crash,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CrashDialog,Report,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::CrashDialog,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DebugPaletteWindow,Palette,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolArchShapeExtensionPage,Thickness: ,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,Axis: ,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,X,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,Y,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolAxisAlignedShapeExtensionPage,Z,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolCircularShapeExtensionPage,Align edge to bounding box,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolCircularShapeExtensionPage,Align vertices to bounding box,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolCircularShapeExtensionPage,Number of Sides: ,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolCircularShapeExtensionPage,Scalable circle shape,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolCylinderShapeExtensionPage,Hollow,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolCylinderShapeExtensionPage,Thickness: ,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolExtensionPage,Apply,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolIcoSphereShapeExtensionPage,Accuracy: ,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolPage,Click to select a shape,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolPage,Shape,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolStairsExtensionPage,+X,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolStairsExtensionPage,+Y,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolStairsExtensionPage,-X,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolStairsExtensionPage,-Y,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolStairsExtensionPage,Direction: ,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolStairsExtensionPage,Step Height: ,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::DrawShapeToolUVSphereShapeExtensionPage,Number of Rings: ,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityBrowser,Group,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityBrowser,Group entity definitions by category,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityBrowser,Name,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityBrowser,Only show entity definitions currently in use,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityBrowser,Select ordering criterion,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityBrowser,Usage,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityBrowser,Used,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityDefinitionCheckBoxList,Hide all,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityDefinitionCheckBoxList,Show all,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityDefinitionFileChooser,Browse...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityDefinitionFileChooser,Builtin,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityDefinitionFileChooser,Click to browse for an entity definition file,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityDefinitionFileChooser,External,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityDefinitionFileChooser,Load Entity Definition File,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityDefinitionFileChooser,Reload,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityDefinitionFileChooser,Reload the currently loaded entity definition file,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityDefinitionFileChooser,use builtin,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityInspector,Browser,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityInspector,Entity Browser,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityInspector,Settings,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyEditor, (%1),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyEditor,"Class ""%1""",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyEditor,"Property ""%1""",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyGrid,Add a new property (%1),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyGrid,Add a new protected property,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyGrid,Remove the selected properties (%1),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyGrid,Set all default properties,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyGrid,Set default properties,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyGrid,Set existing default properties,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyGrid,Set missing default properties,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyGrid,Show default properties,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyModel,"A property with key '%1' already exists.
+
+ Do you wish to overwrite it?",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyModel,Error,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyModel,Key,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyModel,Protect properties from changes in linked groups,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::EntityPropertyModel,Value,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,"Align texture to face edges.
+Click again to cycle through edges.
+Hold %1 to cycle backwards.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,"Fit texture horizontally.
+Click again to cycle through options.
+Hold %1 to cycle backwards.
+Hold %2 to keep trim sheet subdivisions.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,Fit texture to face.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,"Fit texture vertically.
+Click again to cycle through options.
+Hold %1 to cycle backwards.
+Hold %2 to keep trim sheet subdivisions.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,"Justify texture to bottom edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,"Justify texture to left edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,"Justify texture to right edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,"Justify texture to top edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,Unset color,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,Unset content flags,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,Unset surface flags,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceAttribsEditor,Unset surface value,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceInspector,Browser,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceInspector,Material Browser,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceInspector,Settings,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FaceInspector,"To manage wad files, select the ""wad"" property of the worldspawn entity to reveal a wad file manager below the entity property table.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FlagsEditor,All,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::FlagsEditor,None,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GameDialog,Autodetect,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GameEngineProfileEditor,Choose Engine,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GameEngineProfileEditor,Choose a name,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GameEngineProfileEditor,Click on the button to choose...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GamePreferencePane,%1 Path,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GamePreferencePane,...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GamePreferencePane,Click on the button to change...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GamePreferencePane,Compilation Tools,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GamePreferencePane,Configure engines...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GamePreferencePane,Directory not found,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GamePreferencePane,Game Path,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GamesPreferencePane,Open custom game configurations folder,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::GamesPreferencePane,Select a game.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::InfoPanel,Console,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::InfoPanel,Issues,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::IssueBrowserModel,Description,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::IssueBrowserModel,Line,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::IssueBrowserView,Fix,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::IssueBrowserView,Hide,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::IssueBrowserView,Show,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::KeyboardPreferencePane,Double-click an item to begin editing it. Click anywhere else to end editing.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Add a new layer from the current selection,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Hide All Layers,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Hide layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Isolate layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Lock All Layers,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Lock layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Make active layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Move selection to layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Omit From Export,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Remove Layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Remove the selected layer and move its objects to the default layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Rename Layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Select all in layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Show All Layers,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Show layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Unlock All Layers,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerEditor,Unlock layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerListBoxWidget,%1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerListBoxWidget,%1 %2,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerListBoxWidget,Toggle hidden state,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerListBoxWidget,Toggle locked state,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::LayerListBoxWidget,Toggle omit from export,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapInspector,Layers,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapInspector,Map Properties,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapInspector,Mods,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapPropertiesEditor,Max:,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapPropertiesEditor,Min:,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapPropertiesEditor,Soft bounds disabled,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapPropertiesEditor,Use custom bounds,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapPropertiesEditor,Use game default,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Add Objects to Group %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Copy Material Name,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Create Brush Entity,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Create Point Entity,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Hide Layers,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Isolate Layers,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Make Layer %1 Active,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Make Layer Active,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Make Structural,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Merge Groups,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Merge Groups into %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Move Brushes to Entity %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Move to Layer,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Remove Objects from Group %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Reveal %1 in Material Browser,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapViewBase,Select All in Layers,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,%1 has been modified. Do you want to save the changes?,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,%1[*] - TrenchBroom,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,Export Map file,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,Grid %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,Invalid coordinates: '%1',1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,Load Point File,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,Load Portal File,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,"Re-run ""%1""...",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,Re-run compilation...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,Revert,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,Revert %1 to %2?,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,Save map file,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,This will discard all unsaved changes and reload the document from disk.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MapWindow,"You can't overwrite the current document.
+Please choose a different file name to export to.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialBrowser,Group,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialBrowser,Group materials by material collection,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialBrowser,Name,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialBrowser,Only show materials currently in use,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialBrowser,Select ordering criterion,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialBrowser,Usage,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialBrowser,Used,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialBrowserView,Copy Name,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialBrowserView,Select Brushes,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialBrowserView,Select Faces,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialCollectionEditor,Disable the selected material collections,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialCollectionEditor,Enable the selected material collections,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MaterialCollectionEditor,Reload all enabled material collections,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ModEditor,Disable the selected mods,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ModEditor,Enable the selected mods,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ModEditor,Filter the list of available mods,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ModEditor,Move the selected mod down,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ModEditor,Move the selected mod up,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::MousePreferencePane,Speed,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ObjExportDialog,Controls how the texture paths in the generated material file are computed.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ObjExportDialog,Enter a path or click to browse,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ObjExportDialog,Export Path,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ObjExportDialog,Export Wavefront OBJ,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ObjExportDialog,Export Wavefront OBJ file,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ObjExportDialog,Relative to export path,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ObjExportDialog,Relative to game path,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ObjExportDialog,Texture Paths,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::QPreferenceStoreDelegate,"%1
+
+%2
+
+Please correct the problem (%3) and restart TrenchBroom.
+Further settings changes will not be saved this session.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::QPreferenceStoreDelegate,A JSON parsing error occurred while reading the preference file:,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::QPreferenceStoreDelegate,A file IO error occurred while attempting to read the preference file:,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::QPreferenceStoreDelegate,A file IO error occurred while attempting to write the preference file:,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::QPreferenceStoreDelegate,Could not acquire lock file for reading the preference file:,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::QPreferenceStoreDelegate,TrenchBroom,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::QPreferenceStoreDelegate,check for stale lock files,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::QPreferenceStoreDelegate,ensure the file is readable,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::QPreferenceStoreDelegate,ensure the file is writable,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::QPreferenceStoreDelegate,"fix the JSON, or backup and delete the file",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ReplaceMaterialDialog,Close,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ReplaceMaterialDialog,Close this window,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ReplaceMaterialDialog,Find,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ReplaceMaterialDialog,None of the selected faces has the selected material,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ReplaceMaterialDialog,Perform replacement on all selected faces,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ReplaceMaterialDialog,Replace,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ReplaceMaterialDialog,Replace Failed,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ReplaceMaterialDialog,Replace Material,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ReplaceMaterialDialog,Replace Succeeded,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ReplaceMaterialDialog,Replace with,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::RotateToolPage,Apply,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::RotateToolPage,Center,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::RotateToolPage,Reset,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::RotateToolPage,Reset the position of the rotate handle to the center of the current selection.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::RotateToolPage,Rotate objects,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::RotateToolPage,Update entity properties,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::RotateToolPage,axis,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::RotateToolPage,degs about,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ScaleToolPage,Apply,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ScaleToolPage,Scale objects,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ScaleToolPage,by factors,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ScaleToolPage,to size,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SmartChoiceEditor,Select a choice option:,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SmartColorEditor,"Byte [0,255]",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SmartColorEditor,Color range,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SmartColorEditor,"Float [0,1]",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SmartWadEditor,Load Wad Files,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SmartWadEditor,Wad files (*.wad);;All files (*.*),1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SpinControl,"Increment: %1 (%2: %3, %4: %5)",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,Arc,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,"Arc revolves around an axis, Straight is a linear loft, S-bend follows an S-curve; the destination cap ends up in the same place in each mode",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,Iterations,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,Move the destination cap back onto the selected faces,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,Number of brushes between the source faces and the destination cap,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,Path,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,"Repeats the sweep, continuing from the previous destination cap",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,Reset,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,Round generated vertices to integer coordinates,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,S-bend,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,Segments,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,Snap to integer grid,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::SweepToolPage,Straight,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::UVEditor,Flip U axis,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::UVEditor,Flip V axis,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::UVEditor,Reset UV alignment,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::UVEditor,Reset UV alignment to world aligned,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::UVEditor,Rotate UV 90° clockwise,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::UVEditor,Rotate UV 90° counter-clockwise,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::UpdatePreferencePane,"Pre-releases are versions of TrenchBroom that are not yet considered stable. 
+They may contain new features or bug fixes that are not yet part of a stable release.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::UpdatePreferencePane,"TrenchBroom can check for updates. If an update is available, you will be notified in the status bar and other places.
+To download and install an available update, click on the link labeled ""Update available"".",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,No tags found,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Restore Defaults,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Shade faces,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Show Patches,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Show brush entity bounds,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Show brushes,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Show edges,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Show entity classnames,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Show group bounds and names,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Show point entities,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Show point entity bounds,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Show point entity models,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Show soft bounds,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewEditor,Use fog,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewPopupEditor,Click to edit view settings,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewPopupEditor,View Options,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewPreferencePane,Language,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewPreferencePane,Language changes take effect after restarting TrenchBroom.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::ViewPreferencePane,Requires restart after changing,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,tb::ui::WelcomeWindow,Open Map,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::CheckingForUpdatesWidget,Cancel,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::CheckingForUpdatesWidget,Checking for updates. Please wait...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::CheckingForUpdatesWidget,Checking for updates...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::DownloadingUpdateWidget,Cancel,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::DownloadingUpdateWidget,Downloading update...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::DownloadingUpdateWidget,The update is being downloaded. Please wait...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::PreparingUpdateWidget,Preparing update...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::PreparingUpdateWidget,The update is being prepared. Please wait...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::QtHttpDownload,Could not open file %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpToDateWidget,Close,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpToDateWidget,No update available.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpToDateWidget,You are using the latest version %1. There is no update available.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateAvailableWidget,"<a href=""%3"">Click here for the release notes.</a>",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateAvailableWidget,An update is available!,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateAvailableWidget,Close,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateAvailableWidget,Download and install,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateAvailableWidget,"Start the update by clicking the button below. The update file will be downloaded and prepared. After that, you will have the option to install the update immediately or later when the application quits",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateAvailableWidget,Version %1 is available to download. You are currently using version %2.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateController,Cleaning work directory %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateController,Downloading update from %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateController,Failed to clean work directory,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateController,Installing update,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateController,Preparing update file %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateController,Removing downloaded update file %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateController,State changed: %1,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateDialog,Update,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateErrorWidget,An error occurred!,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateErrorWidget,Close,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateErrorWidget,Retry,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateIndicator,"<a href=""upd://checkForUpdates"">Check for updates</a>",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateIndicator,"<a href=""upd://showDialog"">Update available</a>",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateIndicator,"<a href=""upd://showDialog"">Update error</a>",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateIndicator,Checking for updates...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateIndicator,Downloading update...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateIndicator,Preparing update...,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateIndicator,Up to date,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateIndicator,Update pending,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdateIndicator,Updates disabled,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdatePendingWidget,Attention!,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdatePendingWidget,Install later,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdatePendingWidget,Install now,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdatePendingWidget,"The update is now ready to be installed. Alternatively, you can install it later when the application quits.",1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdatePendingWidget,The updater requires additional privileges to install the update. Please grant these privileges when prompted as the update is installed.,1,1,lupdate normalized source-relative location paths; content unchanged
+LOCATION_CHANGED,upd::UpdatePendingWidget,Update ready to install!,1,1,lupdate normalized source-relative location paths; content unchanged

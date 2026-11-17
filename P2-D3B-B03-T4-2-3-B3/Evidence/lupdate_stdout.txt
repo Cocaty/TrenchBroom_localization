@@ -1,0 +1,3 @@
+Updating '../../reports/P2-D3B-B03-T4-2-3-B3/Artifacts/TrenchBroom_zh_CN.lupdate.tmp.ts'...
+    Found 571 source text(s) (9 new and 562 already existing)
+    Same-text heuristic provided 1 translation(s)

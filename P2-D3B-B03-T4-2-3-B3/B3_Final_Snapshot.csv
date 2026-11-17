@@ -1,0 +1,14 @@
+﻿Relative_Path,Canonical_Path,Size_Bytes,SHA256
+B3_Start_Snapshot.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/B3_Start_Snapshot.csv,3231,2804e77254c1483fc756f99d76903ea33856e2e1417f2b3885568b8f25702bad
+B3_Source_Review_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/B3_Source_Review_Audit.csv,999,5449b1850a262fa64404d5ce4b98e77a6dd1b28dc6433aa123657513db4358c5
+Evidence/lupdate_command.txt,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/Evidence/lupdate_command.txt,486,30c5b063318b29c6e4764b9088594e2a7676c47957ee7c77e59bf94922b5ea23
+Evidence/lupdate_stdout.txt,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/Evidence/lupdate_stdout.txt,207,f9b9a1b1239fc263edf78075e2fdeff95a9da5fafda74408d0dd3d5d35ed54e3
+Evidence/lupdate_stderr.txt,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/Evidence/lupdate_stderr.txt,19401,d34c7bd396d12be8ca3702ccb02dfcfec693b025076ae050349bc8c0ae0bb9c6
+Artifacts/TrenchBroom_zh_CN.lupdate.tmp.ts,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/Artifacts/TrenchBroom_zh_CN.lupdate.tmp.ts,143678,338bb2b25ab323eb421c7745fe1e9f634df5650828181f65138fe56cdf112570
+B3_Menu_Extraction_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/B3_Menu_Extraction_Audit.csv,517,b1c06a9b0bcd1bdfaee2c1c6d04121433f223774e7cf7df8474f0e2fd878ad13
+B3_Existing_39_Translation_Protection_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/B3_Existing_39_Translation_Protection_Audit.csv,11510,450aa1365d2f2ff909fc066841583ea6b923e3d06b7ba44663a1a0349d9e783c
+B3_TS_Diff_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/B3_TS_Diff_Audit.csv,77772,4ad89086a7e5b7ab0e25bb6516cd55d6991150eec50f031abc55ab73d0d21e6b
+B3_Toolchain_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/B3_Toolchain_Audit.csv,735,e24ad76b4bfd14368b7b7a9a8babd8bab91f9de44aec5347d3799d5e60bb0b16
+B3_Protected_State_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/B3_Protected_State_Audit.csv,4440,887a7e111733839a71aa0df0a9f474f48d0e76660ac5b6cc8ff35f82db620a7a
+B3_B4_Readiness_Assessment.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/B3_B4_Readiness_Assessment.md,1705,716a99220caca97205e96d139606a1a33924f286e242881cfac9586e089b9fb8
+B3_Execution_Report.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/B3_Execution_Report.md,2871,4a6de4165913d0f258c058a64b463599423e013a417922d8eb85618f9e0eda6e

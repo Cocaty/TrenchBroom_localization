@@ -1,0 +1,5 @@
+Command: "/c/Users/yoshi/tools/Qt/6.10.3/6.10.3/msvc2022_64/bin/lupdate.exe" -project "/c/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/.lupdate/TrenchBroom_lupdate_project.json" -ts "/c/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B3/Artifacts/TrenchBroom_zh_CN.lupdate.tmp.ts"
+WorkingDirectory: /c/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom
+Start: 2026-11-17 22:55:14 +0800
+ExitCode: 0
+End: 2026-11-17 22:55:20 +0800
