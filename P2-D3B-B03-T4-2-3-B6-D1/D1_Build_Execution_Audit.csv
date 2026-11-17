@@ -1,0 +1,7 @@
+﻿Item,Value,Result
+Command,"Command: ""/c/Users/yoshi/Tools/CMake/4.2.8/bin/cmake.exe"" --build ""/c/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103"" --config Release --target TrenchBroom -- -m:1 -v:m",PASS
+ExitCode,1,FAIL
+Failure,GenerateManual.vcxproj custom command; 0xc0000135 persists,FAIL
+New EXE,NO; hash unchanged 268df390…,FAIL
+New build QM,NO; hash unchanged 707011a3…,FAIL
+shortcuts.js,exists 25907 B; build still reported failure; treated as not a successful GenerateManual completion,NOT_VERIFIED

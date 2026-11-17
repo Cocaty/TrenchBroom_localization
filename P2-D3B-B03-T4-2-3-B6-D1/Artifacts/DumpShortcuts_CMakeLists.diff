@@ -1,0 +1,28 @@
+--- before
++++ after
+@@ -30,6 +30,25 @@
+         COMMAND ${CMAKE_COMMAND} -E copy_if_different "$<TARGET_FILE:freetype>" "$<TARGET_FILE_DIR:DumpShortcuts>"
+         COMMAND ${CMAKE_COMMAND} -E copy_if_different "$<TARGET_FILE:tinyxml2::tinyxml2>" "$<TARGET_FILE_DIR:DumpShortcuts>"
+         COMMAND ${CMAKE_COMMAND} -E copy_if_different "$<TARGET_FILE:miniz::miniz>" "$<TARGET_FILE_DIR:DumpShortcuts>"
++
++        # Recursive third-party dependencies required by DumpShortcuts at runtime.
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/brotlidec.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/bz2.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/libpng16.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/Iex-3_3.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/Imath-3_2.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/OpenEXR-3_3.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/jpeg8.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/openjp2.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/raw.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/tiff.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/libwebp.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/libwebpdecoder.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/libwebpmux.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/kubazip.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/minizip.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/poly2tri.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/pugixml.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
+     )
+     
+     # Run windeployqt which copies the Qt dlls into the deployable folder, along with necessary runtime dlls by the compiler

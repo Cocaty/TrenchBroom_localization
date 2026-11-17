@@ -1,0 +1,7 @@
+﻿Check,Value,Result
+DumpShortcuts rebuilt,yes; log line present,PASS
+17 recursive DLLs deployed,17/17 hash match vcpkg source,PASS
+shortcuts.js generated,25907 B,OBSERVED
+No 0xc0000135 in build log,false; still present,FAIL
+GenerateManual target,MSB8066,FAIL
+Build exit code,1,FAIL

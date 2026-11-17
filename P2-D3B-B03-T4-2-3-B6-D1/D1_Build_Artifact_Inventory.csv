@@ -1,0 +1,15 @@
+﻿Log_Line,Evidence,Action,Result
+L151,KdLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\KdLib\Release\KdLib.lib,LINK_OR_BUILD,EXPECTED
+L152,TbBaseLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbBaseLib\Release\TbBaseLib.lib,LINK_OR_BUILD,EXPECTED
+L153,TbElLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbElLib\Release\TbElLib.lib,LINK_OR_BUILD,EXPECTED
+L154,TbFsLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbFsLib\Release\TbFsLib.lib,LINK_OR_BUILD,EXPECTED
+L155,TbGlLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbGlLib\Release\TbGlLib.lib,LINK_OR_BUILD,EXPECTED
+L156,TbMdlLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbMdlLib\Release\TbMdlLib.lib,LINK_OR_BUILD,EXPECTED
+L157,TbPreferencesLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbPreferencesLib\Release\TbPreferencesLib.lib,LINK_OR_BUILD,EXPECTED
+L158,TbRenderLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbRenderLib\Release\TbRenderLib.lib,LINK_OR_BUILD,EXPECTED
+L160,UpdateLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\UpdateLib\Release\UpdateLib.lib,LINK_OR_BUILD,EXPECTED
+L162,TbUiLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbUiLib\Release\TbUiLib.lib,LINK_OR_BUILD,EXPECTED
+L164,DumpShortcuts.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\DumpShortcuts\Release\DumpShortcuts.exe,LINK_OR_BUILD,EXPECTED
+L224,Generating gen-manual/shortcuts.js,CUSTOM,ATTEMPTED
+L225,Exit code 0xc0000135,FAILURE,FAIL
+L226,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(254,5): error MSB8066: “C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\CMakeFiles\c5d5938",FAILURE,FAIL

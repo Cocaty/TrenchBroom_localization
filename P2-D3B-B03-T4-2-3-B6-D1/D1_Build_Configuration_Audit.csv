@@ -1,0 +1,9 @@
+﻿Source,Value,Result
+CMakeCache,Qt6_DIR:PATH=C:/Users/yoshi/tools/Qt/6.10.3/6.10.3/msvc2022_64/lib/cmake/Qt6,PASS
+CMakeCache,VCPKG_INSTALLED_DIR:PATH=C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/vcpkg_installed,PASS
+CMakeCache,VCPKG_TARGET_TRIPLET:STRING=x64-windows,PASS
+CMakeCache,CMAKE_GENERATOR:INTERNAL=Visual Studio 18 2026,PASS
+CMakeCache,CMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/18/Community,PASS
+CMakeCache,CMAKE_GENERATOR_PLATFORM:INTERNAL=x64,PASS
+CMakeCache,CMAKE_GENERATOR_TOOLSET:INTERNAL=,PASS
+CMakeCache,CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom,PASS

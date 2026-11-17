@@ -1,0 +1,6 @@
+﻿Item,Value,Result
+Git,feature/zh-CN-v2026.2/4c756be1a54a28d921d18c77716a5f170bdc31d0/dirty=12 -> dirty=13 (added DumpShortcuts/CMakeLists.txt),PASS
+DumpShortcuts/CMakeLists.txt,d4f8a2a3b098562cdbe9ecc5252729679bc133fed1d96a976349224189a0154a,EXPECTED_CHANGE
+正式TS,f81162b383364c9a4a12db4490df910d4555d74ead0acc9f1b414dfc3f9fbfe0,PASS
+B5QM,4b213ce5b33639069b87f435dddce6ba9fae54e552f19cb02a231c27ecd926ab,PASS
+17 DLL sources,all exist / x64 / hashes recorded,PASS

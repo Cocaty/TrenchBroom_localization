@@ -1,0 +1,10 @@
+﻿Source,Expected_Translation,Result,Reason
+File,文件,NOT_RUN,build failed; no new EXE / embedded QM
+Edit,编辑,NOT_RUN,build failed; no new EXE / embedded QM
+Selection,选择,NOT_RUN,build failed; no new EXE / embedded QM
+Groups,分组,NOT_RUN,build failed; no new EXE / embedded QM
+Tools,工具,NOT_RUN,build failed; no new EXE / embedded QM
+View,视图,NOT_RUN,build failed; no new EXE / embedded QM
+Run,运行,NOT_RUN,build failed; no new EXE / embedded QM
+Debug,调试,NOT_RUN,build failed; no new EXE / embedded QM
+Help,帮助,NOT_RUN,build failed; no new EXE / embedded QM
