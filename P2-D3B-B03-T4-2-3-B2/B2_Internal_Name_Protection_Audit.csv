@@ -1,0 +1,5 @@
+﻿File,Line,Expression,Status,Purpose
+lib/TbUiLib/src/KeyboardShortcutModel.cpp,260,currentPath = currentPath / menu.name;,UNCHANGED,英文内部路径
+app/DumpShortcuts/src/Main.cpp,141,currentPath.push_back(QString::fromStdString(menu.name));,UNCHANGED,英文导出路径
+lib/TbUiLib/src/ActionBuilder.cpp,136,menu.displayName.empty() ? menu.name : menu.displayName,CHANGED_UI_ONLY,仅 QMenuBar 标题；空值回退英文
+lib/TbUiLib/src/ActionBuilder.cpp,140,currentMenu->addMenu(QString::fromStdString(menu.name)),UNCHANGED,子菜单继续英文 name

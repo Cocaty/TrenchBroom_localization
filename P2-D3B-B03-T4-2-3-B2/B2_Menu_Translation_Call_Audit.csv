@@ -1,0 +1,10 @@
+﻿Menu_Key,Source,Frozen_Translation,Context,Translation_Call,Source_Call_Site,Literal_Type,Result,Note
+M01,File,文件,QObject,"QObject::tr(""File"").toStdString()",ActionManager.cpp:824,STATIC_LITERAL,PASS,未写入 TS；B3 lupdate 负责提取
+M02,Edit,编辑,QObject,"QObject::tr(""Edit"").toStdString()",ActionManager.cpp:985,STATIC_LITERAL,PASS,未写入 TS；B3 lupdate 负责提取
+M03,Selection,选择,QObject,"QObject::tr(""Selection"").toStdString()",ActionManager.cpp:1251,STATIC_LITERAL,PASS,未写入 TS；B3 lupdate 负责提取
+M04,Groups,分组,QObject,"QObject::tr(""Groups"").toStdString()",ActionManager.cpp:1337,STATIC_LITERAL,PASS,未写入 TS；B3 lupdate 负责提取
+M05,Tools,工具,QObject,"QObject::tr(""Tools"").toStdString()",ActionManager.cpp:1424,STATIC_LITERAL,PASS,未写入 TS；B3 lupdate 负责提取
+M06,View,视图,QObject,"QObject::tr(""View"").toStdString()",ActionManager.cpp:1588,STATIC_LITERAL,PASS,未写入 TS；B3 lupdate 负责提取
+M07,Run,运行,QObject,"QObject::tr(""Run"").toStdString()",ActionManager.cpp:1935,STATIC_LITERAL,PASS,未写入 TS；B3 lupdate 负责提取
+M08,Debug,调试,QObject,"QObject::tr(""Debug"").toStdString()",ActionManager.cpp:1970,STATIC_LITERAL,PASS,未写入 TS；B3 lupdate 负责提取
+M09,Help,帮助,QObject,"QObject::tr(""Help"").toStdString()",ActionManager.cpp:2040,STATIC_LITERAL,PASS,未写入 TS；B3 lupdate 负责提取

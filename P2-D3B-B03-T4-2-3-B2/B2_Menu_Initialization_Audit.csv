@@ -1,0 +1,4 @@
+﻿File,Line,Current_Expression,Name_Value,Display_Value,Result
+lib/TbUiLib/include/ui/ActionManager.h,60,"Menu{""Toolbar"", """", MenuEntryType::None, {}}",Toolbar,,PASS
+lib/TbUiLib/src/ActionManager.cpp,2062,"Menu{std::move(name), std::move(displayName), MenuEntryType::None, {}}",英文 name + 翻译 displayName,九处 createMainMenu 提供,PASS
+lib/TbUiLib/src/ActionMenu.cpp,47,"Menu{std::move(name_), """", entryType_, {}}",英文 name,displayName 空回退,PASS

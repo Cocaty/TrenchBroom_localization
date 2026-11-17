@@ -1,0 +1,5 @@
+﻿Expression,Type,Note,Status
+QObject::tr(...),QString,源文件为 UTF-8；Qt 静态字面量编码明确,STATIC_OK
+QString::toStdString(),std::string (UTF-8 in Qt 6),用于 displayName；未使用本地代码页转换,STATIC_OK
+QString::fromStdString(displayName),QString (UTF-8 decode in Qt 6),ActionBuilder QMenuBar 标题,STATIC_OK
+运行时中文标题,-,未构建、未启动；运行期编码正确性未验证,RUNTIME_NOT_VERIFIED
