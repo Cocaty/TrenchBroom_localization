@@ -1,0 +1,50 @@
+﻿Category,Path,Exists,In_CURRENT_PATH
+EXE_DIR,C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\DumpShortcuts\Release,YES,NO
+SYSTEM32,C:\Windows\System32,YES,YES
+MSVC_REDIST,C:\Program Files\Microsoft Visual Studio\18\Community\VC\Redist\MSVC\14.51.36231\x64\Microsoft.VC145.CRT,YES,NO
+QT_BIN,C:\Users\yoshi\tools\Qt\6.10.3\6.10.3\msvc2022_64\bin,YES,NO
+VCPKG_BIN,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/vcpkg_installed\x64-windows\bin,YES,NO
+PATH_0,C,NO,YES
+PATH_1,C:\Program Files\WorkBuddy\resources\app.asar.unpacked\cli\vendor\sandbox-center-runtime-kit\shim\safe-bin,YES,YES
+PATH_2,C:\Users\yoshi\.workbuddy\binaries\node\versions\22.22.2-6,YES,YES
+PATH_3,C:\Users\yoshi\.workbuddy\binaries\node\versions\.locks,YES,YES
+PATH_4,C:\Users\yoshi\.workbuddy\binaries\python\versions\3.13.12,YES,YES
+PATH_5,C:\Users\yoshi\.workbuddy\binaries\python\versions\.locks,YES,YES
+PATH_6,C:\Users\yoshi\.workbuddy\binaries\node\cli-connector-packages,NO,YES
+PATH_7,C:\Users\yoshi\.workbuddy\binaries\python\envs\default\Scripts,YES,YES
+PATH_8,C:\Users\yoshi\.workbuddy\external-packages\pdf-cli,YES,YES
+PATH_9,C,NO,YES
+PATH_10,C:\Program Files\WorkBuddy\resources\app.asar.unpacked\cli\vendor\sandbox-center-runtime-kit\shim\safe-bin,YES,YES
+PATH_11,C:\Program Files\WorkBuddy\resources\vendor\PortableGit\mingw64\bin,YES,YES
+PATH_12,C:\Program Files\WorkBuddy\resources\vendor\PortableGit\usr\bin,YES,YES
+PATH_13,C:\Users\yoshi\bin,NO,YES
+PATH_14,C:\Program Files\WorkBuddy\resources\app.asar.unpacked\cli\vendor\sandbox-center-runtime-kit\shim\safe-bin,YES,YES
+PATH_15,C:\Users\yoshi\.workbuddy\plugins\cache\workbuddy-builtin\weixinpay\1.6.110\bin,YES,YES
+PATH_16,C:\Users\yoshi\.workbuddy\binaries\node\versions\22.22.2-6,YES,YES
+PATH_17,C:\Users\yoshi\.workbuddy\binaries\node\versions\.locks,YES,YES
+PATH_18,C:\Users\yoshi\.workbuddy\binaries\python\versions\3.13.12,YES,YES
+PATH_19,C:\Users\yoshi\.workbuddy\binaries\python\versions\.locks,YES,YES
+PATH_20,C:\Users\yoshi\.workbuddy\binaries\node\cli-connector-packages,NO,YES
+PATH_21,C:\Users\yoshi\.workbuddy\binaries\python\envs\default\Scripts,YES,YES
+PATH_22,C:\Users\yoshi\.workbuddy\external-packages\pdf-cli,YES,YES
+PATH_23,C:\Users\yoshi\.workbuddy\binaries\node\versions\22.22.2-6,YES,YES
+PATH_24,C:\Users\yoshi\.workbuddy\binaries\node\versions\.locks,YES,YES
+PATH_25,C:\WINDOWS\system32,YES,YES
+PATH_26,C:\WINDOWS,YES,YES
+PATH_27,C:\WINDOWS\System32\Wbem,YES,YES
+PATH_28,C:\WINDOWS\System32\WindowsPowerShell\v1.0\,YES,YES
+PATH_29,C:\WINDOWS\System32\OpenSSH\,YES,YES
+PATH_30,C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR,YES,YES
+PATH_31,C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common,YES,YES
+PATH_32,C:\Program Files\Git\cmd,YES,YES
+PATH_33,C:\Program Files\nodejs\,YES,YES
+PATH_34,C:\Program Files\dotnet\,YES,YES
+PATH_35,C:\Program Files\PyManager\,YES,YES
+PATH_36,C:\Users\yoshi\AppData\Local\Microsoft\WindowsApps,YES,YES
+PATH_37,C:\Users\yoshi\AppData\Local\Programs\Microsoft VS Code\bin,YES,YES
+PATH_38,C:\Program Files\JetBrains\WebStorm 2026.2.3\bin,YES,YES
+PATH_39,C:\Users\yoshi\AppData\Roaming\npm,YES,YES
+PATH_40,C:\Users\yoshi\AppData\Local\Unity\bin,YES,YES
+PATH_41,C:\Users\yoshi\.dotnet\tools,YES,YES
+PATH_42,C:\Users\yoshi\.workbuddy\binaries\PortableGit\versions\1.3.0\bin,YES,YES
+PATH_43,C:\Users\yoshi\.workbuddy\binaries\PortableGit\versions\1.3.0\usr\bin,YES,YES
