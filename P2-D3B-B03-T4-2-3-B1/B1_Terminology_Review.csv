@@ -1,0 +1,10 @@
+﻿Menu_Key,Source,Recommended_Translation,Message_ID,Context,Translation_Status,Translation,Related_Term_Evidence,Terminology_Analysis,Source_Call_Line
+M01,File,文件,NO_ID,QObject,NOT_PRESENT_IN_TS,,,B1_Terminology_Review.csv,正式 TS 精确 Source 零命中；候选术语未写入；与现有术语无直接冲突,824
+M02,Edit,编辑,NO_ID,QObject,NOT_PRESENT_IN_TS,,,B1_Terminology_Review.csv,正式 TS 精确 Source 零命中；候选术语未写入；与现有术语无直接冲突,985
+M03,Selection,选择,NO_ID,QObject,NOT_PRESENT_IN_TS,,,B1_Terminology_Review.csv,正式 TS 精确 Source 零命中；候选术语未写入；与现有术语无直接冲突,1251
+M04,Groups,分组,NO_ID,QObject,NOT_PRESENT_IN_TS,,,B1_Terminology_Review.csv,正式 TS 精确 Source 零命中；候选术语未写入；与现有术语无直接冲突,1337
+M05,Tools,工具,NO_ID,QObject,NOT_PRESENT_IN_TS,,,B1_Terminology_Review.csv,正式 TS 精确 Source 零命中；候选术语未写入；与现有术语无直接冲突,1424
+M06,View,视图,NO_ID,QObject,NOT_PRESENT_IN_TS,,,B1_Terminology_Review.csv,正式 TS 精确 Source 零命中；候选术语未写入；与现有术语无直接冲突,1588
+M07,Run,运行,NO_ID,QObject,NOT_PRESENT_IN_TS,,,B1_Terminology_Review.csv,正式 TS 精确 Source 零命中；候选术语未写入；与现有术语无直接冲突,1935
+M08,Debug,调试,NO_ID,QObject,NOT_PRESENT_IN_TS,,,B1_Terminology_Review.csv,正式 TS 精确 Source 零命中；候选术语未写入；与现有术语无直接冲突,1970
+M09,Help,帮助,NO_ID,QObject,NOT_PRESENT_IN_TS,,,B1_Terminology_Review.csv,正式 TS 精确 Source 零命中；候选术语未写入；与现有术语无直接冲突,2040

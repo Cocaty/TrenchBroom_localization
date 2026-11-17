@@ -1,0 +1,5 @@
+﻿File,Line,Class,Function,Access_Type,Expression,Purpose,Risk_If_Chinese,Protection
+lib/TbUiLib/src/KeyboardShortcutModel.cpp,260,tb::ui::KeyboardShortcutModel,initializeMenuActions,READ/COMPARE,currentPath = currentPath / menu.name,快捷键模型路径,改为中文会改变路径/排序/冲突显示,通过保持 name 为英文与新增 displayName 隔离
+app/DumpShortcuts/src/Main.cpp,141,(global),printActionShortcuts,READ,currentPath.push_back(QString::fromStdString(menu.name)),快捷键导出路径,中文 name 会改变导出路径,同上
+lib/TbUiLib/src/ActionBuilder.cpp,136,tb::ui anonymous,populateMenuBar,UI_READ,qtMenuBar.addMenu(QString::fromStdString(menu.name)),顶级菜单显示,需改用 displayName 回退 name,B2 修改点
+lib/TbUiLib/src/ActionBuilder.cpp,140,tb::ui anonymous,populateMenuBar,UI_READ,currentMenu->addMenu(QString::fromStdString(menu.name)),子菜单显示,displayName 为空回退 name，保持不变,回退策略保护

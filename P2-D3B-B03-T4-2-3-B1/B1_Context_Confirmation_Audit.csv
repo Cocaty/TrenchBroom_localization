@@ -1,0 +1,10 @@
+﻿Menu_Key,Source,Recommended_Context,Source_Call_Site,Translation_Call_Form,Static_Literal,Evidence,Ambiguity,Lupdate_Status
+M01,File,QObject,"ActionManager.cpp:824 createMainMenu(""File"")","QObject::tr(""..."")",YES,ActionManager 非 QObject；现有 QObject::tr 案例在 ActionManager.cpp:825 等,正式 TS 无同名 Source；无 Context 歧义,NOT_VERIFIED（未运行 lupdate）
+M02,Edit,QObject,"ActionManager.cpp:985 createMainMenu(""Edit"")","QObject::tr(""..."")",YES,ActionManager 非 QObject；现有 QObject::tr 案例在 ActionManager.cpp:825 等,正式 TS 无同名 Source；无 Context 歧义,NOT_VERIFIED（未运行 lupdate）
+M03,Selection,QObject,"ActionManager.cpp:1251 createMainMenu(""Selection"")","QObject::tr(""..."")",YES,ActionManager 非 QObject；现有 QObject::tr 案例在 ActionManager.cpp:825 等,正式 TS 无同名 Source；无 Context 歧义,NOT_VERIFIED（未运行 lupdate）
+M04,Groups,QObject,"ActionManager.cpp:1337 createMainMenu(""Groups"")","QObject::tr(""..."")",YES,ActionManager 非 QObject；现有 QObject::tr 案例在 ActionManager.cpp:825 等,正式 TS 无同名 Source；无 Context 歧义,NOT_VERIFIED（未运行 lupdate）
+M05,Tools,QObject,"ActionManager.cpp:1424 createMainMenu(""Tools"")","QObject::tr(""..."")",YES,ActionManager 非 QObject；现有 QObject::tr 案例在 ActionManager.cpp:825 等,正式 TS 无同名 Source；无 Context 歧义,NOT_VERIFIED（未运行 lupdate）
+M06,View,QObject,"ActionManager.cpp:1588 createMainMenu(""View"")","QObject::tr(""..."")",YES,ActionManager 非 QObject；现有 QObject::tr 案例在 ActionManager.cpp:825 等,正式 TS 无同名 Source；无 Context 歧义,NOT_VERIFIED（未运行 lupdate）
+M07,Run,QObject,"ActionManager.cpp:1935 createMainMenu(""Run"")","QObject::tr(""..."")",YES,ActionManager 非 QObject；现有 QObject::tr 案例在 ActionManager.cpp:825 等,正式 TS 无同名 Source；无 Context 歧义,NOT_VERIFIED（未运行 lupdate）
+M08,Debug,QObject,"ActionManager.cpp:1970 createMainMenu(""Debug"")","QObject::tr(""..."")",YES,ActionManager 非 QObject；现有 QObject::tr 案例在 ActionManager.cpp:825 等,正式 TS 无同名 Source；无 Context 歧义,NOT_VERIFIED（未运行 lupdate）
+M09,Help,QObject,"ActionManager.cpp:2040 createMainMenu(""Help"")","QObject::tr(""..."")",YES,ActionManager 非 QObject；现有 QObject::tr 案例在 ActionManager.cpp:825 等,正式 TS 无同名 Source；无 Context 歧义,NOT_VERIFIED（未运行 lupdate）

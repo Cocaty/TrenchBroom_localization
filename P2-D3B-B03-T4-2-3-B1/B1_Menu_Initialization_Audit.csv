@@ -1,0 +1,7 @@
+﻿File,Line,Containing_Class,Function,Access_Type,Expression,Needs_B2_Change,Note
+lib/TbUiLib/include/ui/ActionMenu.h,64,tb::ui::Menu,field declaration,DECLARATION,std::string name;,是,name 类型定义；新增 displayName 必须保留该字段
+lib/TbUiLib/include/ui/ActionManager.h,60,tb::ui::ActionManager,ActionManager::m_toolBar,AGGREGATE_INIT,"Menu m_toolBar = Menu{""Toolbar"", MenuEntryType::None, {}};",是,A1 未单列的第三个聚合初始化点；B2 必须补 displayName 或默认初始化
+lib/TbUiLib/src/ActionManager.cpp,2061,tb::ui::ActionManager,ActionManager::createMainMenu,AGGREGATE_INIT,"Menu{std::move(name), MenuEntryType::None, {}}",是,九个顶级菜单和 m_mainMenu 的写入点
+lib/TbUiLib/src/ActionMenu.cpp,47,tb::ui::Menu,Menu::addMenu,AGGREGATE_INIT,"Menu{std::move(name_), entryType_, {}}",是,所有子菜单的写入点；displayName 可为空回退 name
+lib/TbUiLib/include/ui/ActionManager.h,54,tb::ui::ActionManager,member,CONTAINER,std::vector<Menu> m_mainMenu;,否,emplace_back 触发移动/复制；新增 std::string 字段由默认移动/复制处理
+lib/TbUiLib/include/ui/ActionManager.h,155,tb::ui::ActionManager,declaration,SIGNATURE,Menu& createMainMenu(std::string name);,是,需扩展 displayName 参数
