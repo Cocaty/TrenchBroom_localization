@@ -1,0 +1,4 @@
+﻿File,Old_Hash,New_Hash,Reason,Evidence
+B03_D1_R1_A1_F1_Baseline_And_Final_Hashes.txt,e31113c962d299af9859db69d546e5bdfe327ea21a9bec834ff633b66aa52d24,7914e7ef80328cb3918b74da4be83e028dd7761b1b4f256dca11ed0466ca6d4a,更新 A1 文件总数 22→26、SHA 覆盖 20→21→25 的统计口径以反映 F1-R1 新增文件,B03_D1_R1_A1_F1_R1_Report.md
+Evidence/F1_Final_Snapshot.csv,b948fba588b662855c8083762f72c88b8bca07c8be79cf6692a2abd50995c8fc,(见最终文件),修正基线报告条目哈希 0a61930b…→实际值；其余 41 项未变,B03_D1_R1_A1_F1_R1_Report.md
+SHA256SUMS.txt,2feec7fca463fca37bf8fc31c6fdf946f3c18a4650a35d7f51af529f69e84be6,(重新生成),按最终 25 文件清单重建，覆盖 24 项、不含自身,B03_D1_R1_A1_F1_R1_Report.md
