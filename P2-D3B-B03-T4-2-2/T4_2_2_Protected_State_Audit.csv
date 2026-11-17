@@ -1,0 +1,7 @@
+﻿Object,Path,Current_Value,Expected_Value,Verdict
+正式TS,C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/translations/TrenchBroom_zh_CN.ts,f021e509cf9a8679eeda64624df0f5474335c0872f73940e1d48ef77447a261a,f021e509cf9a8679eeda64624df0f5474335c0872f73940e1d48ef77447a261a,UNCHANGED
+QRC,C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/resources/qrc/resources.qrc,de72b206c01058daea020a24dac86846167bd161348f297b0aa6dae4a60c2cca,de72b206c01058daea020a24dac86846167bd161348f297b0aa6dae4a60c2cca,UNCHANGED
+测试EXE,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2/TrenchBroom.exe,268df3904f16dc2e329542397531be4ef35f530cebde07cd720753707fca7212,268df3904f16dc2e329542397531be4ef35f530cebde07cd720753707fca7212,UNCHANGED
+测试配置,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2/config/Preferences.json,65f46db96b86ae2602b52abab539e215e52e699b5f8ac8ee57145a31ac2f84a5,65f46db96b86ae2602b52abab539e215e52e699b5f8ac8ee57145a31ac2f84a5,UNCHANGED
+OEM,C:/Users/yoshi/Downloads/TrenchBroom-Win64-AMD64-v2026.2-Release/TrenchBroom.exe,f5a02f40dde7108f0d1f33af81a81c7c85c838e0c0a3407025e1d0827d6b4273,f5a02f40dde7108f0d1f33af81a81c7c85c838e0c0a3407025e1d0827d6b4273,UNCHANGED
+Git,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom,feature/zh-CN-v2026.2/4c756be1a54a28d921d18c77716a5f170bdc31d0/dirty=7,feature/zh-CN-v2026.2/4c756be1…/dirty=7,UNCHANGED

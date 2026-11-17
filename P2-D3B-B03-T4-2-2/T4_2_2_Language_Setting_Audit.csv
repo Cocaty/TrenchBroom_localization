@@ -1,0 +1,8 @@
+﻿Category,Item,Result,Evidence
+A,语言选项,NOT_VERIFIED,GUI 自动化与窗口截图能力被安全策略阻止；未能打开 Preferences
+B,语言设置保存,NOT_VERIFIED,未进行 UI 修改；config/Preferences.json 内容与 T4-2-1 一致
+C,中文界面显示,NOT_VERIFIED,未重启验证；无中文界面截图
+D,翻译资源加载,NOT_VERIFIED,无运行期日志/stdout；静态嵌入证据来自 T4-1，不可替代运行期加载
+E,portable 隔离,PASS,T4-2-1 已验证；本轮未发现配置写入日常位置
+F1,用户配置,UNCHANGED,启动前后对照哈希一致
+F2,Documents,UNCHANGED,启动前后对照哈希一致

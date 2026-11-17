@@ -1,0 +1,4 @@
+﻿Layer,Result,Evidence
+A QM 编译并嵌入 EXE,PASS,T4-1 静态证据：EXE 内嵌 QM 字节 SHA 匹配
+B QTranslator 实际加载,NOT_VERIFIED,无 stdout/stderr 或运行日志
+C 中文界面实际显示,NOT_VERIFIED,未完成 UI 切换与重启验证

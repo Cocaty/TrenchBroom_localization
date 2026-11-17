@@ -1,0 +1,8 @@
+﻿Object,Canonical_Path,Size_Bytes,SHA256,Last_Modified
+测试EXE,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2/TrenchBroom.exe,29761536,268df3904f16dc2e329542397531be4ef35f530cebde07cd720753707fca7212,2026-11-17T21:17:33
+测试Preferences,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2/config/Preferences.json,46,65f46db96b86ae2602b52abab539e215e52e699b5f8ac8ee57145a31ac2f84a5,2026-11-17T21:26:08
+T4-2-1基线,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-1/T4_2_1_Execution_Report.md,2203,8c58d95d37342e90350cdefac820cd0c65a8b8d5d10b07a77ec51f1d8e65d678,2026-11-17T21:28:02
+T4-2-0基线,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-0/T4_2_0_Prelaunch_Baseline.csv,99115,0f30a2f3b5815bc3932607b835a8e5577f230a62872959d84a4319c926ddf55a,2026-11-17T21:18:09
+正式TS,C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/translations/TrenchBroom_zh_CN.ts,132589,f021e509cf9a8679eeda64624df0f5474335c0872f73940e1d48ef77447a261a,2026-11-17T20:14:31
+QRC,C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/resources/qrc/resources.qrc,106,de72b206c01058daea020a24dac86846167bd161348f297b0aa6dae4a60c2cca,2026-11-16T13:38:34
+OEM_EXE,C:/Users/yoshi/Downloads/TrenchBroom-Win64-AMD64-v2026.2-Release/TrenchBroom.exe,22322688,f5a02f40dde7108f0d1f33af81a81c7c85c838e0c0a3407025e1d0827d6b4273,2026-08-21T15:35:55
