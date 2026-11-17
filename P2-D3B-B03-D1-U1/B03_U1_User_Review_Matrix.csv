@@ -1,0 +1,117 @@
+﻿Group,Group_Order,Message_ID,Context,Source,Recommended_Translation,Alternative_Translation,Actual_Meaning,UI_Scenario,Decision_Reason,Mistranslation_Risk,User_Question,Decision_Status,Terminology_Group
+A,1,f9081511b752,tb::ui::ChoosePathTypeDialog,Path Type,路径类型,路径形式,路径类型窗口标题，说明接下来选择路径表示方式,ChoosePathTypeDialog 窗口标题,窗口标题简洁明确；拒绝理由：—,把 Path Type 误译为“文件路径种类”或省略‘路径’,请确认相对路径一组术语：游戏目录/游戏路径是否统一为“游戏目录”；“相对于地图文件所在目录”“相对于应用程序目录”是否接受。,PROPOSED_PENDING_USER_CONFIRMATION,路径设置
+A,2,2c01921052f7,tb::ui::ChoosePathTypeDialog,Choose Path Type,选择路径类型,选择路径形式,路径类型选择对话框的大标题,ChoosePathTypeDialog DialogHeader,DialogHeader 标题，与窗口标题自然关联；拒绝理由：—,与窗口标题机械重复或译成‘挑选路径形式’,请确认相对路径一组术语：游戏目录/游戏路径是否统一为“游戏目录”；“相对于地图文件所在目录”“相对于应用程序目录”是否接受。,PROPOSED_PENDING_USER_CONFIRMATION,路径设置
+A,3,8c9ed2e8de12,tb::ui::ChoosePathTypeDialog,Absolute,绝对路径,绝对路径（无实质备选）,绝对路径单选项；保持原始完整路径,ChoosePathTypeDialog QRadioButton（默认选中）,QRadioButton 单选项，需保留路径概念；拒绝理由：—,仅译‘绝对’丢掉路径概念,请确认相对路径一组术语：游戏目录/游戏路径是否统一为“游戏目录”；“相对于地图文件所在目录”“相对于应用程序目录”是否接受。,PROPOSED_PENDING_USER_CONFIRMATION,相对路径
+A,4,df4ef91af93a,tb::ui::ChoosePathTypeDialog,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",可以将路径转换为相对于某个参考路径的形式，也可以保留为绝对路径。使用相对路径有助于与他人协作编辑地图。,可以将路径转换为相对某个参考路径的路径，也可以保留为绝对路径。相对路径可以让地图协作更加方便。,说明可把路径改为相对某参考路径，或保留绝对路径；relative 指相对路径,ChoosePathTypeDialog 说明 QLabel（自动换行）,relative 在源码说明中指相对路径；map 指地图协作；拒绝理由：—,把 relative 直译为‘相对的东西’；混淆地图文件与文档,请确认相对路径一组术语：游戏目录/游戏路径是否统一为“游戏目录”；“相对于地图文件所在目录”“相对于应用程序目录”是否接受。,PROPOSED_PENDING_USER_CONFIRMATION,相对路径
+A,5,6a5208c30cca,tb::ui::ChoosePathTypeDialog,Relative to map file,相对于地图文件所在目录,相对于地图文件,以地图文件所在目录为基准的相对路径选项,ChoosePathTypeDialog QRadioButton,convertToPathType 使用 docPath.parent_path()；基准是地图文件所在目录；拒绝理由：B01 地图文件... 仅文件名概念，不继承完整短语,按字面译成‘相对于地图文件’会误导为文件本身作为基准,请确认相对路径一组术语：游戏目录/游戏路径是否统一为“游戏目录”；“相对于地图文件所在目录”“相对于应用程序目录”是否接受。,PROPOSED_PENDING_USER_CONFIRMATION,地图文件目录
+A,6,dbbba8b54bd0,tb::ui::ChoosePathTypeDialog,Relative to application executable,相对于应用程序目录,相对于程序所在目录,以包含 EXE 的应用程序目录为基准的相对路径选项,ChoosePathTypeDialog QRadioButton,SystemPaths::appDirectory() 返回包含 EXE 的目录，不是 EXE 文件本身；拒绝理由：不采用‘相对于应用程序可执行文件’（会误解为 EXE 文件本身）,译成‘相对于可执行文件’会误导为 EXE 文件本身,请确认相对路径一组术语：游戏目录/游戏路径是否统一为“游戏目录”；“相对于地图文件所在目录”“相对于应用程序目录”是否接受。,PROPOSED_PENDING_USER_CONFIRMATION,应用程序目录
+A,7,3a29ad146ceb,tb::ui::ChoosePathTypeDialog,Relative to game directory,相对于游戏目录,相对于游戏路径,以 gamePath 为基准的相对路径选项（PathType::GameRelative）,ChoosePathTypeDialog QRadioButton,PathType::GameRelative 使用 gamePath 基准；与 ObjExportDialog 同源概念；拒绝理由：B02-D1 未冻结 game path；不得引用其为已确认,与 ObjExportDialog 的 game path 选项采用不同中文术语,请确认相对路径一组术语：游戏目录/游戏路径是否统一为“游戏目录”；“相对于地图文件所在目录”“相对于应用程序目录”是否接受。,PROPOSED_PENDING_USER_CONFIRMATION,Game path/Game directory
+B,1,ee439e50a835,tb::ui::ObjExportDialog,Export Wavefront OBJ,导出 Wavefront OBJ,导出 OBJ,OBJ 导出对话框大标题；Wavefront OBJ 为格式专名,ObjExportDialog DialogHeader,DialogHeader；遵循 B01 Wavefront OBJ 保留英文；拒绝理由：不采用中文格式名,把 Wavefront OBJ 翻译成中文格式名,请确认 Texture Paths=纹理路径 且 tooltip 同步；game path 与 game directory 是否统一为“游戏目录”；导出基准是否采用“相对于导出目录”。,PROPOSED_PENDING_USER_CONFIRMATION,Wavefront OBJ
+B,2,0011be948dd6,tb::ui::ObjExportDialog,Export Path,导出路径,导出文件路径,OBJ 输出文件路径输入区域的分节标题,ObjExportDialog 分节标题,分节标题，简洁；拒绝理由：—,因 exportPath.parent_path() 而误改为‘导出目录’,请确认 Texture Paths=纹理路径 且 tooltip 同步；game path 与 game directory 是否统一为“游戏目录”；导出基准是否采用“相对于导出目录”。,PROPOSED_PENDING_USER_CONFIRMATION,Export Path
+B,3,2915922a2166,tb::ui::ObjExportDialog,Enter a path or click to browse,输入路径，或点击“浏览...”进行选择,输入路径，或点击浏览按钮选择,路径输入框占位提示，提示可输入或点击浏览,ObjExportDialog QLineEdit placeholder,QLineEdit 占位提示；自然简洁；拒绝理由：—,译成说明书式长句；丢失‘浏览...’与按钮的关联,请确认 Texture Paths=纹理路径 且 tooltip 同步；game path 与 game directory 是否统一为“游戏目录”；导出基准是否采用“相对于导出目录”。,PROPOSED_PENDING_USER_CONFIRMATION,Export Path
+B,4,0ee72f3c8645,tb::ui::ObjExportDialog,Texture Paths,纹理路径,材质路径,生成的材质文件中纹理资源路径的分节标题,ObjExportDialog 分节标题,texture 指纹理资源；material file 指材质文件；B01 Material→材质 不意味着 Texture→材质；拒绝理由：不采用‘材质路径’（会混淆纹理资源与材质文件）,译成‘材质路径’，混淆 texture 与 material,请确认 Texture Paths=纹理路径 且 tooltip 同步；game path 与 game directory 是否统一为“游戏目录”；导出基准是否采用“相对于导出目录”。,PROPOSED_PENDING_USER_CONFIRMATION,Texture/Material
+B,5,10b21b3fc756,tb::ui::ObjExportDialog,Controls how the texture paths in the generated material file are computed.,控制生成的材质文件中纹理路径的计算方式。,用于设置生成的材质文件如何计算纹理路径。,解释纹理路径如何计算；必须与标题术语一致,Texture Paths 分节 tooltip,必须与 Texture Paths=纹理路径 保持同一术语；拒绝理由：—,标题用‘纹理路径’而 tooltip 用‘材质路径’,请确认 Texture Paths=纹理路径 且 tooltip 同步；game path 与 game directory 是否统一为“游戏目录”；导出基准是否采用“相对于导出目录”。,PROPOSED_PENDING_USER_CONFIRMATION,Texture/Material
+B,6,013b4028d792,tb::ui::ObjExportDialog,Relative to game path,相对于游戏目录,相对于游戏路径,OBJ 材质纹理路径相对于游戏路径基准计算,ObjExportDialog QRadioButton（默认选中）,与 ChoosePathTypeDialog 的 gamePath 为同一基准；统一为‘游戏目录’；拒绝理由：B02-D1 未冻结 game path；不引用其为确认依据,误作 game directory 的不同概念；错误引用 B02-D1 为已冻结依据,请确认 Texture Paths=纹理路径 且 tooltip 同步；game path 与 game directory 是否统一为“游戏目录”；导出基准是否采用“相对于导出目录”。,PROPOSED_PENDING_USER_CONFIRMATION,Game path/Game directory
+B,7,26fd3ad9ed81,tb::ui::ObjExportDialog,Relative to export path,相对于导出目录,相对于导出路径,OBJ 材质纹理路径相对于导出文件所在目录计算,ObjExportDialog QRadioButton,源码 basePath=options.exportPath.parent_path()，即导出文件所在目录；此候选为按源码修正；拒绝理由：‘导出路径’可用但不如‘导出目录’精确；需用户确认 UI 术语一致性,按字面译成‘相对于导出路径’不如‘导出目录’精确,请确认 Texture Paths=纹理路径 且 tooltip 同步；game path 与 game directory 是否统一为“游戏目录”；导出基准是否采用“相对于导出目录”。,PROPOSED_PENDING_USER_CONFIRMATION,Export Path
+B,8,eed1f27c4948,tb::ui::ObjExportDialog,Export Wavefront OBJ file,导出 Wavefront OBJ 文件,导出 OBJ 文件,选择 OBJ 保存文件时的文件对话框标题,QFileDialog::getSaveFileName 标题,QFileDialog 保存标题；保留 Wavefront OBJ；不添加省略号；拒绝理由：—,添加原文没有的省略号或翻译 Wavefront OBJ,请确认 Texture Paths=纹理路径 且 tooltip 同步；game path 与 game directory 是否统一为“游戏目录”；导出基准是否采用“相对于导出目录”。,PROPOSED_PENDING_USER_CONFIRMATION,Wavefront OBJ
+C,1,8e40860a52a1,tb::ui::CrashDialog,Crash,程序崩溃,发生崩溃,崩溃报告对话框的窗口标题,CrashDialog 窗口标题,崩溃报告对话框窗口标题；拒绝理由：—,译成轻描淡写的‘发生崩溃’也可，但标题需明确,请确认 crash report=崩溃报告、issue report=问题报告、按钮=报告问题；是否接受“问题报告/报告问题”这组措辞。,PROPOSED_PENDING_USER_CONFIRMATION,Crash
+C,2,f0f928f057b7,tb::ui::CrashDialog,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.","TrenchBroom 已崩溃，但已成功保存崩溃报告、日志文件以及当前地图状态，文件位置如下。
+
+请创建一个问题报告，并上传这三个文件。","TrenchBroom 发生了崩溃，但已成功保存崩溃报告、日志文件和当前地图状态，保存位置如下。
+
+请创建 GitHub 问题单，并上传这三个文件。",崩溃后已保存崩溃报告/日志/地图状态，并要求创建 issue 并上传三个文件,CrashDialog 说明 QLabel（含双换行）,区分 crash report 与 issue report；保留 \n\n；修正英文拼接缺空格；拒绝理由：‘GitHub 问题单’限定平台但原文未提 GitHub，作为备选,把 crash report 与 issue report 混为一谈；丢失 \n\n 或‘上传三个文件’,请确认 crash report=崩溃报告、issue report=问题报告、按钮=报告问题；是否接受“问题报告/报告问题”这组措辞。,PROPOSED_PENDING_USER_CONFIRMATION,Crash/Issue
+C,3,444a30e5e793,tb::ui::CrashDialog,Report,报告问题,提交问题,按钮仅打开 GitHub 新建 Issue 页面，不上传文件、不自动提交,CrashDialog QDialogButtonBox Report 按钮,按钮实际只打开 GitHub 新建 Issue 页面，不上传/自动提交；拒绝理由：不采用‘上传报告’‘自动提交报告’（与实际行为不符）,译成‘上传报告’或‘自动提交报告’,请确认 crash report=崩溃报告、issue report=问题报告、按钮=报告问题；是否接受“问题报告/报告问题”这组措辞。,PROPOSED_PENDING_USER_CONFIRMATION,Crash/Issue
+D,1,cfde892c46df,tb::ui::AboutDialog,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />","
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>开发者</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>贡献者</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>第三方库、工具与资源</b><br />
+Qt（跨平台 GUI 库）<br />
+FreeType（字体渲染库）<br />
+FreeImage（图像加载与处理库）<br />
+tinyxml2（XML 解析库）<br />
+miniz（归档库）<br />
+Assimp（资源导入库）<br />
+Catch 2（C++ 测试框架）<br />
+StackWalker（C++ 调用栈分析工具）<br />
+CMake（跨平台构建工具）<br />
+Vcpkg（C/C++ 依赖管理工具）<br />
+Pandoc（通用文档转换工具）<br />
+Source Sans Pro（字体）<br />
+Font Awesome 5 Free（图标集）<br />",无完整替代译文；局部标题备选为“第三方库、工具及素材”。,AboutDialog 完整 HTML 贡献者/第三方组件名单，仅三个标题与功能说明可译,AboutDialog QLabel（单个 tr 原始字符串）,AboutDialog 是单个 HTML 字符串；仅翻译分节标题和功能说明，保留完整 GitHub URL、人名、库名、工具名、字体名称、HTML 标签、原始换行与名单顺序。；拒绝理由：不采用删除 URL 仓库路径、翻译人名/产品名或调整 HTML 排版的方案；局部标题备选“第三方库、工具及素材”未采用，保留“第三方库、工具与资源”。,缩短 GitHub URL、漏人、改顺序、翻译人名/产品名、破坏 HTML 标签或换行,请确认三个分节标题：“开发者/贡献者/第三方库、工具与资源”；整份 HTML 其余部分保持人名、URL、产品名与标签原样。,PROPOSED_PENDING_USER_CONFIRMATION,AboutDialog/HTML
+E,1,5a27052291cb,tb::ui::GameDialog,Autodetect,自动检测,自动识别,Open 模式下地图格式自动检测选项（MapFormat::Unknown）,GameDialog 地图格式 QComboBox,Open 模式地图格式组合框中的自动检测项；不是检测游戏或扫描目录；拒绝理由：—,误译为检测游戏名称或扫描游戏目录,请确认“自动检测”用于地图格式组合框是否自然。,PROPOSED_PENDING_USER_CONFIRMATION,Autodetect
