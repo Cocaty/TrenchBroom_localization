@@ -1,0 +1,46 @@
+
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>开发者</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>贡献者</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>第三方库、工具与资源</b><br />
+Qt（跨平台 GUI 库）<br />
+FreeType（字体渲染库）<br />
+FreeImage（图像加载与处理库）<br />
+tinyxml2（XML 解析库）<br />
+miniz（归档库）<br />
+Assimp（资源导入库）<br />
+Catch 2（C++ 测试框架）<br />
+StackWalker（C++ 调用栈分析工具）<br />
+CMake（跨平台构建工具）<br />
+Vcpkg（C/C++ 依赖管理工具）<br />
+Pandoc（通用文档转换工具）<br />
+Source Sans Pro（字体）<br />
+Font Awesome 5 Free（图标集）<br />

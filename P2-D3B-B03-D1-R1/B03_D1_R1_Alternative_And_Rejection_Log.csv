@@ -1,0 +1,70 @@
+﻿Message_ID,Recommended,Alternative,Why_Recommended,Why_Alternative_Not_Chosen
+cfde892c46df,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>开发者</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>贡献者</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>第三方库、工具与资源</b><br />
+Qt（跨平台 GUI 库）<br />
+FreeType（字体渲染库）<br />
+FreeImage（图像加载与处理库）<br />
+tinyxml2（XML 解析库）<br />
+miniz（归档库）<br />
+Assimp（资源导入库）<br />
+Catch 2（C++ 测试框架）<br />
+StackWalker（C++ 调用栈分析工具）<br />
+CMake（跨平台构建工具）<br />
+Vcpkg（C/C++ 依赖管理工具）<br />
+Pandoc（通用文档转换工具）<br />
+Source Sans Pro（字体）<br />
+Font Awesome 5 Free（图标集）<br />",无完整第二译文；仅记录第三方标题局部备选“第三方库、工具及素材”。,完整保留 URL、人名、产品名、HTML 标签、换行与名单顺序；仅翻译分节标题与功能说明。,“第三方库、工具及素材”仅为局部标题备选；不删除 URL 仓库路径、不翻译人名/产品名，避免改变原文指向和专名。
+f9081511b752,路径类型,路径形式,窗口标题简洁明确,无实质拒绝理由；备选仅作措辞参考
+df4ef91af93a,可以将路径转换为相对于某个参考路径的形式，也可以保留为绝对路径。使用相对路径有助于与他人协作编辑地图。,可以将路径转换为相对某个参考路径的路径，也可以保留为绝对路径。相对路径可以让地图协作更加方便。,relative 在源码说明中指相对路径；map 指地图协作,无实质拒绝理由；备选仅作措辞参考
+8c9ed2e8de12,绝对路径,绝对路径（无实质备选）,QRadioButton 单选项，需保留路径概念,无实质拒绝理由；备选仅作措辞参考
+6a5208c30cca,相对于地图文件所在目录,相对于地图文件,convertToPathType 使用 docPath.parent_path()；基准是地图文件所在目录,B01 地图文件... 仅文件名概念，不继承完整短语
+dbbba8b54bd0,相对于应用程序目录,相对于程序所在目录,SystemPaths::appDirectory() 返回包含 EXE 的目录，不是 EXE 文件本身,不采用‘相对于应用程序可执行文件’（会误解为 EXE 文件本身）
+3a29ad146ceb,相对于游戏目录,相对于游戏路径,PathType::GameRelative 使用 gamePath 基准；与 ObjExportDialog 同源概念,B02-D1 未冻结 game path；不得引用其为已确认
+2c01921052f7,选择路径类型,选择路径形式,DialogHeader 标题，与窗口标题自然关联,无实质拒绝理由；备选仅作措辞参考
+8e40860a52a1,程序崩溃,发生崩溃,崩溃报告对话框窗口标题,无实质拒绝理由；备选仅作措辞参考
+f0f928f057b7,"TrenchBroom 已崩溃，但已成功保存崩溃报告、日志文件以及当前地图状态，文件位置如下。
+
+请创建一个问题报告，并上传这三个文件。","TrenchBroom 发生了崩溃，但已成功保存崩溃报告、日志文件和当前地图状态，保存位置如下。
+
+请创建 GitHub 问题单，并上传这三个文件。",区分 crash report 与 issue report；保留 \n\n；修正英文拼接缺空格,‘GitHub 问题单’限定平台但原文未提 GitHub，作为备选
+444a30e5e793,报告问题,提交问题,按钮实际只打开 GitHub 新建 Issue 页面，不上传/自动提交,不采用‘上传报告’‘自动提交报告’（与实际行为不符）
+5a27052291cb,自动检测,自动识别,Open 模式地图格式组合框中的自动检测项；不是检测游戏或扫描目录,无实质拒绝理由；备选仅作措辞参考
+ee439e50a835,导出 Wavefront OBJ,导出 OBJ,DialogHeader；遵循 B01 Wavefront OBJ 保留英文,不采用中文格式名
+0011be948dd6,导出路径,导出文件路径,分节标题，简洁,无实质拒绝理由；备选仅作措辞参考
+2915922a2166,输入路径，或点击“浏览...”进行选择,输入路径，或点击浏览按钮选择,QLineEdit 占位提示；自然简洁,无实质拒绝理由；备选仅作措辞参考
+0ee72f3c8645,纹理路径,材质路径,texture 指纹理资源；material file 指材质文件；B01 Material→材质 不意味着 Texture→材质,不采用‘材质路径’（会混淆纹理资源与材质文件）
+10b21b3fc756,控制生成的材质文件中纹理路径的计算方式。,用于设置生成的材质文件如何计算纹理路径。,必须与 Texture Paths=纹理路径 保持同一术语,无实质拒绝理由；备选仅作措辞参考
+013b4028d792,相对于游戏目录,相对于游戏路径,与 ChoosePathTypeDialog 的 gamePath 为同一基准；统一为‘游戏目录’,B02-D1 未冻结 game path；不引用其为确认依据
+26fd3ad9ed81,相对于导出目录,相对于导出路径,源码 basePath=options.exportPath.parent_path()，即导出文件所在目录；此候选为按源码修正,‘导出路径’可用但不如‘导出目录’精确；需用户确认 UI 术语一致性
+eed1f27c4948,导出 Wavefront OBJ 文件,导出 OBJ 文件,QFileDialog 保存标题；保留 Wavefront OBJ；不添加省略号,无实质拒绝理由；备选仅作措辞参考

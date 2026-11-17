@@ -1,0 +1,17 @@
+﻿object,path,size,sha256
+正式TS,C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/translations/TrenchBroom_zh_CN.ts,131100,901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773
+Revised_Batches,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3A-R1-A\Evidence\Revised_Batches.csv,8219,9e3a96d70e0ffdbd9739506873ee98a7b1a3c39a28099172777806cbcab304da
+PRE_Target_Inventory,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-PRE\B03_PRE_Target_Inventory.csv,3857,fb7510e186371b35d9970b0d660d6cf03f43b508c53ab7e420def6352605daf2
+PRE_SHA,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-PRE\SHA256SUMS.txt,2077,1c8fcb544c5b7910cdc5cc92920b231486bba44d10a013b6cfeef04df1dd6904
+CMakeLists,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\CMakeLists.txt,4931,fd3ef8defd2433e4da29503fa381358f70f79ac5708faadd8728888eea87bca5
+ObjExportDialog.cpp,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\lib\TbUiLib\src\ObjExportDialog.cpp,5494,ba4d690d35a012e22296cec9a3855a906bd15f9d03fd7406e152ffd8170f485a
+ObjSerializer.cpp,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\lib\TbMdlLib\src\ObjSerializer.cpp,9085,7935062cbd52f3a63be43920478e9aeeef34030f0c789e8379471a7e2b374f45
+D1/B03_D1_Alternative_And_Rejection_Log.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-D1\B03_D1_Alternative_And_Rejection_Log.csv,4532,7ce8a46d5306830abe3200202f5dbce0854f2ed484f7a469aed38a0eb51ab578
+D1/B03_D1_Baseline_And_Final_Hashes.txt,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-D1\B03_D1_Baseline_And_Final_Hashes.txt,555,8d202e6db7070ffb12672118b0b12fda9d2e0caa94ee08397b00c506d04e54af
+D1/B03_D1_Decision_Matrix.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-D1\B03_D1_Decision_Matrix.csv,8993,4a20595bed073805a008e8e3da82031f7ce02a04fda8b3730b742aa17e8d9f67
+D1/B03_D1_Decision_Report.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-D1\B03_D1_Decision_Report.md,5909,3d151cefdedcb95b8edc0b595d91bd99c98097d9473d73e7d7abb47dd5a08a40
+D1/B03_D1_OutOfScope_Hardcoded_Strings.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-D1\B03_D1_OutOfScope_Hardcoded_Strings.md,838,e82594974dcf1918dd6a79aead13c3bf5eccf5da69df0650759a2c3aa87a0fed
+D1/B03_D1_Protected_Integrity_Report.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-D1\B03_D1_Protected_Integrity_Report.md,952,ed92f3b7608af665c2a0e4086ccd6aee5c3de7ba53b425854bbb036d14696244
+D1/B03_D1_Source_Reference_Index.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-D1\B03_D1_Source_Reference_Index.md,2644,d8672136417bf7369dfc69056a680145389b57a3f67ceeb7bb5f601122c332a7
+D1/B03_D1_Terminology_Glossary.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-D1\B03_D1_Terminology_Glossary.csv,2181,5c2c22efdacb5b162b496a52d4075bf2001f6000cd6566bd08f4a17391927b05
+D1/SHA256SUMS.txt,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-D1\SHA256SUMS.txt,2216,6ceee84703ca4dd5a690a3f00fc16fad84655e41add81e4f4439b235d5952739

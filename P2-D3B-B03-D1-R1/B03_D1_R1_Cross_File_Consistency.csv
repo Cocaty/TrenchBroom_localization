@@ -1,0 +1,11 @@
+﻿check,result,detail
+matrix_rows,PASS,20
+alt_rows,PASS,20
+id_unique,PASS,20 unique
+id_sets_match,PASS,matrix vs alt
+status_all_pending,PASS,20/20
+about_html_identical,PASS,matrix vs alt
+other_19_unchanged,PASS,19/19 与原 D1 相同
+export_path_split,PASS,2 条独立术语
+export_recs,PASS,导出路径 / 相对于导出目录
+glossary_no_merged,PASS,合并条目已移除

@@ -1,0 +1,10 @@
+# B03-D1-R1 开始与结束快照
+
+| 项 | 开始 | 结束 |
+|---|---|---|
+| Git 分支/HEAD/dirty | feature/zh-CN-v2026.2 / 4c756be1… / 7 | 同 |
+| 正式 TS | 901554891f322ed8… / 131100 B | 同 |
+| 原始 D1 全部文件 | 见 Evidence/Original_D1_File_Index.csv | 全部与开始一致（未修改） |
+| 保护对象 | 16 项 | 16/16 match_start=YES |
+
+AboutDialog HTML 审计 12/12 PASS；跨文件一致性 10/10 PASS；20 条决策状态全部 PROPOSED_PENDING_USER_CONFIRMATION。
