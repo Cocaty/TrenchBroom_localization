@@ -1,9 +1,0 @@
-﻿File,Old_Hash,New_Hash,Change_Type,Reason,Evidence
-B03_D1_R1_A1_F1_R2_Diff.csv,bca1d14edac0514d,fa9d031989d7f166,EXPECTED_CHANGE,修正两处口径：SHA 清单文件数 31/30→30/29；Correction Diff 旧哈希改为 R2 开始状态 11cbb768…,B03_D1_R1_A1_F1_R2_R1_Report.md
-B03_D1_R1_A1_F1_R2_R1_Historical_Hash_Erratum.md,,4d54bb3173f8db4ac8865962ddc7b2d1140cc46f368de384a6425ee00c798a36,NEW,独立勘误说明 F1 基线报告旧哈希口径，不修改原始报告,B03_D1_R1_A1_F1_R2_R1_Report.md
-B03_D1_R1_A1_F1_R2_R1_Report.md,,92618c111c9485631915fdb8b02ff768c28ee882864d1509902f0a7295b79c2a,NEW,R2-R1 最终审计报告,B03_D1_R1_A1_F1_R2_R1_Report.md
-B03_D1_R1_A1_F1_R2_R1_Diff.csv,,(见最终清单),NEW,R2-R1 差异表,B03_D1_R1_A1_F1_R2_R1_Report.md
-B03_D1_R1_A1_F1_R2_R1_Protected_Integrity_Report.md,,dd42da512c9889463b0e2b945464db03256beaef7d8409b46a6cced21c619e92,NEW,R2-R1 保护完整性报告,B03_D1_R1_A1_F1_R2_R1_Report.md
-Evidence/F1_R2_R1_Start_Snapshot.csv,,50e689726b6d1604e413fa5540136e304f0b27276e6ab6d07e8b8e47d1976de0,NEW,R2-R1 开始快照（30 文件）,B03_D1_R1_A1_F1_R2_R1_Report.md
-Evidence/F1_R2_R1_Final_Snapshot.csv,,(见最终清单),NEW,R2-R1 独立最终快照（自身不自列）,B03_D1_R1_A1_F1_R2_R1_Report.md
-SHA256SUMS.txt,7fa13e15b95026c4641cee34f3f9beaed3e3d545acf3eed0741df0bff16f1b71,(重新生成),EXPECTED_CHANGE,按 R2-R1 最终 36 文件清单重建，覆盖 35 项，自身不自列,B03_D1_R1_A1_F1_R2_R1_Report.md
