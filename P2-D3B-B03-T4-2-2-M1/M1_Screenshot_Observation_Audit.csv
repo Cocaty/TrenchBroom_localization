@@ -1,0 +1,30 @@
+﻿Element,Observed_Text,Observed_Language,Evidence_Type,Status,Notes
+窗口标题,* unnamed.map - TrenchBroom,ENGLISH,SCREENSHOT,DIRECT,标题栏可见
+顶级菜单 File,File,ENGLISH,SCREENSHOT,DIRECT,可见
+File 下拉 新建文档,新建文档  Ctrl+N,CHINESE,SCREENSHOT,DIRECT,可见
+File 下拉 打开文档,打开文档...  Ctrl+O,CHINESE,SCREENSHOT,DIRECT,可见
+File 下拉 Open Recent,Open Recent,ENGLISH,SCREENSHOT,DIRECT,可见
+File 下拉 保存文档,保存文档  Ctrl+S,CHINESE,SCREENSHOT,DIRECT,可见
+File 下拉 文档另存为,文档另存为...  Ctrl+Shift+S,CHINESE,SCREENSHOT,DIRECT,可见
+File 下拉 Export,Export,ENGLISH,SCREENSHOT,DIRECT,可见
+File 下拉 加载点云文件,加载点云文件...,CHINESE,SCREENSHOT,DIRECT,可见
+File 下拉 重新加载点云文件,重新加载点云文件,CHINESE,SCREENSHOT,DIRECT,可见
+File 下拉 卸载点云文件,卸载点云文件,CHINESE,SCREENSHOT,DIRECT,可见
+File 下拉 BSP 门户文件（加载）,加载 BSP 门户文件...,MIXED,SCREENSHOT,DIRECT,中文动词+英文专名 BSP
+File 下拉 BSP 门户文件（重新加载）,重新加载 BSP 门户文件,MIXED,SCREENSHOT,DIRECT,中文动词+英文专名 BSP
+File 下拉 BSP 门户文件（卸载）,卸载 BSP 门户文件,MIXED,SCREENSHOT,DIRECT,中文动词+英文专名 BSP
+File 下拉 重新加载材质集合,重新加载材质集合  F5,CHINESE,SCREENSHOT,DIRECT,可见
+File 下拉 重新加载实体定义,重新加载实体定义  F6,CHINESE,SCREENSHOT,DIRECT,可见
+File 下拉 还原文档,还原文档,CHINESE,SCREENSHOT,DIRECT,可见
+File 下拉 关闭文档,关闭文档  Ctrl+F4,CHINESE,SCREENSHOT,DIRECT,可见
+顶级菜单 Edit,Edit,ENGLISH,SCREENSHOT,DIRECT,可见
+顶级菜单 Selection,Selection,ENGLISH,SCREENSHOT,DIRECT,可见
+顶级菜单 Groups,Groups,ENGLISH,SCREENSHOT,DIRECT,可见
+顶级菜单 Tools,Tools,ENGLISH,SCREENSHOT,DIRECT,可见
+顶级菜单 View,View,ENGLISH,SCREENSHOT,DIRECT,可见
+顶级菜单 Run,Run,ENGLISH,SCREENSHOT,DIRECT,可见
+顶级菜单 Debug,Debug,ENGLISH,SCREENSHOT,DIRECT,可见
+顶级菜单 Help,Help,ENGLISH,SCREENSHOT,DIRECT,可见
+Interface language 设置页面,,,SCREENSHOT,NOT_SHOWN,截图未展示
+语言下拉框选项,,,SCREENSHOT,NOT_SHOWN,截图未展示
+其他菜单内容,,,SCREENSHOT,NOT_SHOWN,截图未展示
