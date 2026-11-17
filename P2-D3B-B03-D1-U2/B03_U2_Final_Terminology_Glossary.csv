@@ -1,0 +1,13 @@
+﻿English_Term,Recommended_Chinese,Alternative,Related_Message_IDs,Semantic_Explanation,Historical_Evidence,Confirmation_Status
+relative path,相对路径,—,"df4ef91af93a,8c9ed2e8de12",相对路径为通用概念，absolute path 对应绝对路径,B03-PRE Source Semantics,USER_CONFIRMED
+relative to ...,相对于……,—,"6a5208c30cca,dbbba8b54bd0,3a29ad146ceb,013b4028d792,26fd3ad9ed81",单选项统一介词结构,B03-PRE,USER_CONFIRMED
+map file directory,地图文件所在目录,相对于地图文件,6a5208c30cca,docPath.parent_path() 为目录而非文件本身,ChoosePathTypeDialog.cpp:47,USER_CONFIRMED
+application directory,应用程序目录,程序所在目录,dbbba8b54bd0,SystemPaths::appDirectory() 指向含 EXE 的目录,SystemPaths.h:34-37,USER_CONFIRMED
+game path / game directory,游戏目录,游戏路径,"3a29ad146ceb,013b4028d792",两处共用 gamePath 基准；统一为目录概念；B02-D1 不构成历史冻结,ChoosePathTypeDialog.cpp:48; ObjExportDialog.cpp:95,USER_CONFIRMED
+Texture Paths,纹理路径,材质路径,"0ee72f3c8645,10b21b3fc756",texture 是材质文件引用的资源；material file 是材质文件,ObjExportDialog.cpp:91-92,USER_CONFIRMED
+generated material file,生成的材质文件,—,10b21b3fc756,B01 Material Collections→材质集合（历史用户确认术语）,B01-T2/R1-A1,USER_CONFIRMED
+Wavefront OBJ,Wavefront OBJ,导出 OBJ,"ee439e50a835,eed1f27c4948",专有格式名保留英文,B01-T2/R1-A1 用户确认,USER_CONFIRMED
+crash report,崩溃报告,—,"f0f928f057b7,8e40860a52a1",指崩溃时保存的报告文件,CrashDialog.cpp:58,USER_CONFIRMED
+issue report / Report button,问题报告 / 报告问题,GitHub 问题单 / 提交问题,"f0f928f057b7,444a30e5e793",按钮仅打开新建 Issue 页面,CrashDialog.cpp:89-93,USER_CONFIRMED
+Export Path,导出路径,导出文件路径,0011be948dd6,OBJ 输出文件路径的输入区域和分节标题（UI 字符串）,ObjExportDialog.cpp:74,USER_CONFIRMED
+Export directory (semantic base),导出目录,导出路径,26fd3ad9ed81,源码语义概念 exportPath.parent_path()，即 OBJ 导出文件所在目录；不代表 TS 中存在 Export Directory 消息,ObjSerializer.cpp:130,USER_CONFIRMED
