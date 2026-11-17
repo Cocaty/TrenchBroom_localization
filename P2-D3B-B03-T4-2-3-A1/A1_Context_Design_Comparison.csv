@@ -1,0 +1,5 @@
+﻿Option,Design,Files_To_Modify,Functions_To_Modify,Uses_Static_Literal,Changes_Menu_Struct,Context,Context_Stability,Lupdate_Recognizable,Runtime_Correctness,Side_Effect_Risk,Rollback_Difficulty,Risk_Level
+A,"ActionManager 中 createMainMenu(QObject::tr(""File"").toStdString())",ActionManager.cpp 9 calls + lupdate,"2 (ActionManager.cpp, TS)",YES,NO,QObject (existing),YES,YES,YES,HIGH,Menu::name becomes Chinese; breaks KeyboardShortcutModel/DumpShortcuts paths; 中文成内部标识,NO,MEDIUM
+B,"QCoreApplication::translate(""tb::ui::ActionManager"", ""File"") + 独立显示字段",ActionManager.cpp + Menu struct + ActionBuilder,4,YES,YES,new tb::ui::ActionManager,YES,YES,YES,MEDIUM,新 Context 维护成本；不符合现有 QObject 惯例；仍需显示字段,YES,LOW
+C,ActionBuilder 按 menu.name 动态 translate,ActionBuilder.cpp,1,NO,NO,unclear,NO (dynamic source not extractable),NO,NO,LOW,lupdate 无法静态提取动态字符串；Context 不明确,YES,HIGH
+D,"保留 name 为稳定英文，新增 displayName；createMainMenu(""File"", QObject::tr(""File"").toStdString())","ActionMenu.h/.cpp, ActionManager.h/.cpp, ActionBuilder.cpp",5,YES,YES,QObject (existing),YES,YES,YES,LOW,轻微结构体扩展；需初始化所有 Menu 构造点；内部路径不变,YES,LOW

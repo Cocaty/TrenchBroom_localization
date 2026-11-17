@@ -1,0 +1,10 @@
+﻿File,Line,Containing_Class,Function,Access_Type,Expression,Usage_Purpose,Potential_Impact,Evidence
+lib/TbUiLib/include/ui/ActionMenu.h,64,tb::ui::Menu,struct Menu,INITIALIZE,std::string name;,定义显示/名称字段,决定字段类型；改中文会影响所有依赖该字段的逻辑,ActionMenu.h:64
+lib/TbUiLib/include/ui/ActionMenu.h,70,tb::ui::Menu,Menu::addMenu,PASS_ARGUMENT,"Menu& addMenu(std::string name, ...)",子菜单名称入参,若把 name 改为显示文本，子菜单路径也会改变,ActionMenu.h:70
+lib/TbUiLib/src/ActionMenu.cpp,45,tb::ui::Menu,Menu::addMenu,OTHER,"Menu& Menu::addMenu(std::string name_, ...)",接收子菜单名称,同上,ActionMenu.cpp:45
+lib/TbUiLib/src/ActionMenu.cpp,47,tb::ui::Menu,Menu::addMenu,INITIALIZE,"Menu{std::move(name_), entryType_, {}}",写入 Menu::name,所有子菜单 name 来自此构造,ActionMenu.cpp:47
+lib/TbUiLib/src/ActionManager.cpp,2061,tb::ui::ActionManager,ActionManager::createMainMenu,INITIALIZE,"Menu{std::move(name), MenuEntryType::None, {}}",写入顶级菜单 name,九个标题在此写入字面量,ActionManager.cpp:2059-2062
+lib/TbUiLib/src/ActionBuilder.cpp,136,tb::ui (anonymous),populateMenuBar,READ,qtMenuBar.addMenu(QString::fromStdString(menu.name)),顶级菜单 UI 显示,当前英文显示点；无 tr,ActionBuilder.cpp:136
+lib/TbUiLib/src/ActionBuilder.cpp,140,tb::ui (anonymous),populateMenuBar,READ,currentMenu->addMenu(QString::fromStdString(menu.name)),子菜单 UI 显示,当前子菜单显示点；无 tr,ActionBuilder.cpp:140
+app/DumpShortcuts/src/Main.cpp,141,(global),printActionShortcuts,READ,currentPath.push_back(QString::fromStdString(menu.name)),构造快捷键路径输出,若 name 改中文，dump 路径变化,DumpShortcuts/src/Main.cpp:140-144
+lib/TbUiLib/src/KeyboardShortcutModel.cpp,260,tb::ui::KeyboardShortcutModel,initializeMenuActions,CONTAINER_KEY,currentPath = currentPath / menu.name,构造 ActionInfo 路径并参与排序/冲突模型,若 name 改中文，快捷键模型路径与显示可能变化,KeyboardShortcutModel.cpp:250-263

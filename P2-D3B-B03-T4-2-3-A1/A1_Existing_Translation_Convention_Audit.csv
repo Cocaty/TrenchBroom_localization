@@ -1,0 +1,4 @@
+﻿Case,File,Line,Call,Class_Context,TS_Context,TS_Source,TS_Translation,TS_Status,In_QM_Roundtrip_Audit
+C1,lib/TbUiLib/src/ActionManager.cpp,825,"QObject::tr(""New Document"")",tb::ui::ActionManager (non-QObject; static QObject::tr),QObject,New Document,新建文档,finished,YES
+C2,lib/TbUiLib/src/ActionBuilder.cpp,47,"QObject::tr("" (%1)"")",tb::ui (anonymous namespace),QObject, (%1),(empty),unfinished,YES
+C3,lib/TbUiLib/src/ViewPreferencePane.cpp,217,"tr(""Language"")",tb::ui::ViewPreferencePane (QObject-derived member tr),tb::ui::ViewPreferencePane,Language,语言,finished,YES

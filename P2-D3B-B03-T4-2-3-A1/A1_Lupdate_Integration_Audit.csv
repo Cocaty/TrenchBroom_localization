@@ -1,0 +1,7 @@
+﻿Item,File,Line,Evidence,Conclusion,Status
+TS 配置,app/TrenchBroom/CMakeLists.txt,493,qt_add_translations(TrenchBroom ...),已配置；无需修改 CMake,PASS
+TS 文件,app/TrenchBroom/CMakeLists.txt,495,TS_FILES .../translations/TrenchBroom_zh_CN.ts,唯一正式 TS；不新增 TS,PASS
+资源前缀,app/TrenchBroom/CMakeLists.txt,496,"RESOURCE_PREFIX ""/translations""",运行时路径不变,PASS
+翻译工具识别,推荐方案 D,0,"QObject::tr(""File"") 等字面量",静态字面量是 Qt 标准可提取形式；历史 QObject context 条目证明曾生效,LUPDATE_BEHAVIOR_NOT_VERIFIED（本轮未运行 lupdate）
+同名 Source 风险,九个标题,0,File/Edit/... 在多个上下文可能出现,lupdate 可能生成多个 Context 条目；需审阅后只保留/确认目标 Context,REVIEW_REQUIRED
+39 条冻结译文,正式 TS,0,新增消息不应修改现有 39 条译文,需在未来 lupdate 后做差异审计，确认既有条目未变,FUTURE_VERIFY
