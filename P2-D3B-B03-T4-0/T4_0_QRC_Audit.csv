@@ -1,0 +1,6 @@
+﻿File,Line,Item,Evidence,Conclusion
+resources.qrc,1,DOCTYPE/RCC,"<!DOCTYPE RCC><RCC version=""1.0"">",有效 RCC XML 根节点
+resources.qrc,2,qresource prefix,<qresource>,无显式 prefix，即资源根路径 `/`
+resources.qrc,3,file,<file>opengl_buglist.json</file>,唯一资源；无 alias；相对 QRC 所在目录解析
+resources.qrc,4,qresource end,</qresource>,默认 prefix 结束
+translations,0,检查,未发现 translations 相关资源或 .qm 条目,无需修改 QRC；翻译资源由 qt_add_translations 生成

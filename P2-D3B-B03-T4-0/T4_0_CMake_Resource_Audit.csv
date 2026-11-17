@@ -1,0 +1,9 @@
+﻿File,Line,Item,Evidence,Conclusion
+app/TrenchBroom/CMakeLists.txt,8,APP_SOURCE,"""${TB_RESOURCE_DIR}/qrc/resources.qrc""",QRC 直接进入应用目标源文件
+app/TrenchBroom/CMakeLists.txt,151,AUTORCC,set_target_properties(TrenchBroom PROPERTIES AUTORCC TRUE),启用 Qt 自动资源编译
+CMakeLists.txt,119,LinguistTools,find_package(Qt6 COMPONENTS ... LinguistTools REQUIRED),Qt Linguist 组件已接入
+app/TrenchBroom/CMakeLists.txt,493,qt_add_translations,qt_add_translations(TrenchBroom,翻译管线入口
+app/TrenchBroom/CMakeLists.txt,494,SOURCE_TARGETS,SOURCE_TARGETS TrenchBroom TbUiLib UpdateLib,覆盖 UI/核心翻译抽取目标
+app/TrenchBroom/CMakeLists.txt,495,TS_FILES,"TS_FILES ""${CMAKE_CURRENT_SOURCE_DIR}/translations/TrenchBroom_zh_CN.ts""",正式 TS 为唯一翻译源
+app/TrenchBroom/CMakeLists.txt,496,RESOURCE_PREFIX,"RESOURCE_PREFIX ""/translations""",构建时生成的 QM 嵌入为 :/translations/...
+app/TrenchBroom/CMakeLists.txt,-12,windeployqt,--no-translations 仅 Debug 使用,外部部署 QM 非必需；资源已嵌入

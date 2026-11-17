@@ -1,0 +1,10 @@
+﻿Relative_Path,Canonical_Path,Size_Bytes,SHA256
+Evidence/Start_Input_Snapshot.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-0/Evidence/Start_Input_Snapshot.csv,2462,0ba2ece55132690f201080981cc9b3d5b470f40c691313bbf8e95d39abce47e1
+T4_0_QRC_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-0/T4_0_QRC_Audit.csv,531,ed377fb8c9526ebdb08f75be11f9692ce5481ae5c6b08b85554b318a56b647d3
+T4_0_CMake_Resource_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-0/T4_0_CMake_Resource_Audit.csv,1070,083f0471334e1856d3758740b25089bcd39cad720bb89e20b0d5a81d7a87a13a
+T4_0_Runtime_Translator_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-0/T4_0_Runtime_Translator_Audit.csv,1201,76360d9ae6bf8178e7d21c55905d9a33385153e8d7359829f6b0098295cb37db
+T4_0_Resource_Architecture_Audit.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-0/T4_0_Resource_Architecture_Audit.md,2707,e9e26c9bfaeffb15f26219eadc661f9e1e66873ddbbac471a2ebe731c21d1279
+T4_0_QM_Integration_Plan.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-0/T4_0_QM_Integration_Plan.md,2862,765e46012874618c09aa9e6580da6a993ef7ccb2ff18307475db980d20e3ec86
+T4_0_Risk_and_Rollback.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-0/T4_0_Risk_and_Rollback.md,1853,2a7edcf7137369e53d0fc6ff8d3703e8b31aebeb37374b0e8c241013cf208578
+T4_0_Protected_State_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-0/T4_0_Protected_State_Audit.csv,2491,8b72c1b06b37f8568e68aa6bc6fda42179be1b7ec5a6f583ad7ed015b3d9188c
+T4_0_Execution_Report.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-0/T4_0_Execution_Report.md,2687,6402d39517a6307b6541214e0cd3b83df1056c8d8a48c9273e74bd0c1f3444f0

@@ -1,0 +1,9 @@
+﻿File,Line,Item,Evidence,Conclusion
+lib/TbPreferencesLib/include/Preferences.h,210,偏好定义,"Preference<std::string>{""Editor/Interface language"", ""en""}",默认英文；zh_CN 触发中文
+app/TrenchBroom/src/Main.cpp,-22,initTranslator,"auto* translator = new QTranslator(&app); if (translator->load("":/translations/TrenchBroom_zh_CN.qm"")) app.installTranslator(translator);",加载路径与 qt_add_translations 的 RESOURCE_PREFIX 一致
+app/TrenchBroom/src/Main.cpp,183,生命周期,parented to app,translator 生命周期覆盖整个应用
+app/TrenchBroom/src/Main.cpp,-5,失败行为,qWarning + deleteLater + English fallback,加载失败不阻塞启动
+app/TrenchBroom/src/Main.cpp,-1,调用点,initTranslator(app) 位于 createAppController() 之前,资源注册/翻译安装在 UI 创建前
+lib/TbUiLib/src/ViewPreferencePane.cpp,-10,语言选择控件,"addItem(""English""); addItem(""简体中文"");",用户可选语言
+lib/TbUiLib/src/ViewPreferencePane.cpp,-11,languageChanged,set Preferences::InterfaceLanguage; 提示重启生效,切换语言需重启
+lib/TbUiLib/src/ViewPreferencePane.cpp,-2,偏好恢复,"language == ""zh_CN"" ? 1 : 0",重启后下拉状态正确
