@@ -1,3 +1,0 @@
-﻿file,line,keyword,line_text
-B03_D1_R1_Correction_Report.md,17,24 位贡献者,- 以原文为基准保留 `<br />`×24、`<b>`×3、`</b>`×3、标签序列、24 位贡献者姓名及顺序、13 个库/工具/字体产品名、结尾无换行的状态
-B03_D1_R1_Source_Reference_Index.md,5,24 位贡献者,| AboutDialog 原始 Source | 正式 TS `cfde892c46df` | 985 字符；开头 `\n`；URL `github.com/TrenchBroom/TrenchBroom`；`<br />`×24；`<b>`×3 / `</b>`×3；24 位贡献者；13 个产品名；结尾无换行 |
