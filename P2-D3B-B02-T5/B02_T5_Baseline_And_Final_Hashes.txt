@@ -1,0 +1,13 @@
+# B02-T5 开始与结束快照
+
+| 项 | 开始 | 结束 |
+|---|---|---|
+| Git 分支/HEAD/dirty | feature/zh-CN-v2026.2 / 4c756be1… / 7 | 同 |
+| 正式 TS | 901554891f322ed8…（131100 B） | 同 |
+| T4 构建 EXE / QM | 38d02195… / f480ae44… | 同 |
+| 测试副本 EXE | 38d02195… | 同 |
+| 原版 Release EXE | f5a02f40… | 同 |
+| 日常 INI / Preferences.json | 5062ef85… / 50705006… | 同 |
+| T4/T3/T2/T2-R1/B01-T5-R1 证据清单 | 16/16、16/16、8/8、9/9、58/58 OK | 同 |
+
+12 项保护对象（见 Evidence/Start_Snapshot.csv 与 Final_Snapshot.csv）match_start=YES 12/12。测试副本 config 内的语言值变化（zh_CN → en → invalid_locale）与 5 份日志为预期运行产物，均在独立测试目录内；最终进程数 0，stderr 全 0 B。

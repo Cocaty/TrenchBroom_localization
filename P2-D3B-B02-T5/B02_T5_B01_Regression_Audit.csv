@@ -1,0 +1,22 @@
+﻿id,source,expected,ui_location,screenshot,result
+B01-01,New Document,新建文档,File 菜单,TC06_file_menu_print.png,PASS
+B01-02,Open Document...,打开文档...,File 菜单,TC06_file_menu_print.png,PASS
+B01-03,Save Document,保存文档,File 菜单,TC06_file_menu_print.png,PASS
+B01-04,Save Document as...,文档另存为...,File 菜单,TC06_file_menu_print.png,PASS
+B01-05,Wavefront OBJ...,Wavefront OBJ...,Export 子菜单,TC06_export_submenu_print.png,PASS
+B01-06,Map...,地图文件...,Export 子菜单,TC06_export_submenu_print.png,PASS
+B01-07,Exports the current map…,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,状态栏,TC06_status_export_crop.png,PASS
+B01-08,Load Point File...,加载点轨迹文件...,File 菜单,TC06_file_menu_print.png,PASS
+B01-09,Reload Point File,重新加载点轨迹文件,File 菜单（禁用）,TC06_file_menu_print.png,PASS
+B01-10,Unload Point File,卸载点轨迹文件,File 菜单（禁用）,TC06_file_menu_print.png,PASS
+B01-11,Load Portal File...,加载 BSP 门户文件...,File 菜单,TC06_file_menu_print.png,PASS
+B01-12,Reload Portal File,重新加载 BSP 门户文件,File 菜单（禁用）,TC06_file_menu_print.png,PASS
+B01-13,Unload Portal File,卸载 BSP 门户文件,File 菜单（禁用）,TC06_file_menu_print.png,PASS
+B01-14,Reload Material Collections,重新加载材质集合,File 菜单,TC06_file_menu_print.png,PASS
+B01-15,Reload Entity Definitions,重新加载实体定义,File 菜单,TC06_file_menu_print.png,PASS
+B01-16,Revert Document,还原文档,File 菜单,TC06_file_menu_print.png,PASS
+B01-17,Discards any unsaved changes…,放弃所有未保存的更改，并重新加载地图文件。,状态栏,无,NOT TESTED
+B01-18,Close Document,关闭文档,File 菜单,TC06_file_menu_print.png,PASS
+EXIST-01,Language,语言,Preferences View,TC04_language_chinese.png,PASS
+EXIST-02,简体中文 combo,简体中文,Preferences View,TC04_language_chinese.png,PASS
+EXIST-03,Requires restart after changing,更改后需要重启,Preferences View,TC04_language_chinese.png,PASS

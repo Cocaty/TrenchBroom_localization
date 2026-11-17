@@ -1,0 +1,10 @@
+﻿TC,name,precondition,actual_result,result,evidence,config_state,notes
+TC-01,English 默认启动,干净 portable 配置,正常启动，Welcome 显示 English,PASS,TC01_english_welcome.png,config 仅 updater=false,stdout/stderr 0B，无 QM 错误
+TC-02,语言控件,Preferences > View,Language/English/简体中文/Requires restart after changing 均正常,PASS,TC02_language_english.png;TC02_language_options.png,无变化,
+TC-03,切换简体中文,选择 简体中文,英文重启提示出现；config 写入 zh_CN；日常配置未变,PASS,TC03_prompt_english.png;TC03_config_zhCN.json,zh_CN,
+TC-04,重启中文生效,关闭重启同一副本,语言=简体中文；语言/更改后需要重启 显示中文,PASS,TC04_language_chinese.png;TC04_chinese_welcome.png,zh_CN,
+TC-05,B02 打开地图,Welcome 点击 Browse...,文件对话框标题实际显示「打开地图」，无乱码/截断,PASS,TC05_open_map_title.png,zh_CN,
+TC-06,B01 历史21条回归,Generic 临时地图 + File 菜单 + 状态栏,20/21 PASS（B01-17 Revert 状态栏描述 NOT TESTED）,PASS WITH LIMITATIONS,TC06_file_menu_print.png;TC06_export_submenu_print.png;TC06_status_export_crop.png,zh_CN,宿主面板抢焦点导致 Revert 悬停状态栏未能稳定采集
+TC-07,切回 English,Preferences 选 English,中文重启提示；config 写入 en；重启后英文；Open Map 标题恢复,PASS,TC07_prompt_chinese.png;TC07_config_en.json;TC07_open_map_english.png,en,
+TC-08,非法语言值回退,config 写 invalid_locale 后重启,正常启动英文；无崩溃乱码；值保留为 invalid_locale,PASS,TC08_invalid_locale_welcome.png;TC08_invalid_locale_dialog.png;TC08_config_after_invalid.json,invalid_locale（保留）,
+TC-09,退出与隔离检查,全部用例结束,进程 0；日常配置/原版/构建目录/历史证据未变,PASS,Final_Snapshot.csv,—,stderr 全 0B

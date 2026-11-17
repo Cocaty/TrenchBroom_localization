@@ -1,0 +1,3 @@
+﻿batch,message_id,context,source,expected,evidence,result,notes
+RA-B02,3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,打开地图,TC05_open_map_title.png,PASS,Welcome Browse... 触发的 QFileDialog 标题；中文重启后实测
+RA-B02,3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,打开地图,TC07_open_map_english.png,PASS（英文回退）,切回英文后标题恢复 Open Map

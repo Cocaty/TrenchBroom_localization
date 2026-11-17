@@ -1,0 +1,13 @@
+﻿object,path,size,sha256
+正式TS,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\app\TrenchBroom\translations\TrenchBroom_zh_CN.ts,131100,901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773
+构建EXE,C:/Users/yoshi/Projects/TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\Release\TrenchBroom.exe,29761536,38d021951ddd59cbef266b4c3c6dce925854c7cdcaceac3d3613d601be89ac0f
+构建QM,C:/Users/yoshi/Projects/TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom_zh_CN.qm,1871,f480ae44bb495cb84d516d4b1008abc07c71f15587d02e64870797c4bf1745b5
+测试副本EXE,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B02-T5\app\TrenchBroom.exe,29761536,38d021951ddd59cbef266b4c3c6dce925854c7cdcaceac3d3613d601be89ac0f
+原版EXE,C:/Users/yoshi/Downloads/TrenchBroom-Win64-AMD64-v2026.2-Release/TrenchBroom.exe,22322688,f5a02f40dde7108f0d1f33af81a81c7c85c838e0c0a3407025e1d0827d6b4273
+日常INI,C:/Users/yoshi/AppData/Roaming/io.github.trenchbroom/TrenchBroom.ini,1399,5062ef854b994caf7175b88c68a2c2e618abd679b4f062d84113d4e29cbbdc17
+日常Preferences,C:/Users/yoshi/AppData/Roaming/TrenchBroom/Preferences.json,99,50705006dd1d58e144b895739722ba7e5466a432b8d58d7c0edcc716decfb3df
+P2-D3B-B02-T4/SHA清单,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\\P2-D3B-B02-T4\SHA256SUMS.txt,1624,10a43c44935e2d01c911dafbf9c64155a99bde3ae75967edafa9f392e1521039
+P2-D3B-B02-T3/SHA清单,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\\P2-D3B-B02-T3\SHA256SUMS.txt,1574,48bc377d589cacf7d4acee248df8f5b8aed740eebb21cc061e0b7bf5ee9fb862
+P2-D3B-B02-T2/SHA清单,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\\P2-D3B-B02-T2\SHA256SUMS.txt,769,dc319977032aceabbd67ac14a17b668c485a4fdc539026790b8a63fc45b8fba9
+P2-D3B-B02-T2-R1/SHA清单,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\\P2-D3B-B02-T2-R1\SHA256SUMS.txt,921,05e847521a1dbb83ed27386b3e08c603a4ec2b7d4ef8001c1bb19e85b6f12baf
+P2-D3B-B01-T5-R1/SHA清单,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\\P2-D3B-B01-T5-R1\SHA256SUMS.txt,5803,a80db4c2318f4711f233fb6e2d92a18445746044e5febbb23b3b1bca2b4491ff
