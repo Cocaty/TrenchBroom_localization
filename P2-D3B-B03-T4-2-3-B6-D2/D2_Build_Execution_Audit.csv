@@ -1,0 +1,8 @@
+﻿Item,Value,Result
+ExitCode,1,FAIL
+GenerateManual,no MSB8066 / no 0xc0000135; shortcuts.js generated,PASS
+Failure,MSB6001 CL.exe invalid switch: duplicate case-insensitive env keys HTTPS_PROXY and https_proxy,FAIL
+Failing_Target,TrenchBroom.vcxproj CL.exe compile step,FAIL
+New_EXE,NO; hash unchanged 268df390…,FAIL
+New_QM,YES; build QM now 4b213ce5… matching B5 QM,EXPECTED_CHANGE
+Retry,not performed per authorization,PASS

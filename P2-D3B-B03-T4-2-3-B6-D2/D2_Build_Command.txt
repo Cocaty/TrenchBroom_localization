@@ -1,0 +1,5 @@
+Command: "/c/Users/yoshi/Tools/CMake/4.2.8/bin/cmake.exe" --build "/c/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103" --config Release --target TrenchBroom -- -m:1 -v:m
+WorkingDirectory: /c/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103
+Start: 2026-11-17 23:56:32 +0800
+ExitCode: 1
+End: 2026-11-17 23:56:53 +0800

@@ -1,0 +1,19 @@
+--- D1_before
++++ D2_after
+@@ -49,6 +49,16 @@
+         COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/minizip.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
+         COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/poly2tri.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
+         COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/pugixml.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++
++        # Second- and third-level recursive dependencies of the DLLs above.
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/brotlicommon.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/zlib1.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/IlmThread-3_3.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/OpenEXRCore-3_3.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/deflate.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/libsharpyuv.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/lcms2-2.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
++        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/bin/liblzma.dll" "$<TARGET_FILE_DIR:DumpShortcuts>"
+     )
+     
+     # Run windeployqt which copies the Qt dlls into the deployable folder, along with necessary runtime dlls by the compiler

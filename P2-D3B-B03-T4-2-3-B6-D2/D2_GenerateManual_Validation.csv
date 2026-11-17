@@ -1,0 +1,8 @@
+﻿Check,Value,Result
+DumpShortcuts custom command,log reached Generating gen-manual/shortcuts.js without 0xc0000135,PASS
+shortcuts.js exists,True,PASS
+shortcuts.js size,25907,PASS
+shortcuts.js sha,95411fbe924c51c04852af775f19355b4f5f4124dd1ca69d90531ffa625626bd,INFO
+shortcuts.js mtime,2026-11-17T23:56:52,INFO
+MSB8066,absent,PASS
+0xc0000135,absent,PASS

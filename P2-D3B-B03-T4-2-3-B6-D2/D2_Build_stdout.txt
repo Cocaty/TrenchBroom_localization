@@ -1,0 +1,246 @@
+CMake is re-running because C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/CMakeFiles/generate.stamp is out-of-date.
+  the file 'C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/DumpShortcuts/CMakeLists.txt'
+  is newer than 'C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/CMakeFiles/generate.stamp.depend'
+  result='-1'
+-- Running vcpkg install
+Detecting compiler hash for triplet x64-windows...
+-- Using %HTTP(S)_PROXY% in environment variables.
+Compiler found: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe
+The following packages are already installed:
+    assimp:x64-windows@6.0.2#1
+  * brotli:x64-windows@1.2.0
+  * bzip2[core,tool]:x64-windows@1.0.8#6
+    catch2:x64-windows@3.11.0
+    cpptrace:x64-windows@1.0.4
+    ctre:x64-windows@3.10.0
+  * draco:x64-windows@1.5.7
+    fmt:x64-windows@12.1.0
+    freeimage:x64-windows@3.18.0#27 -- C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/vcpkg-overlay-ports/freeimage
+    freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3
+  * imath:x64-windows@3.2.2
+  * jasper:x64-windows@4.2.8
+  * jhasse-poly2tri:x64-windows@2023-12-27#2
+  * jxrlib:x64-windows@2019.10.9#7
+  * kubazip:x64-windows@0.3.5
+  * lcms:x64-windows@2.17
+  * libdeflate[compression,core,decompression,gzip,zlib]:x64-windows@1.25
+  * libjpeg-turbo[core,jpeg8]:x64-windows@3.1.2
+  * liblzma:x64-windows@5.8.1
+  * libpng:x64-windows@1.6.50
+  * libraw:x64-windows@0.21.4
+  * libwebp[core,libwebpmux,nearlossless,simd,unicode]:x64-windows@1.6.0#1
+    miniz:x64-windows@3.1.0
+  * minizip:x64-windows@1.3.1#1
+  * openexr:x64-windows@3.3.5 -- C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/vcpkg-overlay-ports/openexr
+  * openjpeg:x64-windows@2.5.4
+  * polyclipping:x64-windows@6.4.2#13
+  * pugixml:x64-windows@1.15#1
+  * rapidjson:x64-windows@2025-02-26
+  * stb:x64-windows@2024-07-29#1
+    stduuid:x64-windows@1.2.3
+  * tiff[core,jpeg,lzma,zip]:x64-windows@4.7.1
+    tinyxml2:x64-windows@11.0.0
+  * utfcpp:x64-windows@4.0.6
+  * vcpkg-cmake:x64-windows@2024-04-23
+  * vcpkg-cmake-config:x64-windows@2024-05-23
+  * vcpkg-cmake-get-vars:x64-windows@2025-05-29
+  * vcpkg-tool-meson:x64-windows@1.9.0#3
+  * zlib:x64-windows@1.3.1
+assimp provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(assimp CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE assimp::assimp)
+
+assimp provides pkg-config modules:
+
+  # Import various well-known 3D model formats in an uniform manner.
+  assimp
+
+catch2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Catch2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
+
+catch2 provides pkg-config modules:
+
+  # A modern, C++-native test framework for C++14 and above (links in default main)
+  catch2-with-main
+
+  # A modern, C++-native, test framework for C++14 and above
+  catch2
+
+cpptrace provides CMake targets:
+
+  find_package(cpptrace CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE cpptrace::cpptrace)
+
+ctre provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(ctre CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE ctre::ctre)
+
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+freeimage provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(freeimage CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE freeimage::FreeImage freeimage::FreeImagePlus)
+
+freetype is compatible with built-in CMake targets:
+
+    find_package(Freetype REQUIRED)
+    target_link_libraries(main PRIVATE Freetype::Freetype) # since CMake 3.10
+
+miniz provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(miniz CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE miniz::miniz)
+
+miniz provides pkg-config modules:
+
+  # 
+  miniz
+
+stduuid provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(stduuid CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE stduuid)
+
+tinyxml2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(tinyxml2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE tinyxml2::tinyxml2)
+
+tinyxml2 provides pkg-config modules:
+
+  # simple, small, C++ XML parser
+  tinyxml2
+
+All requested installations completed successfully in: 7.49 ms
+-- Running vcpkg install - done
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26300.
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Found Qt6: C:/Users/yoshi/tools/Qt/6.10.3/6.10.3/msvc2022_64/lib
+-- Using version description "v2026.2-dirty" from git describe
+-- windeployqt requested
+-- windeployqt found: C:/Users/yoshi/tools/Qt/6.10.3/6.10.3/msvc2022_64/bin/windeployqt.exe
+-- windeployqt requested
+-- windeployqt found: C:/Users/yoshi/tools/Qt/6.10.3/6.10.3/msvc2022_64/bin/windeployqt.exe
+-- Configuring done (8.1s)
+-- Generating done (4.4s)
+-- Build files have been written to: C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103
+适用于 .NET Framework MSBuild 版本 18.11.1-1.26513.3+940033be3
+
+  -- Using version description "v2026.2-dirty" from git describe
+  KdLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\KdLib\Release\KdLib.lib
+  TbBaseLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbBaseLib\Release\TbBaseLib.lib
+  TbElLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbElLib\Release\TbElLib.lib
+  TbFsLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbFsLib\Release\TbFsLib.lib
+  TbGlLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbGlLib\Release\TbGlLib.lib
+  TbMdlLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbMdlLib\Release\TbMdlLib.lib
+  TbPreferencesLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbPreferencesLib\Release\TbPreferencesLib.lib
+  TbRenderLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbRenderLib\Release\TbRenderLib.lib
+  Automatic MOC for target UpdateLib
+  UpdateLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\UpdateLib\Release\UpdateLib.lib
+  Automatic MOC for target TbUiLib
+  TbUiLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbUiLib\Release\TbUiLib.lib
+  Automatic MOC for target DumpShortcuts
+  DumpShortcuts.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\DumpShortcuts\Release\DumpShortcuts.exe
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/freetype.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/assimp-vc143-mt.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/FreeImage.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/tinyxml2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/miniz.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/icuuc.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/zlib1.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/bz2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/libpng16.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/brotlidec.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/poly2tri.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/minizip.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/kubazip.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/pugixml.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/jpeg8.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/tiff.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/openjp2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/libwebpmux.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/libwebpdecoder.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/raw.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/OpenEXR-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/libwebp.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/Iex-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/Imath-3_2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/brotlicommon.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/liblzma.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/lcms2-2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/IlmThread-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/OpenEXRCore-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/libsharpyuv.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/deflate.dll
+  C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\DumpShortcuts\Release\DumpShortcuts.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Adding in plugin type iconengines for module: Qt6Gui
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type networkinformation for module: Qt6Network
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Adding in plugin type tls for module: Qt6Network
+  Skipping plugin qopensslbackend.dll. Use -force-openssl or specify -openssl-root if you want to use it.
+  Direct dependencies: Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+  icuuc.dll is up to date.
+  Qt6Core.dll is up to date.
+  Qt6Gui.dll is up to date.
+  Qt6Network.dll is up to date.
+  Qt6OpenGL.dll is up to date.
+  Qt6OpenGLWidgets.dll is up to date.
+  Qt6Svg.dll is up to date.
+  Qt6Widgets.dll is up to date.
+  opengl32sw.dll is up to date.
+  D3Dcompiler_47.dll is up to date.
+  dxcompiler.dll is up to date.
+  dxil.dll is up to date.
+  qtuiotouchplugin.dll is up to date.
+  qsvgicon.dll is up to date.
+  qgif.dll is up to date.
+  qico.dll is up to date.
+  qjpeg.dll is up to date.
+  qsvg.dll is up to date.
+  qnetworklistmanager.dll is up to date.
+  qoffscreen.dll is up to date.
+  qwindows.dll is up to date.
+  qmodernwindowsstyle.dll is up to date.
+  qcertonlybackend.dll is up to date.
+  qschannelbackend.dll is up to date.
+  Generating gen-manual/shortcuts.js
+  Generating TrenchBroom_zh_CN.qm
+  Updating 'C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/TrenchBroom_zh_CN.qm'...
+      Generated 51 translation(s) (51 finished and 0 unfinished)
+      Ignored 520 untranslated source text(s)
+  Running rcc for resource TrenchBroom_translations
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001: “CL.exe”的命令行开关无效。System.ArgumentException: 已添加项。字典中的关键字:“HTTPS_PROXY”所添加的关键字:“https_proxy” [C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add) [C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 System.Diagnostics.ProcessStartInfo.get_EnvironmentVariables() [C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.Utilities.ToolTask.GetProcessStartInfo(String pathToTool, String commandLineCommands, String responseFileSwitch) [C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.Utilities.ToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.CPPTasks.TrackedVCToolTask.TrackerExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.CPPTasks.CL.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom.vcxproj]
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.Utilities.ToolTask.Execute() [C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom.vcxproj]

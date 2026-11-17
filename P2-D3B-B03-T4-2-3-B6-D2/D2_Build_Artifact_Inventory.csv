@@ -1,0 +1,24 @@
+﻿Log_Line,Evidence,Action,Result
+151,KdLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\KdLib\Release\KdLib.lib,LINK_OR_BUILD,EXPECTED
+152,TbBaseLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbBaseLib\Release\TbBaseLib.lib,LINK_OR_BUILD,EXPECTED
+153,TbElLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbElLib\Release\TbElLib.lib,LINK_OR_BUILD,EXPECTED
+154,TbFsLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbFsLib\Release\TbFsLib.lib,LINK_OR_BUILD,EXPECTED
+155,TbGlLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbGlLib\Release\TbGlLib.lib,LINK_OR_BUILD,EXPECTED
+156,TbMdlLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbMdlLib\Release\TbMdlLib.lib,LINK_OR_BUILD,EXPECTED
+157,TbPreferencesLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbPreferencesLib\Release\TbPreferencesLib.lib,LINK_OR_BUILD,EXPECTED
+158,TbRenderLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbRenderLib\Release\TbRenderLib.lib,LINK_OR_BUILD,EXPECTED
+160,UpdateLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\UpdateLib\Release\UpdateLib.lib,LINK_OR_BUILD,EXPECTED
+162,TbUiLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbUiLib\Release\TbUiLib.lib,LINK_OR_BUILD,EXPECTED
+164,DumpShortcuts.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\DumpShortcuts\Release\DumpShortcuts.exe,LINK_OR_BUILD,EXPECTED
+232,Generating gen-manual/shortcuts.js,CUSTOM,PASS
+233,Generating TrenchBroom_zh_CN.qm,GENERATE_QM,EXPECTED
+234,Updating 'C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/TrenchBroom_zh_CN.qm'...,GENERATE_QM,EXPECTED
+238,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001: “CL.exe”的命令行开关无效。System.ArgumentException: 已添加项。字典中的关键字:“HTTPS_PROXY”所添加的关键字:“https_proxy",FAILURE,FAIL
+239,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add) [C:\User",FAILURE,FAIL
+240,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 System.Diagnostics.ProcessStartInfo.get_EnvironmentVariables() [C:\Users\yoshi\Proje",FAILURE,FAIL
+241,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.Utilities.ToolTask.GetProcessStartInfo(String pathToTool, String com",FAILURE,FAIL
+242,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.Utilities.ToolTask.ExecuteTool(String pathToTool, String responseFil",FAILURE,FAIL
+243,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.CPPTasks.TrackedVCToolTask.TrackerExecuteTool(String pathToTool, Str",FAILURE,FAIL
+244,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String res",FAILURE,FAIL
+245,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.CPPTasks.CL.ExecuteTool(String pathToTool, String responseFileComman",FAILURE,FAIL
+246,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.Utilities.ToolTask.Execute() [C:\Users\yoshi\Projects\TrenchBroom-zh",FAILURE,FAIL
