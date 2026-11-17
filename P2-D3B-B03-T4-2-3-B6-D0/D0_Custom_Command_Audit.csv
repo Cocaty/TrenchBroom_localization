@@ -1,0 +1,7 @@
+﻿Item,Value,Result
+Step,1,cmake.exe -E make_directory gen-manual,PASS
+Step,2,cmake.exe -E env QT_QPA_PLATFORM=offscreen <DumpShortcuts.exe> <shortcuts.js>,FAIL
+Executable,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/DumpShortcuts.exe,FAIL exit 0xc0000135
+Argument,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/gen-manual/shortcuts.js,output
+Env,QT_QPA_PLATFORM=offscreen,set by cmake -E env
+ChildProcess,No QProcess/CreateProcess/system/ShellExecute found in DumpShortcuts Main.cpp,failing process is DumpShortcuts.exe

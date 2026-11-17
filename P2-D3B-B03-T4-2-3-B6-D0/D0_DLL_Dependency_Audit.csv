@@ -1,0 +1,17 @@
+﻿DLL,Resolved_Path,Classification,Note
+Qt6Svg.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+Qt6OpenGLWidgets.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+Qt6OpenGL.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+freetype.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+Qt6Widgets.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+Qt6Gui.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+Qt6Network.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+Qt6Core.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+MSVCP140.dll,C:/Program Files/Microsoft Visual Studio/18/Community/VC/Redist/MSVC/14.51.36231/x64/Microsoft.VC145.CRT,MSVC_RUNTIME_FOUND,direct dependency resolved
+VCRUNTIME140.dll,C:/Program Files/Microsoft Visual Studio/18/Community/VC/Redist/MSVC/14.51.36231/x64/Microsoft.VC145.CRT,MSVC_RUNTIME_FOUND,direct dependency resolved
+VCRUNTIME140_1.dll,C:/Program Files/Microsoft Visual Studio/18/Community/VC/Redist/MSVC/14.51.36231/x64/Microsoft.VC145.CRT,MSVC_RUNTIME_FOUND,direct dependency resolved
+assimp-vc143-mt.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+FreeImage.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+tinyxml2.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+miniz.dll,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release,APP_DIR_FOUND,direct dependency resolved
+KERNEL32.dll,C:/Windows/System32,SYSTEM_FOUND,direct dependency resolved
