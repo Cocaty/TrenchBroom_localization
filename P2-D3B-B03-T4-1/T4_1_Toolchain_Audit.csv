@@ -1,0 +1,9 @@
+﻿Tool,Path,Version,SHA256,Size,Result
+CMake,"C:\Users\yoshi\Tools\CMake\4.2.8\bin\cmake.exe",4.2.8,aae9103afb52a95801e7734eb3a42f47527751c491b4bad6b0a11aad0c7fa1dd,12912720,PASS
+MSBuild,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\MSBuild.exe",Visual Studio 18 2026 (CMake generator),NOT_VERIFIED,,LIMITATION: security policy blocked direct hash read; invoked indirectly by cmake --build
+qmake,"C:\Users\yoshi\tools\Qt\6.10.3\6.10.3\msvc2022_64\bin\qmake.exe",6.10.3,818658e1b7add9ce3a2266da03e17a8da7900596c49a09caea4c85a3aa75bba2,1614136,PASS
+lrelease,"C:\Users\yoshi\tools\Qt\6.10.3\6.10.3\msvc2022_64\bin\lrelease.exe",6.10.3,c59d5a5f9cf51cef2fbee80bcd22cf53b7453943bcf520b39d2e768fd639d8ee,341816,PASS
+lconvert,"C:\Users\yoshi\tools\Qt\6.10.3\6.10.3\msvc2022_64\bin\lconvert.exe","6.10.3 (same Qt install; no -version output)",707af8e9963027ef2cff9ac03ab538d46c22cb78d9486c8bf1d66fb814d2aae8,325432,PASS
+rcc,"C:\Users\yoshi\tools\Qt\6.10.3\6.10.3\msvc2022_64\bin\rcc.exe",6.10.3,80a47c3dafd62bec3997ff8a31afd289451fb22d666c673c6e4c3dd59f7055fb,142136,PASS
+CMakeCache Qt6_DIR,"C:/Users/yoshi/tools/Qt/6.10.3/6.10.3/msvc2022_64/lib/cmake/Qt6",6.10.3,,,"PASS"
+CMakeCache Generator,"Visual Studio 18 2026 / x64",,,,PASS

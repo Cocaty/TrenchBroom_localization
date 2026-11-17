@@ -1,0 +1,2 @@
+Command: lconvert.exe -i <build QM> -o <T4-1 audit TS>
+ExitCode: 0
