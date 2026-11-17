@@ -1,0 +1,5 @@
+Command: "/c/Users/yoshi/tools/Qt/6.10.3/6.10.3/msvc2022_64/bin/lrelease.exe" -verbose "/c/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/translations/TrenchBroom_zh_CN.ts" -qm "/c/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B5/Artifacts/TrenchBroom_zh_CN.qm"
+WorkingDirectory: /c/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom
+Start: 2026-11-17 23:12:40 +0800
+ExitCode: 0
+End: 2026-11-17 23:12:40 +0800

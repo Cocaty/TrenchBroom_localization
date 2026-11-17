@@ -1,0 +1,4 @@
+Command: "/c/Users/yoshi/tools/Qt/6.10.3/6.10.3/msvc2022_64/bin/lconvert.exe" -i "/c/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B5/Artifacts/TrenchBroom_zh_CN.qm" -o "/c/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B5/Artifacts/TrenchBroom_zh_CN.roundtrip.ts"
+Start: 2026-11-17 23:12:50 +0800
+ExitCode: 0
+End: 2026-11-17 23:12:50 +0800

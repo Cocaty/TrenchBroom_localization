@@ -1,0 +1,3 @@
+Updating 'C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B5/Artifacts/TrenchBroom_zh_CN.qm'...
+    Generated 51 translation(s) (51 finished and 0 unfinished)
+    Ignored 520 untranslated source text(s)

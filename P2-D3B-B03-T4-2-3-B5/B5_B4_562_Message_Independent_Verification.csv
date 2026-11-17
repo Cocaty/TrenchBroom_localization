@@ -1,0 +1,8 @@
+﻿Metric,Value,Algorithm_Note
+Backup_SHA256,f021e509cf9a8679eeda64624df0f5474335c0872f73940e1d48ef77447a261a,input file
+Current_SHA256,f81162b383364c9a4a12db4490df910d4555d74ead0acc9f1b414dfc3f9fbfe0,input file
+Backup_Raw_Message_Blocks,562,regex: 4-space <message> block
+Current_Raw_Message_Blocks,571,same regex
+Added_Raw_Blocks,9,Counter(current) - Counter(backup)
+Missing_Raw_Blocks,0,Counter(backup) - Counter(current)
+Result,PASS,raw-block multiset
