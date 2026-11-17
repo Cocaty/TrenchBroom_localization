@@ -1,0 +1,25 @@
+126:           usedMaterials[patchObject.materialName] = patchObject.material;
+127:         }),
+128:       object);
+129:   }
+130: 
+131:   const auto basePath = options.exportPath.parent_path();
+132:   for (const auto& [materialName, material] : usedMaterials)
+133:   {
+134:     str << "newmtl " << materialName << "\n";
+135:     if (material)
+136:     {
+137:       switch (options.mtlPathMode)
+138:       {
+139:       case ObjMtlPathMode::RelativeToGamePath:
+140:         str << "map_Kd " << material->relativePath().generic_string() << "\n";
+141:         break;
+142:       case ObjMtlPathMode::RelativeToExportPath:
+143:         // materials loaded from image files (pak files) don't have absolute paths
+144:         if (!material->absolutePath().empty())
+145:         {
+146:           const auto mtlPath = material->absolutePath().lexically_relative(basePath);
+147:           str << "map_Kd " << mtlPath.generic_string() << "\n";
+148:         }
+149:         break;
+150:       }

@@ -1,0 +1,14 @@
+﻿object,path,size,sha256,match_start
+正式TS,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\app\TrenchBroom\translations\TrenchBroom_zh_CN.ts,131100,901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773,YES
+Revised_Batches,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3A-R1-A\Evidence\Revised_Batches.csv,8219,9e3a96d70e0ffdbd9739506873ee98a7b1a3c39a28099172777806cbcab304da,YES
+B03_PRE_report,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-PRE\B03_PRE_Implementation_Report.md,3930,975757de6619371d5f6aad24281c48099b8f8871a36a904296e735f66abcf259,YES
+B03_PRE_matrix,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-PRE\B03_PRE_Readiness_Matrix.csv,3058,54d4eec77ad928605094e6eddc0e7258e6a51fe101407c96f24bcefe66240800,YES
+B03_PRE_SHA,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-PRE\SHA256SUMS.txt,2077,1c8fcb544c5b7910cdc5cc92920b231486bba44d10a013b6cfeef04df1dd6904,YES
+B02_D1_report,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B02-D1\B02_D1_Decision_Report.md,2669,30230c2cb8868b2bdbb99e1405315e487a2b1af30d17a197c8a319934c89237b,YES
+B02_D1_record,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B02-D1\B02_D1_Decision_Record.csv,902,b49c19b03bfdceb098ef5688d3b3b3a396269193fe717e32d55d745c9fbd7860,YES
+CMakeLists,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\CMakeLists.txt,4931,fd3ef8defd2433e4da29503fa381358f70f79ac5708faadd8728888eea87bca5,YES
+appCMake,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\app\TrenchBroom\CMakeLists.txt,24988,21cfabf0a989e69ff76fd7c38c6db0e60ceee5417241768bc7742574b22cf697,YES
+ObjExportDialog.cpp,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\lib\TbUiLib\src\ObjExportDialog.cpp,5494,ba4d690d35a012e22296cec9a3855a906bd15f9d03fd7406e152ffd8170f485a,YES
+ChoosePathTypeDialog.cpp,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\lib\TbUiLib\src\ChoosePathTypeDialog.cpp,6190,b432c2e76340c610fb227f0007a220b678c3b5fb46d639ed81c604d2ddb9c98a,YES
+CrashDialog.cpp,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\lib\TbUiLib\src\CrashDialog.cpp,3688,90da59803cdf1e57c68a8d08b766862f79542dc1c979fc09eb3e82050988f385,YES
+SystemPaths.cpp,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom\lib\TbUiLib\src\SystemPaths.cpp,4815,c526febcb33abed54d02096cb0ec36f38f028aba4dfeb12b651b38efe0e4016f,YES

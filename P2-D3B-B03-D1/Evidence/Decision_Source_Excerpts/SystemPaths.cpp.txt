@@ -1,0 +1,15 @@
+48: 
+49: } // namespace
+50: 
+51: std::filesystem::path appFile()
+52: {
+53:   return pathFromQString(QCoreApplication::applicationFilePath());
+54: }
+55: 
+56: std::filesystem::path appDirectory()
+57: {
+58:   return pathFromQString(QCoreApplication::applicationDirPath());
+59: }
+60: 
+61: std::optional<std::filesystem::path> appImageFile()
+62: {

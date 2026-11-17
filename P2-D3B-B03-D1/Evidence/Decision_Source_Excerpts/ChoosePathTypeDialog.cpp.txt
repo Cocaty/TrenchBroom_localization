@@ -1,0 +1,19 @@
+37: {
+38: 
+39: std::filesystem::path convertToPathType(
+40:   const PathType pathType,
+41:   const std::filesystem::path& absPath,
+42:   const std::filesystem::path& docPath,
+43:   const std::filesystem::path& gamePath)
+44: {
+45:   switch (pathType)
+46:   {
+47:   case PathType::Absolute:
+48:     return absPath;
+49:   case PathType::DocumentRelative:
+50:     return absPath.lexically_relative(docPath.parent_path());
+51:   case PathType::GameRelative:
+52:     return absPath.lexically_relative(gamePath);
+53:   case PathType::AppRelative:
+54:     return absPath.lexically_relative(SystemPaths::appDirectory());
+55:     switchDefault();

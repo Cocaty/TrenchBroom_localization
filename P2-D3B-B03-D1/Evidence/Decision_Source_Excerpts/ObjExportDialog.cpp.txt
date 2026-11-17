@@ -1,0 +1,18 @@
+88:   formLayout->addRow("Path", exportPathLayout);
+89: 
+90:   formLayout->addSection(
+91:     tr("Texture Paths"),
+92:     tr("Controls how the texture paths in the generated material file are computed."));
+93: 
+94:   m_relativeToGamePathRadioButton = new QRadioButton{};
+95:   m_relativeToGamePathRadioButton->setText(tr("Relative to game path"));
+96:   m_relativeToGamePathRadioButton->setChecked(true);
+97: 
+98:   m_relativeToExportPathRadioButton = new QRadioButton{};
+99:   m_relativeToExportPathRadioButton->setText(tr("Relative to export path"));
+100: 
+101:   auto* texturePathLayout = new QVBoxLayout{};
+102:   texturePathLayout->setContentsMargins(0, 0, 0, 0);
+103:   texturePathLayout->setSpacing(0);
+104:   texturePathLayout->addWidget(m_relativeToGamePathRadioButton);
+105:   texturePathLayout->addWidget(m_relativeToExportPathRadioButton);

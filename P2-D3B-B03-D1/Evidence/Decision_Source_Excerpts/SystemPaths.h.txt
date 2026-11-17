@@ -1,0 +1,15 @@
+28: /**
+29:  * Returns the path to the TrenchBroom executable.
+30:  */
+31: std::filesystem::path appFile();
+32: 
+33: /**
+34:  * Returns the directory containing the TrenchBroom executable (this will be inside the
+35:  * .app bundle on macOS).
+36:  */
+37: std::filesystem::path appDirectory();
+38: 
+39: /**
+40:  * Returns the path to the AppImage file if the application is running as an AppImage.
+41:  */
+42: std::optional<std::filesystem::path> appImageFile();

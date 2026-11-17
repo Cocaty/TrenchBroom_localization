@@ -1,0 +1,10 @@
+# B03-D1 开始与结束快照
+
+| 项 | 开始 | 结束 |
+|---|---|---|
+| Git 分支/HEAD/dirty | feature/zh-CN-v2026.2 / 4c756be1… / 7 | 同 |
+| 正式 TS | 901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773 / 131100 B | 同 |
+| B03 目标 | 20 ID，与 PRE 清单顺序一致 | 同 |
+| 保护对象 | 13 项（TS、批次清单、PRE/B02-D1 报告、关键源码） | 13/13 一致 |
+
+决策矩阵 20 行，状态 20/20 PROPOSED_PENDING_USER_CONFIRMATION；0 USER_CONFIRMED / 0 FINAL_FROZEN / 0 NEEDS_REVISION。未写入 TS。
