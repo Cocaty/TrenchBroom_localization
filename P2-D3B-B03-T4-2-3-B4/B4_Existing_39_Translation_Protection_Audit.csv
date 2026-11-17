@@ -1,0 +1,181 @@
+﻿Batch,Target_ID,Message_ID,Context,Source,Frozen_Translation,Final_Translation,Final_Status,Result
+B01,B01-01,bcf80284ebf3,QObject,New Document,新建文档,新建文档,finished,PASS
+B01,B01-02,0843baa95d90,QObject,Open Document...,打开文档...,打开文档...,finished,PASS
+B01,B01-03,08c86abe1b99,QObject,Save Document,保存文档,保存文档,finished,PASS
+B01,B01-04,c13f05ee9b4e,QObject,Save Document as...,文档另存为...,文档另存为...,finished,PASS
+B01,B01-05,e7c5ab696447,QObject,Wavefront OBJ...,Wavefront OBJ...,Wavefront OBJ...,finished,PASS
+B01,B01-06,88c5a8202a53,QObject,Map...,地图文件...,地图文件...,finished,PASS
+B01,B01-07,8626a59ed64f,QObject,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,finished,PASS
+B01,B01-08,c87e891f3904,QObject,Load Point File...,加载点轨迹文件...,加载点轨迹文件...,finished,PASS
+B01,B01-09,fe79d727b01f,QObject,Reload Point File,重新加载点轨迹文件,重新加载点轨迹文件,finished,PASS
+B01,B01-10,d4365ad643a4,QObject,Unload Point File,卸载点轨迹文件,卸载点轨迹文件,finished,PASS
+B01,B01-11,c18158cfc475,QObject,Load Portal File...,加载 BSP 门户文件...,加载 BSP 门户文件...,finished,PASS
+B01,B01-12,8c049a323d0f,QObject,Reload Portal File,重新加载 BSP 门户文件,重新加载 BSP 门户文件,finished,PASS
+B01,B01-13,92939021173f,QObject,Unload Portal File,卸载 BSP 门户文件,卸载 BSP 门户文件,finished,PASS
+B01,B01-14,3dab7bfca406,QObject,Reload Material Collections,重新加载材质集合,重新加载材质集合,finished,PASS
+B01,B01-15,1e1111c64470,QObject,Reload Entity Definitions,重新加载实体定义,重新加载实体定义,finished,PASS
+B01,B01-16,e6acb688ec6e,QObject,Revert Document,还原文档,还原文档,finished,PASS
+B01,B01-17,d82719c1af53,QObject,Discards any unsaved changes and reloads the map file.,放弃所有未保存的更改，并重新加载地图文件。,放弃所有未保存的更改，并重新加载地图文件。,finished,PASS
+B01,B01-18,aa1646cea36e,QObject,Close Document,关闭文档,关闭文档,finished,PASS
+B02,B02-01,3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,打开地图,打开地图,finished,PASS
+B03,f9081511b752,f9081511b752,tb::ui::ChoosePathTypeDialog,Path Type,路径类型,路径类型,finished,PASS
+B03,2c01921052f7,2c01921052f7,tb::ui::ChoosePathTypeDialog,Choose Path Type,选择路径类型,选择路径类型,finished,PASS
+B03,8c9ed2e8de12,8c9ed2e8de12,tb::ui::ChoosePathTypeDialog,Absolute,绝对路径,绝对路径,finished,PASS
+B03,df4ef91af93a,df4ef91af93a,tb::ui::ChoosePathTypeDialog,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",可以将路径转换为相对于某个参考路径的形式，也可以保留为绝对路径。使用相对路径有助于与他人协作编辑地图。,可以将路径转换为相对于某个参考路径的形式，也可以保留为绝对路径。使用相对路径有助于与他人协作编辑地图。,finished,PASS
+B03,6a5208c30cca,6a5208c30cca,tb::ui::ChoosePathTypeDialog,Relative to map file,相对于地图文件所在目录,相对于地图文件所在目录,finished,PASS
+B03,dbbba8b54bd0,dbbba8b54bd0,tb::ui::ChoosePathTypeDialog,Relative to application executable,相对于应用程序目录,相对于应用程序目录,finished,PASS
+B03,3a29ad146ceb,3a29ad146ceb,tb::ui::ChoosePathTypeDialog,Relative to game directory,相对于游戏目录,相对于游戏目录,finished,PASS
+B03,ee439e50a835,ee439e50a835,tb::ui::ObjExportDialog,Export Wavefront OBJ,导出 Wavefront OBJ,导出 Wavefront OBJ,finished,PASS
+B03,0011be948dd6,0011be948dd6,tb::ui::ObjExportDialog,Export Path,导出路径,导出路径,finished,PASS
+B03,2915922a2166,2915922a2166,tb::ui::ObjExportDialog,Enter a path or click to browse,输入路径，或点击“浏览...”进行选择,输入路径，或点击“浏览...”进行选择,finished,PASS
+B03,0ee72f3c8645,0ee72f3c8645,tb::ui::ObjExportDialog,Texture Paths,纹理路径,纹理路径,finished,PASS
+B03,10b21b3fc756,10b21b3fc756,tb::ui::ObjExportDialog,Controls how the texture paths in the generated material file are computed.,控制生成的材质文件中纹理路径的计算方式。,控制生成的材质文件中纹理路径的计算方式。,finished,PASS
+B03,013b4028d792,013b4028d792,tb::ui::ObjExportDialog,Relative to game path,相对于游戏目录,相对于游戏目录,finished,PASS
+B03,26fd3ad9ed81,26fd3ad9ed81,tb::ui::ObjExportDialog,Relative to export path,相对于导出目录,相对于导出目录,finished,PASS
+B03,eed1f27c4948,eed1f27c4948,tb::ui::ObjExportDialog,Export Wavefront OBJ file,导出 Wavefront OBJ 文件,导出 Wavefront OBJ 文件,finished,PASS
+B03,8e40860a52a1,8e40860a52a1,tb::ui::CrashDialog,Crash,程序崩溃,程序崩溃,finished,PASS
+B03,f0f928f057b7,f0f928f057b7,tb::ui::CrashDialog,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.","TrenchBroom 已崩溃，但已成功保存崩溃报告、日志文件以及当前地图状态，文件位置如下。
+
+请创建一个问题报告，并上传这三个文件。","TrenchBroom 已崩溃，但已成功保存崩溃报告、日志文件以及当前地图状态，文件位置如下。
+
+请创建一个问题报告，并上传这三个文件。",finished,PASS
+B03,444a30e5e793,444a30e5e793,tb::ui::CrashDialog,Report,报告问题,报告问题,finished,PASS
+B03,cfde892c46df,cfde892c46df,tb::ui::AboutDialog,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />","
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>开发者</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>贡献者</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>第三方库、工具与资源</b><br />
+Qt（跨平台 GUI 库）<br />
+FreeType（字体渲染库）<br />
+FreeImage（图像加载与处理库）<br />
+tinyxml2（XML 解析库）<br />
+miniz（归档库）<br />
+Assimp（资源导入库）<br />
+Catch 2（C++ 测试框架）<br />
+StackWalker（C++ 调用栈分析工具）<br />
+CMake（跨平台构建工具）<br />
+Vcpkg（C/C++ 依赖管理工具）<br />
+Pandoc（通用文档转换工具）<br />
+Source Sans Pro（字体）<br />
+Font Awesome 5 Free（图标集）<br />","
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>开发者</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>贡献者</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>第三方库、工具与资源</b><br />
+Qt（跨平台 GUI 库）<br />
+FreeType（字体渲染库）<br />
+FreeImage（图像加载与处理库）<br />
+tinyxml2（XML 解析库）<br />
+miniz（归档库）<br />
+Assimp（资源导入库）<br />
+Catch 2（C++ 测试框架）<br />
+StackWalker（C++ 调用栈分析工具）<br />
+CMake（跨平台构建工具）<br />
+Vcpkg（C/C++ 依赖管理工具）<br />
+Pandoc（通用文档转换工具）<br />
+Source Sans Pro（字体）<br />
+Font Awesome 5 Free（图标集）<br />",finished,PASS
+B03,5a27052291cb,5a27052291cb,tb::ui::GameDialog,Autodetect,自动检测,自动检测,finished,PASS

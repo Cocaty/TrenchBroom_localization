@@ -1,0 +1,10 @@
+﻿Context,Source,Translation,Message_ID,Location,Translation_Status,Match_Result
+QObject,File,文件,,"[('../../../lib/TbUiLib/src/ActionManager.cpp', '824')]",finished,PASS
+QObject,Edit,编辑,,"[('../../../lib/TbUiLib/src/ActionManager.cpp', '985')]",finished,PASS
+QObject,Selection,选择,,"[('../../../lib/TbUiLib/src/ActionManager.cpp', '1251')]",finished,PASS
+QObject,Groups,分组,,"[('../../../lib/TbUiLib/src/ActionManager.cpp', '1337')]",finished,PASS
+QObject,Tools,工具,,"[('../../../lib/TbUiLib/src/ActionManager.cpp', '1424')]",finished,PASS
+QObject,View,视图,,"[('../../../lib/TbUiLib/src/ActionManager.cpp', '1588')]",finished,PASS
+QObject,Run,运行,,"[('../../../lib/TbUiLib/src/ActionManager.cpp', '1935')]",finished,PASS
+QObject,Debug,调试,,"[('../../../lib/TbUiLib/src/ActionManager.cpp', '1970')]",finished,PASS
+QObject,Help,帮助,,"[('../../../lib/TbUiLib/src/ActionManager.cpp', '2040')]",finished,PASS

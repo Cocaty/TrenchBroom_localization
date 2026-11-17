@@ -1,0 +1,683 @@
+﻿Index,Source,Before_Translation,Result
+1,Search...,,PASS
+2, (%1),,PASS
+3,Toggle %1 visible,,PASS
+4,Turn Selection into %1,,PASS
+5,Turn Selection into non-%1,,PASS
+6,Create %1,,PASS
+7,Create Brush,,PASS
+8,Toggle Clip Side,,PASS
+9,Perform Clip,,PASS
+10,Perform Sweep,,PASS
+11,Decrease Sweep Scale,,PASS
+12,Increase Sweep Scale,,PASS
+13,Move Forward,,PASS
+14,Move Backward,,PASS
+15,Move Left,,PASS
+16,Move Right,,PASS
+17,Move Up,,PASS
+18,Move Down,,PASS
+19,Duplicate and Move Forward,,PASS
+20,Duplicate and Move Backward,,PASS
+21,Duplicate and Move Left,,PASS
+22,Duplicate and Move Right,,PASS
+23,Duplicate and Move Up,,PASS
+24,Duplicate and Move Down,,PASS
+25,Roll Clockwise,,PASS
+26,Roll Counter-clockwise,,PASS
+27,Yaw Clockwise,,PASS
+28,Yaw Counter-clockwise,,PASS
+29,Pitch Clockwise,,PASS
+30,Pitch Counter-clockwise,,PASS
+31,Move Textures Up,,PASS
+32,Move Textures Up (Coarse),,PASS
+33,Move Textures Up (Fine),,PASS
+34,Move Textures Down,,PASS
+35,Move Textures Down (Coarse),,PASS
+36,Move Textures Down (Fine),,PASS
+37,Move Textures Left,,PASS
+38,Move Textures Left (Coarse),,PASS
+39,Move Textures Left (Fine),,PASS
+40,Move Textures Right,,PASS
+41,Move Textures Right (Coarse),,PASS
+42,Move Textures Right (Fine),,PASS
+43,Rotate Textures Clockwise,,PASS
+44,Rotate Textures Clockwise (Coarse),,PASS
+45,Rotate Textures Clockwise (Fine),,PASS
+46,Rotate Textures Counter-clockwise,,PASS
+47,Rotate Textures Counter-clockwise (Coarse),,PASS
+48,Rotate Textures Counter-clockwise (Fine),,PASS
+49,Reveal in texture browser,,PASS
+50,Flip textures horizontally,,PASS
+51,Flip textures vertically,,PASS
+52,Reset texture alignment,,PASS
+53,Reset texture alignment to world aligned,,PASS
+54,Make Structural,,PASS
+55,Toggle Show Entity Classnames,,PASS
+56,Toggle Show Group Bounds,,PASS
+57,Toggle Show Brush Entity Bounds,,PASS
+58,Toggle Show Point Entity Bounds,,PASS
+59,Toggle Show Point Entities,,PASS
+60,Toggle Show Point Entity Models,,PASS
+61,Toggle Show Brushes,,PASS
+62,Show Textures,,PASS
+63,Hide Textures,,PASS
+64,Hide Faces,,PASS
+65,Toggle Shade Faces,,PASS
+66,Toggle Show Fog,,PASS
+67,Toggle Show Edges,,PASS
+68,Show All Entity Links,,PASS
+69,Show Transitively Selected Entity Links,,PASS
+70,Show Directly Selected Entity Links,,PASS
+71,Hide All Entity Links,,PASS
+72,Cycle View,,PASS
+73,Reset Camera Zoom,,PASS
+74,Cancel,,PASS
+75,New Document,新建文档,PASS
+76,Open Document...,打开文档...,PASS
+77,Save Document,保存文档,PASS
+78,Save Document as...,文档另存为...,PASS
+79,Wavefront OBJ...,Wavefront OBJ...,PASS
+80,Map...,地图文件...,PASS
+81,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,PASS
+82,Load Point File...,加载点轨迹文件...,PASS
+83,Reload Point File,重新加载点轨迹文件,PASS
+84,Unload Point File,卸载点轨迹文件,PASS
+85,Load Portal File...,加载 BSP 门户文件...,PASS
+86,Reload Portal File,重新加载 BSP 门户文件,PASS
+87,Unload Portal File,卸载 BSP 门户文件,PASS
+88,Reload Material Collections,重新加载材质集合,PASS
+89,Reload Entity Definitions,重新加载实体定义,PASS
+90,Revert Document,还原文档,PASS
+91,Discards any unsaved changes and reloads the map file.,放弃所有未保存的更改，并重新加载地图文件。,PASS
+92,Close Document,关闭文档,PASS
+93,Undo,,PASS
+94,Redo,,PASS
+95,Repeat Last Commands,,PASS
+96,Clear Repeatable Commands,,PASS
+97,Cut,,PASS
+98,Copy,,PASS
+99,Paste,,PASS
+100,Paste at Original Position,,PASS
+101,Duplicate,,PASS
+102,Delete,,PASS
+103,Flip Horizontally,,PASS
+104,Flip Vertically,,PASS
+105,Move...,,PASS
+106,Convex Merge,,PASS
+107,Subtract,,PASS
+108,Hollow,,PASS
+109,Intersect,,PASS
+110,Snap Vertices to Integer,,PASS
+111,Snap Vertices to Grid,,PASS
+112,Convert Selection to Patches,,PASS
+113,Texture Lock,,PASS
+114,UV Lock,,PASS
+115,Replace Material...,,PASS
+116,Select All,,PASS
+117,Invert Selection,,PASS
+118,Deselect All,,PASS
+119,Select Siblings,,PASS
+120,Select Touching,,PASS
+121,Select Inside,,PASS
+122,Select Tall,,PASS
+123,Select by Line Number...,,PASS
+124,Group Selected Objects,,PASS
+125,Ungroup Selected Objects,,PASS
+126,Rename Selected Groups,,PASS
+127,Create Linked Duplicate,,PASS
+128,Select Linked Groups,,PASS
+129,Separate Selected Groups,,PASS
+130,Extract Selected Objects,,PASS
+131,Clear Protected Properties,,PASS
+132,Brush Tool,,PASS
+133,Clip Tool,,PASS
+134,Rotate Tool,,PASS
+135,Sweep Tool,,PASS
+136,Scale Tool,,PASS
+137,Shear Tool,,PASS
+138,Vertex Tool,,PASS
+139,Edge Tool,,PASS
+140,Face Tool,,PASS
+141,Control Point Tool,,PASS
+142,Deactivate Current Tool,,PASS
+143,Show Grid,,PASS
+144,Snap to Grid,,PASS
+145,Increase Grid Size,,PASS
+146,Decrease Grid Size,,PASS
+147,Set Grid Size 0.125,,PASS
+148,Set Grid Size 0.25,,PASS
+149,Set Grid Size 0.5,,PASS
+150,Set Grid Size 1,,PASS
+151,Set Grid Size 2,,PASS
+152,Set Grid Size 4,,PASS
+153,Set Grid Size 8,,PASS
+154,Set Grid Size 16,,PASS
+155,Set Grid Size 32,,PASS
+156,Set Grid Size 64,,PASS
+157,Set Grid Size 128,,PASS
+158,Set Grid Size 256,,PASS
+159,Move Camera to Next Point,,PASS
+160,Move Camera to Previous Point,,PASS
+161,Reset 2D Cameras,,PASS
+162,Focus Camera on Selection,,PASS
+163,Move Camera to...,,PASS
+164,Isolate Selection,,PASS
+165,Hide Selection,,PASS
+166,Show All,,PASS
+167,Show Map Inspector,,PASS
+168,Show Entity Inspector,,PASS
+169,Show Face Inspector,,PASS
+170,Toggle Toolbar,,PASS
+171,Toggle Info Panel,,PASS
+172,Toggle Inspector,,PASS
+173,Maximize Current View,,PASS
+174,Preferences...,,PASS
+175,Compile Map...,,PASS
+176,Launch Engine...,,PASS
+177,Re-run compilation...,,PASS
+178,Print Vertices to Console,,PASS
+179,Create Brush...,,PASS
+180,Create Cube...,,PASS
+181,Crash...,,PASS
+182,Throw Exception During Command,,PASS
+183,Show Crash Report Dialog...,,PASS
+184,Set Window Size...,,PASS
+185,Show Palette...,,PASS
+186,TrenchBroom Manual,,PASS
+187,About TrenchBroom,,PASS
+188,%1 or %2,,PASS
+189,None,,PASS
+190,Open groups: %1,,PASS
+191, in layer &quot;%1&quot;,,PASS
+192, in %1 layers,,PASS
+193,%1%2 selected,,PASS
+194,%1 hidden,,PASS
+195,%1 Name,,PASS
+196,%1 names cannot be blank.,,PASS
+197,%1 names cannot contain double quotes.,,PASS
+198,Group,,PASS
+199,Layer,,PASS
+200,"
+github.com/TrenchBroom/TrenchBroom&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Developers&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+Kristian Duske&lt;br /&gt;
+Eric Wasylishen&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Contributors&lt;/b&gt;&lt;br /&gt;
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+&lt;br /&gt;&lt;br /&gt;
+&lt;b&gt;3rd Party Libraries, Tools and Assets&lt;/b&gt;&lt;br /&gt;
+Qt (Cross platform GUI library)&lt;br /&gt;
+FreeType (Font rendering library)&lt;br /&gt;
+FreeImage (Image loading &amp; manipulation library)&lt;br /&gt;
+tinyxml2 (XML parsing library)&lt;br /&gt;
+miniz (Archive library)&lt;br /&gt;
+Assimp (Asset importer library)&lt;br /&gt;
+Catch 2 (C++ testing framework)&lt;br /&gt;
+StackWalker (C++ stack trace analyzer)&lt;br /&gt;
+CMake (Cross platform build manager)&lt;br /&gt;
+Vcpkg (C/C++ dependency manager)&lt;br /&gt;
+Pandoc (Universal document converter)&lt;br /&gt;
+Source Sans Pro (Font)&lt;br /&gt;
+Font Awesome 5 Free (Icons)&lt;br /&gt;","
+github.com/TrenchBroom/TrenchBroom&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;开发者&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+Kristian Duske&lt;br /&gt;
+Eric Wasylishen&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;贡献者&lt;/b&gt;&lt;br /&gt;
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+&lt;br /&gt;&lt;br /&gt;
+&lt;b&gt;第三方库、工具与资源&lt;/b&gt;&lt;br /&gt;
+Qt（跨平台 GUI 库）&lt;br /&gt;
+FreeType（字体渲染库）&lt;br /&gt;
+FreeImage（图像加载与处理库）&lt;br /&gt;
+tinyxml2（XML 解析库）&lt;br /&gt;
+miniz（归档库）&lt;br /&gt;
+Assimp（资源导入库）&lt;br /&gt;
+Catch 2（C++ 测试框架）&lt;br /&gt;
+StackWalker（C++ 调用栈分析工具）&lt;br /&gt;
+CMake（跨平台构建工具）&lt;br /&gt;
+Vcpkg（C/C++ 依赖管理工具）&lt;br /&gt;
+Pandoc（通用文档转换工具）&lt;br /&gt;
+Source Sans Pro（字体）&lt;br /&gt;
+Font Awesome 5 Free（图标集）&lt;br /&gt;",PASS
+201,TrenchBroom can check for updates automatically. Would you like to enable this now?,,PASS
+202,Open Map,,PASS
+203,TrenchBroom,,PASS
+204,Level Editor,,PASS
+205,Version %1,,PASS
+206,Build %1,,PASS
+207,Qt %1,,PASS
+208,Click to copy to clipboard,,PASS
+209,TrenchBroom %1 Build %2,,PASS
+210,Path Type,路径类型,PASS
+211,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",可以将路径转换为相对于某个参考路径的形式，也可以保留为绝对路径。使用相对路径有助于与他人协作编辑地图。,PASS
+212,Absolute,绝对路径,PASS
+213,Relative to map file,相对于地图文件所在目录,PASS
+214,Could not build a path.,,PASS
+215,Relative to application executable,相对于应用程序目录,PASS
+216,Relative to game directory,相对于游戏目录,PASS
+217,Choose Path Type,选择路径类型,PASS
+218,hide,,PASS
+219,show,,PASS
+220,Color,,PASS
+221,Context,,PASS
+222,Description,,PASS
+223,Double-click a color to begin editing it.,,PASS
+224,Output,,PASS
+225,Launch...,,PASS
+226,Stop,,PASS
+227,Test,,PASS
+228,Compile,,PASS
+229,Close,,PASS
+230,Compilation failed: %1,,PASS
+231,Warning,,PASS
+232,Closing this dialog will stop the running compilation. Are you sure?,,PASS
+233,Clear,,PASS
+234,Set a GLOB pattern to strip any entities with a matching classname. Example: &apos;info_player_*&apos; to strip all info_player_start and all info_player_deatchmatch entities.,,PASS
+235,"Set the classname of an entity that will be added to the map. The entities&apos; origin and angles will be set to the camera position and view direction, respectively.",,PASS
+236,Set this checkbox to strip any entity properties starting with _tb_ from the exported map file. Some compilers cannot handle these properties.,,PASS
+237,The Launch Engine profile to start when this task runs,,PASS
+238,Stop compilation if the engine cannot be launched,,PASS
+239,Move Up,,PASS
+240,Move Down,,PASS
+241,Duplicate,,PASS
+242,Remove,,PASS
+243,Duplicate,,PASS
+244,Remove,,PASS
+245,Stop compilation if the tool returns a nonzero error code,,PASS
+246,Select Tool,,PASS
+247,Whether to include this task when running the compile profile,,PASS
+248,Clear,,PASS
+249,Rows:,,PASS
+250,Columns:,,PASS
+251,Crash,程序崩溃,PASS
+252,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.","TrenchBroom 已崩溃，但已成功保存崩溃报告、日志文件以及当前地图状态，文件位置如下。
+
+请创建一个问题报告，并上传这三个文件。",PASS
+253,Report,报告问题,PASS
+254,Palette,,PASS
+255,Thickness: ,,PASS
+256,Axis: ,,PASS
+257,X,,PASS
+258,Y,,PASS
+259,Z,,PASS
+260,Number of Sides: ,,PASS
+261,Align edge to bounding box,,PASS
+262,Align vertices to bounding box,,PASS
+263,Scalable circle shape,,PASS
+264,Hollow,,PASS
+265,Thickness: ,,PASS
+266,Apply,,PASS
+267,Accuracy: ,,PASS
+268,Shape,,PASS
+269,Click to select a shape,,PASS
+270,Step Height: ,,PASS
+271,Direction: ,,PASS
+272,+X,,PASS
+273,-X,,PASS
+274,+Y,,PASS
+275,-Y,,PASS
+276,Number of Rings: ,,PASS
+277,Name,,PASS
+278,Usage,,PASS
+279,Select ordering criterion,,PASS
+280,Group,,PASS
+281,Group entity definitions by category,,PASS
+282,Used,,PASS
+283,Only show entity definitions currently in use,,PASS
+284,Show all,,PASS
+285,Hide all,,PASS
+286,Builtin,,PASS
+287,External,,PASS
+288,use builtin,,PASS
+289,Browse...,,PASS
+290,Click to browse for an entity definition file,,PASS
+291,Reload,,PASS
+292,Reload the currently loaded entity definition file,,PASS
+293,Load Entity Definition File,,PASS
+294,Entity Browser,,PASS
+295,Browser,,PASS
+296,Settings,,PASS
+297,Property &quot;%1&quot;,,PASS
+298, (%1),,PASS
+299,Class &quot;%1&quot;,,PASS
+300,Add a new property (%1),,PASS
+301,Add a new protected property,,PASS
+302,Remove the selected properties (%1),,PASS
+303,Set existing default properties,,PASS
+304,Set missing default properties,,PASS
+305,Set all default properties,,PASS
+306,Set default properties,,PASS
+307,Show default properties,,PASS
+308,Key,,PASS
+309,Value,,PASS
+310,Protect properties from changes in linked groups,,PASS
+311,Error,,PASS
+312,"A property with key &apos;%1&apos; already exists.
+
+ Do you wish to overwrite it?",,PASS
+313,"Align texture to face edges.
+Click again to cycle through edges.
+Hold %1 to cycle backwards.",,PASS
+314,"Justify texture to top edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,PASS
+315,"Justify texture to bottom edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,PASS
+316,"Justify texture to left edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,PASS
+317,"Justify texture to right edge.
+Click again to cycle through options.
+Hold %1 to cycle backwards.",,PASS
+318,"Fit texture horizontally.
+Click again to cycle through options.
+Hold %1 to cycle backwards.
+Hold %2 to keep trim sheet subdivisions.",,PASS
+319,"Fit texture vertically.
+Click again to cycle through options.
+Hold %1 to cycle backwards.
+Hold %2 to keep trim sheet subdivisions.",,PASS
+320,Fit texture to face.,,PASS
+321,Unset surface value,,PASS
+322,Unset surface flags,,PASS
+323,Unset content flags,,PASS
+324,Unset color,,PASS
+325,Material Browser,,PASS
+326,Browser,,PASS
+327,Settings,,PASS
+328,"To manage wad files, select the &quot;wad&quot; property of the worldspawn entity to reveal a wad file manager below the entity property table.",,PASS
+329,All,,PASS
+330,None,,PASS
+331,Autodetect,自动检测,PASS
+332,Choose a name,,PASS
+333,Click on the button to choose...,,PASS
+334,Choose Engine,,PASS
+335,Click on the button to change...,,PASS
+336,Directory not found,,PASS
+337,...,,PASS
+338,Configure engines...,,PASS
+339,Game Path,,PASS
+340,Compilation Tools,,PASS
+341,%1 Path,,PASS
+342,Select a game.,,PASS
+343,Open custom game configurations folder,,PASS
+344,Console,,PASS
+345,Issues,,PASS
+346,Line,,PASS
+347,Description,,PASS
+348,Show,,PASS
+349,Hide,,PASS
+350,Fix,,PASS
+351,Double-click an item to begin editing it. Click anywhere else to end editing.,,PASS
+352,Make active layer,,PASS
+353,Move selection to layer,,PASS
+354,Select all in layer,,PASS
+355,Show layer,,PASS
+356,Hide layer,,PASS
+357,Isolate layer,,PASS
+358,Unlock layer,,PASS
+359,Lock layer,,PASS
+360,Omit From Export,,PASS
+361,Show All Layers,,PASS
+362,Hide All Layers,,PASS
+363,Unlock All Layers,,PASS
+364,Lock All Layers,,PASS
+365,Rename Layer,,PASS
+366,Remove Layer,,PASS
+367,Add a new layer from the current selection,,PASS
+368,Remove the selected layer and move its objects to the default layer,,PASS
+369,Toggle omit from export,,PASS
+370,Toggle hidden state,,PASS
+371,Toggle locked state,,PASS
+372,%1,,PASS
+373,%1 %2,,PASS
+374,Layers,,PASS
+375,Map Properties,,PASS
+376,Mods,,PASS
+377,Soft bounds disabled,,PASS
+378,Use game default,,PASS
+379,Min:,,PASS
+380,Max:,,PASS
+381,Use custom bounds,,PASS
+382,Merge Groups into %1,,PASS
+383,Merge Groups,,PASS
+384,Add Objects to Group %1,,PASS
+385,Remove Objects from Group %1,,PASS
+386,Move to Layer,,PASS
+387,Make Layer %1 Active,,PASS
+388,Make Layer Active,,PASS
+389,Hide Layers,,PASS
+390,Isolate Layers,,PASS
+391,Select All in Layers,,PASS
+392,Make Structural,,PASS
+393,Move Brushes to Entity %1,,PASS
+394,Reveal %1 in Material Browser,,PASS
+395,Copy Material Name,,PASS
+396,Create Point Entity,,PASS
+397,Create Brush Entity,,PASS
+398,%1[*] - TrenchBroom,,PASS
+399,Grid %1,,PASS
+400,Save map file,,PASS
+401,Export Map file,,PASS
+402,"You can&apos;t overwrite the current document.
+Please choose a different file name to export to.",,PASS
+403,%1 has been modified. Do you want to save the changes?,,PASS
+404,Revert %1 to %2?,,PASS
+405,This will discard all unsaved changes and reload the document from disk.,,PASS
+406,Revert,,PASS
+407,Load Point File,,PASS
+408,Load Portal File,,PASS
+409,Invalid coordinates: &apos;%1&apos;,,PASS
+410,Re-run &quot;%1&quot;...,,PASS
+411,Re-run compilation...,,PASS
+412,Name,,PASS
+413,Usage,,PASS
+414,Select ordering criterion,,PASS
+415,Group,,PASS
+416,Group materials by material collection,,PASS
+417,Used,,PASS
+418,Only show materials currently in use,,PASS
+419,Select Faces,,PASS
+420,Select Brushes,,PASS
+421,Copy Name,,PASS
+422,Enable the selected material collections,,PASS
+423,Disable the selected material collections,,PASS
+424,Reload all enabled material collections,,PASS
+425,Filter the list of available mods,,PASS
+426,Enable the selected mods,,PASS
+427,Disable the selected mods,,PASS
+428,Move the selected mod up,,PASS
+429,Move the selected mod down,,PASS
+430,Speed,,PASS
+431,Export Wavefront OBJ,导出 Wavefront OBJ,PASS
+432,Export Path,导出路径,PASS
+433,Enter a path or click to browse,输入路径，或点击“浏览...”进行选择,PASS
+434,Texture Paths,纹理路径,PASS
+435,Controls how the texture paths in the generated material file are computed.,控制生成的材质文件中纹理路径的计算方式。,PASS
+436,Relative to game path,相对于游戏目录,PASS
+437,Relative to export path,相对于导出目录,PASS
+438,Export Wavefront OBJ file,导出 Wavefront OBJ 文件,PASS
+439,A file IO error occurred while attempting to read the preference file:,,PASS
+440,ensure the file is readable,,PASS
+441,Could not acquire lock file for reading the preference file:,,PASS
+442,check for stale lock files,,PASS
+443,A JSON parsing error occurred while reading the preference file:,,PASS
+444,"fix the JSON, or backup and delete the file",,PASS
+445,A file IO error occurred while attempting to write the preference file:,,PASS
+446,ensure the file is writable,,PASS
+447,"%1
+
+%2
+
+Please correct the problem (%3) and restart TrenchBroom.
+Further settings changes will not be saved this session.",,PASS
+448,TrenchBroom,,PASS
+449,Replace Succeeded,,PASS
+450,Replace Failed,,PASS
+451,None of the selected faces has the selected material,,PASS
+452,Replace Material,,PASS
+453,Find,,PASS
+454,Replace with,,PASS
+455,Replace,,PASS
+456,Perform replacement on all selected faces,,PASS
+457,Close,,PASS
+458,Close this window,,PASS
+459,Center,,PASS
+460,Reset,,PASS
+461,Reset the position of the rotate handle to the center of the current selection.,,PASS
+462,Rotate objects,,PASS
+463,degs about,,PASS
+464,axis,,PASS
+465,Apply,,PASS
+466,Update entity properties,,PASS
+467,Scale objects,,PASS
+468,to size,,PASS
+469,by factors,,PASS
+470,Apply,,PASS
+471,Select a choice option:,,PASS
+472,Color range,,PASS
+473,"Float [0,1]",,PASS
+474,"Byte [0,255]",,PASS
+475,Load Wad Files,,PASS
+476,Wad files (*.wad);;All files (*.*),,PASS
+477,"Increment: %1 (%2: %3, %4: %5)",,PASS
+478,Segments,,PASS
+479,Number of brushes between the source faces and the destination cap,,PASS
+480,Path,,PASS
+481,Arc,,PASS
+482,Straight,,PASS
+483,S-bend,,PASS
+484,"Arc revolves around an axis, Straight is a linear loft, S-bend follows an S-curve; the destination cap ends up in the same place in each mode",,PASS
+485,Iterations,,PASS
+486,"Repeats the sweep, continuing from the previous destination cap",,PASS
+487,Snap to integer grid,,PASS
+488,Round generated vertices to integer coordinates,,PASS
+489,Reset,,PASS
+490,Move the destination cap back onto the selected faces,,PASS
+491,Reset UV alignment,,PASS
+492,Reset UV alignment to world aligned,,PASS
+493,Flip U axis,,PASS
+494,Flip V axis,,PASS
+495,Rotate UV 90° counter-clockwise,,PASS
+496,Rotate UV 90° clockwise,,PASS
+497,"TrenchBroom can check for updates. If an update is available, you will be notified in the status bar and other places.
+To download and install an available update, click on the link labeled &quot;Update available&quot;.",,PASS
+498,"Pre-releases are versions of TrenchBroom that are not yet considered stable. 
+They may contain new features or bug fixes that are not yet part of a stable release.",,PASS
+499,Show entity classnames,,PASS
+500,Show group bounds and names,,PASS
+501,Show brush entity bounds,,PASS
+502,Show point entity bounds,,PASS
+503,Show point entities,,PASS
+504,Show point entity models,,PASS
+505,Show brushes,,PASS
+506,Show Patches,,PASS
+507,No tags found,,PASS
+508,Shade faces,,PASS
+509,Use fog,,PASS
+510,Show edges,,PASS
+511,Show soft bounds,,PASS
+512,Restore Defaults,,PASS
+513,View Options,,PASS
+514,Click to edit view settings,,PASS
+515,Requires restart after changing,更改后需要重启,PASS
+516,Language,语言,PASS
+517,Language changes take effect after restarting TrenchBroom.,语言更改将在重启 TrenchBroom 后生效。,PASS
+518,Open Map,打开地图,PASS
+519,Checking for updates...,,PASS
+520,Checking for updates. Please wait...,,PASS
+521,Cancel,,PASS
+522,Downloading update...,,PASS
+523,The update is being downloaded. Please wait...,,PASS
+524,Cancel,,PASS
+525,Preparing update...,,PASS
+526,The update is being prepared. Please wait...,,PASS
+527,Could not open file %1,,PASS
+528,No update available.,,PASS
+529,You are using the latest version %1. There is no update available.,,PASS
+530,Close,,PASS
+531,An update is available!,,PASS
+532,Version %1 is available to download. You are currently using version %2.,,PASS
+533,"Start the update by clicking the button below. The update file will be downloaded and prepared. After that, you will have the option to install the update immediately or later when the application quits",,PASS
+534,&lt;a href=&quot;%3&quot;&gt;Click here for the release notes.&lt;/a&gt;,,PASS
+535,Download and install,,PASS
+536,Close,,PASS
+537,Installing update,,PASS
+538,Cleaning work directory %1,,PASS
+539,Failed to clean work directory,,PASS
+540,Downloading update from %1,,PASS
+541,Removing downloaded update file %1,,PASS
+542,Preparing update file %1,,PASS
+543,State changed: %1,,PASS
+544,Update,,PASS
+545,An error occurred!,,PASS
+546,Retry,,PASS
+547,Close,,PASS
+548,&lt;a href=&quot;upd://checkForUpdates&quot;&gt;Check for updates&lt;/a&gt;,,PASS
+549,Checking for updates...,,PASS
+550,&lt;a href=&quot;upd://showDialog&quot;&gt;Update available&lt;/a&gt;,,PASS
+551,Up to date,,PASS
+552,Downloading update...,,PASS
+553,Preparing update...,,PASS
+554,Update pending,,PASS
+555,&lt;a href=&quot;upd://showDialog&quot;&gt;Update error&lt;/a&gt;,,PASS
+556,Updates disabled,,PASS
+557,Update ready to install!,,PASS
+558,"The update is now ready to be installed. Alternatively, you can install it later when the application quits.",,PASS
+559,Install now,,PASS
+560,Install later,,PASS
+561,Attention!,,PASS
+562,The updater requires additional privileges to install the update. Please grant these privileges when prompted as the update is installed.,,PASS
