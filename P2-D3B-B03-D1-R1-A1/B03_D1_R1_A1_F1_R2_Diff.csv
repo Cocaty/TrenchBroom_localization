@@ -1,6 +1,6 @@
 ﻿File,Old_Hash,New_Hash,Change_Type,Reason,Evidence
-B03_D1_R1_A1_Correction_Diff.csv,419e5de308428c7a0921601145b64894480bf3bfed5020f037d75143f105f51c,11cbb768c60d858c59fb5352f7fc8b96ff53e2c31e50476f434e6bfc9845a67d,UNCHANGED_IN_R2,本地实际哈希与 SHA256SUMS/F1 最终快照一致；F1 开始快照为 F1 修正前历史值，不修改历史快照,Evidence/F1_R2_Start_Snapshot.csv
-SHA256SUMS.txt,(见 R2 开始快照),(见最终清单),EXPECTED_CHANGE,按 R2 最终 31 文件清单重建，覆盖 30 项，清单自身不自列,B03_D1_R1_A1_F1_R2_Report.md
+B03_D1_R1_A1_Correction_Diff.csv,11cbb768c60d858c59fb5352f7fc8b96ff53e2c31e50476f434e6bfc9845a67d,11cbb768c60d858c59fb5352f7fc8b96ff53e2c31e50476f434e6bfc9845a67d,UNCHANGED_IN_R2,R2 开始与结束哈希一致；419e... 是 F1 阶段开始时的历史哈希，已在 F1 阶段发生授权修正，不属于 R2 本轮变化。,Evidence/F1_R2_Start_Snapshot.csv
+SHA256SUMS.txt,(见 R2 开始快照),(见最终清单),EXPECTED_CHANGE,按 R2 最终 30 文件清单重建，覆盖 29 项；SHA256SUMS 自身不自列。,B03_D1_R1_A1_F1_R2_Report.md
 Evidence/F1_R2_Start_Snapshot.csv,,,NEW,R2 开始状态全量快照（25 文件）,B03_D1_R1_A1_F1_R2_Report.md
 B03_D1_R1_A1_F1_R2_Report.md,,,NEW,R2 最终审计报告,B03_D1_R1_A1_F1_R2_Report.md
 B03_D1_R1_A1_F1_R2_Diff.csv,,,NEW,R2 全量差异表,B03_D1_R1_A1_F1_R2_Report.md
