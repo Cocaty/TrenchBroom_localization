@@ -1,0 +1,3 @@
+﻿Snapshot,Line,Object,Original_Path,Canonical_Path,SHA256,Original_Verdict,Audit_Classification,Note
+Final,3,备份TS,C:/Users/yoshi/Projects/TrenchBroom-zhCN\reports\P2-D3B-B03-T2\Backup\TrenchBroom_zh_CN.ts.before,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2/Backup/TrenchBroom_zh_CN.ts.before,901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773,YES,DUPLICATE_RECORD,同一规范化绝对路径在本快照出现多次；不删除原始记录
+Final,15,T2/Backup/TrenchBroom_zh_CN.ts.before,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2\Backup\TrenchBroom_zh_CN.ts.before,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2/Backup/TrenchBroom_zh_CN.ts.before,901554891f322ed833385b84eca60fe87a5b92fb5c27849161393fe928abe773,NEW,DUPLICATE_ALIAS,同一规范化绝对路径在本快照出现多次；不删除原始记录

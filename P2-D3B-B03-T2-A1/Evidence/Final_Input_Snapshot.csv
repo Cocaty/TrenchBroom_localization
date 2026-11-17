@@ -1,0 +1,9 @@
+﻿Relative_Path,Canonical_Path,Path_Type,Size,SHA256,Last_Modified
+Evidence/Start_Input_Snapshot.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2-A1/Evidence/Start_Input_Snapshot.csv,ABSOLUTE,4714,87e8c874cb6b05926e0e1f8754db44110f45dcfa8f9e52d7dde95fc0d448533b,2026-11-17T20:24:05
+T2_A1_Authorization_Record.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2-A1/T2_A1_Authorization_Record.md,ABSOLUTE,641,d2531aef28e76c12938b2fcecf96e79507f6a25d23c69cbfb151a19398c48fa2,2026-11-17T20:24:34
+T2_A1_Path_Normalization_Audit.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2-A1/T2_A1_Path_Normalization_Audit.md,ABSOLUTE,1986,03bad5422f1d7af1f735e835ca3aedbf888b73ee7a9a59c70f72f021f5ef8045,2026-11-17T20:24:40
+T2_A1_Snapshot_Reconciliation.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2-A1/T2_A1_Snapshot_Reconciliation.csv,ABSOLUTE,8904,d555ad44c741be3aca6414586519fbdfbc18ae82d5caadb27df27f7536420c61,2026-11-17T20:24:19
+T2_A1_Duplicate_Path_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2-A1/T2_A1_Duplicate_Path_Audit.csv,ABSOLUTE,885,5c103362ec0dc11ed67a6c37fd788f5516fb5211a4a722c55e4cc880c1b4c4d1,2026-11-17T20:24:19
+T2_A1_SHA256_Manifest_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2-A1/T2_A1_SHA256_Manifest_Audit.csv,ABSOLUTE,2720,33cc1719ff59a18bc2cd9e89e24b276dba707eeb9c1b228dcd69134abc8a9987,2026-11-17T20:24:19
+T2_A1_Protected_State_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2-A1/T2_A1_Protected_State_Audit.csv,ABSOLUTE,1495,7dc0c19f357c298dc3b95186467ae9b95948fda80bacb6e100624e0a384a9d7e,2026-11-17T20:24:26
+T2_A1_Final_Report.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T2-A1/T2_A1_Final_Report.md,ABSOLUTE,2696,28cfa884da86ef4aa977d79b42bdf0c96378e20c5626ffe7258b5756e968a762,2026-11-17T20:24:57
