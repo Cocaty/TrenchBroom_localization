@@ -1,3 +1,3 @@
 ﻿File,Original_Text,Corrected_Text,Correction_Reason,Evidence,Translation_Changed,Decision_Status_Changed
-B03_D1_R1_Correction_Report.md,24 位贡献者姓名及顺序,2 位开发者、22 位贡献者，共 24 位具名人员的姓名及顺序,原 R1 把 24 位具名人员误称为贡献者；实际 Developers 2 + Contributors 22,Evidence/B03_D1_R1_A1_AboutDialog_People_Audit.json,NO,NO
-B03_D1_R1_Source_Reference_Index.md,24 位贡献者,2 位开发者、22 位贡献者，共 24 位具名人员,原 R1 把 24 位具名人员误称为贡献者；实际 Developers 2 + Contributors 22,Evidence/B03_D1_R1_A1_AboutDialog_People_Audit.json,NO,NO
+B03_D1_R1_Correction_Report.md,24 位贡献者姓名及顺序,2 位开发者、22 位贡献者，共 24 位具名人员的姓名及顺序,原 R1 把 24 位具名人员误称为贡献者；实际 Developers 2 + Contributors 22,B03_D1_R1_A1_AboutDialog_People_Audit.json,NO,NO
+B03_D1_R1_Source_Reference_Index.md,24 位贡献者,2 位开发者、22 位贡献者，共 24 位具名人员,原 R1 把 24 位具名人员误称为贡献者；实际 Developers 2 + Contributors 22,B03_D1_R1_A1_AboutDialog_People_Audit.json,NO,NO
