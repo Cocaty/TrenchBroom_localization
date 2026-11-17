@@ -1,0 +1,10 @@
+﻿Menu_Key,Observed_Title,QM_Present,QM_Context,QM_Source,QM_Translation,Matches_TS,Multiple_Matches,Reliable_Mapping,Evidence_Note
+M01,File,NO,,,,N/A,NO,NO,QM 回转中精确 Source 零命中；结合源码无 tr 与 TS 零命中，非单独据此定论
+M02,Edit,NO,,,,N/A,NO,NO,QM 回转中精确 Source 零命中；结合源码无 tr 与 TS 零命中，非单独据此定论
+M03,Selection,NO,,,,N/A,NO,NO,QM 回转中精确 Source 零命中；结合源码无 tr 与 TS 零命中，非单独据此定论
+M04,Groups,NO,,,,N/A,NO,NO,QM 回转中精确 Source 零命中；结合源码无 tr 与 TS 零命中，非单独据此定论
+M05,Tools,NO,,,,N/A,NO,NO,QM 回转中精确 Source 零命中；结合源码无 tr 与 TS 零命中，非单独据此定论
+M06,View,NO,,,,N/A,NO,NO,QM 回转中精确 Source 零命中；结合源码无 tr 与 TS 零命中，非单独据此定论
+M07,Run,NO,,,,N/A,NO,NO,QM 回转中精确 Source 零命中；结合源码无 tr 与 TS 零命中，非单独据此定论
+M08,Debug,NO,,,,N/A,NO,NO,QM 回转中精确 Source 零命中；结合源码无 tr 与 TS 零命中，非单独据此定论
+M09,Help,NO,,,,N/A,NO,NO,QM 回转中精确 Source 零命中；结合源码无 tr 与 TS 零命中，非单独据此定论

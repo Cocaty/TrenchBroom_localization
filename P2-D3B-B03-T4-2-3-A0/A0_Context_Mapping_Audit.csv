@@ -1,0 +1,10 @@
+﻿Menu_Key,Observed_Title,Screenshot_Node,Source_Location,Title_Assignment,Translation_Call,Runtime_Context,TS_Context,TS_ID,TS_Source,Break_Point,Conclusion
+M01,File,截图顶级菜单标题,lib/TbUiLib/src/ActionManager.cpp:824,"createMainMenu(""File"")",NONE,NONE,N/A,N/A,N/A,BREAK_AT_TRANSLATION_CALL,无翻译调用，因此不存在运行时 Context→TS→QM 查找链
+M02,Edit,截图顶级菜单标题,lib/TbUiLib/src/ActionManager.cpp:985,"createMainMenu(""Edit"")",NONE,NONE,N/A,N/A,N/A,BREAK_AT_TRANSLATION_CALL,无翻译调用，因此不存在运行时 Context→TS→QM 查找链
+M03,Selection,截图顶级菜单标题,lib/TbUiLib/src/ActionManager.cpp:1251,"createMainMenu(""Selection"")",NONE,NONE,N/A,N/A,N/A,BREAK_AT_TRANSLATION_CALL,无翻译调用，因此不存在运行时 Context→TS→QM 查找链
+M04,Groups,截图顶级菜单标题,lib/TbUiLib/src/ActionManager.cpp:1337,"createMainMenu(""Groups"")",NONE,NONE,N/A,N/A,N/A,BREAK_AT_TRANSLATION_CALL,无翻译调用，因此不存在运行时 Context→TS→QM 查找链
+M05,Tools,截图顶级菜单标题,lib/TbUiLib/src/ActionManager.cpp:1424,"createMainMenu(""Tools"")",NONE,NONE,N/A,N/A,N/A,BREAK_AT_TRANSLATION_CALL,无翻译调用，因此不存在运行时 Context→TS→QM 查找链
+M06,View,截图顶级菜单标题,lib/TbUiLib/src/ActionManager.cpp:1588,"createMainMenu(""View"")",NONE,NONE,N/A,N/A,N/A,BREAK_AT_TRANSLATION_CALL,无翻译调用，因此不存在运行时 Context→TS→QM 查找链
+M07,Run,截图顶级菜单标题,lib/TbUiLib/src/ActionManager.cpp:1935,"createMainMenu(""Run"")",NONE,NONE,N/A,N/A,N/A,BREAK_AT_TRANSLATION_CALL,无翻译调用，因此不存在运行时 Context→TS→QM 查找链
+M08,Debug,截图顶级菜单标题,lib/TbUiLib/src/ActionManager.cpp:1970,"createMainMenu(""Debug"")",NONE,NONE,N/A,N/A,N/A,BREAK_AT_TRANSLATION_CALL,无翻译调用，因此不存在运行时 Context→TS→QM 查找链
+M09,Help,截图顶级菜单标题,lib/TbUiLib/src/ActionManager.cpp:2040,"createMainMenu(""Help"")",NONE,NONE,N/A,N/A,N/A,BREAK_AT_TRANSLATION_CALL,无翻译调用，因此不存在运行时 Context→TS→QM 查找链

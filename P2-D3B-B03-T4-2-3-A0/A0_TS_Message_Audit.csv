@@ -1,0 +1,10 @@
+﻿Menu_Key,Observed_Title,Message_ID,Context,Source,Translation,Translation_Type,Translation_Status,Location_Filename,Location_Line,Comment,ExtraComment,Disambiguation,Numerusform,Match_Confidence
+M01,File,NO_ID,,,,,,,,,,,NOT_FOUND,TS 中精确 Source 零命中；NO_ID 因消息不存在
+M02,Edit,NO_ID,,,,,,,,,,,NOT_FOUND,TS 中精确 Source 零命中；NO_ID 因消息不存在
+M03,Selection,NO_ID,,,,,,,,,,,NOT_FOUND,TS 中精确 Source 零命中；NO_ID 因消息不存在
+M04,Groups,NO_ID,,,,,,,,,,,NOT_FOUND,TS 中精确 Source 零命中；NO_ID 因消息不存在
+M05,Tools,NO_ID,,,,,,,,,,,NOT_FOUND,TS 中精确 Source 零命中；NO_ID 因消息不存在
+M06,View,NO_ID,,,,,,,,,,,NOT_FOUND,TS 中精确 Source 零命中；NO_ID 因消息不存在
+M07,Run,NO_ID,,,,,,,,,,,NOT_FOUND,TS 中精确 Source 零命中；NO_ID 因消息不存在
+M08,Debug,NO_ID,,,,,,,,,,,NOT_FOUND,TS 中精确 Source 零命中；NO_ID 因消息不存在
+M09,Help,NO_ID,,,,,,,,,,,NOT_FOUND,TS 中精确 Source 零命中；NO_ID 因消息不存在
