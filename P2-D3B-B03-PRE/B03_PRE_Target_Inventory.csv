@@ -1,0 +1,68 @@
+﻿Batch,Message_ID,Context,Source,Category,Location
+RA-B03,cfde892c46df,tb::ui::AboutDialog,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />",对话框,../../../lib/TbUiLib/src/AboutDialog.cpp:41
+RA-B03,f9081511b752,tb::ui::ChoosePathTypeDialog,Path Type,对话框,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:81
+RA-B03,df4ef91af93a,tb::ui::ChoosePathTypeDialog,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",对话框,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:85
+RA-B03,8c9ed2e8de12,tb::ui::ChoosePathTypeDialog,Absolute,对话框,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:93
+RA-B03,6a5208c30cca,tb::ui::ChoosePathTypeDialog,Relative to map file,对话框,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:99
+RA-B03,dbbba8b54bd0,tb::ui::ChoosePathTypeDialog,Relative to application executable,对话框,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:107
+RA-B03,3a29ad146ceb,tb::ui::ChoosePathTypeDialog,Relative to game directory,对话框,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:115
+RA-B03,2c01921052f7,tb::ui::ChoosePathTypeDialog,Choose Path Type,对话框,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:156
+RA-B03,8e40860a52a1,tb::ui::CrashDialog,Crash,对话框,../../../lib/TbUiLib/src/CrashDialog.cpp:53
+RA-B03,f0f928f057b7,tb::ui::CrashDialog,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.",对话框,../../../lib/TbUiLib/src/CrashDialog.cpp:58
+RA-B03,444a30e5e793,tb::ui::CrashDialog,Report,对话框,../../../lib/TbUiLib/src/CrashDialog.cpp:89
+RA-B03,5a27052291cb,tb::ui::GameDialog,Autodetect,对话框,../../../lib/TbUiLib/src/GameDialog.cpp:273
+RA-B03,ee439e50a835,tb::ui::ObjExportDialog,Export Wavefront OBJ,对话框,../../../lib/TbUiLib/src/ObjExportDialog.cpp:66
+RA-B03,0011be948dd6,tb::ui::ObjExportDialog,Export Path,对话框,../../../lib/TbUiLib/src/ObjExportDialog.cpp:74
+RA-B03,2915922a2166,tb::ui::ObjExportDialog,Enter a path or click to browse,对话框,../../../lib/TbUiLib/src/ObjExportDialog.cpp:81
+RA-B03,0ee72f3c8645,tb::ui::ObjExportDialog,Texture Paths,对话框,../../../lib/TbUiLib/src/ObjExportDialog.cpp:91
+RA-B03,10b21b3fc756,tb::ui::ObjExportDialog,Controls how the texture paths in the generated material file are computed.,对话框,../../../lib/TbUiLib/src/ObjExportDialog.cpp:92
+RA-B03,013b4028d792,tb::ui::ObjExportDialog,Relative to game path,对话框,../../../lib/TbUiLib/src/ObjExportDialog.cpp:95
+RA-B03,26fd3ad9ed81,tb::ui::ObjExportDialog,Relative to export path,对话框,../../../lib/TbUiLib/src/ObjExportDialog.cpp:99
+RA-B03,eed1f27c4948,tb::ui::ObjExportDialog,Export Wavefront OBJ file,对话框,../../../lib/TbUiLib/src/ObjExportDialog.cpp:137

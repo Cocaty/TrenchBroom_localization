@@ -1,0 +1,53 @@
+70:   const std::filesystem::path& absPath,
+71:   const std::filesystem::path& docPath,
+72:   const std::filesystem::path& gamePath)
+73: {
+74:   const auto docRelativePath =
+75:     convertToPathType(PathType::DocumentRelative, absPath, docPath, gamePath);
+76:   const auto gameRelativePath =
+77:     convertToPathType(PathType::GameRelative, absPath, docPath, gamePath);
+78:   const auto appRelativePath =
+79:     convertToPathType(PathType::AppRelative, absPath, docPath, gamePath);
+80: 
+81:   setWindowTitle(tr("Path Type"));
+82:   setWindowIconTB(this);
+83: 
+84:   auto* infoText = new QLabel{
+85:     tr("You can convert a path to be relative to some reference path, or you can choose "
+86:        "to keep it absolute. A relative can make it easier to collaborate on a map.")};
+87:   infoText->setMaximumWidth(370);
+88:   infoText->setWordWrap(true);
+89: 
+90:   auto boldFont = infoText->font();
+91:   boldFont.setBold(true);
+92: 
+93:   m_absRadio = new QRadioButton{tr("Absolute")};
+94:   setEmphasizedStyle(m_absRadio);
+95:   m_absRadio->setChecked(true);
+96: 
+97:   auto* absolutePathText = setInfoStyle(new QLabel{pathAsQString(absPath)});
+98: 
+99:   m_docRelativeRadio = new QRadioButton{tr("Relative to map file")};
+100:   setEmphasizedStyle(m_docRelativeRadio);
+101:   m_docRelativeRadio->setEnabled(!docRelativePath.empty());
+102: 
+103:   auto* mapRelativePathText = setInfoStyle(new QLabel{
+104:     docRelativePath.empty() ? tr("Could not build a path.")
+105:                             : pathAsQString(docRelativePath)});
+106: 
+107:   m_appRelativeRadio = new QRadioButton{tr("Relative to application executable")};
+108:   setEmphasizedStyle(m_appRelativeRadio);
+109:   m_appRelativeRadio->setEnabled(!appRelativePath.empty());
+110: 
+111:   auto* appRelativePathText = setInfoStyle(new QLabel{
+112:     appRelativePath.empty() ? tr("Could not build a path.")
+113:                             : pathAsQString(appRelativePath)});
+114: 
+115:   m_gameRelativeRadio = new QRadioButton{tr("Relative to game directory")};
+116:   setEmphasizedStyle(m_gameRelativeRadio);
+117:   m_gameRelativeRadio->setEnabled(!gameRelativePath.empty());
+118: 
+119:   auto* gameRelativePathText = setInfoStyle(new QLabel{
+120:     gameRelativePath.empty() ? tr("Could not build a path.")
+121:                              : pathAsQString(gameRelativePath)});
+122: 

@@ -1,0 +1,68 @@
+﻿Message_ID,Source,Semantic_Concept,Existing_Term,Historical_Source,Semantic_Match,Inheritance,Candidate,Confirmation_Status
+cfde892c46df,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />",Developers/Contributors/3rd Party Libraries,开发者/贡献者/第三方库、工具与资源；保留人名与 HTML 标签,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,开发者/贡献者/第三方库、工具与资源；保留人名与 HTML 标签,PROPOSAL ONLY — NOT USER CONFIRMED
+f9081511b752,Path Type,—,路径类型,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,路径类型,PROPOSAL ONLY — NOT USER CONFIRMED
+df4ef91af93a,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",Relative/Point File 历史术语,相对路径可让地图协作更容易；relative 作名词指相对路径,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,相对路径可让地图协作更容易；relative 作名词指相对路径,PROPOSAL ONLY — NOT USER CONFIRMED
+8c9ed2e8de12,Absolute,—,绝对路径,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,绝对路径,PROPOSAL ONLY — NOT USER CONFIRMED
+6a5208c30cca,Relative to map file,Map...→地图文件...；Open Document→打开文档,相对于地图文件 / 相对于地图文档,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,相对于地图文件 / 相对于地图文档,PROPOSAL ONLY — NOT USER CONFIRMED
+dbbba8b54bd0,Relative to application executable,—,相对于应用程序可执行文件,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,相对于应用程序可执行文件,PROPOSAL ONLY — NOT USER CONFIRMED
+3a29ad146ceb,Relative to game directory,B02 game path→游戏路径；此处 game directory 语义相近但措辞不同,相对于游戏目录 / 相对于游戏路径,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,相对于游戏目录 / 相对于游戏路径,PROPOSAL ONLY — NOT USER CONFIRMED
+2c01921052f7,Choose Path Type,—,选择路径类型,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,选择路径类型,PROPOSAL ONLY — NOT USER CONFIRMED
+8e40860a52a1,Crash,—,崩溃,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,崩溃,PROPOSAL ONLY — NOT USER CONFIRMED
+f0f928f057b7,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.",B01 文档/地图术语；新增 issue report,崩溃后已保存崩溃报告、日志与地图状态；issue report 译法待确认,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,崩溃后已保存崩溃报告、日志与地图状态；issue report 译法待确认,PROPOSAL ONLY — NOT USER CONFIRMED
+444a30e5e793,Report,—,报告 / 提交报告 / 报告问题,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,报告 / 提交报告 / 报告问题,PROPOSAL ONLY — NOT USER CONFIRMED
+5a27052291cb,Autodetect,—,自动检测,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,自动检测,PROPOSAL ONLY — NOT USER CONFIRMED
+ee439e50a835,Export Wavefront OBJ,B01 Wavefront OBJ 保留英文,导出 Wavefront OBJ（Wavefront OBJ 保留）,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,导出 Wavefront OBJ（Wavefront OBJ 保留）,PROPOSAL ONLY — NOT USER CONFIRMED
+0011be948dd6,Export Path,—,导出路径,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,导出路径,PROPOSAL ONLY — NOT USER CONFIRMED
+2915922a2166,Enter a path or click to browse,—,输入路径或点击浏览,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,输入路径或点击浏览,PROPOSAL ONLY — NOT USER CONFIRMED
+0ee72f3c8645,Texture Paths,B01 Material Collections→材质集合；texture 更接近纹理,纹理路径 / 材质路径（生成材质文件中的纹理路径）,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,纹理路径 / 材质路径（生成材质文件中的纹理路径）,PROPOSAL ONLY — NOT USER CONFIRMED
+10b21b3fc756,Controls how the texture paths in the generated material file are computed.,材质→材质；纹理路径待确认但说明中不改变术语集合,控制生成的材质文件中纹理路径的计算方式,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,控制生成的材质文件中纹理路径的计算方式,PROPOSAL ONLY — NOT USER CONFIRMED
+013b4028d792,Relative to game path,B02 game path→游戏路径（EXACT）,相对于游戏路径,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,相对于游戏路径,PROPOSAL ONLY — NOT USER CONFIRMED
+26fd3ad9ed81,Relative to export path,B03 Export Path→导出路径,相对于导出路径,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,相对于导出路径,PROPOSAL ONLY — NOT USER CONFIRMED
+eed1f27c4948,Export Wavefront OBJ file,B01 打开地图→对话框标题先例；Wavefront OBJ 保留,导出 Wavefront OBJ 文件（保留 *.obj）,P2-D3B-B01-T2 / P2-D3B-B02-D1,RELATED,ADAPT,导出 Wavefront OBJ 文件（保留 *.obj）,PROPOSAL ONLY — NOT USER CONFIRMED

@@ -1,0 +1,59 @@
+30: 
+31: AboutDialog::AboutDialog(AppController& appController)
+32:   : m_appController{appController}
+33: {
+34:   // This makes it so the About dialog doesn't prevent the application from quitting
+35:   setAttribute(Qt::WA_QuitOnClose, false);
+36:   createGui();
+37: }
+38: 
+39: void AboutDialog::createGui()
+40: {
+41:   const auto creditsString = tr(R"(
+42: github.com/TrenchBroom/TrenchBroom<br />
+43: <br />
+44: <b>Developers</b><br />
+45: <br />
+46: Kristian Duske<br />
+47: Eric Wasylishen<br />
+48: <br />
+49: <b>Contributors</b><br />
+50: 20kdc,
+51: aapokaapo,
+52: Amara M. Kilic,
+53: Ari Vuollet,
+54: bazhenovc,
+55: chronicol,
+56: Corey Jones,
+57: iOrange,
+58: Jonas Lund,
+59: Jonathan Linat,
+60: Josh Palmer,
+61: mankeli,
+62: Matthew Borkowski,
+63: mittorn,
+64: negke,
+65: neogeographica,
+66: Philipp Nahratow,
+67: rebb,
+68: Rohit Nirmal,
+69: Scampie,
+70: xaGe,
+71: Yuki Raven
+72: <br /><br />
+73: <b>3rd Party Libraries, Tools and Assets</b><br />
+74: Qt (Cross platform GUI library)<br />
+75: FreeType (Font rendering library)<br />
+76: FreeImage (Image loading & manipulation library)<br />
+77: tinyxml2 (XML parsing library)<br />
+78: miniz (Archive library)<br />
+79: Assimp (Asset importer library)<br />
+80: Catch 2 (C++ testing framework)<br />
+81: StackWalker (C++ stack trace analyzer)<br />
+82: CMake (Cross platform build manager)<br />
+83: Vcpkg (C/C++ dependency manager)<br />
+84: Pandoc (Universal document converter)<br />
+85: Source Sans Pro (Font)<br />
+86: Font Awesome 5 Free (Icons)<br />)");
+87:   setWindowIconTB(this);
+88: 

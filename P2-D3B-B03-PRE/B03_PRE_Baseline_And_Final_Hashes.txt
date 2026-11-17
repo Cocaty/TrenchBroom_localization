@@ -1,0 +1,10 @@
+# B03-PRE 开始与结束快照
+
+| 项 | 开始 | 结束 |
+|---|---|---|
+| Git 分支 / HEAD / dirty | feature/zh-CN-v2026.2 / 4c756be1… / 7 | 同 |
+| 正式 TS | 901554891f322ed8… / 131100 B | 同 |
+| Revised_Batches.csv | 9e3a96d70e0ff… / 8219 B | 同 |
+| 关键源码与 B01/B02 证据 | 见 Evidence/Start_Snapshot.csv | 逐项一致 |
+
+14 项保护对象 match_start=YES 14/14；未修改 TS、源码、CMake、QM、QRC 或既有报告。

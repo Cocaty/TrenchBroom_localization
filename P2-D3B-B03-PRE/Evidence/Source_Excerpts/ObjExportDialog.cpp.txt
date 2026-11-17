@@ -1,0 +1,86 @@
+60: 
+61: void ObjExportDialog::createGui()
+62: {
+63:   setWindowIconTB(this);
+64:   setWindowTitle("Export");
+65: 
+66:   auto* header = new DialogHeader{tr("Export Wavefront OBJ")};
+67: 
+68:   auto* formLayout = new FormWithSectionsLayout{};
+69:   formLayout->setContentsMargins(0, 20, 0, 20);
+70:   formLayout->setHorizontalSpacing(LayoutConstants::WideHMargin);
+71:   formLayout->setVerticalSpacing(LayoutConstants::MediumVMargin);
+72:   formLayout->setFieldGrowthPolicy(QFormLayout::ExpandingFieldsGrow);
+73: 
+74:   formLayout->addSection(tr("Export Path"));
+75: 
+76:   auto* exportPathLayout = new QHBoxLayout{};
+77:   exportPathLayout->setContentsMargins(0, 0, 0, 0);
+78:   exportPathLayout->setSpacing(LayoutConstants::MediumHMargin);
+79: 
+80:   m_exportPathEdit = new QLineEdit{};
+81:   m_exportPathEdit->setPlaceholderText(tr("Enter a path or click to browse"));
+82:   exportPathLayout->addWidget(m_exportPathEdit);
+83: 
+84:   m_browseExportPathButton = new QPushButton{};
+85:   m_browseExportPathButton->setText("Browse...");
+86:   exportPathLayout->addWidget(m_browseExportPathButton);
+87: 
+88:   formLayout->addRow("Path", exportPathLayout);
+89: 
+90:   formLayout->addSection(
+91:     tr("Texture Paths"),
+92:     tr("Controls how the texture paths in the generated material file are computed."));
+93: 
+94:   m_relativeToGamePathRadioButton = new QRadioButton{};
+95:   m_relativeToGamePathRadioButton->setText(tr("Relative to game path"));
+96:   m_relativeToGamePathRadioButton->setChecked(true);
+97: 
+98:   m_relativeToExportPathRadioButton = new QRadioButton{};
+99:   m_relativeToExportPathRadioButton->setText(tr("Relative to export path"));
+100: 
+101:   auto* texturePathLayout = new QVBoxLayout{};
+102:   texturePathLayout->setContentsMargins(0, 0, 0, 0);
+103:   texturePathLayout->setSpacing(0);
+104:   texturePathLayout->addWidget(m_relativeToGamePathRadioButton);
+105:   texturePathLayout->addWidget(m_relativeToExportPathRadioButton);
+106: 
+107:   formLayout->addRow(texturePathLayout);
+108: 
+109:   auto* innerLayout = new QVBoxLayout{};
+110:   innerLayout->setContentsMargins(0, 0, 0, 0);
+111:   innerLayout->setSpacing(0);
+112:   innerLayout->addWidget(header);
+113:   innerLayout->addWidget(new BorderLine{});
+114:   innerLayout->addLayout(formLayout);
+115: 
+116:   auto* outerLayout = new QVBoxLayout{};
+117:   outerLayout->setContentsMargins(0, 0, 0, 0);
+118:   outerLayout->setSpacing(LayoutConstants::MediumVMargin);
+119:   outerLayout->addLayout(innerLayout);
+120: 
+121:   // Bottom button row.
+122:   auto* buttonBox = new QDialogButtonBox{};
+123:   m_closeButton = buttonBox->addButton(QDialogButtonBox::Cancel);
+124:   m_exportButton = buttonBox->addButton("Export", QDialogButtonBox::AcceptRole);
+125:   m_exportButton->setDefault(true);
+126: 
+127:   outerLayout->addLayout(wrapDialogButtonBox(buttonBox));
+128: 
+129:   insertTitleBarSeparator(outerLayout);
+130: 
+131:   setLayout(outerLayout);
+132: 
+133:   connect(m_closeButton, &QPushButton::clicked, this, &ObjExportDialog::close);
+134:   connect(m_browseExportPathButton, &QPushButton::clicked, this, [&]() {
+135:     const QString newFileName = QFileDialog::getSaveFileName(
+136:       this,
+137:       tr("Export Wavefront OBJ file"),
+138:       m_exportPathEdit->text(),
+139:       "Wavefront OBJ files (*.obj)");
+140:     if (!newFileName.isEmpty())
+141:     {
+142:       m_exportPathEdit->setText(newFileName);
+143:     }
+144:   });
+145:   connect(m_exportButton, &QPushButton::clicked, this, [&]() {

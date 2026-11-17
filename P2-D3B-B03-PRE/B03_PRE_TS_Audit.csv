@@ -1,0 +1,68 @@
+﻿Message_ID,Context,Source,Translation,Type,Location_Count,Locations,Comment,ExtraComment,TranslatorComment,NumerusForm,TS_Match
+cfde892c46df,tb::ui::AboutDialog,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />",,unfinished,1,../../../lib/TbUiLib/src/AboutDialog.cpp:41,,,,0,PASS
+f9081511b752,tb::ui::ChoosePathTypeDialog,Path Type,,unfinished,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:81,,,,0,PASS
+df4ef91af93a,tb::ui::ChoosePathTypeDialog,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",,unfinished,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:85,,,,0,PASS
+8c9ed2e8de12,tb::ui::ChoosePathTypeDialog,Absolute,,unfinished,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:93,,,,0,PASS
+6a5208c30cca,tb::ui::ChoosePathTypeDialog,Relative to map file,,unfinished,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:99,,,,0,PASS
+dbbba8b54bd0,tb::ui::ChoosePathTypeDialog,Relative to application executable,,unfinished,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:107,,,,0,PASS
+3a29ad146ceb,tb::ui::ChoosePathTypeDialog,Relative to game directory,,unfinished,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:115,,,,0,PASS
+2c01921052f7,tb::ui::ChoosePathTypeDialog,Choose Path Type,,unfinished,1,../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp:156,,,,0,PASS
+8e40860a52a1,tb::ui::CrashDialog,Crash,,unfinished,1,../../../lib/TbUiLib/src/CrashDialog.cpp:53,,,,0,PASS
+f0f928f057b7,tb::ui::CrashDialog,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.",,unfinished,1,../../../lib/TbUiLib/src/CrashDialog.cpp:58,,,,0,PASS
+444a30e5e793,tb::ui::CrashDialog,Report,,unfinished,1,../../../lib/TbUiLib/src/CrashDialog.cpp:89,,,,0,PASS
+5a27052291cb,tb::ui::GameDialog,Autodetect,,unfinished,1,../../../lib/TbUiLib/src/GameDialog.cpp:273,,,,0,PASS
+ee439e50a835,tb::ui::ObjExportDialog,Export Wavefront OBJ,,unfinished,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:66,,,,0,PASS
+0011be948dd6,tb::ui::ObjExportDialog,Export Path,,unfinished,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:74,,,,0,PASS
+2915922a2166,tb::ui::ObjExportDialog,Enter a path or click to browse,,unfinished,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:81,,,,0,PASS
+0ee72f3c8645,tb::ui::ObjExportDialog,Texture Paths,,unfinished,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:91,,,,0,PASS
+10b21b3fc756,tb::ui::ObjExportDialog,Controls how the texture paths in the generated material file are computed.,,unfinished,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:92,,,,0,PASS
+013b4028d792,tb::ui::ObjExportDialog,Relative to game path,,unfinished,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:95,,,,0,PASS
+26fd3ad9ed81,tb::ui::ObjExportDialog,Relative to export path,,unfinished,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:99,,,,0,PASS
+eed1f27c4948,tb::ui::ObjExportDialog,Export Wavefront OBJ file,,unfinished,1,../../../lib/TbUiLib/src/ObjExportDialog.cpp:137,,,,0,PASS

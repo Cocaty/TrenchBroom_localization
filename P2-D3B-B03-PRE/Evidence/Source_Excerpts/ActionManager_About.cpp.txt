@@ -1,0 +1,9 @@
+2048:   }));
+2049:   helpMenu.addItem(addAction(Action{
+2050:     "Menu/File/About TrenchBroom",
+2051:     QObject::tr("About TrenchBroom"),
+2052:     ActionContext::Any,
+2053:     QKeySequence{},
+2054:     [](auto& context) { context.appController().showAboutDialog(); },
+2055:     [](const auto&) { return true; },
+2056:   }));

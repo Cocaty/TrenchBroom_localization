@@ -1,0 +1,26 @@
+﻿Message_ID,Source,Status,Reason,Recommended_Next_Step
+cfde892c46df,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+",NEEDS_TERMINOLOGY_CONFIRMATION,Developers/Contributors/3rd Party Libraries,先由用户确认术语，再进入 D1
+f9081511b752,Path Type,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+df4ef91af93a,"You can convert a path to be relative to some reference path, or you can choose ",NEEDS_TERMINOLOGY_CONFIRMATION,Relative/Point File 历史术语,先由用户确认术语，再进入 D1
+8c9ed2e8de12,Absolute,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+6a5208c30cca,Relative to map file,NEEDS_TERMINOLOGY_CONFIRMATION,Map...→地图文件...；Open Document→打开文档,先由用户确认术语，再进入 D1
+dbbba8b54bd0,Relative to application executable,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+3a29ad146ceb,Relative to game directory,NEEDS_TERMINOLOGY_CONFIRMATION,B02 game path→游戏路径；此处 game directory 语义相近但措辞不同,先由用户确认术语，再进入 D1
+2c01921052f7,Choose Path Type,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+8e40860a52a1,Crash,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+f0f928f057b7,"TrenchBroom has crashed, but was able to save a crash report,a log file and the ",NEEDS_TERMINOLOGY_CONFIRMATION,B01 文档/地图术语；新增 issue report,先由用户确认术语，再进入 D1
+444a30e5e793,Report,NEEDS_TERMINOLOGY_CONFIRMATION,—,先由用户确认术语，再进入 D1
+5a27052291cb,Autodetect,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+ee439e50a835,Export Wavefront OBJ,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+0011be948dd6,Export Path,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+2915922a2166,Enter a path or click to browse,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+0ee72f3c8645,Texture Paths,NEEDS_TERMINOLOGY_CONFIRMATION,B01 Material Collections→材质集合；texture 更接近纹理,先由用户确认术语，再进入 D1
+10b21b3fc756,Controls how the texture paths in the generated material file are computed.,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+013b4028d792,Relative to game path,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+26fd3ad9ed81,Relative to export path,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结
+eed1f27c4948,Export Wavefront OBJ file,READY_FOR_TRANSLATION,ID/TS/源码语义/UI 位置明确；术语无关键争议,等待 D1 冻结

@@ -1,0 +1,68 @@
+﻿Message_ID,Source,UI_Category,UI_Role,Translation_Call,Trigger,Semantic_Concept,Confidence
+cfde892c46df,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />",对话框,关于对话框 HTML 版权/贡献者名单；标签文本，无交互,AboutDialog::createGui() → creditsString → QLabel,Help > About TrenchBroom → AppController::showAboutDialog() → AboutDialog,Developers/Contributors/3rd Party Libraries,高
+f9081511b752,Path Type,对话框,Choose Path Type 对话框窗口标题,setWindowTitle(tr(...)),设置外部实体定义/WAD 路径时询问相对路径类型,—,高
+df4ef91af93a,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",对话框,路径类型说明 QLabel（自动换行，最大宽 370）,ChoosePathTypeDialog::createGui → infoText,同上,Relative/Point File 历史术语,高
+8c9ed2e8de12,Absolute,对话框,绝对路径单选按钮,m_absRadio = new QRadioButton{tr(...)},同上，默认选中,—,高
+6a5208c30cca,Relative to map file,对话框,相对于地图文件的单选按钮,m_docRelativeRadio → QRadioButton,同上，docRelativePath 非空时可用,Map...→地图文件...；Open Document→打开文档,高
+dbbba8b54bd0,Relative to application executable,对话框,相对于应用程序可执行文件的单选按钮,m_appRelativeRadio → QRadioButton,同上,—,高
+3a29ad146ceb,Relative to game directory,对话框,相对于游戏目录的单选按钮,m_gameRelativeRadio → QRadioButton,同上,B02 game path→游戏路径；此处 game directory 语义相近但措辞不同,高
+2c01921052f7,Choose Path Type,对话框,路径类型对话框大标题 DialogHeader,outerLayout->addWidget(new DialogHeader{tr(...)}),同上,—,高
+8e40860a52a1,Crash,对话框,崩溃报告对话框窗口标题,CrashDialog::setWindowTitle(tr(...)),崩溃上报流程 CrashReporter.cpp:180 / 调试 AppController.cpp:415,—,高
+f0f928f057b7,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.",对话框,崩溃说明文本 QLabel，含 \n\n 双换行,text1 = new QLabel{tr(...)},同上,B01 文档/地图术语；新增 issue report,高
+444a30e5e793,Report,对话框,崩溃对话框 Report 按钮（打开 GitHub issues）,"buttonBox->addButton(tr(""Report""), AcceptRole)",点击后 QDesktopServices::openUrl GitHub issues,—,高
+5a27052291cb,Autodetect,对话框,打开地图对话框中地图格式下拉项,"GameDialog::updateMapFormats → addItem(tr(""Autodetect""), Unknown)",Select Game 对话框 → Open 模式 → 地图格式组合框,—,高
+ee439e50a835,Export Wavefront OBJ,对话框,OBJ 导出对话框 DialogHeader 标题,ObjExportDialog::createGui → DialogHeader,File > Export > Wavefront OBJ... → MapWindow::exportDocumentAsObj(),B01 Wavefront OBJ 保留英文,高
+0011be948dd6,Export Path,对话框,OBJ 导出对话框 导出路径分节标题,formLayout->addSection(tr(...)),同上,—,高
+2915922a2166,Enter a path or click to browse,对话框,导出路径 QLineEdit 占位提示,m_exportPathEdit->setPlaceholderText(tr(...)),同上；也可点击 Browse... 选择,—,高
+0ee72f3c8645,Texture Paths,对话框,纹理路径分节标题,"formLayout->addSection(tr(...), tooltip)",同上,B01 Material Collections→材质集合；texture 更接近纹理,中
+10b21b3fc756,Controls how the texture paths in the generated material file are computed.,对话框,Texture Paths 分节 tooltip,addSection 第二参数,悬停节标题显示,材质→材质；纹理路径待确认但说明中不改变术语集合,中
+013b4028d792,Relative to game path,对话框,纹理路径单选按钮：相对于游戏路径,m_relativeToGamePathRadioButton->setText(tr(...)),同上，默认选中,B02 game path→游戏路径（EXACT）,高
+26fd3ad9ed81,Relative to export path,对话框,纹理路径单选按钮：相对于导出路径,m_relativeToExportPathRadioButton->setText(tr(...)),同上,B03 Export Path→导出路径,高
+eed1f27c4948,Export Wavefront OBJ file,对话框,浏览导出 OBJ 文件的 QFileDialog 标题,"QFileDialog::getSaveFileName(this, tr(...), ..., ""Wavefront OBJ files (*.obj)"")",OBJ 导出对话框点击 Browse...,B01 打开地图→对话框标题先例；Wavefront OBJ 保留,高

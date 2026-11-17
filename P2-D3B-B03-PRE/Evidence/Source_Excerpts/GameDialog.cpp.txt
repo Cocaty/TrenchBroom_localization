@@ -1,0 +1,21 @@
+262: {
+263:   const auto& gameManager = m_appController.gameManager();
+264: 
+265:   const auto* gameInfo = gameManager.gameInfo(gameName);
+266:   const auto fileFormats =
+267:     gameInfo ? gameInfo->gameConfig.fileFormats : std::vector<mdl::MapFormatConfig>{};
+268: 
+269:   m_mapFormatComboBox->clear();
+270:   if (m_dialogType == DialogType::Open)
+271:   {
+272:     m_mapFormatComboBox->addItem(
+273:       tr("Autodetect"), formatToUserData(mdl::MapFormat::Unknown));
+274:   }
+275: 
+276:   for (const auto& fileFormat : fileFormats)
+277:   {
+278:     const auto mapFormat = mdl::formatFromName(fileFormat.format);
+279:     m_mapFormatComboBox->addItem(
+280:       QString::fromStdString(fileFormat.format), formatToUserData(mapFormat));
+281:   }
+282: 

@@ -1,0 +1,48 @@
+48:   const std::string& reason,
+49:   const std::filesystem::path& reportPath,
+50:   const std::filesystem::path& mapPath,
+51:   const std::filesystem::path& logPath)
+52: {
+53:   setWindowTitle(tr("Crash"));
+54: 
+55:   auto* header = new DialogHeader{"Crash Report"};
+56: 
+57:   auto* text1 = new QLabel{
+58:     tr("TrenchBroom has crashed, but was able to save a crash report,"
+59:        "a log file and the current state of the map to the following locations.\n\n"
+60:        "Please create an issue report and upload all three files.")};
+61:   text1->setWordWrap(true);
+62: 
+63:   auto* reasonText = new QLabel{QString::fromStdString(reason)};
+64:   auto* reportPathText = new QLabel{pathAsQString(reportPath)};
+65:   auto* mapPathText = new QLabel{pathAsQString(mapPath)};
+66:   auto* logPathText = new QLabel{pathAsQString(logPath)};
+67:   auto* versionText = new QLabel{getBuildVersion()};
+68:   auto* buildText = new QLabel{getBuildIdStr()};
+69: 
+70:   auto* reportLayout = new FormWithSectionsLayout{};
+71:   reportLayout->setContentsMargins(
+72:     0, LayoutConstants::MediumVMargin, 0, LayoutConstants::MediumVMargin);
+73:   reportLayout->setVerticalSpacing(2);
+74: 
+75:   reportLayout->addRow(text1);
+76: 
+77:   reportLayout->addSection("Info");
+78:   reportLayout->addRow("Reason", reasonText);
+79:   reportLayout->addRow("Version", versionText);
+80:   reportLayout->addRow("Build", buildText);
+81: 
+82:   reportLayout->addSection("Files");
+83:   reportLayout->addRow("Crash Report", reportPathText);
+84:   reportLayout->addRow("Map File", mapPathText);
+85:   reportLayout->addRow("Log File", logPathText);
+86: 
+87:   auto* buttonBox = new QDialogButtonBox{};
+88:   buttonBox->addButton(QDialogButtonBox::Close);
+89:   auto* reportButton = buttonBox->addButton(tr("Report"), QDialogButtonBox::AcceptRole);
+90: 
+91:   connect(reportButton, &QAbstractButton::clicked, this, []() {
+92:     QDesktopServices::openUrl(
+93:       QUrl{"https://github.com/TrenchBroom/TrenchBroom/issues/new"});
+94:   });
+95:   connect(buttonBox, &QDialogButtonBox::rejected, this, &QDialog::reject);

@@ -1,0 +1,26 @@
+﻿Message_ID,Source,Format_Params,Newlines,HTML_Tags,Technical_Tokens,Multi_Context,Numerus,Risk_Notes
+cfde892c46df,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+",无,YES,YES,人名/库名,NO,NO,双换行与 HTML 标签必须保留
+f9081511b752,Path Type,无,NO,NO,无,NO,NO,无特殊占位符
+df4ef91af93a,"You can convert a path to be relative to some reference path, or you can choose ",无,NO,NO,无,NO,NO,无特殊占位符
+8c9ed2e8de12,Absolute,无,NO,NO,无,NO,NO,无特殊占位符
+6a5208c30cca,Relative to map file,无,NO,NO,无,NO,NO,无特殊占位符
+dbbba8b54bd0,Relative to application executable,无,NO,NO,无,NO,NO,无特殊占位符
+3a29ad146ceb,Relative to game directory,无,NO,NO,无,NO,NO,无特殊占位符
+2c01921052f7,Choose Path Type,无,NO,NO,无,NO,NO,无特殊占位符
+8e40860a52a1,Crash,无,NO,NO,无,NO,NO,无特殊占位符
+f0f928f057b7,"TrenchBroom has crashed, but was able to save a crash report,a log file and the ",无,YES,NO,无,NO,NO,双换行与 HTML 标签必须保留
+444a30e5e793,Report,无,NO,NO,无,NO,NO,无特殊占位符
+5a27052291cb,Autodetect,无,NO,NO,无,NO,NO,无特殊占位符
+ee439e50a835,Export Wavefront OBJ,无,NO,NO,Wavefront OBJ/*.obj (*.obj),NO,NO,保留 Wavefront OBJ 与 *.obj
+0011be948dd6,Export Path,无,NO,NO,无,NO,NO,无特殊占位符
+2915922a2166,Enter a path or click to browse,无,NO,NO,无,NO,NO,无特殊占位符
+0ee72f3c8645,Texture Paths,无,NO,NO,无,NO,NO,无特殊占位符
+10b21b3fc756,Controls how the texture paths in the generated material file are computed.,无,NO,NO,无,NO,NO,无特殊占位符
+013b4028d792,Relative to game path,无,NO,NO,无,NO,NO,无特殊占位符
+26fd3ad9ed81,Relative to export path,无,NO,NO,无,NO,NO,无特殊占位符
+eed1f27c4948,Export Wavefront OBJ file,无,NO,NO,Wavefront OBJ/*.obj (*.obj),NO,NO,保留 Wavefront OBJ 与 *.obj

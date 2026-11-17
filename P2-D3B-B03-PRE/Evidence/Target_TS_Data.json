@@ -1,0 +1,322 @@
+{
+  "cfde892c46df": {
+    "ctx": "tb::ui::AboutDialog",
+    "src": "\ngithub.com/TrenchBroom/TrenchBroom<br />\n<br />\n<b>Developers</b><br />\n<br />\nKristian Duske<br />\nEric Wasylishen<br />\n<br />\n<b>Contributors</b><br />\n20kdc,\naapokaapo,\nAmara M. Kilic,\nAri Vuollet,\nbazhenovc,\nchronicol,\nCorey Jones,\niOrange,\nJonas Lund,\nJonathan Linat,\nJosh Palmer,\nmankeli,\nMatthew Borkowski,\nmittorn,\nnegke,\nneogeographica,\nPhilipp Nahratow,\nrebb,\nRohit Nirmal,\nScampie,\nxaGe,\nYuki Raven\n<br /><br />\n<b>3rd Party Libraries, Tools and Assets</b><br />\nQt (Cross platform GUI library)<br />\nFreeType (Font rendering library)<br />\nFreeImage (Image loading & manipulation library)<br />\ntinyxml2 (XML parsing library)<br />\nminiz (Archive library)<br />\nAssimp (Asset importer library)<br />\nCatch 2 (C++ testing framework)<br />\nStackWalker (C++ stack trace analyzer)<br />\nCMake (Cross platform build manager)<br />\nVcpkg (C/C++ dependency manager)<br />\nPandoc (Universal document converter)<br />\nSource Sans Pro (Font)<br />\nFont Awesome 5 Free (Icons)<br />",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/AboutDialog.cpp",
+        "41"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "f9081511b752": {
+    "ctx": "tb::ui::ChoosePathTypeDialog",
+    "src": "Path Type",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp",
+        "81"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "df4ef91af93a": {
+    "ctx": "tb::ui::ChoosePathTypeDialog",
+    "src": "You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp",
+        "85"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "8c9ed2e8de12": {
+    "ctx": "tb::ui::ChoosePathTypeDialog",
+    "src": "Absolute",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp",
+        "93"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "6a5208c30cca": {
+    "ctx": "tb::ui::ChoosePathTypeDialog",
+    "src": "Relative to map file",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp",
+        "99"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "dbbba8b54bd0": {
+    "ctx": "tb::ui::ChoosePathTypeDialog",
+    "src": "Relative to application executable",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp",
+        "107"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "3a29ad146ceb": {
+    "ctx": "tb::ui::ChoosePathTypeDialog",
+    "src": "Relative to game directory",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp",
+        "115"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "2c01921052f7": {
+    "ctx": "tb::ui::ChoosePathTypeDialog",
+    "src": "Choose Path Type",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ChoosePathTypeDialog.cpp",
+        "156"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "8e40860a52a1": {
+    "ctx": "tb::ui::CrashDialog",
+    "src": "Crash",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/CrashDialog.cpp",
+        "53"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "f0f928f057b7": {
+    "ctx": "tb::ui::CrashDialog",
+    "src": "TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.\n\nPlease create an issue report and upload all three files.",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/CrashDialog.cpp",
+        "58"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "444a30e5e793": {
+    "ctx": "tb::ui::CrashDialog",
+    "src": "Report",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/CrashDialog.cpp",
+        "89"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "5a27052291cb": {
+    "ctx": "tb::ui::GameDialog",
+    "src": "Autodetect",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/GameDialog.cpp",
+        "273"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "ee439e50a835": {
+    "ctx": "tb::ui::ObjExportDialog",
+    "src": "Export Wavefront OBJ",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ObjExportDialog.cpp",
+        "66"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "0011be948dd6": {
+    "ctx": "tb::ui::ObjExportDialog",
+    "src": "Export Path",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ObjExportDialog.cpp",
+        "74"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "2915922a2166": {
+    "ctx": "tb::ui::ObjExportDialog",
+    "src": "Enter a path or click to browse",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ObjExportDialog.cpp",
+        "81"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "0ee72f3c8645": {
+    "ctx": "tb::ui::ObjExportDialog",
+    "src": "Texture Paths",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ObjExportDialog.cpp",
+        "91"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "10b21b3fc756": {
+    "ctx": "tb::ui::ObjExportDialog",
+    "src": "Controls how the texture paths in the generated material file are computed.",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ObjExportDialog.cpp",
+        "92"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "013b4028d792": {
+    "ctx": "tb::ui::ObjExportDialog",
+    "src": "Relative to game path",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ObjExportDialog.cpp",
+        "95"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "26fd3ad9ed81": {
+    "ctx": "tb::ui::ObjExportDialog",
+    "src": "Relative to export path",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ObjExportDialog.cpp",
+        "99"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  },
+  "eed1f27c4948": {
+    "ctx": "tb::ui::ObjExportDialog",
+    "src": "Export Wavefront OBJ file",
+    "tr": null,
+    "typ": "unfinished",
+    "locs": [
+      [
+        "../../../lib/TbUiLib/src/ObjExportDialog.cpp",
+        "137"
+      ]
+    ],
+    "comment": "",
+    "extra": "",
+    "tcomment": "",
+    "numerus": 0
+  }
+}
