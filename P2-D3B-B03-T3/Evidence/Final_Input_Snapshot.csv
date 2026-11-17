@@ -1,0 +1,13 @@
+﻿Relative_Path,Canonical_Path,Size_Bytes,SHA256
+T3_Lrelease_Log.txt,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/T3_Lrelease_Log.txt,704,16df1e8d2d7d1c707a070689242b9f700238f266abd05d80f8748ae2e9085539
+Artifacts/TrenchBroom_zh_CN.qm,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/Artifacts/TrenchBroom_zh_CN.qm,6631,707011a3216511d051b07d0dba249af6d834e6795a447a4f09611c6a9bd2102c
+Artifacts/TrenchBroom_zh_CN_roundtrip.ts,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/Artifacts/TrenchBroom_zh_CN_roundtrip.ts,9177,fdb31441777b8dc48471add36fdc2a393c1f4e4ad74a4742b626d3bf86dce090
+Evidence/lconvert_log.txt,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/Evidence/lconvert_log.txt,298,64e57620be10041ef33c3c1b06d1252429dffd219ab0d3d86f37e2b403d025a9
+Evidence/Start_Input_Snapshot.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/Evidence/Start_Input_Snapshot.csv,1887,bf2dceafc4391b5b241a5514c663691a75dfef8ac5c11cbc57b43209da4e03ac
+T3_Authorization_Record.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/T3_Authorization_Record.md,718,13ad91a8cd99dd7beabec20f01f75f5c440db21db9e7f58ca297ee86e29ebd11
+T3_QM_Static_Validation.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/T3_QM_Static_Validation.md,1861,0033ab77c2babdc019f0609e9a84a0c4e54bc3f35e4e7f827f29bec56c76e5ce
+T3_Completed_Translation_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/T3_Completed_Translation_Audit.csv,9313,1561a82a903b60002633315df9731af967540810bffa6a13827cdc8feec81973
+T3_Original_Finished_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/T3_Original_Finished_Audit.csv,375,ad5c9eb546ed8bbc092faf10830f2a6b7660210db5bb7eaaee7ccccb83feabbb
+T3_Execution_Report.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/T3_Execution_Report.md,3087,02d0f248496f2cc3fc6b108ca62e80c06a0aa27c9f27eec001427d98ceed35da
+T3_Baseline_and_Final_Hashes.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/T3_Baseline_and_Final_Hashes.csv,834,083479d12244a0b84dad078e27e4cac13692b4d379f6625355fdb741334c82f5
+T3_Protected_State_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/T3_Protected_State_Audit.csv,1920,d5e87d0108512fb560f92da13174d026179d3e9683a8650c58ba40ca2412713e

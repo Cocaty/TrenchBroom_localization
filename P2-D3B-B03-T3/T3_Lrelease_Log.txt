@@ -1,0 +1,10 @@
+Start: 2026-11-17 20:35:12 +0800
+Command: "/c/Users/yoshi/tools/Qt/6.10.3/6.10.3/msvc2022_64/bin/lrelease.exe" "/c/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/translations/TrenchBroom_zh_CN.ts" -qm "/c/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/Artifacts/TrenchBroom_zh_CN.qm"
+ExitCode: 0
+End: 2026-11-17 20:35:12 +0800
+--- STDOUT ---
+Updating 'C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T3/Artifacts/TrenchBroom_zh_CN.qm'...
+    Generated 42 translation(s) (42 finished and 0 unfinished)
+    Ignored 520 untranslated source text(s)
+--- STDERR ---
+QM exists=yes size=6631 sha=707011a3216511d051b07d0dba249af6d834e6795a447a4f09611c6a9bd2102c

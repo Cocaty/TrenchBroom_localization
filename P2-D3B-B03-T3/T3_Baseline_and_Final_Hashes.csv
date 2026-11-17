@@ -1,0 +1,12 @@
+﻿Item,Baseline,Final,Note
+正式TS SHA256,f021e509cf9a8679eeda64624df0f5474335c0872f73940e1d48ef77447a261a,f021e509cf9a8679eeda64624df0f5474335c0872f73940e1d48ef77447a261a,写入前=写入后=结束
+正式TS 大小,132589,132589,未变
+Context,85,85,未变
+Message,562,562,未变
+Finished,42,42,未变
+Unfinished,520,520,未变
+lrelease SHA256,c59d5a5f9cf51cef2fbee80bcd22cf53b7453943bcf520b39d2e768fd639d8ee,c59d5a5f9cf51cef2fbee80bcd22cf53b7453943bcf520b39d2e768fd639d8ee,Qt 6.10.3
+lconvert SHA256,707af8e9963027ef2cff9ac03ab538d46c22cb78d9486c8bf1d66fb814d2aae8,707af8e9963027ef2cff9ac03ab538d46c22cb78d9486c8bf1d66fb814d2aae8,与 B02-T3 一致
+QM SHA256,(未生成),707011a3216511d051b07d0dba249af6d834e6795a447a4f09611c6a9bd2102c,6631 B
+lrelease exit code,—,0,默认参数
+lconvert exit code,—,0,QM→审计 TS

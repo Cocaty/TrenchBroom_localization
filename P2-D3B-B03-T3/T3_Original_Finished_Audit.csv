@@ -1,0 +1,4 @@
+﻿Message_ID,Context,Source,Translation,QM_Roundtrip_Match
+d7870e4b6ced,tb::ui::ViewPreferencePane,Requires restart after changing,更改后需要重启,YES
+186e9a86f2f8,tb::ui::ViewPreferencePane,Language,语言,YES
+a13d8bd0a6ab,tb::ui::ViewPreferencePane,Language changes take effect after restarting TrenchBroom.,语言更改将在重启 TrenchBroom 后生效。,YES
