@@ -1,0 +1,115 @@
+﻿Message_ID,Context,Source,Final_Translation,User_Decision,Decision_Status,Terminology_Group,Decision_Evidence
+f9081511b752,tb::ui::ChoosePathTypeDialog,Path Type,路径类型,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,路径设置,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+2c01921052f7,tb::ui::ChoosePathTypeDialog,Choose Path Type,选择路径类型,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,路径设置,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+8c9ed2e8de12,tb::ui::ChoosePathTypeDialog,Absolute,绝对路径,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,相对路径,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+df4ef91af93a,tb::ui::ChoosePathTypeDialog,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",可以将路径转换为相对于某个参考路径的形式，也可以保留为绝对路径。使用相对路径有助于与他人协作编辑地图。,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,相对路径,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+6a5208c30cca,tb::ui::ChoosePathTypeDialog,Relative to map file,相对于地图文件所在目录,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,地图文件目录,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+dbbba8b54bd0,tb::ui::ChoosePathTypeDialog,Relative to application executable,相对于应用程序目录,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,应用程序目录,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+3a29ad146ceb,tb::ui::ChoosePathTypeDialog,Relative to game directory,相对于游戏目录,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Game path/Game directory,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+ee439e50a835,tb::ui::ObjExportDialog,Export Wavefront OBJ,导出 Wavefront OBJ,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Wavefront OBJ,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+0011be948dd6,tb::ui::ObjExportDialog,Export Path,导出路径,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Export Path,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+2915922a2166,tb::ui::ObjExportDialog,Enter a path or click to browse,输入路径，或点击“浏览...”进行选择,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Export Path,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+0ee72f3c8645,tb::ui::ObjExportDialog,Texture Paths,纹理路径,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Texture/Material,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+10b21b3fc756,tb::ui::ObjExportDialog,Controls how the texture paths in the generated material file are computed.,控制生成的材质文件中纹理路径的计算方式。,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Texture/Material,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+013b4028d792,tb::ui::ObjExportDialog,Relative to game path,相对于游戏目录,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Game path/Game directory,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+26fd3ad9ed81,tb::ui::ObjExportDialog,Relative to export path,相对于导出目录,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Export Path,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+eed1f27c4948,tb::ui::ObjExportDialog,Export Wavefront OBJ file,导出 Wavefront OBJ 文件,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Wavefront OBJ,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+8e40860a52a1,tb::ui::CrashDialog,Crash,程序崩溃,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Crash,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+f0f928f057b7,tb::ui::CrashDialog,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.","TrenchBroom 已崩溃，但已成功保存崩溃报告、日志文件以及当前地图状态，文件位置如下。
+
+请创建一个问题报告，并上传这三个文件。",用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Crash/Issue,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+444a30e5e793,tb::ui::CrashDialog,Report,报告问题,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Crash/Issue,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+cfde892c46df,tb::ui::AboutDialog,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />","
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>开发者</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>贡献者</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>第三方库、工具与资源</b><br />
+Qt（跨平台 GUI 库）<br />
+FreeType（字体渲染库）<br />
+FreeImage（图像加载与处理库）<br />
+tinyxml2（XML 解析库）<br />
+miniz（归档库）<br />
+Assimp（资源导入库）<br />
+Catch 2（C++ 测试框架）<br />
+StackWalker（C++ 调用栈分析工具）<br />
+CMake（跨平台构建工具）<br />
+Vcpkg（C/C++ 依赖管理工具）<br />
+Pandoc（通用文档转换工具）<br />
+Source Sans Pro（字体）<br />
+Font Awesome 5 Free（图标集）<br />",用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,AboutDialog/HTML,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
+5a27052291cb,tb::ui::GameDialog,Autodetect,自动检测,用户明确接受 U1 审阅表中的推荐译文（A/B/C/D/E 组逐组确认）,FINAL_FROZEN,Autodetect,P2-D3B-B03-D1-U2 任务书：用户逐组确认；U1 权威矩阵；R1 修正决策矩阵
