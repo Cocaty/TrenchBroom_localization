@@ -1,0 +1,5 @@
+﻿Check,Value,Result
+Exists,True,PASS
+Size_Bytes,7035,PASS
+SHA256,4b213ce5b33639069b87f435dddce6ba9fae54e552f19cb02a231c27ecd926ab,PASS
+Magic,3cb86418caef9c95cd211cbf60a1bddd,PASS

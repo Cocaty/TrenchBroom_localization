@@ -1,0 +1,4 @@
+﻿Artifact,Path,Size,SHA256,Result
+B5_QM,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B5/Artifacts/TrenchBroom_zh_CN.qm,7035,4b213ce5b33639069b87f435dddce6ba9fae54e552f19cb02a231c27ecd926ab,NOT_NEW_BUILD_OUTPUT
+Build_Dir_QM,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/TrenchBroom_zh_CN.qm,6631,707011a3216511d051b07d0dba249af6d834e6795a447a4f09611c6a9bd2102c,NOT_NEW_BUILD_OUTPUT
+Embedded_QM,B6/Artifacts/TrenchBroom_zh_CN.embedded.qm,,,NOT_VERIFIED,new EXE not produced; extraction not performed

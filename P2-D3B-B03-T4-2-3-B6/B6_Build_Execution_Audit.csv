@@ -1,0 +1,9 @@
+﻿Item,Value,Result
+Command,cmake.exe --build <build> --config Release --target TrenchBroom -- -m:1 -v:m,PASS
+ExitCode,1,FAIL
+Start,2026-11-17 23:20:?? +0800,INFO
+End,2026-11-17 23:21:15 +0800,INFO
+Failing_Target,GenerateManual.vcxproj / shortcuts.js custom generation,FAIL
+Error,MSB8066 custom command exited with code 1; Exit code 0xc0000135 (DLL not found),FAIL
+New_EXE_Produced,NO; hash remains 268df390…,FAIL
+New_QM_Produced,NO; hash remains 707011a3…,FAIL

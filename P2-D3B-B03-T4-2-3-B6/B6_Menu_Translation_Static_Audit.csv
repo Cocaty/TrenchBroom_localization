@@ -1,0 +1,10 @@
+﻿Source,Expected_Translation,Result,Reason
+File,文件,NOT_VERIFIED,new EXE not produced; no embedded QM extraction
+Edit,编辑,NOT_VERIFIED,new EXE not produced; no embedded QM extraction
+Selection,选择,NOT_VERIFIED,new EXE not produced; no embedded QM extraction
+Groups,分组,NOT_VERIFIED,new EXE not produced; no embedded QM extraction
+Tools,工具,NOT_VERIFIED,new EXE not produced; no embedded QM extraction
+View,视图,NOT_VERIFIED,new EXE not produced; no embedded QM extraction
+Run,运行,NOT_VERIFIED,new EXE not produced; no embedded QM extraction
+Debug,调试,NOT_VERIFIED,new EXE not produced; no embedded QM extraction
+Help,帮助,NOT_VERIFIED,new EXE not produced; no embedded QM extraction

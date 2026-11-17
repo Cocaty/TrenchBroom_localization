@@ -1,0 +1,11 @@
+﻿Item,Actual_Value,Result
+Git,feature/zh-CN-v2026.2/4c756be1a54a28d921d18c77716a5f170bdc31d0/dirty=12,PASS
+正式TS,f81162b383364c9a4a12db4490df910d4555d74ead0acc9f1b414dfc3f9fbfe0 / 134278 B / 85-571-51-520,PASS
+B4备份,f021e509cf9a8679eeda64624df0f5474335c0872f73940e1d48ef77447a261a / 132589 B,PASS
+B5 QM,4b213ce5b33639069b87f435dddce6ba9fae54e552f19cb02a231c27ecd926ab / 7035 B / magic valid,PASS
+B5回转TS,2683ccbd76e977710ef177aa3d3fc216a6ee16ef4c97f31d4b72ea6d33b9ee3a / XML parse OK / 51 finished,PASS
+B4消息保护,562 old blocks / 571 current / added 9 / missing 0 / 51 finished match,PASS
+B2五源码,16/16 source implementation checks PASS,PASS
+既有构建EXE,268df3904f16dc2e329542397531be4ef35f530cebde07cd720753707fca7212 / 29761536 B,PASS
+既有构建QM,707011a3216511d051b07d0dba249af6d834e6795a447a4f09611c6a9bd2102c / 6631 B,PASS
+构建配置,CMake 4.2.8 / VS18 2026 x64 / Qt 6.10.3 / source path correct,PASS

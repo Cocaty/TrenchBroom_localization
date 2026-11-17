@@ -1,0 +1,17 @@
+﻿File,Check,Result
+ActionMenu.h,displayName field,True,PASS
+ActionMenu.h,name retained,True,PASS
+ActionMenu.cpp,submenu init empty displayName,True,PASS
+ActionManager.h,Toolbar empty displayName,True,PASS
+ActionManager.h,createMainMenu signature,True,PASS
+ActionManager.cpp,createMainMenu definition,True,PASS
+ActionBuilder.cpp,displayName fallback,True,PASS
+ActionManager.cpp,QObject::tr static File,True,PASS
+ActionManager.cpp,QObject::tr static Edit,True,PASS
+ActionManager.cpp,QObject::tr static Selection,True,PASS
+ActionManager.cpp,QObject::tr static Groups,True,PASS
+ActionManager.cpp,QObject::tr static Tools,True,PASS
+ActionManager.cpp,QObject::tr static View,True,PASS
+ActionManager.cpp,QObject::tr static Run,True,PASS
+ActionManager.cpp,QObject::tr static Debug,True,PASS
+ActionManager.cpp,QObject::tr static Help,True,PASS
