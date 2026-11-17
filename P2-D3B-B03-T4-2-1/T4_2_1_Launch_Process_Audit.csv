@@ -1,0 +1,8 @@
+﻿Event,Time,Observation,Evidence,Result
+START,2026-11-17 21:25:36 +0800,PID=23644,Start-Process -FilePath <test>\TrenchBroom.exe -ArgumentList --portable -WorkingDirectory <test>,PASS
+STATE_5s,,HasExited=False; MainWindow=True; Title=TrenchBroom,,PASS
+STATE_15s,,HasExited=False; MainWindow=True; Title=TrenchBroom,,PASS
+STATE_30s,,HasExited=False; MainWindow=True; Title=TrenchBroom,,PASS
+SCREENSHOT,,启动会话内置 python 缺少 PIL，窗口截图未生成；未重复启动,,NOT_VERIFIED
+CLOSE,,CloseMainWindow() requested=True；15s 内未退出；后续只读检查显示进程已不存在、剩余进程 0,未使用强制结束,PASS_WITH_LIMITATION
+EXIT_CODE,,进程对象在跨检查时已消失，退出码不可读取,,NOT_VERIFIED

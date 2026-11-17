@@ -1,0 +1,7 @@
+﻿Check,Result,Evidence,Status
+测试副本 TrenchBroom.log,未生成,测试副本 config/ 仅含 Preferences.json 与 games/ 目录,NOT_VERIFIED
+Qt platform plugin 错误,未观察到,无错误对话框；窗口标题正常,PASS_OBSERVATIONAL
+DLL 缺失错误,未观察到,进程持续运行 30 秒且窗口显示,PASS_OBSERVATIONAL
+QTranslator 加载失败警告,NOT_VERIFIED,未捕获 stdout/stderr；测试副本无日志文件,NOT_VERIFIED
+资源路径加载失败警告,NOT_VERIFIED,同上；T4-1 已静态证明资源嵌入，但本阶段无运行期日志,NOT_VERIFIED
+崩溃/异常退出,未出现,30 秒观察窗口正常；后续正常退出，剩余进程 0,PASS

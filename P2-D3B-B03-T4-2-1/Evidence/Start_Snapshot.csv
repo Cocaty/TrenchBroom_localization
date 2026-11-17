@@ -1,0 +1,7 @@
+﻿Object,Canonical_Path,Size_Bytes,SHA256
+测试EXE,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2/TrenchBroom.exe,29761536,268df3904f16dc2e329542397531be4ef35f530cebde07cd720753707fca7212
+启动前基线,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-0/T4_2_0_Prelaunch_Baseline.csv,99115,0f30a2f3b5815bc3932607b835a8e5577f230a62872959d84a4319c926ddf55a
+T4-2-0报告,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-0/T4_2_0_Execution_Report.md,2729,25ee629bfc036e395a6567b1edf5093b3ed407cfc41a888728960a8a0416650b
+正式TS,C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/translations/TrenchBroom_zh_CN.ts,132589,f021e509cf9a8679eeda64624df0f5474335c0872f73940e1d48ef77447a261a
+QRC,C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/resources/qrc/resources.qrc,106,de72b206c01058daea020a24dac86846167bd161348f297b0aa6dae4a60c2cca
+OEM_EXE,C:/Users/yoshi/Downloads/TrenchBroom-Win64-AMD64-v2026.2-Release/TrenchBroom.exe,22322688,f5a02f40dde7108f0d1f33af81a81c7c85c838e0c0a3407025e1d0827d6b4273
