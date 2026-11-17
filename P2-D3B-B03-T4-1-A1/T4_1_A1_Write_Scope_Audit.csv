@@ -1,0 +1,7 @@
+﻿Scope,Path,Status,Evidence,Result
+指定 build 目录,C:/Users/yoshi/Projects/TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103,EXPECTED_CHANGE,构建日志 93 项副产物均定位在此目录；EXE/QM 更新，Qt DLL 多数 up to date,VERIFY_PASS
+源码树,C:/Users/yoshi/Projects/TrenchBroom-zhCN\src\TrenchBroom,UNCHANGED,正式 TS/QRC/CMake/Main/ViewPreferencePane 当前哈希与 T4-1 最终一致；Git dirty=7 未变,VERIFY_PASS
+原版 Release,C:/Users/yoshi/Downloads/TrenchBroom-Win64-AMD64-v2026.2-Release,UNCHANGED,EXE SHA f5a02f40… 与历史一致；构建日志 POST_BUILD 路径均在 build 目录,VERIFY_PASS
+用户配置,C:/Users/yoshi/AppData/Roaming/TrenchBroom,NOT_VERIFIED,T4-1 未建立配置前后快照；构建未启动程序，无写入证据，但不能证明未变,LIMITATION
+Documents,C:/Users/yoshi/Documents,NOT_VERIFIED,未建立前后快照；无构建写入证据,LIMITATION
+其他项目外目录,(全系统),NOT_VERIFIED,未做全盘监控；构建日志中可见路径均在 build 目录内,LIMITATION

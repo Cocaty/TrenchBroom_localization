@@ -1,0 +1,16 @@
+﻿Object,Canonical_Path,Size_Bytes,SHA256
+T4-1/T4_1_Baseline_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-1/T4_1_Baseline_Audit.csv,1303,e7d6ce3683042136ec9f9eb851bea52a38c82c4c8bd9c16413a688fe938e75f7
+T4-1/T4_1_Protected_State_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-1/T4_1_Protected_State_Audit.csv,3240,dbed938180a8d7261b652f7ea5d7fe16cc80f4c9d3000f32587dcc324e22d0d7
+T4-1/T4_1_Execution_Report.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-1/T4_1_Execution_Report.md,2977,7c3d41ae583c7d04c0b9e06fb774df86aadcd094167a5d4090a7ffb7b092cd97
+T4-1/T4_1_Build_Log.txt,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-1/T4_1_Build_Log.txt,11688,60bea5f3e8eadc104d6182994728fd8f302bd4fb6e65bc6d6cceb7481ca0b4da
+T4-1/T4_1_EXE_Resource_Audit.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-1/T4_1_EXE_Resource_Audit.md,1350,ec24e81edda2daf698d72c4eb9de3eede08ef5efe9ab5b70d80ddc23f820885e
+T4-1/SHA256SUMS.txt,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-1/SHA256SUMS.txt,1351,2d608337edf932224c016fbd886e04c07132c1761c4cf55e807abc3707a5cf55
+T4-1/Evidence/Start_Snapshot.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-1/Evidence/Start_Snapshot.csv,2176,7b5cdb6c9b4af511bdc00f1ce4beadc80f7e711013a69f2bd65810fa82ef828d
+T4-1/Evidence/Final_Snapshot.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-1/Evidence/Final_Snapshot.csv,2560,5e0b254594b9d841842acd85ffaee50735cf161a03d1735f8f629119090a3c91
+build QM,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/TrenchBroom_zh_CN.qm,6631,707011a3216511d051b07d0dba249af6d834e6795a447a4f09611c6a9bd2102c
+build EXE,C:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/TrenchBroom.exe,29761536,268df3904f16dc2e329542397531be4ef35f530cebde07cd720753707fca7212
+正式TS,C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/translations/TrenchBroom_zh_CN.ts,132589,f021e509cf9a8679eeda64624df0f5474335c0872f73940e1d48ef77447a261a
+QRC,C:/Users/yoshi/Projects/TrenchBroom-zhCN/src/TrenchBroom/app/TrenchBroom/resources/qrc/resources.qrc,106,de72b206c01058daea020a24dac86846167bd161348f297b0aa6dae4a60c2cca
+B02-T4 artifact audit,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B02-T4/B02_T4_Build_Artifact_Audit.csv,655,d95b16eb8e49858016c8c450d263ee131ba2fe0b4f2553e6702c0370cd7291ab
+B01-T5 test manifest,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B01-T5/T5_Test_Copy_Manifest.csv,38869,d7961864d8fff61075e32ae1683b260e29a4ceaa165e55f7daf2c15f60870a46
+OEM_EXE,C:/Users/yoshi/Downloads/TrenchBroom-Win64-AMD64-v2026.2-Release/TrenchBroom.exe,22322688,f5a02f40dde7108f0d1f33af81a81c7c85c838e0c0a3407025e1d0827d6b4273

@@ -1,0 +1,4 @@
+﻿SHA256,Actual_Path,Size,Source_Evidence,Identification,Conclusion
+38d021951ddd59cbef266b4c3c6dce925854c7cdcaceac3d3613d601be89ac0f,C:/Users/yoshi/Projects/TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\Release\TrenchBroom.exe,29761536,T4-1 Start_Snapshot.csv / Protected_State_Audit.csv,构建前构建目录 EXE（正确基线）；也是 B02-T4 构建 EXE 与 B02-T5 测试副本 EXE,RESOLVED_CORRECT
+9a1a84991c61d1d108477ab7f193c72d6336e1ed6c197d510339043d8b2c46d5,C:/Users/yoshi/Projects/TrenchBroom-zhCN\test-runs\P2-D3B-B01-T5\app\TrenchBroom.exe,29761536,B01-T5/T5_Test_Copy_Manifest.csv；B01-T5-R1/R1_Test_Copy_Manifest.csv,B01-T5 独立测试副本 EXE；被误抄进 T4-1_Baseline_Audit.csv 的构建前字段,RESOLVED_MISENTERED
+268df3904f16dc2e329542397531be4ef35f530cebde07cd720753707fca7212,C:/Users/yoshi/Projects/TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\Release\TrenchBroom.exe,29761536,T4-1 Execution/EXE Resource Audit；当前实测,T4-1 构建后 EXE（当前时点）,CURRENT_POST_BUILD
