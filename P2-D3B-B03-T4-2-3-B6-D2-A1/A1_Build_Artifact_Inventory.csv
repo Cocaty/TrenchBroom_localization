@@ -1,0 +1,15 @@
+﻿Log_Line,Evidence,Phase,Result
+4,KdLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\KdLib\Release\KdLib.lib,BUILD,EXPECTED
+5,TbBaseLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbBaseLib\Release\TbBaseLib.lib,BUILD,EXPECTED
+6,TbElLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbElLib\Release\TbElLib.lib,BUILD,EXPECTED
+7,TbFsLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbFsLib\Release\TbFsLib.lib,BUILD,EXPECTED
+8,TbGlLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbGlLib\Release\TbGlLib.lib,BUILD,EXPECTED
+9,TbMdlLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbMdlLib\Release\TbMdlLib.lib,BUILD,EXPECTED
+10,TbPreferencesLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbPreferencesLib\Release\TbPreferencesLib.lib,BUILD,EXPECTED
+11,TbRenderLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbRenderLib\Release\TbRenderLib.lib,BUILD,EXPECTED
+13,UpdateLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\UpdateLib\Release\UpdateLib.lib,BUILD,EXPECTED
+15,TbUiLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbUiLib\Release\TbUiLib.lib,BUILD,EXPECTED
+17,DumpShortcuts.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\DumpShortcuts\Release\DumpShortcuts.exe,BUILD,EXPECTED
+85,Generating gen-manual/shortcuts.js,GENERATE,PASS
+87,TrenchBroom.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\Release\TrenchBroom.exe,BUILD,EXPECTED
+185,Creating qt_zh_CN.qm...,QT_QM,PASS

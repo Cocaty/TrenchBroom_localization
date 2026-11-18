@@ -1,0 +1,4 @@
+﻿Artifact,Path,Size_Bytes,SHA256,Byte_Equal_To_Build_QM
+A_B5_QM,C:\Users\yoshi\Projects\TrenchBroom-zhCN\reports\P2-D3B-B03-T4-2-3-B5\Artifacts\TrenchBroom_zh_CN.qm,7035,4b213ce5b33639069b87f435dddce6ba9fae54e552f19cb02a231c27ecd926ab,YES
+B_Build_QM,C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\TrenchBroom_zh_CN.qm,7035,4b213ce5b33639069b87f435dddce6ba9fae54e552f19cb02a231c27ecd926ab,YES
+C_Embedded_QM,C:\Users\yoshi\Projects\TrenchBroom-zhCN\reports\P2-D3B-B03-T4-2-3-B6-D2-A1\Artifacts\TrenchBroom_zh_CN.embedded.qm,7035,4b213ce5b33639069b87f435dddce6ba9fae54e552f19cb02a231c27ecd926ab,YES

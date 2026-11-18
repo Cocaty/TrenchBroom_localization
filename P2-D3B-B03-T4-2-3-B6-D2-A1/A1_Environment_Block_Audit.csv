@@ -1,0 +1,8 @@
+﻿Metric,Value,Note
+Raw_Entry_Count,214,GetEnvironmentStringsW; no .NET dictionary
+Special_Entry_Count,0,preserved verbatim
+Duplicate_Group_Count,2,case-insensitive
+Duplicate_Group_Names,"http_proxy,https_proxy",names only
+Check_Result,PASS,expected duplicates only
+Drop_List,"http_proxy,https_proxy",lowercase case variants in memory only
+Sensitive_Values_Written,NO,value hashes only

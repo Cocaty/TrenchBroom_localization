@@ -1,0 +1,11 @@
+﻿Metric,Value,Result
+Resource_Path,:/translations/TrenchBroom_zh_CN.qm,PASS
+Resource_Path_Offset,22238728,INFO
+QM_Magic_Offsets,23382020,INFO
+Chosen_Magic_Offset,23382020,PASS
+B5_QM_SHA256,4b213ce5b33639069b87f435dddce6ba9fae54e552f19cb02a231c27ecd926ab,INFO
+Build_QM_SHA256,4b213ce5b33639069b87f435dddce6ba9fae54e552f19cb02a231c27ecd926ab,INFO
+Embedded_QM_SHA256,4b213ce5b33639069b87f435dddce6ba9fae54e552f19cb02a231c27ecd926ab,PASS
+A_B_Size,7035/7035,PASS
+A_B_ByteEqual,YES,PASS
+B_C_ByteEqual,YES,PASS

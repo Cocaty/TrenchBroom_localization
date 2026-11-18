@@ -1,0 +1,186 @@
+适用于 .NET Framework MSBuild 版本 18.11.1-1.26513.3+940033be3
+
+  -- Using version description "v2026.2-dirty" from git describe
+  KdLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\KdLib\Release\KdLib.lib
+  TbBaseLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbBaseLib\Release\TbBaseLib.lib
+  TbElLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbElLib\Release\TbElLib.lib
+  TbFsLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbFsLib\Release\TbFsLib.lib
+  TbGlLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbGlLib\Release\TbGlLib.lib
+  TbMdlLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbMdlLib\Release\TbMdlLib.lib
+  TbPreferencesLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbPreferencesLib\Release\TbPreferencesLib.lib
+  TbRenderLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbRenderLib\Release\TbRenderLib.lib
+  Automatic MOC for target UpdateLib
+  UpdateLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\UpdateLib\Release\UpdateLib.lib
+  Automatic MOC for target TbUiLib
+  TbUiLib.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\lib\TbUiLib\Release\TbUiLib.lib
+  Automatic MOC for target DumpShortcuts
+  DumpShortcuts.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\DumpShortcuts\Release\DumpShortcuts.exe
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/freetype.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/assimp-vc143-mt.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/FreeImage.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/tinyxml2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/miniz.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/icuuc.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/zlib1.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/bz2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/libpng16.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/brotlidec.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/poly2tri.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/minizip.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/kubazip.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/pugixml.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/jpeg8.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/tiff.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/openjp2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/libwebpmux.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/libwebpdecoder.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/raw.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/OpenEXR-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/libwebp.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/Iex-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/Imath-3_2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/brotlicommon.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/liblzma.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/lcms2-2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/IlmThread-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/OpenEXRCore-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/libsharpyuv.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/DumpShortcuts/Release/deflate.dll
+  C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\DumpShortcuts\Release\DumpShortcuts.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Adding in plugin type iconengines for module: Qt6Gui
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type networkinformation for module: Qt6Network
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Adding in plugin type tls for module: Qt6Network
+  Skipping plugin qopensslbackend.dll. Use -force-openssl or specify -openssl-root if you want to use it.
+  Direct dependencies: Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+  icuuc.dll is up to date.
+  Qt6Core.dll is up to date.
+  Qt6Gui.dll is up to date.
+  Qt6Network.dll is up to date.
+  Qt6OpenGL.dll is up to date.
+  Qt6OpenGLWidgets.dll is up to date.
+  Qt6Svg.dll is up to date.
+  Qt6Widgets.dll is up to date.
+  opengl32sw.dll is up to date.
+  D3Dcompiler_47.dll is up to date.
+  dxcompiler.dll is up to date.
+  dxil.dll is up to date.
+  qtuiotouchplugin.dll is up to date.
+  qsvgicon.dll is up to date.
+  qgif.dll is up to date.
+  qico.dll is up to date.
+  qjpeg.dll is up to date.
+  qsvg.dll is up to date.
+  qnetworklistmanager.dll is up to date.
+  qoffscreen.dll is up to date.
+  qwindows.dll is up to date.
+  qmodernwindowsstyle.dll is up to date.
+  qcertonlybackend.dll is up to date.
+  qschannelbackend.dll is up to date.
+  Generating gen-manual/shortcuts.js
+  qrc_TrenchBroom_translations.cpp
+  TrenchBroom.vcxproj -> C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\Release\TrenchBroom.exe
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/cpptrace.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/assimp-vc143-mt.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/FreeImage.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/tinyxml2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/miniz.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/freetype.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/icuuc.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/poly2tri.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/minizip.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/zlib1.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/kubazip.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/pugixml.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/jpeg8.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/tiff.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/libpng16.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/openjp2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/libwebpmux.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/libwebpdecoder.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/raw.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/OpenEXR-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/libwebp.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/Iex-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/Imath-3_2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/bz2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/brotlidec.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/liblzma.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/lcms2-2.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/IlmThread-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/OpenEXRCore-3_3.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/libsharpyuv.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/brotlicommon.dll
+  Adding local dependencyC:/Users/yoshi/Projects/TrenchBroom-zhCN/build/v2026.2-msvc145-qt6103/app/TrenchBroom/Release/deflate.dll
+  C:\Users\yoshi\Projects\TrenchBroom-zhCN\build\v2026.2-msvc145-qt6103\app\TrenchBroom\Release\TrenchBroom.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Adding in plugin type iconengines for module: Qt6Gui
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type networkinformation for module: Qt6Network
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Adding in plugin type tls for module: Qt6Network
+  Skipping plugin qopensslbackend.dll. Use -force-openssl or specify -openssl-root if you want to use it.
+  Direct dependencies: Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+  icuuc.dll is up to date.
+  Qt6Core.dll is up to date.
+  Qt6Gui.dll is up to date.
+  Qt6Network.dll is up to date.
+  Qt6OpenGL.dll is up to date.
+  Qt6OpenGLWidgets.dll is up to date.
+  Qt6Svg.dll is up to date.
+  Qt6Widgets.dll is up to date.
+  opengl32sw.dll is up to date.
+  D3Dcompiler_47.dll is up to date.
+  dxcompiler.dll is up to date.
+  dxil.dll is up to date.
+  qtuiotouchplugin.dll is up to date.
+  qsvgicon.dll is up to date.
+  qgif.dll is up to date.
+  qico.dll is up to date.
+  qjpeg.dll is up to date.
+  qsvg.dll is up to date.
+  qnetworklistmanager.dll is up to date.
+  qwindows.dll is up to date.
+  qmodernwindowsstyle.dll is up to date.
+  qcertonlybackend.dll is up to date.
+  qschannelbackend.dll is up to date.
+  Creating qt_ar.qm...
+  Creating qt_bg.qm...
+  Creating qt_ca.qm...
+  Creating qt_cs.qm...
+  Creating qt_da.qm...
+  Creating qt_de.qm...
+  Creating qt_en.qm...
+  Creating qt_es.qm...
+  Creating qt_fa.qm...
+  Creating qt_fi.qm...
+  Creating qt_fr.qm...
+  Creating qt_gd.qm...
+  Creating qt_he.qm...
+  Creating qt_hr.qm...
+  Creating qt_hu.qm...
+  Creating qt_it.qm...
+  Creating qt_ja.qm...
+  Creating qt_ka.qm...
+  Creating qt_ko.qm...
+  Creating qt_lg.qm...
+  Creating qt_lv.qm...
+  Creating qt_nl.qm...
+  Creating qt_nn.qm...
+  Creating qt_pl.qm...
+  Creating qt_pt_BR.qm...
+  Creating qt_ru.qm...
+  Creating qt_sk.qm...
+  Creating qt_sv.qm...
+  Creating qt_tr.qm...
+  Creating qt_uk.qm...
+  Creating qt_zh_CN.qm...
+  Creating qt_zh_TW.qm...

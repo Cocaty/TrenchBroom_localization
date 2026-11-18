@@ -1,0 +1,13 @@
+﻿Check,Value,Result
+Parent_Raw_Entry_Count,214,INFO
+Clean_Entry_Count,212,PASS
+Duplicate_Group_Count,0,PASS
+HTTP_PROXY_Exact_Present,YES,PASS
+HTTPS_PROXY_Exact_Present,YES,PASS
+http_proxy_Exact_Present,NO,PASS
+https_proxy_Exact_Present,NO,PASS
+PATH_Parent_SHA256,cd0dd1359a983dd3b77af9f7721741305eff6400e3ff75bb50a032e1902f0dbe,INFO
+PATH_Child_SHA256,cd0dd1359a983dd3b77af9f7721741305eff6400e3ff75bb50a032e1902f0dbe,PASS
+PATH_Length,826,INFO
+PATH_Segments,20,INFO
+Child_Validation,PASS,PASS
