@@ -1,0 +1,20 @@
+﻿Metric,Value,Type
+PATH_length,2231,INTEGER
+PATH_segment_count,44,INTEGER
+PATH_raw_sha256,224d35a7e6aa0ae69b8139489f8ec863149e5dcc83b69c62959ef4b3f5a9c2e7,HASH_ONLY
+PATH_empty_segments,NONE,INDICES_ONLY
+PATH_duplicate_segments,12,COUNT_ONLY
+PATH_case_insensitive_normalization,APPLIED,METHOD
+D0-1_PATH_0_C_explanation,Likely caused by splitting Windows PATH on POSIX ':' instead of ';'; A0 uses ';'.,EXPLANATION
+PATH_duplicate_segment,index 9 == index 0,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 10 == index 1,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 14 == index 1,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 16 == index 2,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 17 == index 3,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 18 == index 4,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 19 == index 5,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 20 == index 6,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 21 == index 7,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 22 == index 8,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 23 == index 2,DUPLICATE_PATH_HASH
+PATH_duplicate_segment,index 24 == index 3,DUPLICATE_PATH_HASH

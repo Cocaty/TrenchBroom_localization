@@ -1,0 +1,8 @@
+﻿Item,Path_Or_Value,Exists,Size_Bytes,SHA256,Note
+CMake,C:\Users\yoshi\Tools\CMake\4.2.8\bin\cmake.exe,True,12912720,aae9103afb52a95801e7734eb3a42f47527751c491b4bad6b0a11aad0c7fa1dd,FILE_METADATA_ONLY
+MSBuild,C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\MSBuild.exe,True,378664,041961b39839abd2521cc26f6f0820b202d4418167b46fb9e30970a3a6c26537,FILE_METADATA_ONLY
+Compiler,C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe,True,893288,b0a1818ebae6da7f18230a84e76ce839212584ac4c2ab55b97a0d5268085da57,FILE_METADATA_ONLY
+MSVC_toolset,14.51.36231,YES,,,FROM_PATH
+CMake_generator,Visual Studio 18 2026 / x64,YES,,,FROM_CMAKECACHE
+Build_config,Release; target TrenchBroom,YES,,,FROM_D2_COMMAND
+Version_queries,NOT_RUN; tool execution blocked by security policy,,,,LIMITATION

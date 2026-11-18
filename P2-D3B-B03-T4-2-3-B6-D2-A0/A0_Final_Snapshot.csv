@@ -1,0 +1,13 @@
+﻿Relative_Path,Canonical_Path,Size_Bytes,SHA256
+A0_Start_Snapshot.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/A0_Start_Snapshot.csv,3501,431be1a551b70c7518d708b280dc27ae41556e7664d09889e09b2b8c2331135c
+Evidence/audit_environment.py,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/Evidence/audit_environment.py,3149,7057eedea3efc67da41e315c7109d4e3113b6e1e1915ce9f2c73bb801ecca0a0
+Evidence/build_audits.py,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/Evidence/build_audits.py,2409,93bddb06378ecbd175e048f65b93de65cd754c240211f5c4055d7f19333671fb
+A0_Environment_Variable_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/A0_Environment_Variable_Audit.csv,30732,3859430bb0286ef52ae2c44077835814b79983087da2223c95b80cd7fb85a940
+A0_Path_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/A0_Path_Audit.csv,1189,9d9453d55c923db346a35268b0199f813c8eb9b0d396fc3286762cea624e4afe
+A0_Environment_Source_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/A0_Environment_Source_Audit.csv,38595,f6037f455dd8fd3ff3b2f7ad22ebb6118cd25ceb20d4e71f3da7d9febcdbdf73
+A0_MSBuild_Error_Chain_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/A0_MSBuild_Error_Chain_Audit.csv,2921,9d6fea9555329bad7718e3d209e0594876fc019a641cd26fe84a70e4da691240
+A0_Toolchain_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/A0_Toolchain_Audit.csv,860,01af2c415754b14492d74e4bce8eb8905dcea4a1e07d20517bbb7199e7cd4dba
+A0_Protected_State_Audit.csv,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/A0_Protected_State_Audit.csv,4947,b3be0b364deb6b263b9fea86da7cbcf0f015b887f075da582671173ada624edb
+A0_Environment_Conflict_Assessment.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/A0_Environment_Conflict_Assessment.md,2321,8f299758e7e330a9c40bc715073955f116c494298e023d4337d31ff69de30678
+A0_Temporary_Environment_Isolation_Proposal.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/A0_Temporary_Environment_Isolation_Proposal.md,2577,2a60513e42f2b9271e99121a31ce51c0305e6b1c8863c5af2bfada4ac892bd49
+A0_Execution_Report.md,C:/Users/yoshi/Projects/TrenchBroom-zhCN/reports/P2-D3B-B03-T4-2-3-B6-D2-A0/A0_Execution_Report.md,2825,74b29ea87197e1f00e15e4fd2dc8a247851f74b3b1f3b733fa08106816a9c342

@@ -1,0 +1,15 @@
+﻿Log_Line,Evidence,Stage,Result
+232,Generating gen-manual/shortcuts.js,GenerateManual,PASS
+233,Generating TrenchBroom_zh_CN.qm,QM_Generation,PASS
+235,Generated 51 translation(s) (51 finished and 0 unfinished),QM_Generation,PASS
+237,Running rcc for resource TrenchBroom_translations,RCC,STARTED
+238,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001: “CL.exe”的命令行开关无效。System.ArgumentException: 已添加项。字典中的关键字:“HTTPS_PROXY”所添加的关键字:“https_proxy",Compiler_ToolTask,FAIL
+239,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add) [C:\User",Compiler_ToolTask,FAIL
+240,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 System.Diagnostics.ProcessStartInfo.get_EnvironmentVariables() [C:\Users\yoshi\Proje",Compiler_ToolTask,FAIL
+240,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 System.Diagnostics.ProcessStartInfo.get_EnvironmentVariables() [C:\Users\yoshi\Proje",Environment_Dictionary,FAIL_BEFORE_PROCESS_START
+241,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.Utilities.ToolTask.GetProcessStartInfo(String pathToTool, String com",Compiler_ToolTask,FAIL
+242,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.Utilities.ToolTask.ExecuteTool(String pathToTool, String responseFil",Compiler_ToolTask,FAIL
+243,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.CPPTasks.TrackedVCToolTask.TrackerExecuteTool(String pathToTool, Str",Compiler_ToolTask,FAIL
+244,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String res",Compiler_ToolTask,FAIL
+245,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.CPPTasks.CL.ExecuteTool(String pathToTool, String responseFileComman",Compiler_ToolTask,FAIL
+246,"C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(790,5): error MSB6001:    在 Microsoft.Build.Utilities.ToolTask.Execute() [C:\Users\yoshi\Projects\TrenchBroom-zh",Compiler_ToolTask,FAIL
