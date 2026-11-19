@@ -1,0 +1,14 @@
+﻿Relative_Path,Name,Size_Bytes,Modified_Time,Created_Time,Type,SHA256
+B8_14_Untested_Scene_Assessment.csv,B8_14_Untested_Scene_Assessment.csv,8187,2026-11-19T19:28:33,2026-11-19T19:28:33,FILE,97d48688b8df61ac26ecb8cc8a30888512e0d4f32e741ae93004a94143f0ba69
+B8_B9_Readiness_Assessment.csv,B8_B9_Readiness_Assessment.csv,1220,2026-11-19T19:28:59,2026-11-19T19:28:59,FILE,ff9d8879395971c6f583c59dbc702cd9b019201dcfeb37a7cf2951556e2ac686
+B8_B9_Readiness_Assessment.md,B8_B9_Readiness_Assessment.md,1317,2026-11-19T19:29:05,2026-11-19T19:29:05,FILE,1fbb0c98968e7e9bf34307fc513692c24efe1dd7f33c3e7715417ea9f7bf0de4
+B8_Baseline_Audit.csv,B8_Baseline_Audit.csv,7415,2026-11-19T19:23:51,2026-11-19T19:23:32,FILE,29d859d5ee452b8107bfc0c321263b6d324d96d8af5feca47783a63d54b7ab44
+B8_ChoosePathTypeDialog_Trigger_Audit.csv,B8_ChoosePathTypeDialog_Trigger_Audit.csv,6222,2026-11-19T19:28:19,2026-11-19T19:28:19,FILE,a95f4be5f6bdd04b740bc9b433bad1bc0ef73aa53dedeea1de3f34082ccc8db1
+B8_Console_Warning_Audit.csv,B8_Console_Warning_Audit.csv,715,2026-11-19T19:28:19,2026-11-19T19:28:19,FILE,33f94752403b120d2a2b059bbea0344eb053751c73e4a80f9335c27fbe1c0bd9
+B8_CrashDialog_Safety_Audit.csv,B8_CrashDialog_Safety_Audit.csv,1639,2026-11-19T19:28:19,2026-11-19T19:28:19,FILE,4f79cd72895875543389cfc7b1ca755b4b9919de8eb0b170fcb45d2511934001
+B8_Execution_Report.md,B8_Execution_Report.md,2673,2026-11-19T19:29:15,2026-11-19T19:29:15,FILE,82d4223ec481a08a47cccdfa3c0e8ce8b7a0c2d1e1c1930f52ff02d8137a1416
+B8_Final_Runtime_Coverage_Matrix.csv,B8_Final_Runtime_Coverage_Matrix.csv,15231,2026-11-19T19:28:50,2026-11-19T19:28:50,FILE,b354ab5514cebbe1270c80018d0af83b46c1ee21425bd8a02dd90f9e7f8420e2
+B8_GameDialog_Autodetect_Audit.csv,B8_GameDialog_Autodetect_Audit.csv,682,2026-11-19T19:28:19,2026-11-19T19:28:19,FILE,6889ea0988cbb41a0e77e4a759d3edf705be136c4c1ef2c09ff409991482b238
+B8_OBJ_Placeholder_Audit.csv,B8_OBJ_Placeholder_Audit.csv,632,2026-11-19T19:28:19,2026-11-19T19:28:19,FILE,f7adefe99a9def4a02dc04fd485a67b7332cce730cda6bd73bcbd6ae1d51ef86
+B8_Start_Snapshot.csv,B8_Start_Snapshot.csv,6122,2026-11-19T19:23:32,2026-11-19T19:23:32,FILE,2b2043fac27962f84673f503c76d4c129c1f8544ed47f69fbee9599f5c949124
+B8_Tooltip_Trigger_Audit.csv,B8_Tooltip_Trigger_Audit.csv,1271,2026-11-19T19:28:19,2026-11-19T19:28:19,FILE,0d618d77b243b35514be5b18db0c9a8cf17a1943ec7e490a478f4ea50be154b6

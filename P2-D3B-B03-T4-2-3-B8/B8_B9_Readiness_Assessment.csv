@@ -1,0 +1,15 @@
+﻿Check,Status,Evidence
+B01/B02/B03 冻结译文记录完整,PASS,B01-FINAL/B02-USER_CONFIRMED/B03-U3 matrices verified
+九条顶级菜单译文冻结记录完整,PASS,B1_Frozen_Decision_Matrix.csv
+正式 TS 写入审计通过,PASS,B4_Execution_Report.md; TS hash unchanged
+QM 静态编译验证通过,PASS,B5_Execution_Report.md
+Release 构建通过,PASS,B6-D2-A1_Execution_Report.md
+QM 已嵌入 EXE 静态验证通过,PASS,B6-D2-A1_Execution_Report.md
+九条顶级菜单运行期验证通过,PASS,B7_Top_Level_Menu_Runtime_Audit.csv
+历史冻结译文运行期覆盖情况清楚,PASS_WITH_LIMITATION,48 matrix complete; 1 historical screenshot limitation
+R1 新增测试结果及限制清楚,PASS,R1 execution + A1 independent audit
+保护对象和 Git 状态清楚,PASS,B8 baseline; HEAD/dirty=13; protected files unchanged
+原版 Release 游戏文件未发现变化,PASS_WITH_LIMITATION,Game files unchanged; .workbuddy memory sidecar exists
+Console 提示已定位或保留未识别状态,NOT_VERIFIED,CAUSE_NOT_IDENTIFIED retained
+所有历史证据可以追溯,PASS,B7/R1/A1 archives and ZIP verified
+没有未解决的高风险操作,PASS,CrashDialog not tested; no high-risk operation executed

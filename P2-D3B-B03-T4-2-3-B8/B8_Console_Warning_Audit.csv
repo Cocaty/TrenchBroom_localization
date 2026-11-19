@@ -1,0 +1,6 @@
+﻿Item,Observation,Evidence,Result,Conclusion
+Observed_text,Failed to compile resource '.' (invalid path),B7/R1 screenshots,OBSERVED,Visible in console
+Project_source_search,No exact source string found in project source tree,read-only grep,NOT_FOUND,No direct project-source origin
+Binary_search,String absent from TrenchBroom.exe and Qt6Core/Gui/Widgets/Network/Svg DLLs,read-only byte search,NOT_FOUND,No direct string in main binaries searched
+qt_add_translations_relation,No evidence linking warning to translation compilation,historical audits,NO_EVIDENCE,Do not attribute to localization
+Final_status,Cause not identified,B8 static investigation,CAUSE_NOT_IDENTIFIED,Keep unresolved; no fix attempted

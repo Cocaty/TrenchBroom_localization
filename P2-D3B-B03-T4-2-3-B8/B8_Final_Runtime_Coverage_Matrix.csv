@@ -1,0 +1,143 @@
+﻿Message_ID,Context,Source,Frozen_Translation,Runtime_Status,Evidence_Type,Evidence_Path,Evidence_Limitation,Trigger_Condition,Safety_Class,Reproduction_Status,Recommended_Action
+0011be948dd6,tb::ui::ObjExportDialog,Export Path,导出路径,PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_OBJExportDialog.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+013b4028d792,tb::ui::ObjExportDialog,Relative to game path,相对于游戏目录,PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_OBJExportDialog.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+0843baa95d90,QObject,Open Document...,打开文档...,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+08c86abe1b99,QObject,Save Document,保存文档,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+0ee72f3c8645,tb::ui::ObjExportDialog,Texture Paths,纹理路径,PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_OBJExportDialog.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+10b21b3fc756,tb::ui::ObjExportDialog,Controls how the texture paths in the generated material file are computed.,控制生成的材质文件中纹理路径的计算方式。,PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_OBJExportDialog.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+1e1111c64470,QObject,Reload Entity Definitions,重新加载实体定义,PASS_WITH_LIMITATION,HISTORICAL_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7/Screenshots//B7_Menu_File.png,"重新加载实体定义 visible in B7 File menu; historical evidence, item disabled but text legible",Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+26fd3ad9ed81,tb::ui::ObjExportDialog,Relative to export path,相对于导出目录,PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_OBJExportDialog.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+2915922a2166,tb::ui::ObjExportDialog,Enter a path or click to browse,输入路径，或点击“浏览...”进行选择,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,Open OBJ Export dialog and clear QLineEdit before placeholder becomes visible,SAFE,STATIC_CONDITION_IDENTIFIED_NOT_REPRODUCED,B类：不值得补测（默认路径覆盖，低价值）
+2c01921052f7,tb::ui::ChoosePathTypeDialog,Choose Path Type,选择路径类型,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,"Load .fgd/.def/.ent entity definition via Entity Inspector, or add WAD path",SAFE_WITH_ISOLATED_INPUT,STATIC_TRIGGER_IDENTIFIED_NOT_REPRODUCED,A类：值得一次隔离补测（dummy FGD，Show Crash Report Dialog无关）
+3a29ad146ceb,tb::ui::ChoosePathTypeDialog,Relative to game directory,相对于游戏目录,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,"Load .fgd/.def/.ent entity definition via Entity Inspector, or add WAD path",SAFE_WITH_ISOLATED_INPUT,STATIC_TRIGGER_IDENTIFIED_NOT_REPRODUCED,A类：值得一次隔离补测（dummy FGD，Show Crash Report Dialog无关）
+3dab7bfca406,QObject,Reload Material Collections,重新加载材质集合,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+3e1b6ba4c40e,tb::ui::WelcomeWindow,Open Map,打开地图,PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_OpenMap_Dialog.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+444a30e5e793,tb::ui::CrashDialog,Report,报告问题,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,Official Debug > Show Crash Report Dialog... constructs dialog without real crash,HIGH_RISK,NOT_TESTED_HIGH_RISK,C类：不测试；安全性优先
+5a27052291cb,tb::ui::GameDialog,Autodetect,自动检测,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,GameDialog Open mode when map game cannot be detected and multiple map formats exist,SAFE_WITH_ISOLATED_INPUT,RUNTIME_REQUIRED,B类：不值得常规补测（状态难复现，价值低）
+6a5208c30cca,tb::ui::ChoosePathTypeDialog,Relative to map file,相对于地图文件所在目录,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,"Load .fgd/.def/.ent entity definition via Entity Inspector, or add WAD path",SAFE_WITH_ISOLATED_INPUT,STATIC_TRIGGER_IDENTIFIED_NOT_REPRODUCED,A类：值得一次隔离补测（dummy FGD，Show Crash Report Dialog无关）
+8626a59ed64f,QObject,Exports the current map to a .map file. Layers marked Omit From Export will be omitted.,将当前地图导出为 .map 文件。标记为“不参与导出”的图层将被忽略。,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,QAction status tip on hover/focus with status bar visible,SAFE,RUNTIME_REQUIRED,B类：不值得补测（低价值状态栏提示）
+88c5a8202a53,QObject,Map...,地图文件...,PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_ExportMenu.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+8c049a323d0f,QObject,Reload Portal File,重新加载 BSP 门户文件,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+8c9ed2e8de12,tb::ui::ChoosePathTypeDialog,Absolute,绝对路径,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,"Load .fgd/.def/.ent entity definition via Entity Inspector, or add WAD path",SAFE_WITH_ISOLATED_INPUT,STATIC_TRIGGER_IDENTIFIED_NOT_REPRODUCED,A类：值得一次隔离补测（dummy FGD，Show Crash Report Dialog无关）
+8e40860a52a1,tb::ui::CrashDialog,Crash,程序崩溃,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,Official Debug > Show Crash Report Dialog... constructs dialog without real crash,HIGH_RISK,NOT_TESTED_HIGH_RISK,C类：不测试；安全性优先
+92939021173f,QObject,Unload Portal File,卸载 BSP 门户文件,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+MENU_B4_01,QObject,File,文件,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+MENU_B4_02,QObject,Edit,编辑,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_Edit.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+MENU_B4_03,QObject,Selection,选择,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_Selection.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+MENU_B4_04,QObject,Groups,分组,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_Groups.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+MENU_B4_05,QObject,Tools,工具,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_Tools.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+MENU_B4_06,QObject,View,视图,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_View.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+MENU_B4_07,QObject,Run,运行,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_Run.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+MENU_B4_08,QObject,Debug,调试,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_Debug.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+MENU_B4_09,QObject,Help,帮助,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_Help.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+aa1646cea36e,QObject,Close Document,关闭文档,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+bcf80284ebf3,QObject,New Document,新建文档,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+c13f05ee9b4e,QObject,Save Document as...,文档另存为...,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+c18158cfc475,QObject,Load Portal File...,加载 BSP 门户文件...,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+c87e891f3904,QObject,Load Point File...,加载点轨迹文件...,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+cfde892c46df,tb::ui::AboutDialog,"
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>Developers</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>Contributors</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>3rd Party Libraries, Tools and Assets</b><br />
+Qt (Cross platform GUI library)<br />
+FreeType (Font rendering library)<br />
+FreeImage (Image loading & manipulation library)<br />
+tinyxml2 (XML parsing library)<br />
+miniz (Archive library)<br />
+Assimp (Asset importer library)<br />
+Catch 2 (C++ testing framework)<br />
+StackWalker (C++ stack trace analyzer)<br />
+CMake (Cross platform build manager)<br />
+Vcpkg (C/C++ dependency manager)<br />
+Pandoc (Universal document converter)<br />
+Source Sans Pro (Font)<br />
+Font Awesome 5 Free (Icons)<br />","
+github.com/TrenchBroom/TrenchBroom<br />
+<br />
+<b>开发者</b><br />
+<br />
+Kristian Duske<br />
+Eric Wasylishen<br />
+<br />
+<b>贡献者</b><br />
+20kdc,
+aapokaapo,
+Amara M. Kilic,
+Ari Vuollet,
+bazhenovc,
+chronicol,
+Corey Jones,
+iOrange,
+Jonas Lund,
+Jonathan Linat,
+Josh Palmer,
+mankeli,
+Matthew Borkowski,
+mittorn,
+negke,
+neogeographica,
+Philipp Nahratow,
+rebb,
+Rohit Nirmal,
+Scampie,
+xaGe,
+Yuki Raven
+<br /><br />
+<b>第三方库、工具与资源</b><br />
+Qt（跨平台 GUI 库）<br />
+FreeType（字体渲染库）<br />
+FreeImage（图像加载与处理库）<br />
+tinyxml2（XML 解析库）<br />
+miniz（归档库）<br />
+Assimp（资源导入库）<br />
+Catch 2（C++ 测试框架）<br />
+StackWalker（C++ 调用栈分析工具）<br />
+CMake（跨平台构建工具）<br />
+Vcpkg（C/C++ 依赖管理工具）<br />
+Pandoc（通用文档转换工具）<br />
+Source Sans Pro（字体）<br />
+Font Awesome 5 Free（图标集）<br />",PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_AboutDialog.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+d4365ad643a4,QObject,Unload Point File,卸载点轨迹文件,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+d82719c1af53,QObject,Discards any unsaved changes and reloads the map file.,放弃所有未保存的更改，并重新加载地图文件。,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,QAction status tip on hover/focus with status bar visible,SAFE,RUNTIME_REQUIRED,B类：不值得补测（低价值状态栏提示）
+dbbba8b54bd0,tb::ui::ChoosePathTypeDialog,Relative to application executable,相对于应用程序目录,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,"Load .fgd/.def/.ent entity definition via Entity Inspector, or add WAD path",SAFE_WITH_ISOLATED_INPUT,STATIC_TRIGGER_IDENTIFIED_NOT_REPRODUCED,A类：值得一次隔离补测（dummy FGD，Show Crash Report Dialog无关）
+df4ef91af93a,tb::ui::ChoosePathTypeDialog,"You can convert a path to be relative to some reference path, or you can choose to keep it absolute. A relative can make it easier to collaborate on a map.",可以将路径转换为相对于某个参考路径的形式，也可以保留为绝对路径。使用相对路径有助于与他人协作编辑地图。,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,"Load .fgd/.def/.ent entity definition via Entity Inspector, or add WAD path",SAFE_WITH_ISOLATED_INPUT,STATIC_TRIGGER_IDENTIFIED_NOT_REPRODUCED,A类：值得一次隔离补测（dummy FGD，Show Crash Report Dialog无关）
+e6acb688ec6e,QObject,Revert Document,还原文档,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
+e7c5ab696447,QObject,Wavefront OBJ...,Wavefront OBJ...,PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_ExportMenu.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+ee439e50a835,tb::ui::ObjExportDialog,Export Wavefront OBJ,导出 Wavefront OBJ,PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_OBJExportDialog.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+eed1f27c4948,tb::ui::ObjExportDialog,Export Wavefront OBJ file,导出 Wavefront OBJ 文件,PASS,R1_RUNTIME_SCREENSHOT,C:/Users/yoshi/Projects/TrenchBroom-zhCN/test-runs/P2-D3B-B03-T4-2-3-B7-R1/Screenshots//B7R1_OBJFileDialog.png,,Already reproduced in B7-R1,SAFE,REPRODUCED_R1,冻结结果，不重复测试
+f0f928f057b7,tb::ui::CrashDialog,"TrenchBroom has crashed, but was able to save a crash report,a log file and the current state of the map to the following locations.
+
+Please create an issue report and upload all three files.","TrenchBroom 已崩溃，但已成功保存崩溃报告、日志文件以及当前地图状态，文件位置如下。
+
+请创建一个问题报告，并上传这三个文件。",NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,Official Debug > Show Crash Report Dialog... constructs dialog without real crash,HIGH_RISK,NOT_TESTED_HIGH_RISK,C类：不测试；安全性优先
+f9081511b752,tb::ui::ChoosePathTypeDialog,Path Type,路径类型,NOT_TESTED,NO_RUNTIME_EVIDENCE,,No runtime evidence,"Load .fgd/.def/.ent entity definition via Entity Inspector, or add WAD path",SAFE_WITH_ISOLATED_INPUT,STATIC_TRIGGER_IDENTIFIED_NOT_REPRODUCED,A类：值得一次隔离补测（dummy FGD，Show Crash Report Dialog无关）
+fe79d727b01f,QObject,Reload Point File,重新加载点轨迹文件,PASS,ORIGINAL_RUNTIME_SCREENSHOT,B7\Screenshots\B7_Menu_File.png,,Already reproduced in B7,SAFE,REPRODUCED_B7,冻结结果，不重复测试
